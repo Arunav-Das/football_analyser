@@ -144,6 +144,15 @@ PY_L3_ADDENDUM = (
 DIRECTIVE_LEVELS_PY: Dict[int, str] = {1: PER_YEAR_SYSTEM,
                                        2: PER_YEAR_SYSTEM + PY_L2_ADDENDUM,
                                        3: PER_YEAR_SYSTEM + PY_L2_ADDENDUM + PY_L3_ADDENDUM}
+# Opt-in (--no_tool_directive): appended to whichever directive level is active. Without the flag the directive
+# text is unchanged, so earlier runs stay reproducible.
+NO_TOOL_ADDENDUM = (
+    " You have NO tools in this session: no web search, no web fetch, no shell, no code execution and no file access. "
+    "Do not write tool calls, <function_calls> or <invoke> markup, shell commands or code of any kind - nothing you "
+    "write will be executed and no result will come back. Answer entirely from your own knowledge in this single "
+    "response. For each required citation, name the source you are relying on (title and URL) from memory; do not "
+    "attempt to open or verify it."
+)
 
 _STALL_RE = re.compile(
     r"let me know|ready for me to proceed|shall i (?:proceed|continue)|would you like me to|do you want me to|"
@@ -1108,10 +1117,13 @@ class ClaudeCodeClient:
     def __init__(self, model_alias: str = DEFAULT_MODEL_ALIAS, max_new_tokens: int = GENERATION_MAX_NEW_TOKENS,
                  one_shot: bool = True, directive_level: int = 1, per_year: bool = False,
                  claude_bin: str = "claude", timeout: int = REQUEST_TIMEOUT,
-                 max_thinking_tokens: Optional[int] = None):
+                 max_thinking_tokens: Optional[int] = None, no_tool_directive: bool = False):
         if model_alias not in MODEL_REGISTRY:
             raise ValueError(f"Unknown model alias '{model_alias}'")
-        self.levels: Dict[int, str] = DIRECTIVE_LEVELS_PY if per_year else DIRECTIVE_LEVELS
+        base_levels = DIRECTIVE_LEVELS_PY if per_year else DIRECTIVE_LEVELS
+        self.no_tool_directive = bool(no_tool_directive)
+        self.levels: Dict[int, str] = ({k: v + NO_TOOL_ADDENDUM for k, v in base_levels.items()}
+                                       if self.no_tool_directive else base_levels)
         if directive_level not in self.levels:
             raise ValueError(f"directive_level must be one of {sorted(self.levels)}")
         found = shutil.which(claude_bin)
@@ -1132,6 +1144,7 @@ class ClaudeCodeClient:
         logger.info(f"ClaudeCodeClient ready  alias={model_alias}  model={self.model_id}  bin={self.bin}  "
                     f"max_output_tokens={self.max_tokens}  max_thinking_tokens={max_thinking_tokens}  directive="
                     f"{'ON (level ' + str(self.directive_level) + ')' if one_shot else 'OFF (Claude Code default system prompt)'}  "
+                    f"no_tool_directive={self.no_tool_directive and one_shot}  "
                     f"mode={'per_year' if per_year else 'single_shot'}")
 
     @property
@@ -1346,6 +1359,7 @@ def _common_metadata(a: Any, run_mode: str) -> Dict[str, Any]:
                             "output cap via CLAUDE_CODE_MAX_OUTPUT_TOKENS; raw events in <output_dir>/raw_calls",
         "one_shot_directive": not a.raw_prompt, "system_mode": c.system_mode,
         "one_shot_system_text": c.system_text, "directive_level": c.directive_level,
+        "no_tool_directive": bool(c.no_tool_directive and c.system_text),
         "escalate_on_decline": a.escalate,
         "raw_prompt_note": "RAW = no --system-prompt flag, so Claude Code's default system prompt applies" if a.raw_prompt else "",
         "response_text_policy": "Generated_Response is the model text as returned; never altered",
@@ -2794,6 +2808,9 @@ def main() -> int:
     p.add_argument("--timeout", type=int, default=REQUEST_TIMEOUT, help="seconds allowed per `claude -p` call")
     p.add_argument("--max_thinking_tokens", type=int, default=None,
                    help="sets MAX_THINKING_TOKENS for the call (0 = try to disable thinking); default: untouched")
+    p.add_argument("--no_tool_directive", action="store_true", default=False,
+                   help="append an explicit 'you have no tools - answer from your own knowledge' instruction to the "
+                        "system directive (ignored with --raw_prompt); default: directive unchanged")
     p.add_argument("--no-resume", dest="no_resume", action="store_true", default=False)
     p.add_argument("--reference_file", default=REFERENCE_FILE, help="only for RAG1..RAG3 (and RAG6 distractors)")
     p.add_argument("--ground_truth_file", default=GROUND_TRUTH_FILE, help="only for RAG4..RAG6 and optional scoring")
@@ -2859,7 +2876,8 @@ def main() -> int:
     print(f"  Strategy(ies)    : {', '.join(STRATEGY_CODE[s] for s in strategies_to_run)}")
     print(f"  RAG tier(s)      : {', '.join(RAG_CODE[t] for t in tiers)}")
     print(f"  System directive : {'OFF (--raw_prompt: Claude Code default system prompt)' if args.raw_prompt else 'ON via --system-prompt (fallback: prepended to the user turn)'}")
-    print(f"  Directive level  : {'-' if args.raw_prompt else args.directive_level}   escalate_on_decline: {args.escalate_on_decline and not args.raw_prompt}")
+    print(f"  Directive level  : {'-' if args.raw_prompt else args.directive_level}   escalate_on_decline: {args.escalate_on_decline and not args.raw_prompt}"
+          f"   no_tool_directive: {args.no_tool_directive and not args.raw_prompt}")
     print(f"  Calls            : {n_cells * (len(years) if args.per_year else 1)} "
           f"({n_cells} cell(s){' x ' + str(len(years)) + ' years' if args.per_year else ''}; escalation can add more per declined call)")
     print(f"  Resume           : {'OFF (--no-resume)' if args.no_resume else 'ON (default)'}{'  + retry stalled' if args.retry_stalled else ''}")
@@ -2894,7 +2912,8 @@ def main() -> int:
             client = ClaudeCodeClient(model_alias=alias, max_new_tokens=args.max_new_tokens, one_shot=not args.raw_prompt,
                                       directive_level=args.directive_level, per_year=args.per_year,
                                       claude_bin=args.claude_bin, timeout=args.timeout,
-                                      max_thinking_tokens=args.max_thinking_tokens)
+                                      max_thinking_tokens=args.max_thinking_tokens,
+                                      no_tool_directive=args.no_tool_directive)
             client.raw_dir = root / "raw_calls"
             client.validate_access()
         except Exception as e:

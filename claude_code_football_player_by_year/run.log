@@ -30,3 +30,53 @@
 2026-11-04 23:21:58,279 - INFO - SUMMARY  model=claude-sonnet-4-6  strategy=S1  rag=RAG0  years ok=1/1  output -> claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT.json
 2026-11-04 23:21:58,286 - INFO - GroundTruthStore: 130/130 rows loaded from 'df_gt_football.csv' spanning 22 editions.
 2026-11-04 23:22:00,224 - INFO - Analysis written to claude_code_football_player_by_year/analysis (25 plots, report + CSVs)
+2026-11-04 23:24:47,290 - INFO - === run started: football_analyzer_inf_mod.py --model claude-sonnet-4-6 --per_year --strategy S1 --rag_tier RAG0 --years 2022 --directive_level 3 --max_new_tokens 128000 --max_thinking_tokens 0 --timeout 3600 --no-resume (script version 2026-11-04.8-claude-code) ===
+2026-11-04 23:24:47,291 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=128000  max_thinking_tokens=0  directive=ON (level 3)  mode=per_year
+2026-11-04 23:24:47,291 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-04 23:24:50,416 - INFO - Validation OK - response: 'OK'
+2026-11-04 23:24:50,416 - INFO - No existing results file found. Starting fresh.
+2026-11-04 23:24:50,417 - INFO - Per-year run  strategy=S1  rag=RAG0  model=claude-sonnet-4-6  directive=level 3  escalate=False  years to run: 1 of 1 (0 already done)
+2026-11-04 23:25:20,438 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 30s: text=8192 chars  thinking=0 chars
+2026-11-04 23:25:50,438 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 60s: text=16540 chars  thinking=0 chars
+2026-11-04 23:26:20,485 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 90s: text=25086 chars  thinking=0 chars
+2026-11-04 23:26:50,485 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 120s: text=33578 chars  thinking=0 chars
+2026-11-04 23:27:20,489 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 150s: text=43041 chars  thinking=0 chars
+2026-11-04 23:27:50,532 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 180s: text=49838 chars  thinking=0 chars
+2026-11-04 23:28:20,532 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 210s: text=58180 chars  thinking=0 chars
+2026-11-04 23:28:50,579 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 240s: text=66816 chars  thinking=0 chars
+2026-11-04 23:29:20,626 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 270s: text=75250 chars  thinking=0 chars
+2026-11-04 23:29:50,626 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 300s: text=83319 chars  thinking=0 chars
+2026-11-04 23:30:20,673 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 330s: text=91763 chars  thinking=0 chars
+2026-11-04 23:30:50,674 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 360s: text=100110 chars  thinking=0 chars
+2026-11-04 23:31:20,720 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 390s: text=108347 chars  thinking=0 chars
+2026-11-04 23:31:50,721 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 420s: text=116340 chars  thinking=0 chars
+2026-11-04 23:32:20,721 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 450s: text=124749 chars  thinking=0 chars
+2026-11-04 23:32:50,768 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 480s: text=133451 chars  thinking=0 chars
+2026-11-04 23:33:20,816 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 510s: text=143056 chars  thinking=0 chars
+2026-11-04 23:33:50,862 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 540s: text=150797 chars  thinking=0 chars
+2026-11-04 23:34:20,863 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 570s: text=159146 chars  thinking=0 chars
+2026-11-04 23:34:50,911 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 600s: text=167892 chars  thinking=0 chars
+2026-11-04 23:35:20,911 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 630s: text=176494 chars  thinking=0 chars
+2026-11-04 23:35:50,956 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 661s: text=185979 chars  thinking=0 chars
+2026-11-04 23:36:21,004 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 691s: text=195194 chars  thinking=0 chars
+2026-11-04 23:36:51,004 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 721s: text=202820 chars  thinking=0 chars
+2026-11-04 23:37:21,052 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 751s: text=210971 chars  thinking=0 chars
+2026-11-04 23:37:51,099 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 781s: text=219776 chars  thinking=0 chars
+2026-11-04 23:38:21,146 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 811s: text=228512 chars  thinking=0 chars
+2026-11-04 23:38:51,146 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 841s: text=237204 chars  thinking=0 chars
+2026-11-04 23:39:21,193 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 871s: text=245249 chars  thinking=0 chars
+2026-11-04 23:39:51,193 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 901s: text=253573 chars  thinking=0 chars
+2026-11-04 23:41:18,031 - INFO - === run started: football_analyzer_inf_mod.py --model claude-sonnet-4-6 --per_year --strategy S1 --rag_tier RAG0 --years 2022 --directive_level 3 --no_tool_directive --max_new_tokens 128000 --max_thinking_tokens 0 --timeout 3600 --no-resume (script version 2026-11-04.8-claude-code) ===
+2026-11-04 23:41:18,032 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=128000  max_thinking_tokens=0  directive=ON (level 3)  no_tool_directive=True  mode=per_year
+2026-11-04 23:41:18,032 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-04 23:41:21,381 - INFO - Validation OK - response: 'OK'
+2026-11-04 23:41:21,382 - INFO - No existing results file found. Starting fresh.
+2026-11-04 23:41:21,382 - INFO - Per-year run  strategy=S1  rag=RAG0  model=claude-sonnet-4-6  directive=level 3  escalate=False  years to run: 1 of 1 (0 already done)
+2026-11-04 23:41:50,491 - INFO -   [2022] OK 29.1s status=ok label=ROWS rows=6 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2017.0 text_chars=5858 thinking_chars=0 cost_usd=0.040847999999999995
+2026-11-04 23:41:50,492 - INFO - SUMMARY  model=claude-sonnet-4-6  strategy=S1  rag=RAG0  years ok=1/1  output -> claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3.json
+2026-11-04 23:41:50,502 - INFO - GroundTruthStore: 130/130 rows loaded from 'df_gt_football.csv' spanning 22 editions.
+2026-11-04 23:41:50,809 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-04 23:41:50,810 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-04 23:41:50,896 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-04 23:41:50,896 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-04 23:41:53,010 - INFO - Analysis written to claude_code_football_player_by_year/analysis (32 plots, report + CSVs)
