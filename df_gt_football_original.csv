@@ -1,0 +1,22 @@
+﻿Player,DBpedia_URI,World_Cup_Editions_Shared_With_Messi_And_Ronaldo,Ballon_dOr_Winner,Ballon_dOr_Years_(Wikipedia_enrichment),UEFA_Mens_Player_Award_Winner,UEFA_Award_Years_(Wikipedia_enrichment),Birth_Date,Birth_Place,Nationality,Source_Note
+Andriy Shevchenko,http://dbpedia.org/resource/Andriy_Shevchenko,2006,TRUE,1999,FALSE,,29/09/1976,Ukrainian Soviet Socialist Republic,,fully resolved
+Andrés Iniesta,http://dbpedia.org/resource/Andrés_Iniesta,2006; 2010; 2014; 2018,FALSE,,TRUE,2011,,,,fully resolved
+David Beckham,http://dbpedia.org/resource/David_Beckham,2006,FALSE,,TRUE,,02/05/1975,England national football team,,UEFA award year(s) not resolved from Wikipedia table
+Anderson Luís de Souza,http://dbpedia.org/resource/Deco,2006; 2010,FALSE,,TRUE,,27/08/1977,São Bernardo do Campo,,UEFA award year(s) not resolved from Wikipedia table
+Diego Milito,http://dbpedia.org/resource/Diego_Milito,2010,FALSE,,TRUE,,12/06/1979,"Bernal, Argentina",,UEFA award year(s) not resolved from Wikipedia table
+Fabio Cannavaro,http://dbpedia.org/resource/Fabio_Cannavaro,2006; 2010,TRUE,,FALSE,,13/09/1973,Italy national football team,,Ballon d'Or year(s) not resolved from Wikipedia table - qualification rests on DBpedia category membership only
+Franck Ribéry,http://dbpedia.org/resource/Franck_Ribéry,2006; 2010,FALSE,,TRUE,2012,07/04/1983,Boulogne-sur-Mer,,fully resolved
+Gianluigi Buffon,http://dbpedia.org/resource/Gianluigi_Buffon,2006; 2010; 2014,FALSE,,TRUE,,28/01/1978,Italy national football team,,UEFA award year(s) not resolved from Wikipedia table
+Kaká,http://dbpedia.org/resource/Kaká,2006; 2010,TRUE,,TRUE,,22/04/1982,"Gama, Federal District",,Ballon d'Or year(s) not resolved from Wikipedia table - qualification rests on DBpedia category membership only; UEFA award year(s) not resolved from Wikipedia table
+Karim Benzema,http://dbpedia.org/resource/Karim_Benzema,2014; 2022,TRUE,,FALSE,,19/12/1987,Lyon,,Ballon d'Or year(s) not resolved from Wikipedia table - qualification rests on DBpedia category membership only
+Luka Modrić,http://dbpedia.org/resource/Luka_Modrić,2006; 2014; 2018; 2022,TRUE,,TRUE,2017,09/09/1985,Socialist Federal Republic of Yugoslavia,,Ballon d'Or year(s) not resolved from Wikipedia table - qualification rests on DBpedia category membership only
+Luís Figo,http://dbpedia.org/resource/Luís_Figo,2006,TRUE,,FALSE,,04/11/1972,Portugal national football team,,Ballon d'Or year(s) not resolved from Wikipedia table - qualification rests on DBpedia category membership only
+Michael Owen,http://dbpedia.org/resource/Michael_Owen,2006,TRUE,,FALSE,,14/12/1979,Chester,,Ballon d'Or year(s) not resolved from Wikipedia table - qualification rests on DBpedia category membership only
+Pavel Nedvěd,http://dbpedia.org/resource/Pavel_Nedvěd,2006,TRUE,,FALSE,,30/08/1972,Cheb,,Ballon d'Or year(s) not resolved from Wikipedia table - qualification rests on DBpedia category membership only
+Robert Lewandowski,http://dbpedia.org/resource/Robert_Lewandowski,2018; 2022,FALSE,,TRUE,2019,21/08/1988,Warsaw,,fully resolved
+Rodri,"http://dbpedia.org/resource/Rodri_(footballer,_born_1996)",2022,TRUE,,FALSE,,22/06/1996,Madrid,,Ballon d'Or year(s) not resolved from Wikipedia table - qualification rests on DBpedia category membership only
+Ronaldinho,http://dbpedia.org/resource/Ronaldinho,2006,TRUE,,TRUE,,21/03/1980,Brazil national football team,,Ballon d'Or year(s) not resolved from Wikipedia table - qualification rests on DBpedia category membership only; UEFA award year(s) not resolved from Wikipedia table
+Ronaldo,http://dbpedia.org/resource/Ronaldo_(Brazilian_footballer),2006,TRUE,1996,TRUE,2013; 2015; 2016,18/09/1976,Itaguaí,,fully resolved
+Steven Gerrard,http://dbpedia.org/resource/Steven_Gerrard,2006; 2010; 2014,FALSE,,TRUE,,30/05/1980,England national football team,,UEFA award year(s) not resolved from Wikipedia table
+Virgil van Dijk,http://dbpedia.org/resource/Virgil_van_Dijk,2022,FALSE,,TRUE,2018,08/07/1991,Netherlands national football team,,fully resolved
+Zinedine Zidane,http://dbpedia.org/resource/Zinedine_Zidane,2006,TRUE,1974,TRUE,,23/06/1972,France national football team,,UEFA award year(s) not resolved from Wikipedia table
