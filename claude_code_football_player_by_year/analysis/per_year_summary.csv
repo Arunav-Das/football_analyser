@@ -1,0 +1,2 @@
+﻿year,calls,gt_available,gt_players,answered_share,rows_share,none_claim_share,declined_share,stalled_share,unparsed_share,error_share,mean_rows,micro_precision,micro_recall,micro_f1,false_none_calls,true_none_calls,mean_off_year_rows,mean_completion_tokens,mean_text_chars,mean_thinking_chars,mean_latency_s
+2022,1,True,7,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,,0.0,,0,0,0.0,12000.0,156.0,0.0,145.999

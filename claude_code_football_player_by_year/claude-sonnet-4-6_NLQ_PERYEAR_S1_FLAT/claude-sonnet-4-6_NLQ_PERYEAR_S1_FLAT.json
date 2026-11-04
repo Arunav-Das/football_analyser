@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "script_version": "2026-11-04.8-claude-code",
+    "run_mode": "per_year",
+    "domain": "football_world_cup",
+    "model_alias": "claude-sonnet-4-6",
+    "model_name": "claude-sonnet-4-6",
+    "model_family": "claude",
+    "model_size": "sonnet-4-6",
+    "inference_backend": "claude_code_cli_cloud_session",
+    "query_mode": "per_year",
+    "strategy": "flat_conjunctive",
+    "strategy_code": "S1",
+    "strategy_suffix": "S1_FLAT",
+    "rag_tier": "no_evidence",
+    "rag_code": "RAG0",
+    "rag_tier_description": "RAG0 - No evidence: the model resolves everything from parametric memory (prompt unchanged).",
+    "rag_max_rows_per_edition": "all records",
+    "output_suffix": "NLQ_PERYEAR_S1_FLAT",
+    "timestamp": "2026-11-04T23:17:50.041294",
+    "max_output_tokens_requested": 3000,
+    "max_thinking_tokens_env": null,
+    "params_adapted": [],
+    "request_timeout_s": 600,
+    "sampling_note": "temperature / top_p / top_k are not controllable through `claude -p`; the CLI defaults apply",
+    "claude_code_call": "claude -p --model <id> --output-format stream-json --verbose --include-partial-messages --tools '' --max-turns 1 [--system-prompt <directive>]; cwd = empty temp dir; output cap via CLAUDE_CODE_MAX_OUTPUT_TOKENS; raw events in <output_dir>/raw_calls",
+    "one_shot_directive": true,
+    "system_mode": "native",
+    "one_shot_system_text": "You are a non-interactive batch research processor. Your single response is parsed by a program and no human will reply to it. The user message names exactly ONE FIFA Men's World Cup edition. Complete the ENTIRE task for that one edition in this one response. Do not ask questions. Do not offer to continue or to process other editions. Do not wait for confirmation or say 'let me know when you are ready'. Do not write a conversational introduction or closing. If no player qualifies, state that explicitly. Follow the output format and the citation requirements of the user's message exactly.",
+    "directive_level": 1,
+    "escalate_on_decline": false,
+    "raw_prompt_note": "",
+    "response_text_policy": "Generated_Response is the model text as returned; never altered",
+    "prize_criteria": [
+      "Ballon d'Or (men's)",
+      "UEFA Men's Player of the Year (incl. UEFA Best Player in Europe, UEFA Club Footballer of the Year)"
+    ],
+    "rag_enabled": false,
+    "reference_file": "world_cup_squads_reference.csv",
+    "ground_truth_file": "df_gt_football.csv",
+    "citation_note": "Citations are model-asserted; Citation_Audit is a keyword/order heuristic, not source verification",
+    "latent_note": "Claude Code returns no per-token logprobs; latent fields are zeros",
+    "rag_tiers_available": {
+      "no_evidence": "RAG0 - No evidence: the model resolves everything from parametric memory (prompt unchanged).",
+      "year_list_only": "RAG1 - Squad players of every edition in REFERENCE_FILE appended after the prompt.",
+      "titles_authors": "RAG2 - Squad players + national team, every edition (REFERENCE_FILE).",
+      "titles_authors_prize": "RAG3 - Squad players + team + award on record, every edition (REFERENCE_FILE).",
+      "full_with_birthplace": "RAG4 - Qualifying players + awards + birthplace, no population, every edition (GROUND_TRUTH_FILE).",
+      "full_with_population": "RAG5 - All ground-truth records incl. population, every edition (GROUND_TRUTH_FILE).",
+      "full_with_distractors": "RAG6 - RAG5 + distractors: squad players with no qualifying award on record (needs REFERENCE_FILE with an award column)."
+    },
+    "years_requested": [
+      2022
+    ],
+    "total_queries": 1,
+    "successful_records": 1,
+    "error_records": 0,
+    "prompt_mode": "user_turn_with_placeholder_replaced_by_year + per-year system directive"
+  },
+  "results": [
+    {
+      "Query_ID": 2022,
+      "Year_Requested": 2022,
+      "run_mode": "per_year",
+      "prompt_is_verbatim": false,
+      "prompt_year_substituted": true,
+      "mode": "per_year",
+      "strategy": "flat_conjunctive",
+      "strategy_code": "S1",
+      "rag_tier": "no_evidence",
+      "rag_code": "RAG0",
+      "system_directive_used": true,
+      "system_mode": "native",
+      "directive_level": 1,
+      "directive_level_requested": 1,
+      "system_text_used": "You are a non-interactive batch research processor. Your single response is parsed by a program and no human will reply to it. The user message names exactly ONE FIFA Men's World Cup edition. Complete the ENTIRE task for that one edition in this one response. Do not ask questions. Do not offer to continue or to process other editions. Do not wait for confirmation or say 'let me know when you are ready'. Do not write a conversational introduction or closing. If no player qualifies, state that explicitly. Follow the output format and the citation requirements of the user's message exactly.",
+      "Escalation_History": null,
+      "prompt_sent": "Take the seed input: FIFA Men’s World Cup edition 2022.\n\nWhich footballers were named to a national team squad for the seed World Cup edition, AND have EVER won a men’s Ballon d’Or or a UEFA Men’s Player of the Year Award (including the award’s previous names: UEFA Best Player in Europe Award, UEFA Club Footballer of the Year) at any point in their career — before, during, or after that edition, independent of which specific year the award was won?\n\nFor each such player, give: their award(s) won, their birthplace, and the population of that birthplace. For birthplace, give the actual place of birth (a city, town, or settlement) — not a country, a historical polity, or a sports club/national-team entity.\n\nReturn the complete set of qualifying players for this edition, not just examples. If no player qualifies, state that explicitly rather than omitting the edition.\n\nOutput format, one row per qualifying player:\n\nS.No\tWorldCup_Year\tTargetPlayer\tAward_Type\tBirthplace\tPopulation\n\n\nRESPONSE MUST CONTAIN — citation of the source used for confirming the seed FIFA World Cup edition was actually held (and not cancelled or abandoned) in the stated calendar year, the source(s) used for the list of players named to national team squads for that edition, the source(s) used for deciding which of those players have won the listed award(s) (Ballon d'Or and/or UEFA Men's Player of the Year / Best Player in Europe / earlier name), the source for each qualifying player's birthplace, and the source for the population of that birthplace. \n\nRESPONSE MUST ALSO CONTAIN - citations in the same order in which it is used to answer the query clearly stating the steps and citations against it.",
+      "rag_evidence_injected": false,
+      "rag_editions_in_evidence": 0,
+      "rag_rows_available": 0,
+      "rag_rows_injected": 0,
+      "rag_rows_error": 0,
+      "rag_truncated": false,
+      "rag_evidence_complete": false,
+      "rag_pop_check_failures": 0,
+      "est_prompt_tokens": 423,
+      "model_alias": "claude-sonnet-4-6",
+      "model_id": "claude-sonnet-4-6",
+      "model_family": "claude",
+      "Generated_Response": "API Error: Claude's response exceeded the 3000 output token maximum. To configure this behavior, set the CLAUDE_CODE_MAX_OUTPUT_TOKENS environment variable.",
+      "generation_status": "truncated_length",
+      "finish_reason": "output_token_cap",
+      "max_tokens_sent": 3000,
+      "usage": {
+        "input_tokens": 12,
+        "cache_creation_input_tokens": 6462,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 12000,
+        "output_tokens_details": {
+          "thinking_tokens": 11999
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 6462,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 3,
+            "output_tokens": 3000,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 1677,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 1677
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd_reported": 0.21880800000000003,
+      "thinking_chars": 0,
+      "text_chars": 156,
+      "raw_files": [
+        "claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_prompt.txt",
+        "claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_events.jsonl",
+        "claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_text.txt",
+        "claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_stderr.txt"
+      ],
+      "generation_time_seconds": 145.999,
+      "processing_timestamp": "2026-11-04T23:17:50.041175",
+      "Parsed_Rows": [
+        {
+          "S.No": "",
+          "WorldCup_Year": "",
+          "Player": "UNPARSED",
+          "Award_Type": "",
+          "Birthplace": "",
+          "PopCount": ""
+        }
+      ],
+      "Editions_Parsed": [],
+      "Year_Label": "UNPARSED",
+      "Year_Answered": false,
+      "Year_Stated_None": false,
+      "Off_Year_Rows": 0,
+      "Self_Excluded_Rows": 0,
+      "URLs_Cited": [],
+      "Citation_Audit": {
+        "categories_present": [],
+        "n_categories": 0,
+        "complete": false,
+        "order_ok": false,
+        "n_urls": 0,
+        "n_unique_domains": 0
+      },
+      "Conversational_Stall": false,
+      "Closing_Offer": false,
+      "Degenerate_Flag": false,
+      "Degenerate_Reason": "",
+      "Self_Contradiction": false,
+      "attention_mean": 0.0,
+      "attention_min": 0.0,
+      "attention_max": 0.0,
+      "attention_std": 0.0,
+      "attention_entropy": 0.0,
+      "hidden_state_norm_mean": 0.0,
+      "hidden_state_norm_min": 0.0,
+      "hidden_state_norm_max": 0.0,
+      "hidden_state_norm_std": 0.0,
+      "token_prob_mean": 0.0,
+      "token_prob_min": 0.0,
+      "token_prob_max": 0.0,
+      "token_prob_p10": 0.0,
+      "token_prob_p90": 0.0,
+      "confidence_score": 0.0,
+      "perplexity_estimate": 0.0
+    }
+  ]
+}

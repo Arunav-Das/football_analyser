@@ -1,0 +1,16 @@
+2026-11-04 23:15:21,113 - INFO - === run started: football_analyzer_inf_mod.py --model claude-sonnet-4-6 --per_year --strategy S1 --rag_tier RAG0 --years 2022 --max_new_tokens 3000 --timeout 600 --no-resume (script version 2026-11-04.8-claude-code) ===
+2026-11-04 23:15:21,114 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=3000  max_thinking_tokens=None  directive=ON (level 1)  mode=per_year
+2026-11-04 23:15:21,114 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-04 23:15:24,041 - INFO - Validation OK - response: 'OK'
+2026-11-04 23:15:24,041 - INFO - No existing results file found. Starting fresh.
+2026-11-04 23:15:24,041 - INFO - Per-year run  strategy=S1  rag=RAG0  model=claude-sonnet-4-6  directive=level 1  escalate=False  years to run: 1 of 1 (0 already done)
+2026-11-04 23:15:54,534 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-04 23:16:25,371 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-04 23:16:56,273 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 92s: text=0 chars  thinking=0 chars
+2026-11-04 23:17:26,474 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 122s: text=0 chars  thinking=0 chars
+2026-11-04 23:17:50,040 - WARNING -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] hit the 3000-token output cap after 146s (text=156 chars, thinking=0 chars). Not retried. Raw: claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_events.jsonl
+2026-11-04 23:17:50,041 - INFO -   [2022] OK 146.0s status=truncated_length label=UNPARSED rows=0 off_year=0 self_excluded=0 contradiction=False level=1 attempts=1 tokens=12000.0 text_chars=156 thinking_chars=0 cost_usd=0.21880800000000003
+2026-11-04 23:17:50,041 - WARNING -   [2022] output TRUNCATED (raw files: ['claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_prompt.txt', 'claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_events.jsonl', 'claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_text.txt', 'claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_stderr.txt'])
+2026-11-04 23:17:50,041 - INFO - SUMMARY  model=claude-sonnet-4-6  strategy=S1  rag=RAG0  years ok=1/1  output -> claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT.json
+2026-11-04 23:17:50,052 - INFO - GroundTruthStore: 130/130 rows loaded from 'df_gt_football.csv' spanning 22 editions.
+2026-11-04 23:17:51,965 - INFO - Analysis written to claude_code_football_player_by_year/analysis (25 plots, report + CSVs)
