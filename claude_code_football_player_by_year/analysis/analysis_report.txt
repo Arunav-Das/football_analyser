@@ -1,6 +1,6 @@
 ====================================================================================================
 FOOTBALL PLAYER ANALYSER (CLAUDE CODE) - ANALYSIS REPORT
-generated 2026-11-04T23:17:51  (script version 2026-11-04.8-claude-code)
+generated 2026-11-04T23:22:00  (script version 2026-11-04.8-claude-code)
 ====================================================================================================
 
 1. SCOPE
@@ -35,7 +35,7 @@ generated 2026-11-04T23:17:51  (script version 2026-11-04.8-claude-code)
   degenerate_rate             0.0000
   unparsed_rate               1.0000
   error_rate                  0.0000
-  mean_latency_s              145.9990
+  mean_latency_s              109.8210
   mean_completion_tokens      12000.0000
   mean_years_answered         0.0000
   mean_years_declined         0.0000
@@ -44,15 +44,15 @@ generated 2026-11-04T23:17:51  (script version 2026-11-04.8-claude-code)
 
 3. BY MODEL (sorted by agreement with consensus)
       model_alias  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
-claude-sonnet-4-6        1      0.000                  0.000                   0.000                  NaN                  0.000                 0.000                        NaN               NaN              0.000              0.000      0.000           1.000       0.000          0.000               0.000           0.000                     0.000            0.000          1.000       0.000         145.999               12000.000                0.000                0.000             0.000                     0.000
+claude-sonnet-4-6        1      0.000                  0.000                   0.000                  NaN                  0.000                 0.000                        NaN               NaN              0.000              0.000      0.000           1.000       0.000          0.000               0.000           0.000                     0.000            0.000          1.000       0.000         109.821               12000.000                0.000                0.000             0.000                     0.000
 
 4. BY STRATEGY
 code  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
-  S1        1      0.000                  0.000                   0.000                  NaN                  0.000                 0.000                        NaN               NaN              0.000              0.000      0.000           1.000       0.000          0.000               0.000           0.000                     0.000            0.000          1.000       0.000         145.999               12000.000                0.000                0.000             0.000                     0.000
+  S1        1      0.000                  0.000                   0.000                  NaN                  0.000                 0.000                        NaN               NaN              0.000              0.000      0.000           1.000       0.000          0.000               0.000           0.000                     0.000            0.000          1.000       0.000         109.821               12000.000                0.000                0.000             0.000                     0.000
 
 5. BY RAG TIER
 code  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
-RAG0        1      0.000                  0.000                   0.000                  NaN                  0.000                 0.000                        NaN               NaN              0.000              0.000      0.000           1.000       0.000          0.000               0.000           0.000                     0.000            0.000          1.000       0.000         145.999               12000.000                0.000                0.000             0.000                     0.000
+RAG0        1      0.000                  0.000                   0.000                  NaN                  0.000                 0.000                        NaN               NaN              0.000              0.000      0.000           1.000       0.000          0.000               0.000           0.000                     0.000            0.000          1.000       0.000         109.821               12000.000                0.000                0.000             0.000                     0.000
 
 6. PAIRED RAG EFFECT vs RAG0 on f1 (same model, strategy, directive level)
 (no data)
@@ -94,7 +94,7 @@ claude-sonnet-4-6                  1                  NaN                 NaN   
 
 16A. PER-YEAR ANALYSIS (every call = one edition; pooled over models / strategies / RAG tiers / levels)
  year  calls  gt_available  gt_players  answered_share  rows_share  none_claim_share  declined_share  stalled_share  unparsed_share  error_share  mean_rows  micro_precision  micro_recall  micro_f1  false_none_calls  true_none_calls  mean_off_year_rows  mean_completion_tokens  mean_text_chars  mean_thinking_chars  mean_latency_s
- 2022      1          True           7           0.000       0.000             0.000           0.000          0.000           1.000        0.000      0.000              NaN         0.000       NaN                 0                0               0.000               12000.000          156.000                0.000         145.999
+ 2022      1          True           7           0.000       0.000             0.000           0.000          0.000           1.000        0.000      0.000              NaN         0.000       NaN                 0                0               0.000               12000.000        29537.000                0.000         109.821
 
   RECALL by model x edition (mean over the model's cells; blank = not defined / no GT)
       model_alias  2022
@@ -105,15 +105,15 @@ claude-sonnet-4-6 0.000
 claude-sonnet-4-6 0.000
 
   VISIBLE ANSWER LENGTH (chars) by model x edition (mean over the model's cells; blank = not defined / no GT)
-      model_alias    2022
-claude-sonnet-4-6 156.000
+      model_alias      2022
+claude-sonnet-4-6 29537.000
 
   THINKING LENGTH (chars) by model x edition (mean over the model's cells; blank = not defined / no GT)
       model_alias  2022
 claude-sonnet-4-6 0.000
   Most missed players across all per-year calls: Cristiano Ronaldo: 1; Karim Benzema: 1; Lionel Messi: 1; Luka Modrić: 1; Robert Lewandowski: 1; Rodri (footballer, born 1996): 1; Virgil van Dijk: 1
   Most frequent false-positive names:             none
-  Reported cost across per-year calls (Claude Code 'total_cost_usd', summed): 0.22 USD
+  Reported cost across per-year calls (Claude Code 'total_cost_usd', summed): 0.25 USD
 
 17. KEY INSIGHTS (computed from the data above)
   - Lowest answered share (rows or explicit 'none'): 2022 (0%).
