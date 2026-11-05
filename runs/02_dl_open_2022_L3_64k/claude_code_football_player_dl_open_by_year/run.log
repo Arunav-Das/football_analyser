@@ -1,0 +1,23 @@
+2026-11-05 00:17:12,252 - INFO - === run started: claude_football_inf_dom.py --model claude-sonnet-4-6 --per_year --strategy S1 --rag_tier RAG0 --years 2022 --directive_level 3 --max_new_tokens 64000 --timeout 1800 --no-resume --max_thinking_tokens 0 --no_tool_directive (script version 2026-11-04.8-claude-code) ===
+2026-11-05 00:17:12,253 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=64000  max_thinking_tokens=0  directive=ON (level 3)  no_tool_directive=True  mode=per_year
+2026-11-05 00:17:12,253 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 00:17:15,295 - INFO - Validation OK - response: 'OK'
+2026-11-05 00:17:15,295 - INFO - No existing results file found. Starting fresh.
+2026-11-05 00:17:15,295 - INFO - Per-year run  strategy=S1  rag=RAG0  model=claude-sonnet-4-6  directive=level 3  escalate=False  years to run: 1 of 1 (0 already done)
+2026-11-05 00:17:45,296 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 30s: text=7818 chars  thinking=0 chars
+2026-11-05 00:18:17,641 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 62s: text=17130 chars  thinking=0 chars
+2026-11-05 00:18:18,118 - INFO -   [2022] OK 62.8s status=ok label=ROWS rows=18 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=6104.0 text_chars=17130 thinking_chars=0 cost_usd=0.103569
+2026-11-05 00:18:18,119 - INFO - SUMMARY  model=claude-sonnet-4-6  strategy=S1  rag=RAG0  years ok=1/1  output -> claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3.json
+2026-11-05 00:18:18,122 - INFO - Analysis: no ground-truth file found - structural and consensus analysis only (no accuracy scoring).
+2026-11-05 00:18:18,379 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:18:18,380 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:18:18,475 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:18:18,476 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:18:20,011 - INFO - Analysis written to claude_code_football_player_dl_open_by_year/analysis (25 plots, report + CSVs)
+2026-11-05 00:18:50,701 - INFO - === run started: claude_football_inf_dom.py --per_year --analyze_only (script version 2026-11-04.8-claude-code) ===
+2026-11-05 00:18:50,702 - INFO - Analysis: no ground-truth file found - structural and consensus analysis only (no accuracy scoring).
+2026-11-05 00:18:50,928 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:18:50,928 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:18:51,011 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:18:51,011 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:18:52,505 - INFO - Analysis written to claude_code_football_player_dl_open_by_year/analysis (24 plots, report + CSVs)

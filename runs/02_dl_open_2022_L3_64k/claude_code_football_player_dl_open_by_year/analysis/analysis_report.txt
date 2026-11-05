@@ -1,0 +1,152 @@
+====================================================================================================
+FOOTBALL PLAYER ANALYSER (CLAUDE CODE) - ANALYSIS REPORT
+generated 2026-11-05T00:18:52  (script version 2026-11-04.8-claude-code)
+====================================================================================================
+
+1. SCOPE
+  run mode: PER-YEAR (placeholder replaced by the year; one call per year, aggregated per model x strategy x RAG tier)
+  prompt mode: user turn + --system-prompt directive
+  directive levels present: [3]   escalated records: 0  (levels are pooled in the by-model tables below; filter eval_per_record.csv on directive_level to compare them)
+  records=1 (one per model x strategy x RAG tier x level)  models=1  strategies=1  rag_tiers=1  editions seen in answers=1  verbatim-prompt records=0
+  Backend: `claude -p` inside a Claude Code cloud session; temperature / top_p are not controllable; tools disabled; raw events per call are in <cell dir>/raw_calls.
+  Editions are read from the WorldCup_Year column of the returned rows and (single-shot) from the edition headers the model wrote. 'Agreement with consensus' = Jaccard overlap between a record's (edition, player) set and the set returned by >=50% of the usable records (needs >=3). It measures agreement, NOT correctness.
+  Per-year: tokens, latency and URL counts are TOTALS per cell (sum over its years); stall / decline / error / truncation figures are shares of the cell's year calls. Rows labelled with a different year than requested are dropped and counted (off_year_rows).
+  Ground-truth scoring: OFF (no ground-truth file found)
+
+2. HEADLINE (all records pooled)
+  mean_rows                   18.0000
+  mean_editions_covered       1.0000
+  mean_editions_declared      1.0000
+  median_last_edition         2022.0000
+  false_none_per_record       0.0000
+  true_none_per_record        0.0000
+  mean_jaccard_to_consensus   n/a
+  pop_numeric_rate            1.0000
+  birthplace_blank_rate       0.0000
+  citation_complete           1.0000
+  citation_order_ok           0.0000
+  mean_urls                   40.0000
+  truncated_rate              0.0000
+  stall_rate                  0.0000
+  declined_rate               0.0000
+  contradiction_rate          0.0000
+  escalated_rate              0.0000
+  self_excluded_per_record    0.0000
+  degenerate_rate             0.0000
+  unparsed_rate               0.0000
+  error_rate                  0.0000
+  mean_latency_s              62.8170
+  mean_completion_tokens      6104.0000
+  mean_years_answered         1.0000
+  mean_years_declined         0.0000
+  mean_years_error            0.0000
+  off_year_rows_per_record    0.0000
+
+3. BY MODEL (sorted by agreement with consensus)
+      model_alias  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
+claude-sonnet-4-6        1     18.000                  1.000                   1.000             2022.000                  0.000                 0.000                        NaN             1.000              1.000              0.000     40.000           0.000       0.000          0.000               0.000           0.000                     0.000            0.000          0.000       0.000          62.817                6104.000                1.000                0.000             0.000                     0.000
+
+4. BY STRATEGY
+code  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
+  S1        1     18.000                  1.000                   1.000             2022.000                  0.000                 0.000                        NaN             1.000              1.000              0.000     40.000           0.000       0.000          0.000               0.000           0.000                     0.000            0.000          0.000       0.000          62.817                6104.000                1.000                0.000             0.000                     0.000
+
+5. BY RAG TIER
+code  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
+RAG0        1     18.000                  1.000                   1.000             2022.000                  0.000                 0.000                        NaN             1.000              1.000              0.000     40.000           0.000       0.000          0.000               0.000           0.000                     0.000            0.000          0.000       0.000          62.817                6104.000                1.000                0.000             0.000                     0.000
+
+6. PAIRED RAG EFFECT vs RAG0 on jaccard_to_consensus (same model, strategy, directive level)
+(no data)
+
+7. PAIRED STRATEGY EFFECT vs S1 on jaccard_to_consensus (same model, RAG tier, directive level)
+(no data)
+
+8. EDITION COVERAGE (from parsed rows)
+WorldCup_Year  records_returning_edition  share_of_records  mean_players_when_returned  max_players
+         2022                          1             1.000                      18.000           18
+
+9. CONSENSUS SETS PER EDITION (players returned by >=50% of usable records)
+(no data)
+
+10. PLAYERS MOST OFTEN RETURNED (edition, player, number of records)
+  n/a
+
+11. AWARD TYPES RETURNED
+  (not applicable to the domestic-league variant: awards are open text, see section D)
+
+12. POPULATION AND BIRTHPLACE FIELDS
+  numeric population rate=1.000  blank/unknown birthplace rate=0.000
+
+13. CITATION QUALITY (keyword/order heuristic over the whole response; sources are NOT verified)
+  all required categories present=1.000  in required order=0.000  mean URLs per cell=40.00
+  URL reachability: not run (use --check_urls)
+
+14. GENERATION HEALTH
+      model_alias  directive_level status  count
+claude-sonnet-4-6                3     ok      1
+
+15. RAG EVIDENCE INTEGRITY
+  records with evidence injected=0  incomplete evidence=0  population-check failures=0
+
+16A. PER-YEAR ANALYSIS (every call = one edition; pooled over models / strategies / RAG tiers / levels)
+ year  calls  gt_available  gt_players  answered_share  rows_share  none_claim_share  declined_share  stalled_share  unparsed_share  error_share  mean_rows  micro_precision  micro_recall  micro_f1  false_none_calls  true_none_calls  mean_off_year_rows  mean_completion_tokens  mean_text_chars  mean_thinking_chars  mean_latency_s
+ 2022      1         False         NaN           1.000       1.000             0.000           0.000          0.000           0.000        0.000     18.000              NaN           NaN       NaN                 0                0               0.000                6104.000        17130.000                0.000          62.817
+
+  ROWS RETURNED by model x edition (mean over the model's cells; blank = not defined / no GT)
+      model_alias   2022
+claude-sonnet-4-6 18.000
+
+  VISIBLE ANSWER LENGTH (chars) by model x edition (mean over the model's cells; blank = not defined / no GT)
+      model_alias      2022
+claude-sonnet-4-6 17130.000
+
+  THINKING LENGTH (chars) by model x edition (mean over the model's cells; blank = not defined / no GT)
+      model_alias  2022
+claude-sonnet-4-6 0.000
+  Most missed players across all per-year calls: none
+  Most frequent false-positive names:             none
+  Reported cost across per-year calls (Claude Code 'total_cost_usd', summed): 0.10 USD
+
+17. KEY INSIGHTS (computed from the data above)
+  - Lowest answered share (rows or explicit 'none'): 2022 (100%).
+  - 2022 has NO ground truth in the GT file: its rows are collected (mean 18.0 rows per call, answered share 100%) but not scored.
+  - Mean reported completion tokens per cell: 6104.
+  - Citation chains are complete (heuristic) in 100.0% of records.
+
+18. LIMITATIONS
+  - Consensus = agreement among records, not truth; a systematic error shared by most records becomes the consensus.
+  - Citation audit is a keyword heuristic over the whole response; it cannot confirm a source exists or supports a claim.
+  - Stall, decline, contradiction and repetition-loop detection are phrase/line heuristics; they only flag, never alter text.
+  - Edition headers are detected from lines such as '**1954 FIFA World Cup**' / 'World Cup 1954' / 'Edition: 1954' / '### 6. 1958 - Sweden'; other layouts are missed.
+  - 'Reached' = up to the latest edition year that appears in a parsed row or an edition header; an edition skipped inside that range counts as missed.
+  - Rows are recovered from merged columns only when a known award name is present in the row text.
+  - Rows containing 'does NOT qualify' / 'not a winner' are treated as the model's own exclusions and are not scored as predictions.
+  - Name merging uses normalised names and token subsets; a bare surname shared by two players in one edition can be merged.
+  - Per-year mode changes the user turn (the placeholder becomes the year) and the system message; do not compare its numbers directly with single-shot runs.
+  - Editions absent from the ground-truth file (e.g. 2026) are never scored.
+  - Sampling parameters cannot be set through `claude -p`; a call that hits the output-token cap is stored truncated, not retried.
+  - Stronger directive levels / escalation change what the model is told; do not mix them with level-1 runs when comparing models.
+  - One call per cell and year: small differences between cells may be sampling noise (no replicates).
+
+FILES: edition_coverage.png, players_per_edition.png, editions_covered_by_model.png, editions_declared_by_model.png, editions_covered_by_strategy.png, stall_rate_by_model.png, declined_rate_by_model.png, contradiction_rate_by_model.png, heatmap_strategy_x_rag.png, heatmap_model_x_edition.png, citation_quality_by_model.png, citation_quality_by_strategy.png, generation_health_by_model.png, completion_tokens_by_strategy.png, completion_tokens_by_model.png, population_numeric_rate_by_model.png, population_distribution.png, year_rows_heatmap.png, year_tokens_heatmap.png, year_text_chars_heatmap.png, year_thinking_chars_heatmap.png, year_pr_f1.png, year_outcome_shares.png, year_rows_vs_gt.png
+====================================================================================================
+D. DOMESTIC-LEAGUE VARIANT ADDENDUM
+====================================================================================================
+  variant version 2026-11-04.1-dl; definition mode: open
+  Awards are read from the Award_Type cell: items split on ';', league = first comma-separated part of the final parenthesis. Items not written in that format count as 'league not parsed'.
+  Sections 1-18 above are the base report: its award-type counts (section 11) do not apply here, and ground-truth scoring is OFF unless you supplied a ground truth for this task.
+
+D1. WHAT EACH MODEL SURFACED (rows, awards per row, distinct leagues / award types)
+      model_alias  rows  mean_awards_per_row  rows_without_award_text  award_items  distinct_leagues  distinct_award_types  league_not_parsed_share  interpretation_line_share
+claude-sonnet-4-6    18                1.667                        0           30                 6                    14                    0.167                      1.000
+
+D2. LEAGUES RETURNED (6 distinct across all records; top 25 by award items)
+        league  award_items  models_returning
+Premier League            9                 1
+       La Liga            5                 1
+       Ligue 1            5                 1
+    Bundesliga            3                 1
+       Serie A            2                 1
+   Brasileirão            1                 1
+
+D3. INTERPRETATION LINES: 1 call(s) wrote one -> claude_code_football_player_dl_open_by_year/analysis/dl_interpretations.csv
+  [claude-sonnet-4-6 2022] "Domestic league" was taken to mean any top-division national club football league in any country (e.g., La Liga, Premier League, Bundesliga, Serie A, Ligue 1, Campeonato Brasileiro Série A, etc.), and each player's full professional career across all clubs and countries was considered to identify e
