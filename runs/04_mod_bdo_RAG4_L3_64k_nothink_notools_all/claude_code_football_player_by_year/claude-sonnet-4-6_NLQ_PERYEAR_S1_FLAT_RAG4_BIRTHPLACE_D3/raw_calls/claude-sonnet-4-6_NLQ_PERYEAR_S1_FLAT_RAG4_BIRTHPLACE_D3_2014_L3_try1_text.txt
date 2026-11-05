@@ -1,0 +1,58 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2014	Andrés Iniesta	UEFA Men's Player of the Year	Fuentealbilla	2,387
+2	2014	Cristiano Ronaldo	Ballon d'Or; UEFA Men's Player of the Year	Funchal	111,892
+3	2014	Gianluigi Buffon	UEFA Men's Player of the Year	Carrara	63,000
+4	2014	Karim Benzema	Ballon d'Or	Lyon	522,969
+5	2014	Lionel Messi	Ballon d'Or; UEFA Men's Player of the Year	Rosario	1,193,605
+6	2014	Luka Modrić	Ballon d'Or; UEFA Men's Player of the Year	Zadar	71,471
+7	2014	Steven Gerrard	UEFA Men's Player of the Year	Whiston, Merseyside	19,694
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 2014 FIFA Men's World Cup was held**
+1. FIFA Official Website – "2014 FIFA World Cup Brazil": https://www.fifa.com/tournaments/mens/worldcup/2014brazil — confirms the tournament took place in Brazil from 12 June to 13 July 2014.
+
+**Step 2 — List of players named to national team squads for the 2014 edition**
+2. FIFA Official Website – "2014 FIFA World Cup Brazil Squads": https://www.fifa.com/tournaments/mens/worldcup/2014brazil/squads — official list of all 32 national team squads (736 players total) registered for the tournament.
+
+**Step 3 — Determining which players won Ballon d'Or and/or UEFA Men's Player of the Year**
+
+*Ballon d'Or winners (France Football):*
+3. France Football / Ballon d'Or official records – historical winners list: https://www.francefootball.fr/ballon-dor — used to confirm Lionel Messi (2009, 2010, 2011, 2012, 2019, 2021, 2023), Cristiano Ronaldo (2008, 2013, 2014, 2016, 2017), Luka Modrić (2018), and Karim Benzema (2022) as Ballon d'Or winners.
+
+*UEFA Men's Player of the Year / UEFA Best Player in Europe Award / UEFA Club Footballer of the Year winners:*
+4. UEFA Official Website – UEFA Men's Player of the Year Award historical winners: https://www.uefa.com/insideuefa/awards/mens-player/ — used to confirm Cristiano Ronaldo (2008, 2014, 2016, 2017, 2018), Lionel Messi (2009, 2010, 2011, 2015), Luka Modrić (2018), Gianluigi Buffon (2003 UEFA Club Footballer of the Year), Andrés Iniesta (2012 UEFA Best Player in Europe), and Steven Gerrard (2005 UEFA Club Footballer of the Year) as UEFA award winners.
+
+**Step 4 — Birthplace of each qualifying player**
+
+5. Andrés Iniesta birthplace — Fuentealbilla, Albacete, Spain: Wikipedia, "Andrés Iniesta": https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta
+
+6. Cristiano Ronaldo birthplace — Funchal, Madeira, Portugal: Wikipedia, "Cristiano Ronaldo": https://en.wikipedia.org/wiki/Cristiano_Ronaldo
+
+7. Gianluigi Buffon birthplace — Carrara, Tuscany, Italy: Wikipedia, "Gianluigi Buffon": https://en.wikipedia.org/wiki/Gianluigi_Buffon
+
+8. Karim Benzema birthplace — Lyon, Auvergne-Rhône-Alpes, France: Wikipedia, "Karim Benzema": https://en.wikipedia.org/wiki/Karim_Benzema
+
+9. Lionel Messi birthplace — Rosario, Santa Fe, Argentina: Wikipedia, "Lionel Messi": https://en.wikipedia.org/wiki/Lionel_Messi
+
+10. Luka Modrić birthplace — Zadar, Croatia: Wikipedia, "Luka Modrić": https://en.wikipedia.org/wiki/Luka_Modri%C4%87
+
+11. Steven Gerrard birthplace — Whiston, Merseyside, England: Wikipedia, "Steven Gerrard": https://en.wikipedia.org/wiki/Steven_Gerrard
+
+**Step 5 — Population of each birthplace**
+
+12. Fuentealbilla population (~2,387) — Instituto Nacional de Estadística (INE) Spain, Municipal Register: https://www.ine.es/jaxiT3/Tabla.htm?t=2852 — figure for Fuentealbilla municipality.
+
+13. Funchal population (~111,892) — Instituto Nacional de Estatística (INE) Portugal, Census 2021: https://www.ine.pt — figure for Funchal municipality.
+
+14. Carrara population (~63,000) — ISTAT (Italian National Institute of Statistics), Municipal population data: https://www.istat.it — figure for Comune di Carrara.
+
+15. Lyon population (~522,969) — INSEE (Institut national de la statistique et des études économiques), Recensement de la population: https://www.insee.fr — figure for commune of Lyon proper.
+
+16. Rosario population (~1,193,605) — INDEC (Instituto Nacional de Estadística y Censos, Argentina), Censo Nacional 2010: https://www.indec.gob.ar — figure for the city of Rosario.
+
+17. Zadar population (~71,471) — Croatian Bureau of Statistics, Census 2021: https://www.dzs.hr — figure for the City of Zadar.
+
+18. Whiston population (~19,694) — Office for National Statistics (ONS), UK Census 2021: https://www.ons.gov.uk — figure for Whiston civil parish/settlement, Knowsley, Merseyside.

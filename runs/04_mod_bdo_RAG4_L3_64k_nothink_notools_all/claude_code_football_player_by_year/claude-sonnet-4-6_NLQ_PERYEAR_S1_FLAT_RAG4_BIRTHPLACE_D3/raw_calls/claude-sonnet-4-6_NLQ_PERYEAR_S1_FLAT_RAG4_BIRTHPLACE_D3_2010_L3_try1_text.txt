@@ -1,0 +1,57 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2010	Andrés Iniesta	UEFA Men's Player of the Year (2012)	Fuentealbilla, Spain	2,384
+2	2010	Cristiano Ronaldo	Ballon d'Or (2008, 2013, 2014, 2016, 2017, 2019); UEFA Men's Player of the Year (2008)	Funchal, Madeira, Portugal	111,892
+3	2010	Deco	UEFA Club Footballer of the Year (2004)	São Bernardo do Campo, Brazil	844,483
+4	2010	Diego Milito	UEFA Men's Player of the Year (2010, runner-up / shortlisted — not winner)	Bernal, Argentina	unknown
+5	2010	Fabio Cannavaro	Ballon d'Or (2006)	Naples, Italy	909,048
+6	2010	Franck Ribéry	UEFA Best Player in Europe Award (2013)	Boulogne-sur-Mer, France	40,965
+7	2010	Gianluigi Buffon	UEFA Club Footballer of the Year (2003)	Carrara, Italy	63,000
+8	2010	Kaká	Ballon d'Or (2007); UEFA Best Player in Europe Award (2007)	Gama, Federal District, Brazil	133,000
+9	2010	Lionel Messi	Ballon d'Or (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023); UEFA Best Player in Europe Award (2009, 2011, 2015, 2019)	Rosario, Argentina	1,193,605
+10	2010	Steven Gerrard	UEFA Club Footballer of the Year (2005)	Whiston, Merseyside, England	20,041
+
+---
+
+**Note on Diego Milito (Row 4):** The retrieved evidence lists Diego Milito as a UEFA Men's Player of the Year winner, but after careful review, Milito was a **finalist/runner-up** for the 2009–10 UEFA Best Player in Europe Award (won by Wesley Sneijder/Iniesta — actually won by Iniesta), not an outright winner. I have included him as listed in the provided evidence but flag this uncertainty; his population is marked unknown because Bernal is a partido/district of Quilmes rather than a separately enumerated city. If Diego Milito did not in fact win the award outright, **Row 4 should be removed**.
+
+---
+
+**Step-by-step citations in order of use:**
+
+**Step 1 — Confirm the 2010 FIFA World Cup was held**
+1. FIFA Official Website – "2010 FIFA World Cup South Africa": https://www.fifa.com/tournaments/mens/worldcup/2010southafrica
+
+**Step 2 — Squads named for the 2010 FIFA World Cup**
+2. FIFA Official Website – 2010 FIFA World Cup squads: https://www.fifa.com/tournaments/mens/worldcup/2010southafrica/squads
+3. Wikipedia – "2010 FIFA World Cup squads": https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_squads
+
+**Step 3 — Ballon d'Or winners (all years)**
+4. Wikipedia – "Ballon d'Or": https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+**Step 4 — UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year winners**
+5. Wikipedia – "UEFA Men's Player of the Year Award": https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+6. Wikipedia – "UEFA Club Footballer of the Year": https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year
+
+**Step 5 — Birthplaces of qualifying players**
+7. Wikipedia – "Andrés Iniesta": https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta (birthplace: Fuentealbilla)
+8. Wikipedia – "Cristiano Ronaldo": https://en.wikipedia.org/wiki/Cristiano_Ronaldo (birthplace: Funchal)
+9. Wikipedia – "Deco": https://en.wikipedia.org/wiki/Deco (birthplace: São Bernardo do Campo)
+10. Wikipedia – "Diego Milito": https://en.wikipedia.org/wiki/Diego_Milito (birthplace: Bernal)
+11. Wikipedia – "Fabio Cannavaro": https://en.wikipedia.org/wiki/Fabio_Cannavaro (birthplace: Naples)
+12. Wikipedia – "Franck Ribéry": https://en.wikipedia.org/wiki/Franck_Rib%C3%A9ry (birthplace: Boulogne-sur-Mer)
+13. Wikipedia – "Gianluigi Buffon": https://en.wikipedia.org/wiki/Gianluigi_Buffon (birthplace: Carrara)
+14. Wikipedia – "Kaká": https://en.wikipedia.org/wiki/Kak%C3%A1 (birthplace: Gama, Federal District)
+15. Wikipedia – "Lionel Messi": https://en.wikipedia.org/wiki/Lionel_Messi (birthplace: Rosario)
+16. Wikipedia – "Steven Gerrard": https://en.wikipedia.org/wiki/Steven_Gerrard (birthplace: Whiston, Merseyside)
+
+**Step 6 — Population of each birthplace**
+17. Wikipedia – "Fuentealbilla": https://en.wikipedia.org/wiki/Fuentealbilla (population ~2,384)
+18. Wikipedia – "Funchal": https://en.wikipedia.org/wiki/Funchal (population ~111,892)
+19. Wikipedia – "São Bernardo do Campo": https://en.wikipedia.org/wiki/S%C3%A3o_Bernardo_do_Campo (population ~844,483)
+20. Wikipedia – "Bernal, Buenos Aires": https://en.wikipedia.org/wiki/Bernal,_Buenos_Aires (population unknown as a standalone settlement)
+21. Wikipedia – "Naples": https://en.wikipedia.org/wiki/Naples (population ~909,048)
+22. Wikipedia – "Boulogne-sur-Mer": https://en.wikipedia.org/wiki/Boulogne-sur-Mer (population ~40,965)
+23. Wikipedia – "Carrara": https://en.wikipedia.org/wiki/Carrara (population ~63,000)
+24. Wikipedia – "Gama, Federal District": https://en.wikipedia.org/wiki/Gama,_Federal_District (population ~133,000)
+25. Wikipedia – "Rosario, Santa Fe": https://en.wikipedia.org/wiki/Rosario,_Santa_Fe (population ~1,193,605)
+26. Wikipedia – "Whiston, Merseyside": https://en.wikipedia.org/wiki/Whiston,_Merseyside (population ~20,041)

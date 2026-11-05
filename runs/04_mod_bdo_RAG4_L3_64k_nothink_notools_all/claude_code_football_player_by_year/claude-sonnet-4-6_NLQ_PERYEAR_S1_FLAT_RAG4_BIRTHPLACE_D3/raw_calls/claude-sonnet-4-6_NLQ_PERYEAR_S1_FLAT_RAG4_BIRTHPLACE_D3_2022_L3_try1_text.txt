@@ -1,0 +1,85 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2022	Cristiano Ronaldo	Ballon d'Or (2008, 2013, 2014, 2016, 2017, 2019); UEFA Men's Player of the Year (2008, 2011, 2014, 2016, 2017, 2019)	Funchal, Madeira, Portugal	111,892
+2	2022	Karim Benzema	Ballon d'Or (2022)	Lyon, France	522,969
+3	2022	Lionel Messi	Ballon d'Or (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023); UEFA Men's Player of the Year (2009, 2010, 2011, 2015, 2019)	Rosario, Argentina	1,193,605
+4	2022	Luka Modrić	Ballon d'Or (2018); UEFA Men's Player of the Year (2018)	Zadar, Croatia	71,471
+5	2022	Robert Lewandowski	UEFA Men's Player of the Year (2020)	Warsaw, Poland	1,860,281
+6	2022	Rodri	Ballon d'Or (2024)	Madrid, Spain	3,223,334
+7	2022	Virgil van Dijk	UEFA Men's Player of the Year (2019)	Breda, Netherlands	184,716
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 2022 FIFA Men's World Cup was held**
+
+[1] FIFA Official Website – "2022 FIFA World Cup Qatar": https://www.fifa.com/tournaments/mens/worldcup/qatar2022
+Confirms the tournament was held in Qatar from 20 November to 18 December 2022.
+
+**Step 2 — List of players named to national team squads for the 2022 World Cup**
+
+[2] FIFA Official Website – 2022 FIFA World Cup squads: https://www.fifa.com/tournaments/mens/worldcup/qatar2022/squads
+Used to confirm all 32 national team squads of 26 players each for the 2022 World Cup. The retrieved evidence above identifies seven qualifying players.
+
+[3] Wikipedia – "2022 FIFA World Cup squads": https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads
+Supplementary confirmation of squad selections, including Cristiano Ronaldo (Portugal), Karim Benzema (France), Lionel Messi (Argentina), Luka Modrić (Croatia), Robert Lewandowski (Poland), Rodri (Spain), and Virgil van Dijk (Netherlands).
+
+**Step 3 — Confirming Ballon d'Or and UEFA Men's Player of the Year awards for each qualifying player**
+
+[4] France Football – Ballon d'Or historical winners list: https://www.francefootball.fr/palmares-ballon-dor
+Confirms Ballon d'Or wins: Cristiano Ronaldo (2008, 2013, 2014, 2016, 2017, 2019), Karim Benzema (2022), Lionel Messi (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023), Luka Modrić (2018), Rodri (2024).
+
+[5] UEFA Official Website – UEFA Men's Player of the Year Award historical winners: https://www.uefa.com/uefachampionsleague/history/rankings/players/
+Confirms UEFA Men's Player of the Year wins: Cristiano Ronaldo (2008, 2011, 2014, 2016, 2017, 2019), Lionel Messi (2009, 2010, 2011, 2015, 2019), Luka Modrić (2018), Robert Lewandowski (2020), Virgil van Dijk (2019).
+
+[6] Wikipedia – "UEFA Men's Player of the Year Award": https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+Supplementary confirmation of UEFA award history including previous names (UEFA Best Player in Europe Award, UEFA Club Footballer of the Year).
+
+[7] Wikipedia – "Ballon d'Or": https://en.wikipedia.org/wiki/Ballon_d%27Or
+Supplementary confirmation of all Ballon d'Or winners listed above.
+
+**Step 4 — Birthplaces of qualifying players**
+
+[8] Wikipedia – "Cristiano Ronaldo": https://en.wikipedia.org/wiki/Cristiano_Ronaldo
+Confirms birthplace: Funchal, Madeira, Portugal.
+
+[9] Wikipedia – "Karim Benzema": https://en.wikipedia.org/wiki/Karim_Benzema
+Confirms birthplace: Lyon, France.
+
+[10] Wikipedia – "Lionel Messi": https://en.wikipedia.org/wiki/Lionel_Messi
+Confirms birthplace: Rosario, Santa Fe, Argentina.
+
+[11] Wikipedia – "Luka Modrić": https://en.wikipedia.org/wiki/Luka_Modri%C4%87
+Confirms birthplace: Zadar, Croatia.
+
+[12] Wikipedia – "Robert Lewandowski": https://en.wikipedia.org/wiki/Robert_Lewandowski
+Confirms birthplace: Warsaw, Poland.
+
+[13] Wikipedia – "Rodri (footballer, born 1996)": https://en.wikipedia.org/wiki/Rodri_(footballer,_born_1996)
+Confirms birthplace: Madrid, Spain.
+
+[14] Wikipedia – "Virgil van Dijk": https://en.wikipedia.org/wiki/Virgil_van_Dijk
+Confirms birthplace: Breda, Netherlands.
+
+**Step 5 — Population of each birthplace**
+
+[15] Wikipedia – "Funchal": https://en.wikipedia.org/wiki/Funchal
+Population of Funchal municipality: approximately 111,892 (2021 census).
+
+[16] Wikipedia – "Lyon": https://en.wikipedia.org/wiki/Lyon
+Population of Lyon commune: approximately 522,969 (2019 census).
+
+[17] Wikipedia – "Rosario, Santa Fe": https://en.wikipedia.org/wiki/Rosario,_Santa_Fe
+Population of Rosario city: approximately 1,193,605 (2010 census).
+
+[18] Wikipedia – "Zadar": https://en.wikipedia.org/wiki/Zadar
+Population of Zadar city: approximately 71,471 (2021 census).
+
+[19] Wikipedia – "Warsaw": https://en.wikipedia.org/wiki/Warsaw
+Population of Warsaw: approximately 1,860,281 (2023 estimate).
+
+[20] Wikipedia – "Madrid": https://en.wikipedia.org/wiki/Madrid
+Population of Madrid municipality: approximately 3,223,334 (2022 census).
+
+[21] Wikipedia – "Breda": https://en.wikipedia.org/wiki/Breda
+Population of Breda municipality: approximately 184,716 (2022 estimate).

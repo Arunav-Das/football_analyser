@@ -1,0 +1,85 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1962	Alfredo Di Stéfano	Ballon d'Or (1957, 1959)	Buenos Aires, Argentina	3,120,612
+2	1962	Bobby Charlton	Ballon d'Or (1966)	Ashington, England	27,000
+3	1962	Flórián Albert	Ballon d'Or (1967)	Hercegszántó, Hungary	2,500
+4	1962	Gianni Rivera	Ballon d'Or (1969)	unknown	unknown
+5	1962	Josef Masopust	Ballon d'Or (1962)	Most, Czechoslovakia (now Czech Republic)	67,000
+6	1962	Lev Yashin	Ballon d'Or (1963)	Moscow, Russia	13,010,112
+7	1962	Luis Suárez (born 1935)	Ballon d'Or (1960)	A Coruña, Spain	245,000
+8	1962	Omar Sívori	Ballon d'Or (1961)	San Nicolás de los Arroyos, Argentina	160,000
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1962 FIFA World Cup was actually held**
+
+1. Wikipedia, "1962 FIFA World Cup" — https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+   Confirms the tournament was held in Chile from 30 May to 17 June 1962.
+
+**Step 2 — List of players named to national team squads for the 1962 edition**
+
+2. Wikipedia, "1962 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1962_FIFA_World_Cup_squads
+   Full squad lists for all 16 participating national teams. Used to verify that Di Stéfano (Spain), Charlton (England), Albert (Hungary), Rivera (Italy), Masopust (Czechoslovakia), Yashin (Soviet Union), Luis Suárez (Spain), and Sívori (Italy) were all named in their respective squads.
+
+**Step 3 — Confirming Ballon d'Or wins for each qualifying player**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Lists all historical winners. Confirms:
+   - Alfredo Di Stéfano: 1957, 1959
+   - Omar Sívori: 1961
+   - Josef Masopust: 1962
+   - Lev Yashin: 1963
+   - Luis Suárez (born 1935): 1960
+   - Gianni Rivera: 1969
+   - Bobby Charlton: 1966
+   - Flórián Albert: 1967
+
+**Step 4 — Birthplaces of qualifying players**
+
+4. Wikipedia, "Alfredo Di Stéfano" — https://en.wikipedia.org/wiki/Alfredo_Di_St%C3%A9fano
+   Born in Buenos Aires, Argentina.
+
+5. Wikipedia, "Bobby Charlton" — https://en.wikipedia.org/wiki/Bobby_Charlton
+   Born in Ashington, Northumberland, England.
+
+6. Wikipedia, "Flórián Albert" — https://en.wikipedia.org/wiki/Fl%C3%B3ri%C3%A1n_Albert
+   Born in Hercegszántó, Hungary.
+
+7. Wikipedia, "Gianni Rivera" — https://en.wikipedia.org/wiki/Gianni_Rivera
+   Birthplace retained as unknown per pre-supplied evidence; Rivera was born in Alessandria, Italy per general knowledge — however, as there is slight uncertainty in confirming the exact settlement, "unknown" is preserved per instructions.
+
+8. Wikipedia, "Josef Masopust" — https://en.wikipedia.org/wiki/Josef_Masopust
+   Born in Most (then Czechoslovakia, now Czech Republic).
+
+9. Wikipedia, "Lev Yashin" — https://en.wikipedia.org/wiki/Lev_Yashin
+   Born in Moscow, Russia (then Soviet Union).
+
+10. Wikipedia, "Luis Suárez Miramontes" — https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_Miramontes
+    Born in A Coruña, Galicia, Spain.
+
+11. Wikipedia, "Omar Sívori" — https://en.wikipedia.org/wiki/Omar_S%C3%ADvori
+    Born in San Nicolás de los Arroyos, Buenos Aires Province, Argentina.
+
+**Step 5 — Population of each birthplace**
+
+12. Wikipedia, "Buenos Aires" — https://en.wikipedia.org/wiki/Buenos_Aires
+    City proper population approximately 3,120,612 (2022 census).
+
+13. Wikipedia, "Ashington" — https://en.wikipedia.org/wiki/Ashington
+    Population approximately 27,000 (2011 census).
+
+14. Wikipedia, "Hercegszántó" — https://en.wikipedia.org/wiki/Hercegsz%C3%A1nt%C3%B3
+    Population approximately 2,500.
+
+15. Wikipedia, "Most, Czech Republic" — https://en.wikipedia.org/wiki/Most,_Czech_Republic
+    Population approximately 67,000.
+
+16. Wikipedia, "Moscow" — https://en.wikipedia.org/wiki/Moscow
+    City population approximately 13,010,112 (2021 census).
+
+17. Wikipedia, "A Coruña" — https://en.wikipedia.org/wiki/A_Coru%C3%B1a
+    Population approximately 245,000.
+
+18. Wikipedia, "San Nicolás de los Arroyos" — https://en.wikipedia.org/wiki/San_Nicol%C3%A1s_de_los_Arroyos
+    Population approximately 160,000.

@@ -1,0 +1,35 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|---------------|--------------|------------|------------|------------|
+| 1 | 1950 | Stanley Matthews | Ballon d'Or (1956) | Stoke-on-Trent, England | 255,405 |
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1950 FIFA Men's World Cup was actually held**
+
+1. Wikipedia, "1950 FIFA World Cup" — https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+   Confirms the tournament was held in Brazil from 24 June to 16 July 1950. It was not cancelled or abandoned.
+
+**Step 2 — List of players named to national team squads for the 1950 World Cup**
+
+2. Wikipedia, "1950 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1950_FIFA_World_Cup_squads
+   Lists all players named to the participating national team squads. Stanley Matthews was named in the England squad for the 1950 FIFA World Cup.
+
+**Step 3 — Confirming which of those players won the Ballon d'Or or UEFA Men's Player of the Year**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Confirms Stanley Matthews won the inaugural Ballon d'Or in 1956, awarded by France Football magazine. The Ballon d'Or was first awarded in 1956, six years after the 1950 World Cup, but the criterion is career-spanning (before, during, or after the edition). No UEFA Men's Player of the Year / UEFA Best Player in Europe Award / UEFA Club Footballer of the Year existed in 1950; the UEFA award was first given in 1998. Cross-checking all 1950 World Cup squad players against Ballon d'Or winners (1956 onward) and UEFA Men's Player of the Year winners (1998 onward) yields only Stanley Matthews as a qualifier.
+
+4. Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+   Confirms the award's history and all winners. No winner of the UEFA Men's Player of the Year (or its predecessor names) is found among the 1950 World Cup squad players. Stanley Matthews died in 2000 and was never a UEFA award winner; his qualifying award is solely the Ballon d'Or.
+
+**Step 4 — Stanley Matthews's birthplace**
+
+5. Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews
+   Confirms Stanley Matthews was born on 1 February 1915 in Hanley, Stoke-on-Trent, Staffordshire, England.
+
+**Step 5 — Population of Stoke-on-Trent**
+
+6. Wikipedia, "Stoke-on-Trent" — https://en.wikipedia.org/wiki/Stoke-on-Trent
+   Gives the city population as approximately 255,405 (2021 Census, city of Stoke-on-Trent unitary authority).

@@ -1,0 +1,62 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2018	Andrés Iniesta	UEFA Men's Player of the Year (2012)	Fuentealbilla	2,348
+2	2018	Cristiano Ronaldo	Ballon d'Or (2008, 2013, 2014, 2016, 2017); UEFA Men's Player of the Year (2008, 2014, 2016, 2017)	Funchal	111,892
+3	2018	Lionel Messi	Ballon d'Or (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023); UEFA Men's Player of the Year (2009, 2010, 2011, 2015, 2023)	Rosario	1,236,089
+4	2018	Luka Modrić	Ballon d'Or (2018); UEFA Men's Player of the Year (2018)	Zadar	75,062
+5	2018	Robert Lewandowski	UEFA Men's Player of the Year (2020)	Warsaw	1,765,000
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 2018 FIFA Men's World Cup was held**
+
+[1] Wikipedia, "2018 FIFA World Cup": https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+Confirms the tournament was held in Russia from 14 June to 15 July 2018.
+
+**Step 2 — List of players named to national team squads**
+
+[2] Wikipedia, "2018 FIFA World Cup squads": https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_squads
+Used to confirm all 32 national team squads (736 players total) for the 2018 edition. The five qualifying players — Iniesta (Spain), Ronaldo (Portugal), Messi (Argentina), Modrić (Croatia), Lewandowski (Poland) — were all included in their respective squads.
+
+**Step 3 — Deciding which players won the Ballon d'Or and/or UEFA Men's Player of the Year**
+
+[3] Wikipedia, "Ballon d'Or": https://en.wikipedia.org/wiki/Ballon_d%27Or
+Lists all Ballon d'Or winners: Ronaldo (2008, 2013, 2014, 2016, 2017), Messi (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023), Modrić (2018).
+
+[4] Wikipedia, "UEFA Men's Player of the Year Award": https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+Lists all UEFA Men's Player of the Year / UEFA Best Player in Europe winners: Iniesta (2012), Ronaldo (2008, 2014, 2016, 2017), Messi (2009, 2010, 2011, 2015, 2023), Modrić (2018), Lewandowski (2020).
+
+**Step 4 — Birthplace of each qualifying player**
+
+[5] Wikipedia, "Andrés Iniesta": https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta
+Born in Fuentealbilla, Albacete, Spain.
+
+[6] Wikipedia, "Cristiano Ronaldo": https://en.wikipedia.org/wiki/Cristiano_Ronaldo
+Born in Funchal, Madeira, Portugal.
+
+[7] Wikipedia, "Lionel Messi": https://en.wikipedia.org/wiki/Lionel_Messi
+Born in Rosario, Santa Fe, Argentina.
+
+[8] Wikipedia, "Luka Modrić": https://en.wikipedia.org/wiki/Luka_Modri%C4%87
+Born in Zadar, Croatia.
+
+[9] Wikipedia, "Robert Lewandowski": https://en.wikipedia.org/wiki/Robert_Lewandowski
+Born in Warsaw, Poland.
+
+**Step 5 — Population of each birthplace**
+
+[10] Wikipedia, "Fuentealbilla": https://en.wikipedia.org/wiki/Fuentealbilla
+Population approximately 2,348 (municipality, per 2020 census data cited in article).
+
+[11] Wikipedia, "Funchal": https://en.wikipedia.org/wiki/Funchal
+Population approximately 111,892 (municipality, per 2021 census).
+
+[12] Wikipedia, "Rosario, Santa Fe": https://en.wikipedia.org/wiki/Rosario,_Santa_Fe
+Population approximately 1,236,089 (urban area, per 2010 Argentine census).
+
+[13] Wikipedia, "Zadar": https://en.wikipedia.org/wiki/Zadar
+Population approximately 75,062 (city proper, per 2021 Croatian census).
+
+[14] Wikipedia, "Warsaw": https://en.wikipedia.org/wiki/Warsaw
+Population approximately 1,765,000 (city proper, per 2021 estimate).

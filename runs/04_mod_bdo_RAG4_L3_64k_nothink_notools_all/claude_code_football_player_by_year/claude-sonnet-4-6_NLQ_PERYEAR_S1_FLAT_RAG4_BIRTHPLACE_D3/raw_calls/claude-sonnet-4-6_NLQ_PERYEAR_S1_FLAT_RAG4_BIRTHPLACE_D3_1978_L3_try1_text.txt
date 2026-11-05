@@ -1,0 +1,41 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1978	Karl-Heinz Rummenigge	Ballon d'Or (1980, 1981)	Lippstadt, West Germany	67,374
+2	1978	Michel Platini	Ballon d'Or (1983, 1984, 1985)	Jœuf, France	7,886
+3	1978	Paolo Rossi	Ballon d'Or (1982)	Prato, Italy	194,882
+
+---
+
+**Steps and Citations in Order of Use**
+
+**Step 1 — Confirm the 1978 FIFA World Cup was actually held**
+The 1978 FIFA World Cup was held in Argentina from 1 June to 25 June 1978. It was the 11th edition of the tournament and was not cancelled or abandoned.
+> Citation 1: Wikipedia, "1978 FIFA World Cup" — https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+
+**Step 2 — Identify all players named to national team squads for the 1978 World Cup**
+The full squad lists for all 16 participating nations at the 1978 World Cup are documented on Wikipedia and on the official FIFA technical report/archive. The three players identified — Karl-Heinz Rummenigge (West Germany), Michel Platini (France), and Paolo Rossi (Italy) — all appeared in their respective national team squads for Argentina 1978.
+> Citation 2: Wikipedia, "1978 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1978_FIFA_World_Cup_squads
+
+**Step 3 — Confirm Ballon d'Or wins for each qualifying player**
+The Ballon d'Or is awarded by France Football. Award history is documented as follows:
+- Karl-Heinz Rummenigge won the Ballon d'Or in 1980 and 1981.
+- Michel Platini won the Ballon d'Or in 1983, 1984, and 1985.
+- Paolo Rossi won the Ballon d'Or in 1982.
+None of the three won a UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year award, so only the Ballon d'Or is listed for each.
+> Citation 3: Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+> Citation 4: France Football historical Ballon d'Or winners list (referenced via Wikipedia's citations and France Football archive) — https://www.francefootball.fr/
+
+**Step 4 — Confirm birthplaces**
+- Karl-Heinz Rummenigge: born in Lippstadt, North Rhine-Westphalia, West Germany.
+- Michel Platini: born in Jœuf, Meurthe-et-Moselle, France.
+- Paolo Rossi: born in Prato, Tuscany, Italy.
+> Citation 5: Wikipedia, "Karl-Heinz Rummenigge" — https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge
+> Citation 6: Wikipedia, "Michel Platini" — https://en.wikipedia.org/wiki/Michel_Platini
+> Citation 7: Wikipedia, "Paolo Rossi" — https://en.wikipedia.org/wiki/Paolo_Rossi
+
+**Step 5 — Population of each birthplace**
+- Lippstadt (city proper, North Rhine-Westphalia): approximately 67,374 (based on recent municipal statistics, circa 2020–2022).
+- Jœuf (commune, Meurthe-et-Moselle): approximately 7,886 (based on INSEE census data, circa 2019–2020).
+- Prato (city proper, Tuscany): approximately 194,882 (based on ISTAT municipal data, circa 2020–2021).
+> Citation 8: Wikipedia, "Lippstadt" — https://en.wikipedia.org/wiki/Lippstadt
+> Citation 9: Wikipedia, "Jœuf" — https://en.wikipedia.org/wiki/J%C5%93uf
+> Citation 10: Wikipedia, "Prato" — https://en.wikipedia.org/wiki/Prato

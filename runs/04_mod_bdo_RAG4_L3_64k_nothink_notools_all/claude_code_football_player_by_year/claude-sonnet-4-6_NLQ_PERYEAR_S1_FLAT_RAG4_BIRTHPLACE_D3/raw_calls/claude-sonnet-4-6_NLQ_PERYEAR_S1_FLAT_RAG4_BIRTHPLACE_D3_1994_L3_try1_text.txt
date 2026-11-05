@@ -1,0 +1,57 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1994	Hristo Stoichkov	Ballon d'Or (1994)	Plovdiv, Bulgaria	675,000
+2	1994	Lothar Matthäus	Ballon d'Or (1990)	Erlangen, Germany	114,000
+3	1994	Roberto Baggio	Ballon d'Or (1993)	Caldogno, Italy	11,000
+4	1994	Matthias Sammer	Ballon d'Or (1996)	Dresden, Germany	554,000
+5	1994	Ronaldo	Ballon d'Or (1997, 2002); UEFA Men's Player of the Year (1997, 1998, 2002)	Itaguaí, Brazil	109,000
+6	1994	Fernando Redondo	UEFA Men's Player of the Year (1998)	Adrogué, Argentina	unknown
+7	1994	Stefan Effenberg	UEFA Men's Player of the Year (2001)	Hamburg, Germany	1,900,000
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1994 FIFA World Cup was held**
+
+[1] Wikipedia, "1994 FIFA World Cup" — https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+Confirms the tournament was held in the United States from 17 June to 17 July 1994.
+
+**Step 2 — List of players named to national team squads**
+
+[2] Wikipedia, "1994 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_squads
+Lists all 24 national team squads (520 players total) registered for the 1994 World Cup. Used to verify that Stoichkov (Bulgaria), Matthäus (Germany), Baggio (Italy), Sammer (Germany), Ronaldo (Brazil), Redondo (Argentina), and Effenberg (Germany) were all included in their respective national squads.
+
+Note on Ronaldo: Ronaldo (Ronaldo Luís Nazário de Lima) was included in Brazil's 1994 World Cup squad as a 17-year-old, though he did not play in the tournament. His inclusion in the squad is confirmed by the squads list above.
+
+Note on Matthias Sammer: Sammer won the Ballon d'Or in 1996, after the 1994 World Cup, but the question asks for players who have ever won the award, independent of timing.
+
+**Step 3 — Confirming Ballon d'Or winners among those players**
+
+[3] Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+Confirms: Lothar Matthäus won in 1990; Roberto Baggio won in 1993; Hristo Stoichkov won in 1994; Matthias Sammer won in 1996; Ronaldo won in 1997 and 2002.
+
+**Step 4 — Confirming UEFA Men's Player of the Year winners among those players**
+
+[4] Wikipedia, "UEFA Club Footballer of the Year" — https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year
+[5] Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+Confirms: Ronaldo won the UEFA Champions League Player of the Year / UEFA Men's Player of the Year in 1997–98 and 2001–02 seasons; Fernando Redondo won UEFA Club Footballer of the Year in 1997–98; Stefan Effenberg won UEFA Club Footballer of the Year in 2000–01.
+
+**Step 5 — Birthplaces of qualifying players**
+
+[6] Wikipedia, "Hristo Stoichkov" — https://en.wikipedia.org/wiki/Hristo_Stoichkov — born in Plovdiv, Bulgaria.
+[7] Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us — born in Erlangen, Germany.
+[8] Wikipedia, "Roberto Baggio" — https://en.wikipedia.org/wiki/Roberto_Baggio — born in Caldogno, Italy.
+[9] Wikipedia, "Matthias Sammer" — https://en.wikipedia.org/wiki/Matthias_Sammer — born in Dresden, Germany (then East Germany).
+[10] Wikipedia, "Ronaldo (Brazilian footballer)" — https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer) — born in Itaguaí, Rio de Janeiro, Brazil.
+[11] Wikipedia, "Fernando Redondo" — https://en.wikipedia.org/wiki/Fernando_Redondo — born in Adrogué, Buenos Aires Province, Argentina.
+[12] Wikipedia, "Stefan Effenberg" — https://en.wikipedia.org/wiki/Stefan_Effenberg — born in Hamburg, Germany.
+
+**Step 6 — Population of each birthplace**
+
+[13] Wikipedia, "Plovdiv" — https://en.wikipedia.org/wiki/Plovdiv — population approximately 675,000 (city and surrounding municipality).
+[14] Wikipedia, "Erlangen" — https://en.wikipedia.org/wiki/Erlangen — population approximately 114,000.
+[15] Wikipedia, "Caldogno" — https://en.wikipedia.org/wiki/Caldogno — population approximately 11,000.
+[16] Wikipedia, "Dresden" — https://en.wikipedia.org/wiki/Dresden — population approximately 554,000.
+[17] Wikipedia, "Itaguaí" — https://en.wikipedia.org/wiki/Itaguaí — population approximately 109,000.
+[18] Wikipedia, "Adrogué" — https://en.wikipedia.org/wiki/Adrog%C3%BC — population not reliably recalled with precision; listed as unknown.
+[19] Wikipedia, "Hamburg" — https://en.wikipedia.org/wiki/Hamburg — population approximately 1,900,000.

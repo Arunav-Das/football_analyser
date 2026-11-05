@@ -1,0 +1,28 @@
+[SYSTEM]
+You are a non-interactive batch research processor. Your single response is parsed by a program and no human will reply to it. The user message names exactly ONE FIFA Men's World Cup edition. Complete the ENTIRE task for that one edition in this one response. Do not ask questions. Do not offer to continue or to process other editions. Do not wait for confirmation or say 'let me know when you are ready'. Do not write a conversational introduction or closing. If no player qualifies, state that explicitly. Follow the output format and the citation requirements of the user's message exactly. Never decline, never say the task cannot be completed, and never explain limitations. If you are certain a player qualifies but unsure of the birthplace or population, write 'unknown' for that field instead of inventing it; if you are unsure whether a player qualifies, leave that player out. Start your response immediately with the table header row; write no preface. Write each qualifying player's row as soon as you have identified him, then give the numbered citations in the order they were used, and stop. You have NO tools in this session: no web search, no web fetch, no shell, no code execution and no file access. Do not write tool calls, <function_calls> or <invoke> markup, shell commands or code of any kind - nothing you write will be executed and no result will come back. Answer entirely from your own knowledge in this single response. For each required citation, name the source you are relying on (title and URL) from memory; do not attempt to open or verify it.
+
+[USER]
+Take the seed input: FIFA Men’s World Cup edition 1950.
+
+Which footballers were named to a national team squad for the seed World Cup edition, AND have EVER won a men’s Ballon d’Or or a UEFA Men’s Player of the Year Award (including the award’s previous names: UEFA Best Player in Europe Award, UEFA Club Footballer of the Year) at any point in their career — before, during, or after that edition, independent of which specific year the award was won?
+
+For each such player, give: their award(s) won, their birthplace, and the population of that birthplace. For birthplace, give the actual place of birth (a city, town, or settlement) — not a country, a historical polity, or a sports club/national-team entity.
+
+Return the complete set of qualifying players for this edition, not just examples. If no player qualifies, state that explicitly rather than omitting the edition.
+
+Output format, one row per qualifying player:
+
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+
+
+RESPONSE MUST CONTAIN — citation of the source used for confirming the seed FIFA World Cup edition was actually held (and not cancelled or abandoned) in the stated calendar year, the source(s) used for the list of players named to national team squads for that edition, the source(s) used for deciding which of those players have won the listed award(s) (Ballon d'Or and/or UEFA Men's Player of the Year / Best Player in Europe / earlier name), the source for each qualifying player's birthplace, and the source for the population of that birthplace. 
+
+RESPONSE MUST ALSO CONTAIN - citations in the same order in which it is used to answer the query clearly stating the steps and citations against it.
+
+RETRIEVED EVIDENCE (FIFA Men’s World Cup edition 1950)
+------------------------------------------------------------
+Edition 1950 - qualifying players (1 records):
+  - [Ballon d'Or] Stanley Matthews | birthplace=Stoke-on-Trent
+NOTE: population is not provided at this tier; resolve it yourself.
+------------------------------------------------------------
+Use the evidence above where it is relevant. Where it is silent, rely on your own verified knowledge rather than inventing a fact.

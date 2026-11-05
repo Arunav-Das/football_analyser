@@ -1,0 +1,59 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1958 | Raymond Kopa | Ballon d'Or (1958) | Nœux-les-Mines, France | ~12,000 |
+| 2 | 1958 | Lev Yashin | Ballon d'Or (1963) | Moscow, Russia | ~13,100,000 |
+| 3 | 1958 | Josef Masopust | Ballon d'Or (1962) | Most, Czechoslovakia (now Czech Republic) | ~65,000 |
+| 4 | 1958 | Bobby Charlton | Ballon d'Or (1966) | Ashington, England | ~27,000 |
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1958 FIFA World Cup was held**
+
+1. Wikipedia, "1958 FIFA World Cup" — https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+   Confirms the tournament was held in Sweden from 8 June to 29 June 1958, and was not cancelled or abandoned.
+
+**Step 2 — List of players named to national team squads for the 1958 edition**
+
+2. Wikipedia, "1958 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1958_FIFA_World_Cup_squads
+   Lists all players named to the 16 participating national team squads. Raymond Kopa (France), Lev Yashin (Soviet Union), Josef Masopust (Czechoslovakia), and Bobby Charlton (England) all appear in their respective national squad lists.
+
+**Step 3 — Confirming which players won the Ballon d'Or**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Confirms the winners:
+   - Raymond Kopa: Ballon d'Or 1958
+   - Josef Masopust: Ballon d'Or 1962
+   - Lev Yashin: Ballon d'Or 1963
+   - Bobby Charlton: Ballon d'Or 1966
+
+   Note: No UEFA Men's Player of the Year / UEFA Best Player in Europe Award / UEFA Club Footballer of the Year was won by any 1958 squad member (that award began in 1998, and the 1958 squad-era players had retired long before). The Ballon d'Or is the only applicable award for this cohort.
+
+**Step 4 — Birthplaces of qualifying players**
+
+4. Wikipedia, "Raymond Kopa" — https://en.wikipedia.org/wiki/Raymond_Kopa
+   Born in Nœux-les-Mines, Pas-de-Calais, France.
+
+5. Wikipedia, "Lev Yashin" — https://en.wikipedia.org/wiki/Lev_Yashin
+   Born in Moscow, Soviet Union (now Russia).
+
+6. Wikipedia, "Josef Masopust" — https://en.wikipedia.org/wiki/Josef_Masopust
+   Born in Most (then Czechoslovakia, now Czech Republic).
+
+7. Wikipedia, "Bobby Charlton" — https://en.wikipedia.org/wiki/Bobby_Charlton
+   Born in Ashington, Northumberland, England.
+
+**Step 5 — Population of each birthplace**
+
+8. Wikipedia, "Nœux-les-Mines" — https://en.wikipedia.org/wiki/N%C5%93ux-les-Mines
+   Population approximately 12,000 (commune in Pas-de-Calais; recent INSEE figures ~11,500–12,500).
+
+9. Wikipedia, "Moscow" — https://en.wikipedia.org/wiki/Moscow
+   Population approximately 13,100,000 (city proper, 2023 estimate).
+
+10. Wikipedia, "Most (city)" — https://en.wikipedia.org/wiki/Most_(city)
+    Population approximately 65,000 (municipality in Ústí nad Labem Region, Czech Republic).
+
+11. Wikipedia, "Ashington" — https://en.wikipedia.org/wiki/Ashington
+    Population approximately 27,000 (town in Northumberland, England; 2011 Census ~27,300).

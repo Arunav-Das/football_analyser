@@ -1,0 +1,74 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1982	Karl-Heinz Rummenigge	Ballon d'Or (1980, 1981)	Lippstadt, Germany	67000
+2	1982	Kevin Keegan	Ballon d'Or (1978, 1979)	Armthorpe, England	20000
+3	1982	Lothar Matthäus	Ballon d'Or (1990)	Erlangen, Germany	113000
+4	1982	Michel Platini	Ballon d'Or (1983, 1984, 1985)	Jœuf, France	7000
+5	1982	Oleg Blokhin	Ballon d'Or (1975)	Kyiv, Ukraine	2900000
+6	1982	Paolo Rossi	Ballon d'Or (1982)	Prato, Italy	194000
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1982 FIFA World Cup was held**
+
+1. Wikipedia, "1982 FIFA World Cup" — https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+   Confirms the tournament was held in Spain from 13 June to 11 July 1982.
+
+**Step 2 — List of players named to national team squads for the 1982 edition**
+
+2. Wikipedia, "1982 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_squads
+   Full list of all 24 national team squads (504 players) registered for the tournament; used to verify that Rummenigge (West Germany), Keegan (England), Matthäus (West Germany), Platini (France), Blokhin (Soviet Union), and Rossi (Italy) were all named in their respective squads.
+
+**Step 3 — Confirming Ballon d'Or wins for each qualifying player**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Lists all historical Ballon d'Or winners; confirms:
+   - Karl-Heinz Rummenigge: won 1980 and 1981
+   - Kevin Keegan: won 1978 and 1979
+   - Lothar Matthäus: won 1990
+   - Michel Platini: won 1983, 1984, 1985
+   - Oleg Blokhin: won 1975
+   - Paolo Rossi: won 1982
+
+   Note: No player in the 1982 squads is confirmed as a UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year winner beyond those already captured by the Ballon d'Or list above. (The UEFA Club Footballer of the Year was first awarded in 1998, and the UEFA Best Player in Europe Award began in 2011 — both post-date the careers of most 1982 participants, and none of the UEFA award winners from 1998 onward were also active squad members at the 1982 World Cup.)
+
+**Step 4 — Birthplaces of each qualifying player**
+
+4. Wikipedia, "Karl-Heinz Rummenigge" — https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge
+   Birthplace: Lippstadt, North Rhine-Westphalia, West Germany.
+
+5. Wikipedia, "Kevin Keegan" — https://en.wikipedia.org/wiki/Kevin_Keegan
+   Birthplace: Armthorpe, Yorkshire, England.
+
+6. Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us
+   Birthplace: Erlangen, Bavaria, West Germany.
+
+7. Wikipedia, "Michel Platini" — https://en.wikipedia.org/wiki/Michel_Platini
+   Birthplace: Jœuf, Meurthe-et-Moselle, France.
+
+8. Wikipedia, "Oleg Blokhin" — https://en.wikipedia.org/wiki/Oleg_Blokhin
+   Birthplace: Kyiv (then Kyiv, Ukrainian SSR, Soviet Union).
+
+9. Wikipedia, "Paolo Rossi" — https://en.wikipedia.org/wiki/Paolo_Rossi
+   Birthplace: Prato, Tuscany, Italy.
+
+**Step 5 — Population of each birthplace**
+
+10. Wikipedia, "Lippstadt" — https://en.wikipedia.org/wiki/Lippstadt
+    Population of Lippstadt: approximately 67,000.
+
+11. Wikipedia, "Armthorpe" — https://en.wikipedia.org/wiki/Armthorpe
+    Population of Armthorpe: approximately 20,000.
+
+12. Wikipedia, "Erlangen" — https://en.wikipedia.org/wiki/Erlangen
+    Population of Erlangen: approximately 113,000.
+
+13. Wikipedia, "Jœuf" — https://en.wikipedia.org/wiki/J%C5%93uf
+    Population of Jœuf: approximately 7,000.
+
+14. Wikipedia, "Kyiv" — https://en.wikipedia.org/wiki/Kyiv
+    Population of Kyiv: approximately 2,900,000.
+
+15. Wikipedia, "Prato" — https://en.wikipedia.org/wiki/Prato
+    Population of Prato: approximately 194,000.

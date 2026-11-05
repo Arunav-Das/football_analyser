@@ -1,0 +1,61 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1954	Raymond Kopa	Ballon d'Or	Nœux-les-Mines	12,000
+2	1954	Stanley Matthews	Ballon d'Or	Hanley, Stoke-on-Trent	unknown
+
+**Step-by-step reasoning and citations, in order of use:**
+
+---
+
+**Step 1 — Confirm the 1954 FIFA World Cup was actually held**
+
+The 1954 FIFA World Cup was held in Switzerland from 16 June to 4 July 1954. It was the fifth edition of the tournament and was not cancelled or abandoned.
+
+> [1] Wikipedia, "1954 FIFA World Cup" — https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+
+---
+
+**Step 2 — Establish the list of players named to national team squads**
+
+The provided evidence identifies two qualifying players: Raymond Kopa (France squad) and Stanley Matthews (England squad). Both were named to their respective national team squads for the 1954 World Cup.
+
+Raymond Kopa played for France at the 1954 World Cup. Stanley Matthews was selected for England's 1954 World Cup squad.
+
+> [2] Wikipedia, "1954 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1954_FIFA_World_Cup_squads
+
+---
+
+**Step 3 — Confirm Ballon d'Or wins for each player**
+
+**Raymond Kopa** won the Ballon d'Or in 1958 (awarded by France Football).
+
+**Stanley Matthews** won the inaugural Ballon d'Or in 1956 (the first ever awarded, by France Football).
+
+No UEFA Men's Player of the Year / UEFA Best Player in Europe Award applies here, as that award did not begin until 1998. Neither player won it.
+
+> [3] Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+> [4] Wikipedia, "Raymond Kopa" — https://en.wikipedia.org/wiki/Raymond_Kopa
+> [5] Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews
+
+---
+
+**Step 4 — Confirm birthplaces**
+
+**Raymond Kopa**: Born 13 October 1931 in Nœux-les-Mines, Pas-de-Calais, France. (His birth name was Raymond Kopaszewski.)
+
+> [6] Wikipedia, "Raymond Kopa" — https://en.wikipedia.org/wiki/Raymond_Kopa
+
+**Stanley Matthews**: Born 1 February 1915 in Hanley, one of the five towns that make up the city of Stoke-on-Trent, Staffordshire, England. The specific settlement is Hanley.
+
+> [7] Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews
+
+---
+
+**Step 5 — Population of birthplaces**
+
+**Nœux-les-Mines**: A commune in Pas-de-Calais, northern France. Its population is approximately 12,000 (around 11,800–12,500 depending on the census year; most recent estimates circa 2019 give approximately 11,800).
+
+> [8] INSEE commune data for Nœux-les-Mines — https://www.insee.fr/fr/statistiques/communes/62613
+
+**Hanley (Stoke-on-Trent)**: Hanley is a town/district within the city of Stoke-on-Trent. A reliable standalone population figure for Hanley as a discrete settlement (distinct from the wider Stoke-on-Trent conurbation) is not readily determinable from my knowledge with confidence; accordingly I mark it as **unknown** rather than invent a figure.
+
+> [9] Wikipedia, "Hanley, Stoke-on-Trent" — https://en.wikipedia.org/wiki/Hanley,_Stoke-on-Trent

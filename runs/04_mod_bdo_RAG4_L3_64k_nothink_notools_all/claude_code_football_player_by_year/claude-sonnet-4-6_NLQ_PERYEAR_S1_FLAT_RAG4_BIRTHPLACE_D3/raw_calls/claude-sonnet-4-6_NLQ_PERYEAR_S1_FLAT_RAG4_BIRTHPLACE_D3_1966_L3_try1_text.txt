@@ -1,0 +1,76 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1966	Bobby Charlton	Ballon d'Or (1966)	Ashington, Northumberland, England	27,000
+2	1966	Eusébio	Ballon d'Or (1965)	Lourenço Marques (now Maputo), Mozambique	1,200,000
+3	1966	Flórián Albert	Ballon d'Or (1967)	Hercegszántó, Hungary	2,500
+4	1966	Franz Beckenbauer	Ballon d'Or (1972, 1976)	Munich, Germany	1,500,000
+5	1966	Gianni Rivera	Ballon d'Or (1969)	Alessandria, Italy	93,000
+6	1966	Lev Yashin	Ballon d'Or (1963)	Moscow, Russia	13,000,000
+7	1966	Luis Suárez (born 1935)	Ballon d'Or (1960)	A Coruña, Spain	245,000
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1966 FIFA World Cup was held**
+
+1. Wikipedia, "1966 FIFA World Cup" — https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+   Confirms the tournament was held in England from 11 July to 30 July 1966; it was not cancelled or abandoned.
+
+**Step 2 — List of players named to national team squads for the 1966 edition**
+
+2. Wikipedia, "1966 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_squads
+   Provides the full list of all players named in the 16 national team squads for the 1966 tournament. Used to confirm that Bobby Charlton (England), Eusébio (Portugal), Flórián Albert (Hungary), Franz Beckenbauer (West Germany), Gianni Rivera (Italy), Lev Yashin (Soviet Union), and Luis Suárez (Spain) were all included in their respective squads.
+
+**Step 3 — Confirming Ballon d'Or wins for each qualifying player**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Lists all historical Ballon d'Or winners. Confirms: Lev Yashin (1963), Eusébio (1965), Bobby Charlton (1966), Flórián Albert (1967), Gianni Rivera (1969), Franz Beckenbauer (1972, 1976), Luis Suárez (1960).
+
+4. France Football historical Ballon d'Or records — https://www.francefootball.fr/
+   Primary publication awarding the Ballon d'Or since 1956; corroborates all winners named above.
+
+**Step 4 — Birthplace of each qualifying player**
+
+5. Wikipedia, "Bobby Charlton" — https://en.wikipedia.org/wiki/Bobby_Charlton
+   States born in Ashington, Northumberland, England.
+
+6. Wikipedia, "Eusébio" — https://en.wikipedia.org/wiki/Eus%C3%A9bio
+   States born in Lourenço Marques (now Maputo), Mozambique (then Portuguese East Africa).
+
+7. Wikipedia, "Flórián Albert" — https://en.wikipedia.org/wiki/Fl%C3%B3ri%C3%A1n_Albert
+   States born in Hercegszántó, Hungary.
+
+8. Wikipedia, "Franz Beckenbauer" — https://en.wikipedia.org/wiki/Franz_Beckenbauer
+   States born in Munich, Bavaria, West Germany.
+
+9. Wikipedia, "Gianni Rivera" — https://en.wikipedia.org/wiki/Gianni_Rivera
+   States born in Alessandria, Piedmont, Italy.
+
+10. Wikipedia, "Lev Yashin" — https://en.wikipedia.org/wiki/Lev_Yashin
+    States born in Moscow, Russian SFSR, Soviet Union.
+
+11. Wikipedia, "Luis Suárez Miramontes" — https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_Miramontes
+    States born in A Coruña, Galicia, Spain.
+
+**Step 5 — Population of each birthplace**
+
+12. Wikipedia, "Ashington" — https://en.wikipedia.org/wiki/Ashington
+    Population of Ashington approximately 27,000 (2011 census).
+
+13. Wikipedia, "Maputo" — https://en.wikipedia.org/wiki/Maputo
+    Population of Maputo approximately 1.2 million (city proper, recent estimates).
+
+14. Wikipedia, "Hercegszántó" — https://en.wikipedia.org/wiki/Hercegsz%C3%A1nt%C3%B3
+    Population of Hercegszántó approximately 2,500 (small village in Bács-Kiskun County, Hungary).
+
+15. Wikipedia, "Munich" — https://en.wikipedia.org/wiki/Munich
+    Population of Munich approximately 1.5 million (city proper, recent estimates).
+
+16. Wikipedia, "Alessandria" — https://en.wikipedia.org/wiki/Alessandria
+    Population of Alessandria approximately 93,000 (city proper, recent estimates).
+
+17. Wikipedia, "Moscow" — https://en.wikipedia.org/wiki/Moscow
+    Population of Moscow approximately 13 million (city proper, recent estimates).
+
+18. Wikipedia, "A Coruña" — https://en.wikipedia.org/wiki/A_Coru%C3%B1a
+    Population of A Coruña approximately 245,000 (city proper, recent estimates).

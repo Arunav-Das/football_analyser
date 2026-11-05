@@ -1,0 +1,98 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1986	Allan Simonsen	Ballon d'Or (1977)	Vejle, Denmark	50,000
+2	1986	Igor Belanov	Ballon d'Or (1986)	Odesa, Ukraine	1,015,826
+3	1986	Jean-Pierre Papin	Ballon d'Or (1991)	Boulogne-sur-Mer, France	40,968
+4	1986	Karl-Heinz Rummenigge	Ballon d'Or (1980, 1981)	Lippstadt, Germany	67,000
+5	1986	Lothar Matthäus	Ballon d'Or (1990)	Erlangen, Germany	113,758
+6	1986	Michel Platini	Ballon d'Or (1983, 1984, 1985)	Jœuf, France	6,500
+7	1986	Oleg Blokhin	Ballon d'Or (1975)	Kyiv, Ukraine	2,952,301
+8	1986	Paolo Rossi	Ballon d'Or (1982)	Prato, Italy	194,882
+
+---
+
+## Citations (in order of use)
+
+**Step 1 — Confirming the 1986 FIFA World Cup was held**
+
+1. Wikipedia, "1986 FIFA World Cup" — https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+   Confirms the tournament was held in Mexico, 31 May – 29 June 1986, and was not cancelled or abandoned.
+
+**Step 2 — List of players named to national team squads for the 1986 edition**
+
+2. Wikipedia, "1986 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1986_FIFA_World_Cup_squads
+   Full list of all 24 national squad rosters (each of 22 players) used to identify which players participated. The eight players listed above are confirmed as having been included in their respective national squads:
+   - Allan Simonsen — Denmark squad
+   - Igor Belanov — Soviet Union squad
+   - Jean-Pierre Papin — France squad
+   - Karl-Heinz Rummenigge — West Germany squad
+   - Lothar Matthäus — West Germany squad
+   - Michel Platini — France squad
+   - Oleg Blokhin — Soviet Union squad
+   - Paolo Rossi — Italy squad
+
+**Step 3 — Confirming Ballon d'Or wins for each qualifying player**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Full historical winners list used to verify each award year:
+   - Oleg Blokhin: 1975
+   - Allan Simonsen: 1977
+   - Karl-Heinz Rummenigge: 1980, 1981
+   - Michel Platini: 1983, 1984, 1985
+   - Igor Belanov: 1986
+   - Paolo Rossi: 1982
+   - Lothar Matthäus: 1990
+   - Jean-Pierre Papin: 1991
+
+   Note: No player from the 1986 squads is confirmed to have won a UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year Award separately from the Ballon d'Or wins listed (the UEFA award was not established until 1998, by which time none of these players were active at that level).
+
+**Step 4 — Birthplaces of qualifying players**
+
+4. Wikipedia, "Allan Simonsen" — https://en.wikipedia.org/wiki/Allan_Simonsen
+   Birthplace: Vejle, Denmark.
+
+5. Wikipedia, "Igor Belanov" — https://en.wikipedia.org/wiki/Igor_Belanov
+   Birthplace: Odesa (then Odessa), Ukrainian SSR, Soviet Union.
+
+6. Wikipedia, "Jean-Pierre Papin" — https://en.wikipedia.org/wiki/Jean-Pierre_Papin
+   Birthplace: Boulogne-sur-Mer, France.
+
+7. Wikipedia, "Karl-Heinz Rummenigge" — https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge
+   Birthplace: Lippstadt, West Germany.
+
+8. Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us
+   Birthplace: Erlangen, West Germany.
+
+9. Wikipedia, "Michel Platini" — https://en.wikipedia.org/wiki/Michel_Platini
+   Birthplace: Jœuf, France.
+
+10. Wikipedia, "Oleg Blokhin" — https://en.wikipedia.org/wiki/Oleg_Blokhin
+    Birthplace: Kyiv (then Kiev), Ukrainian SSR, Soviet Union.
+
+11. Wikipedia, "Paolo Rossi" — https://en.wikipedia.org/wiki/Paolo_Rossi
+    Birthplace: Prato, Italy.
+
+**Step 5 — Population of each birthplace**
+
+12. Wikipedia, "Vejle" — https://en.wikipedia.org/wiki/Vejle
+    Population of Vejle municipality approximately 50,000 (urban area; latest available estimate).
+
+13. Wikipedia, "Odesa" — https://en.wikipedia.org/wiki/Odesa
+    Population approximately 1,015,826 (2021 estimate, pre-war figure commonly cited).
+
+14. Wikipedia, "Boulogne-sur-Mer" — https://en.wikipedia.org/wiki/Boulogne-sur-Mer
+    Population approximately 40,968 (commune proper, 2019 census).
+
+15. Wikipedia, "Lippstadt" — https://en.wikipedia.org/wiki/Lippstadt
+    Population approximately 67,000 (recent estimate).
+
+16. Wikipedia, "Erlangen" — https://en.wikipedia.org/wiki/Erlangen
+    Population approximately 113,758 (2019 figure).
+
+17. Wikipedia, "Jœuf" — https://en.wikipedia.org/wiki/J%C5%93uf
+    Population approximately 6,500 (recent census estimate).
+
+18. Wikipedia, "Kyiv" — https://en.wikipedia.org/wiki/Kyiv
+    Population approximately 2,952,301 (2021 estimate).
+
+19. Wikipedia, "Prato" — https://en.wikipedia.org/wiki/Prato
+    Population approximately 194,882 (2020 census).

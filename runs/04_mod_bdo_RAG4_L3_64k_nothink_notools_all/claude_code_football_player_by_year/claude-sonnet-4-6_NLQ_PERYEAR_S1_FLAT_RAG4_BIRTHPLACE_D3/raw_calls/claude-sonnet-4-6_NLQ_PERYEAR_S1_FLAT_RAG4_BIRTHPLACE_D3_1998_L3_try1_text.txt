@@ -1,0 +1,97 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1998	David Beckham	UEFA Men's Player of the Year (2001)	Leytonstone, London, England	106,995 (Leytonstone area; part of London Borough of Waltham Forest, approx. population)
+2	1998	Fabio Cannavaro	Ballon d'Or (2006)	Naples, Italy	909,048
+3	1998	Gianluigi Buffon	UEFA Men's Player of the Year (2017)	Carrara, Italy	63,000
+4	1998	Hristo Stoichkov	Ballon d'Or (1994)	Plovdiv, Bulgaria	344,591
+5	1998	Lothar Matthäus	Ballon d'Or (1990)	Erlangen, Germany	113,758
+6	1998	Michael Owen	Ballon d'Or (2001)	Chester, England	79,645
+7	1998	Rivaldo	Ballon d'Or (1999)	Recife, Brazil	1,653,461
+8	1998	Roberto Baggio	Ballon d'Or (1993)	Caldogno, Italy	11,604
+9	1998	Ronaldo (Brazilian)	Ballon d'Or (1997, 2002); UEFA Men's Player of the Year (1997, 2002)	Itaguaí, Brazil	109,000
+10	1998	Zinedine Zidane	Ballon d'Or (1998); UEFA Men's Player of the Year (1998, 2002)	Marseille, France	861,635
+
+---
+
+## Citations in Order of Use
+
+**Step 1 — Confirming the 1998 FIFA World Cup was held**
+
+1. Wikipedia, "1998 FIFA World Cup" — https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+   Confirms the tournament was held in France from 10 June to 12 July 1998, and was not cancelled or abandoned.
+
+**Step 2 — List of players named to national team squads for the 1998 World Cup**
+
+2. Wikipedia, "1998 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1998_FIFA_World_Cup_squads
+   Complete list of all 32 national team squads (736 players) registered for the 1998 tournament. This source (combined with the retrieved evidence provided) confirms all ten players listed were included in their respective national squads: David Beckham (England), Fabio Cannavaro (Italy), Gianluigi Buffon (Italy), Hristo Stoichkov (Bulgaria), Lothar Matthäus (Germany), Michael Owen (England), Rivaldo (Brazil), Roberto Baggio (Italy), Ronaldo (Brazil), Zinedine Zidane (France).
+
+**Step 3 — Confirming each player's Ballon d'Or and/or UEFA Men's Player of the Year award(s)**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Lists all Ballon d'Or winners. Confirms: Hristo Stoichkov (1994), Roberto Baggio (1993), Lothar Matthäus (1990), Rivaldo (1999), Michael Owen (2001), Fabio Cannavaro (2006), Ronaldo (1997, 2002), Zinedine Zidane (1998).
+
+4. Wikipedia, "UEFA Club Footballer of the Year" / "UEFA Best Player in Europe Award" / "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+   Lists all UEFA Men's Player of the Year / Best Player in Europe winners. Confirms: Zinedine Zidane (1998, 2002), Ronaldo (1997, 2002), David Beckham (2001), Gianluigi Buffon (2017).
+
+**Step 4 — Birthplace of each qualifying player**
+
+5. Wikipedia, "David Beckham" — https://en.wikipedia.org/wiki/David_Beckham
+   Born in Leytonstone, London, England.
+
+6. Wikipedia, "Fabio Cannavaro" — https://en.wikipedia.org/wiki/Fabio_Cannavaro
+   Born in Naples, Italy.
+
+7. Wikipedia, "Gianluigi Buffon" — https://en.wikipedia.org/wiki/Gianluigi_Buffon
+   Born in Carrara, Italy.
+
+8. Wikipedia, "Hristo Stoichkov" — https://en.wikipedia.org/wiki/Hristo_Stoichkov
+   Born in Plovdiv, Bulgaria.
+
+9. Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us
+   Born in Erlangen, Germany.
+
+10. Wikipedia, "Michael Owen" — https://en.wikipedia.org/wiki/Michael_Owen
+    Born in Chester, England.
+
+11. Wikipedia, "Rivaldo" — https://en.wikipedia.org/wiki/Rivaldo
+    Born in Recife, Brazil.
+
+12. Wikipedia, "Roberto Baggio" — https://en.wikipedia.org/wiki/Roberto_Baggio
+    Born in Caldogno, Italy.
+
+13. Wikipedia, "Ronaldo (Brazilian footballer)" — https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)
+    Born in Itaguaí, Rio de Janeiro, Brazil.
+
+14. Wikipedia, "Zinedine Zidane" — https://en.wikipedia.org/wiki/Zinedine_Zidane
+    Born in Marseille, France.
+
+**Step 5 — Population of each birthplace**
+
+15. Wikipedia, "Leytonstone" — https://en.wikipedia.org/wiki/Leytonstone
+    Population approximately 106,995 (London Borough of Waltham Forest ward area; Leytonstone itself is a district within the borough with no separately published municipal figure; this figure represents the broader ward area).
+
+16. Wikipedia, "Naples" — https://en.wikipedia.org/wiki/Naples
+    Population approximately 909,048 (city proper, 2023 estimate).
+
+17. Wikipedia, "Carrara" — https://en.wikipedia.org/wiki/Carrara
+    Population approximately 63,000 (municipality, recent estimate).
+
+18. Wikipedia, "Plovdiv" — https://en.wikipedia.org/wiki/Plovdiv
+    Population approximately 344,591 (city, 2021 census).
+
+19. Wikipedia, "Erlangen" — https://en.wikipedia.org/wiki/Erlangen
+    Population approximately 113,758 (city, 2022 estimate).
+
+20. Wikipedia, "Chester" — https://en.wikipedia.org/wiki/Chester
+    Population approximately 79,645 (urban area, 2011 census).
+
+21. Wikipedia, "Recife" — https://en.wikipedia.org/wiki/Recife
+    Population approximately 1,653,461 (city proper, 2022 estimate).
+
+22. Wikipedia, "Caldogno" — https://en.wikipedia.org/wiki/Caldogno
+    Population approximately 11,604 (municipality, recent estimate).
+
+23. Wikipedia, "Itaguaí" — https://en.wikipedia.org/wiki/Itagu%C3%A1
+    Population approximately 109,000 (municipality, recent estimate).
+
+24. Wikipedia, "Marseille" — https://en.wikipedia.org/wiki/Marseille
+    Population approximately 861,635 (city proper, 2019 census).
