@@ -1,0 +1,175 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1966 | Lev Yashin | Ballon d'Or 1963 | Moscow, Russia | 12,506,468 |
+| 2 | 1966 | Luis Suárez Miramontes | Ballon d'Or 1960 | A Coruña, Spain | 244,931 |
+| 3 | 1966 | Eusébio | Ballon d'Or 1965 | Lourenço Marques (now Maputo), Mozambique | 1,101,170 |
+| 4 | 1966 | Bobby Charlton | Ballon d'Or 1966 | Ashington, Northumberland, England | 27,573 |
+| 5 | 1966 | Florian Albert | Ballon d'Or 1967 | Hercegszántó, Hungary | 2,431 |
+| 6 | 1966 | Gianni Rivera | Ballon d'Or 1969 | Alessandria, Piedmont, Italy | 93,980 |
+| 7 | 1966 | Franz Beckenbauer | Ballon d'Or 1972, 1976 | Munich (Giesing), Bavaria, West Germany | 1,512,491 |
+
+---
+
+## Steps and Citations in Order of Use
+
+---
+
+### Step 1 — Confirm the 1966 FIFA Men's World Cup was actually held
+
+The eighth FIFA Men's World Cup was held in England from 11 to 30 July 1966. It was not cancelled or abandoned.
+
+**Citation [1]:** FIFA Official Website – "1966 FIFA World Cup England™"
+https://www.fifa.com/tournaments/mens/worldcup/1966england
+
+---
+
+### Step 2 — Establish all 16 participating nations and their full 22-man squads
+
+The 16 nations were drawn into four groups:
+- Group 1: England, Uruguay, Mexico, France
+- Group 2: West Germany, Argentina, Spain, Switzerland
+- Group 3: Brazil, Portugal, Hungary, Bulgaria
+- Group 4: Soviet Union, Italy, Chile, North Korea
+
+Full squad lists (22 players per team, 352 players total) are documented in the Wikipedia article on the tournament, which aggregates the official FIFA squad sheets.
+
+**Citation [2]:** Wikipedia – "1966 FIFA World Cup squads"
+https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_squads
+
+---
+
+### Step 3 — Establish the complete list of Ballon d'Or winners (all years) to cross-reference against squad members
+
+The Ballon d'Or has been awarded since 1956. The winners relevant to players who could plausibly have been active in 1966 (covering roughly 1956–1980) are:
+
+| Year | Winner | Country |
+|------|--------|---------|
+| 1956 | Stanley Matthews | England |
+| 1957 | Alfredo Di Stéfano | Argentina/Spain |
+| 1958 | Raymond Kopa | France |
+| 1959 | Alfredo Di Stéfano | Argentina/Spain |
+| 1960 | Luis Suárez | Spain |
+| 1961 | Omar Sívori | Argentina/Italy |
+| 1962 | Josef Masopust | Czechoslovakia |
+| 1963 | Lev Yashin | Soviet Union |
+| 1964 | Denis Law | Scotland |
+| 1965 | Eusébio | Portugal |
+| 1966 | Bobby Charlton | England |
+| 1967 | Florian Albert | Hungary |
+| 1968 | George Best | Northern Ireland |
+| 1969 | Gianni Rivera | Italy |
+| 1970 | Gerd Müller | West Germany |
+| 1971 | Johan Cruyff | Netherlands |
+| 1972 | Franz Beckenbauer | West Germany |
+| 1973–74 | Johan Cruyff | Netherlands |
+| 1976 | Franz Beckenbauer | West Germany |
+
+**Citation [3]:** France Football / Ballon d'Or official historical records, also documented at:
+Wikipedia – "Ballon d'Or"
+https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+---
+
+### Step 4 — Establish the UEFA Men's Player of the Year Award winners to cross-reference
+
+The UEFA Club Footballer of the Year was first awarded in **1998**, the UEFA Best Player in Europe Award / UEFA Men's Player of the Year from **2011**. All winners of these awards are players of a generation far too young to have appeared in a 1966 World Cup squad (e.g., Ronaldo, Messi, etc.). No overlap exists with the 1966 squads.
+
+**Citation [4]:** Wikipedia – "UEFA Men's Player of the Year Award"
+https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+---
+
+### Step 5 — Cross-reference winners against squad members, eliminating non-qualifiers
+
+Going through each Ballon d'Or winner above:
+
+- **Stanley Matthews (1956):** Born 1915; at 51 years old in 1966 he was not in England's squad. ✗
+- **Alfredo Di Stéfano (1957, 1959):** Born 1926; retired from international football. Argentina did not select him for 1966. ✗
+- **Raymond Kopa (1958):** Born 1931; France was at the 1966 World Cup but Kopa had retired from international duty by 1962. Not in squad. ✗
+- **Luis Suárez Miramontes (1960):** Born 1935; Spain was in Group 2 of 1966 World Cup. Suárez was 30–31 and was Spain's creative spine at Inter Milan. He was in Spain's 1966 squad. ✓
+- **Omar Sívori (1961):** Born 1935; Argentina was at 1966 but Sívori had a falling-out with the Argentine FA and retired from international football around 1961–62 after the dispute. Not in Argentina's 1966 squad. ✗
+- **Josef Masopust (1962):** Czechoslovakia did not qualify for the 1966 World Cup. ✗
+- **Lev Yashin (1963):** Born 1929; Soviet Union reached the semi-finals in 1966. Yashin played multiple matches and was a key figure. ✓
+- **Denis Law (1964):** Scotland did not qualify for the 1966 World Cup. ✗
+- **Eusébio (1965):** Born 1942; Portugal made their World Cup debut in 1966 and reached the semi-finals. Eusébio was top scorer (9 goals). ✓
+- **Bobby Charlton (1966):** Born 1937; England won the 1966 World Cup. Charlton was a key midfielder. ✓
+- **Florian Albert (1967):** Born 1941; Hungary was in Group 3 at 1966. Albert was their star centre-forward. ✓
+- **George Best (1968):** Northern Ireland did not qualify for 1966. ✗
+- **Gianni Rivera (1969):** Born 1944; Italy was in Group 4 at 1966. Rivera was 22 and an established AC Milan player; he was in Italy's squad. ✓
+- **Gerd Müller (1970):** Born 1945; Müller made his West Germany international debut in October 1966, after the World Cup ended. He was not named to the 1966 World Cup squad. ✗
+- **Johan Cruyff (1971, 1973, 1974):** Netherlands did not qualify for 1966. ✗
+- **Franz Beckenbauer (1972, 1976):** Born 1945; West Germany reached the final in 1966. Beckenbauer, aged 20, was one of the tournament's standout performers. ✓
+
+**Citation [5]:** Wikipedia – "1966 FIFA World Cup squads" (same as [2]) for squad membership confirmation
+https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_squads
+
+---
+
+### Step 6 — Birthplace sources for each qualifying player
+
+**Lev Yashin — Moscow, Russia**
+**Citation [6]:** Wikipedia – "Lev Yashin"
+https://en.wikipedia.org/wiki/Lev_Yashin
+
+**Luis Suárez Miramontes — A Coruña, Galicia, Spain**
+**Citation [7]:** Wikipedia – "Luis Suárez Miramontes"
+https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_Miramontes
+
+**Eusébio — Lourenço Marques (now Maputo), Mozambique**
+**Citation [8]:** Wikipedia – "Eusébio"
+https://en.wikipedia.org/wiki/Eus%C3%A9bio
+
+**Bobby Charlton — Ashington, Northumberland, England**
+**Citation [9]:** Wikipedia – "Bobby Charlton"
+https://en.wikipedia.org/wiki/Bobby_Charlton
+
+**Florian Albert — Hercegszántó, Hungary**
+**Citation [10]:** Wikipedia – "Florian Albert"
+https://en.wikipedia.org/wiki/Florian_Albert
+
+**Gianni Rivera — Alessandria, Piedmont, Italy**
+**Citation [11]:** Wikipedia – "Gianni Rivera"
+https://en.wikipedia.org/wiki/Gianni_Rivera
+
+**Franz Beckenbauer — Munich (Giesing district), Bavaria, West Germany**
+**Citation [12]:** Wikipedia – "Franz Beckenbauer"
+https://en.wikipedia.org/wiki/Franz_Beckenbauer
+
+---
+
+### Step 7 — Population sources for each birthplace
+
+**Moscow — 12,506,468**
+Based on the 2021 Russian Census / Moscow city government statistics.
+**Citation [13]:** Wikipedia – "Moscow" (Demographics section)
+https://en.wikipedia.org/wiki/Moscow
+
+**A Coruña — 244,931**
+Based on the Spanish Instituto Nacional de Estadística (INE) municipal register, 2022 figure.
+**Citation [14]:** Wikipedia – "A Coruña" (Demographics section)
+https://en.wikipedia.org/wiki/A_Coru%C3%B1a
+
+**Maputo — 1,101,170**
+Based on the 2017 Mozambique national census (Instituto Nacional de Estatística).
+**Citation [15]:** Wikipedia – "Maputo" (Demographics section)
+https://en.wikipedia.org/wiki/Maputo
+
+**Ashington — 27,573**
+Based on the 2011 UK Census (Northumberland County Council data).
+**Citation [16]:** Wikipedia – "Ashington" (Demographics section)
+https://en.wikipedia.org/wiki/Ashington
+
+**Hercegszántó — 2,431**
+Based on the 2011 Hungarian Census (Központi Statisztikai Hivatal).
+**Citation [17]:** Wikipedia – "Hercegszántó"
+https://en.wikipedia.org/wiki/Hercegsz%C3%A1nt%C3%B3
+
+**Alessandria — 93,980**
+Based on ISTAT (Istituto Nazionale di Statistica) census data, 2021.
+**Citation [18]:** Wikipedia – "Alessandria" (Demographics section)
+https://en.wikipedia.org/wiki/Alessandria
+
+**Munich — 1,512,491**
+Based on the Bayerisches Landesamt für Statistik (Bavarian State Office for Statistics), 2022.
+**Citation [19]:** Wikipedia – "Munich" (Demographics section)
+https://en.wikipedia.org/wiki/Munich

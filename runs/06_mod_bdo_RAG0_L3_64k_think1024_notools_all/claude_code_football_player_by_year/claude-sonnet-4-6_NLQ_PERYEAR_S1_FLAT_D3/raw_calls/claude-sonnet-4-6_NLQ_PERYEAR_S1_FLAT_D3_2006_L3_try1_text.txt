@@ -1,0 +1,135 @@
+S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population
+--- | --- | --- | --- | --- | ---
+1 | 2006 | Zinedine Zidane (France) | Ballon d'Or 1998; UEFA Club Footballer of the Year 1997–98, 2001–02 | Marseille, France | ~870,000
+2 | 2006 | Ronaldo — Ronaldo Luís Nazário de Lima (Brazil) | Ballon d'Or 1997, 2002 | Bento Ribeiro, Rio de Janeiro, Brazil | ~37,000
+3 | 2006 | Ronaldinho — Ronaldo de Assis Moreira (Brazil) | Ballon d'Or 2005; UEFA Club Footballer of the Year 2004–05 | Porto Alegre, Brazil | ~1,484,000
+4 | 2006 | Kaká — Ricardo Izecson dos Santos Leite (Brazil) | Ballon d'Or 2007; UEFA Club Footballer of the Year 2006–07 | Gama, Federal District, Brazil | ~143,000
+5 | 2006 | Fabio Cannavaro (Italy) | Ballon d'Or 2006 | Naples, Italy | ~962,000
+6 | 2006 | Pavel Nedvěd (Czech Republic) | Ballon d'Or 2003; UEFA Club Footballer of the Year 2002–03 | Cheb, Czech Republic | ~32,000
+7 | 2006 | Andriy Shevchenko (Ukraine) | Ballon d'Or 2004; UEFA Club Footballer of the Year 2003–04 | Dvirkivshchyna, Kyiv Oblast, Ukraine | unknown
+8 | 2006 | Luís Figo (Portugal) | Ballon d'Or 2000; UEFA Club Footballer of the Year 1999–00 | Almada, Portugal | ~170,000
+9 | 2006 | Michael Owen (England) | Ballon d'Or 2001 | Chester, England | ~80,000
+10 | 2006 | Cristiano Ronaldo (Portugal) | Ballon d'Or 2008, 2013, 2014, 2016, 2017; UEFA Best Player in Europe 2007–08, 2013–14, 2015–16, 2016–17 | Funchal, Madeira, Portugal | ~111,000
+11 | 2006 | Lionel Messi (Argentina) | Ballon d'Or 2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023; UEFA Best Player in Europe 2010–11, 2014–15, 2018–19 | Rosario, Argentina | ~1,200,000
+
+---
+
+## Steps and Citations in Order of Use
+
+**Step 1 — Confirm the 2006 FIFA World Cup was actually held.**
+
+[1] Wikipedia, "2006 FIFA World Cup" — https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+Confirms the tournament was held in Germany, 9 June – 9 July 2006, and completed in full (Italy won the final over France on penalties). Not cancelled or abandoned.
+
+---
+
+**Step 2 — Obtain the complete list of players named to national-team squads.**
+
+[2] Wikipedia, "2006 FIFA World Cup squads" — https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_squads
+Lists all 32 participating nations and their 23-man squads (736 players total). Used to confirm that each of the 11 qualifying players below was formally named to a national squad:
+- Zidane → France squad
+- Ronaldo (R.L.N.), Ronaldinho, Kaká → Brazil squad
+- Cannavaro → Italy squad
+- Nedvěd → Czech Republic squad
+- Shevchenko → Ukraine squad (Ukraine's first-ever World Cup)
+- Figo → Portugal squad
+- Owen → England squad
+- Cristiano Ronaldo → Portugal squad
+- Messi → Argentina squad (appeared as substitute, scored vs Serbia & Montenegro)
+
+---
+
+**Step 3 — Identify which of those players ever won the Ballon d'Or (men's).**
+
+[3] Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+Full historical winners list (France Football award, men's). Relevant winners among 2006 WC squad players:
+
+| Player | Year(s) won |
+|--------|-------------|
+| Zinedine Zidane | 1998 |
+| Ronaldo (R.L.N.) | 1997, 2002 |
+| Ronaldinho | 2005 |
+| Kaká | 2007 |
+| Fabio Cannavaro | 2006 |
+| Pavel Nedvěd | 2003 |
+| Andriy Shevchenko | 2004 |
+| Luís Figo | 2000 |
+| Michael Owen | 2001 |
+| Cristiano Ronaldo | 2008, 2013, 2014, 2016, 2017 |
+| Lionel Messi | 2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023 |
+
+---
+
+**Step 4 — Identify which of those players ever won the UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year.**
+
+[4] Wikipedia, "UEFA Club Footballer of the Year" — https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year
+[5] Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+The lineage is: UEFA Club Footballer of the Year (1997–98 through ~2010–11) → UEFA Best Player in Europe Award (from 2011 onwards) → now called UEFA Men's Player of the Year. All are the same award for qualification purposes.
+
+Relevant winners among 2006 WC squad players:
+
+| Player | Award name & season |
+|--------|---------------------|
+| Zinedine Zidane | UEFA Club Footballer of the Year 1997–98, 2001–02 |
+| Ronaldinho | UEFA Club Footballer of the Year 2004–05 |
+| Kaká | UEFA Club Footballer of the Year 2006–07 |
+| Pavel Nedvěd | UEFA Club Footballer of the Year 2002–03 |
+| Andriy Shevchenko | UEFA Club Footballer of the Year 2003–04 |
+| Luís Figo | UEFA Club Footballer of the Year 1999–00 |
+| Cristiano Ronaldo | UEFA Best Player in Europe 2007–08, 2013–14, 2015–16, 2016–17 |
+| Lionel Messi | UEFA Best Player in Europe 2010–11, 2014–15, 2018–19 |
+
+Fabio Cannavaro (Ballon d'Or 2006) and Michael Owen (Ballon d'Or 2001) are confirmed as qualifying solely via the Ballon d'Or; I am not sufficiently certain either won the UEFA award to list it.
+
+---
+
+**Step 5 — Confirm birthplace for each qualifying player.**
+
+[6] Wikipedia, "Zinedine Zidane" — https://en.wikipedia.org/wiki/Zinedine_Zidane → born Marseille, France.
+
+[7] Wikipedia, "Ronaldo (Brazilian footballer)" — https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer) → born Bento Ribeiro, a neighbourhood in Rio de Janeiro's North Zone.
+
+[8] Wikipedia, "Ronaldinho" — https://en.wikipedia.org/wiki/Ronaldinho → born Porto Alegre, Rio Grande do Sul, Brazil.
+
+[9] Wikipedia, "Kaká" — https://en.wikipedia.org/wiki/Kak%C3%A1 → born Gama, Federal District (a satellite city of Brasília), Brazil.
+
+[10] Wikipedia, "Fabio Cannavaro" — https://en.wikipedia.org/wiki/Fabio_Cannavaro → born Naples (Napoli), Campania, Italy.
+
+[11] Wikipedia, "Pavel Nedvěd" — https://en.wikipedia.org/wiki/Pavel_Nedv%C4%9Bd → born Cheb, Bohemia, Czechoslovakia (now Czech Republic).
+
+[12] Wikipedia, "Andriy Shevchenko" — https://en.wikipedia.org/wiki/Andriy_Shevchenko → born Dvirkivshchyna, Kyiv Oblast, Ukrainian SSR (now Ukraine).
+
+[13] Wikipedia, "Luís Figo" — https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo → born Almada, Setúbal District, Portugal.
+
+[14] Wikipedia, "Michael Owen" — https://en.wikipedia.org/wiki/Michael_Owen → born Chester, Cheshire, England.
+
+[15] Wikipedia, "Cristiano Ronaldo" — https://en.wikipedia.org/wiki/Cristiano_Ronaldo → born Funchal, Madeira, Portugal.
+
+[16] Wikipedia, "Lionel Messi" — https://en.wikipedia.org/wiki/Lionel_Messi → born Rosario, Santa Fe, Argentina.
+
+---
+
+**Step 6 — Obtain population of each birthplace.**
+
+[17] Wikipedia, "Marseille" — https://en.wikipedia.org/wiki/Marseille → commune population approximately 870,000 (INSEE 2019 estimate); second-largest city of France.
+
+[18] Wikipedia, "Bento Ribeiro" — https://en.wikipedia.org/wiki/Bento_Ribeiro → neighbourhood of Rio de Janeiro; 2010 IBGE census approximately 37,000.
+
+[19] Wikipedia, "Porto Alegre" — https://en.wikipedia.org/wiki/Porto_Alegre → 2022 IBGE census approximately 1,484,941.
+
+[20] Wikipedia, "Gama, Federal District" — https://en.wikipedia.org/wiki/Gama,_Federal_District → 2022 IBGE estimate approximately 143,988.
+
+[21] Wikipedia, "Naples" — https://en.wikipedia.org/wiki/Naples → comune population approximately 962,000 (ISTAT estimate); population has varied between ~909,000 and ~962,000 in recent years; ~962,000 used here.
+
+[22] Wikipedia, "Cheb" — https://en.wikipedia.org/wiki/Cheb → 2021 Czech census approximately 32,000.
+
+[23] Wikipedia, "Dvirkivshchyna" — https://en.wikipedia.org/wiki/Dvirkivshchyna → very small village, Kyiv Oblast; reliable recent population figure not available in sources I can cite with confidence; recorded as unknown.
+
+[24] Wikipedia, "Almada" — https://en.wikipedia.org/wiki/Almada → municipality population approximately 170,000 (2021 Portuguese census).
+
+[25] Wikipedia, "Chester" — https://en.wikipedia.org/wiki/Chester → urban area approximately 80,000–83,000 (2021 UK census).
+
+[26] Wikipedia, "Funchal" — https://en.wikipedia.org/wiki/Funchal → municipality population approximately 111,000 (2021 Portuguese census).
+
+[27] Wikipedia, "Rosario, Santa Fe" — https://en.wikipedia.org/wiki/Rosario,_Santa_Fe → urban agglomeration approximately 1,200,000 (2022 Argentinian census estimate); city-proper figure approximately 1,066,000–1,081,000.

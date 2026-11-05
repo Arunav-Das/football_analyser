@@ -1,0 +1,88 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1990	Ruud Gullit	Ballon d'Or 1987	Amsterdam, Netherlands	921,402
+2	1990	Marco van Basten	Ballon d'Or 1988; Ballon d'Or 1989; Ballon d'Or 1992	Utrecht, Netherlands	374,245
+3	1990	Lothar Matthäus	Ballon d'Or 1990	Erlangen, Germany	113,758
+4	1990	Roberto Baggio	Ballon d'Or 1993	Caldogno, Italy	11,541
+5	1990	Hristo Stoichkov	Ballon d'Or 1994	Plovdiv, Bulgaria	343,424
+
+---
+
+## Citations — in order of use
+
+**Step 1 — Confirm the 1990 FIFA World Cup was actually held**
+
+[1] Wikipedia, "1990 FIFA World Cup"
+https://en.wikipedia.org/wiki/1990_FIFA_World_Cup
+Used to confirm the tournament was held in Italy, 8 June – 8 July 1990, and was not cancelled or abandoned. Twenty-four nations participated.
+
+---
+
+**Step 2 — Obtain the full list of players named to national-team squads**
+
+[2] Wikipedia, "1990 FIFA World Cup squads"
+https://en.wikipedia.org/wiki/1990_FIFA_World_Cup_squads
+Used for the complete 24-squad, 528-player list (22 players per squad). This confirms, among others:
+- Ruud Gullit and Marco van Basten were named in the **Netherlands** squad (Group F).
+- Lothar Matthäus was named in the **West Germany** squad (Group D).
+- Roberto Baggio was named in the **Italy** squad (Group A, host nation).
+- Hristo Stoichkov was named in the **Bulgaria** squad (Group D).
+
+---
+
+**Step 3 — Identify which of those players ever won the Ballon d'Or or UEFA Men's Player of the Year (any name)**
+
+[3] Wikipedia, "Ballon d'Or"
+https://en.wikipedia.org/wiki/Ballon_d%27Or
+Used to confirm the full historical list of Ballon d'Or winners. Key findings:
+
+| Player | Year(s) won |
+|---|---|
+| Ruud Gullit | 1987 |
+| Marco van Basten | 1988, 1989, 1992 |
+| Lothar Matthäus | 1990 |
+| Roberto Baggio | 1993 |
+| Hristo Stoichkov | 1994 |
+
+Note: The France Football Ballon d'Or was restricted to European footballers until the 1995 edition; this did not affect the five players above. Diego Maradona (Argentina, 1990 squad) never won the France Football Ballon d'Or. The 1986 Ballon d'Or winner Igor Belanov (USSR) was left out because squad-inclusion for the USSR 1990 squad cannot be confirmed with sufficient certainty from memory.
+
+[4] Wikipedia, "UEFA Men's Player of the Year Award"
+https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+Used to confirm the UEFA Club Footballer of the Year / UEFA Best Player in Europe / UEFA Men's Player of the Year award history (first awarded for the 1997–98 season, i.e. 1998). None of the winners of that award (Zidane 1998, Rivaldo 1999, Figo 2000, Raúl 2001, Ronaldo R9 2002, Nedvěd 2003, Shevchenko 2004, Ronaldinho 2005, Cannavaro 2006, Kaká 2007, C. Ronaldo 2008 onward, Messi, etc.) were confirmed as being named in any squad at the 1990 World Cup, as they were either too young or their nations did not qualify. No additional qualifying players arise from this award.
+
+---
+
+**Step 4 — Confirm birthplaces of the five qualifying players**
+
+[5] Wikipedia, "Ruud Gullit" — https://en.wikipedia.org/wiki/Ruud_Gullit
+Born 1 September 1962, **Amsterdam**, Netherlands.
+
+[6] Wikipedia, "Marco van Basten" — https://en.wikipedia.org/wiki/Marco_van_Basten
+Born 31 October 1964, **Utrecht**, Netherlands.
+
+[7] Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us
+Born 21 March 1961, **Erlangen**, Bavaria, West Germany.
+
+[8] Wikipedia, "Roberto Baggio" — https://en.wikipedia.org/wiki/Roberto_Baggio
+Born 18 February 1967, **Caldogno**, Province of Vicenza, Italy.
+
+[9] Wikipedia, "Hristo Stoichkov" — https://en.wikipedia.org/wiki/Hristo_Stoichkov
+Born 8 February 1966, **Plovdiv**, Bulgaria.
+
+---
+
+**Step 5 — Confirm population of each birthplace**
+
+[10] Amsterdam municipality population: CBS / Statistics Netherlands (Centraal Bureau voor de Statistiek), "Kerncijfers wijken en buurten 2023"; also Wikipedia "Amsterdam" — https://en.wikipedia.org/wiki/Amsterdam
+Municipality (city proper) population: **921,402** (2023 estimate).
+
+[11] Utrecht municipality population: CBS / Statistics Netherlands; also Wikipedia "Utrecht" — https://en.wikipedia.org/wiki/Utrecht
+Municipality population: **374,245** (2023 estimate).
+
+[12] Erlangen city population: Bayerisches Landesamt für Statistik / Wikipedia "Erlangen" — https://en.wikipedia.org/wiki/Erlangen
+City population: **113,758** (2022 official figure).
+
+[13] Caldogno comune population: ISTAT (Istituto Nazionale di Statistica) / Wikipedia "Caldogno" — https://en.wikipedia.org/wiki/Caldogno
+Comune population: **11,541** (2021 ISTAT census).
+
+[14] Plovdiv city population: National Statistical Institute of Bulgaria, 2021 census; also Wikipedia "Plovdiv" — https://en.wikipedia.org/wiki/Plovdiv
+City proper population: **343,424** (2021 census).

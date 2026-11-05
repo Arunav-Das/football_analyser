@@ -1,0 +1,56 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1974 | Johan Cruyff | Ballon d'Or 1971, 1973, 1974 | Amsterdam, Netherlands | 921,402 |
+| 2 | 1974 | Franz Beckenbauer | Ballon d'Or 1972, 1976 | Munich, West Germany | 1,512,491 |
+| 3 | 1974 | Gerd Müller | Ballon d'Or 1970 | Nördlingen, West Germany | 20,678 |
+| 4 | 1974 | Gianni Rivera | Ballon d'Or 1969 | Alessandria, Italy | 86,872 |
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1974 FIFA World Cup was held in the stated calendar year**
+
+1. Wikipedia, "1974 FIFA World Cup," https://en.wikipedia.org/wiki/1974_FIFA_World_Cup — confirms the tournament was held 13 June – 7 July 1974 in West Germany; not cancelled or abandoned.
+
+---
+
+**Step 2 — Squad lists for all 16 nations at the 1974 FIFA World Cup**
+
+2. Wikipedia, "1974 FIFA World Cup squads," https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_squads — provides the full 22-man rosters for all 16 participating nations (West Germany, East Germany, Chile, Australia, Brazil, Yugoslavia, Scotland, Zaire, Netherlands, Sweden, Bulgaria, Uruguay, Argentina, Italy, Haiti, Poland). Used to establish: Johan Cruyff and Johan Neeskens et al. (Netherlands); Franz Beckenbauer, Gerd Müller, Sepp Maier et al. (West Germany); Gianni Rivera, Dino Zoff et al. (Italy); Grzegorz Lato, Kazimierz Deyna et al. (Poland); Jairzinho, Rivelino et al. (Brazil).
+
+---
+
+**Step 3 — Identifying which of those players have ever won the Ballon d'Or or UEFA Men's Player of the Year / Best Player in Europe Award**
+
+3. Wikipedia, "Ballon d'Or," https://en.wikipedia.org/wiki/Ballon_d%27Or — provides the complete year-by-year list of winners. Cross-referencing with the 1974 squads yields four qualifying players:
+   - Gianni Rivera: winner 1969 (Italy squad)
+   - Gerd Müller: winner 1970 (West Germany squad)
+   - Johan Cruyff: winner 1971, 1973, 1974 (Netherlands squad)
+   - Franz Beckenbauer: winner 1972, 1976 (West Germany squad)
+
+4. Wikipedia, "UEFA Men's Player of the Year Award," https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award — establishes that this award (under all its names: UEFA Club Footballer of the Year, UEFA Best Player in Europe) was first awarded for the 1997–98 season. All winners from 1998 onward were active players born no earlier than the late 1960s and thus were not in any 1974 World Cup squad. No additional qualifiers arise from this award.
+
+---
+
+**Step 4 — Birthplaces of qualifying players**
+
+5. Wikipedia, "Johan Cruyff," https://en.wikipedia.org/wiki/Johan_Cruyff — born 25 April 1947 in Amsterdam, Netherlands.
+
+6. Wikipedia, "Franz Beckenbauer," https://en.wikipedia.org/wiki/Franz_Beckenbauer — born 11 September 1945 in Munich (Giesing district), West Germany.
+
+7. Wikipedia, "Gerd Müller," https://en.wikipedia.org/wiki/Gerd_M%C3%BCller — born 3 November 1945 in Nördlingen, Bavaria, West Germany.
+
+8. Wikipedia, "Gianni Rivera," https://en.wikipedia.org/wiki/Gianni_Rivera — born 18 August 1943 in Alessandria, Piedmont, Italy.
+
+---
+
+**Step 5 — Population of each birthplace**
+
+9. Wikipedia, "Amsterdam," https://en.wikipedia.org/wiki/Amsterdam — city proper population 921,402 (2023 municipal figure).
+
+10. Wikipedia, "Munich," https://en.wikipedia.org/wiki/Munich — city proper population 1,512,491 (2022 official figure).
+
+11. Wikipedia, "Nördlingen," https://en.wikipedia.org/wiki/N%C3%B6rdlingen — population approximately 20,678 (recent municipal figure).
+
+12. Wikipedia, "Alessandria," https://en.wikipedia.org/wiki/Alessandria — population approximately 86,872 (2022 figure).

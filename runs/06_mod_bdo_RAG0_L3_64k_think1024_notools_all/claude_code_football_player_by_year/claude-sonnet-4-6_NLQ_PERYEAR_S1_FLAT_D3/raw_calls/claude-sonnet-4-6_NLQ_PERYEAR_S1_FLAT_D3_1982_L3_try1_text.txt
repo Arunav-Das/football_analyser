@@ -1,0 +1,85 @@
+S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population
+-----|---------------|--------------|------------|------------|----------
+1 | 1982 | Oleg Blokhin | Ballon d'Or 1975 | Kyiv, Ukrainian SSR (now Ukraine) | ~2,952,000
+2 | 1982 | Kevin Keegan | Ballon d'Or 1978; Ballon d'Or 1979 | Armthorpe, South Yorkshire, England | ~21,000
+3 | 1982 | Karl-Heinz Rummenigge | Ballon d'Or 1980; Ballon d'Or 1981 | Lippstadt, North Rhine-Westphalia, Germany | ~67,000
+4 | 1982 | Paolo Rossi | Ballon d'Or 1982 | Prato, Tuscany, Italy | ~194,000
+5 | 1982 | Michel Platini | Ballon d'Or 1983; Ballon d'Or 1984; Ballon d'Or 1985 | Jœuf, Meurthe-et-Moselle, France | ~7,100
+6 | 1982 | Lothar Matthäus | Ballon d'Or 1990 | Erlangen, Bavaria, Germany | ~113,000
+
+---
+
+## Steps and Citations (in order of use)
+
+**Step 1 — Confirm the 1982 FIFA World Cup was actually held.**
+
+[1] Wikipedia, "1982 FIFA World Cup," https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+Confirms the tournament was staged in Spain, 13 June – 11 July 1982, involving 24 national teams. The tournament was not cancelled or abandoned.
+
+---
+
+**Step 2 — Obtain the full list of players named to national-team squads for the tournament.**
+
+[2] Wikipedia, "1982 FIFA World Cup squads," https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_squads
+Lists all 24 squads of 22 players each (528 players in total). Used to verify that Blokhin (USSR), Keegan (England), Rummenigge and Matthäus (West Germany), Rossi (Italy), and Platini (France) were all formally named. Key notes:
+- **Oleg Blokhin** (USSR): included; he was 29 and still the USSR's key attacker.
+- **Kevin Keegan** (England): included; played as late substitute in England's final group match v Spain despite a back injury.
+- **Karl-Heinz Rummenigge** (West Germany): included; reached the final.
+- **Paolo Rossi** (Italy): included; won the Golden Boot and Golden Ball.
+- **Michel Platini** (France): included; France finished 4th.
+- **Lothar Matthäus** (West Germany): included; debuted at senior international level in 1980 and was part of the 1982 squad.
+
+No UEFA-award winner (UEFA Club Footballer of the Year first awarded 1998; UEFA Best Player in Europe from 2011) was active early enough to have been in a 1982 squad, so no UEFA-award row appears.
+
+---
+
+**Step 3 — Establish all Ballon d'Or winners and check overlap with the squad list.**
+
+[3] Wikipedia, "Ballon d'Or," https://en.wikipedia.org/wiki/Ballon_d%27Or
+Full historical list of winners consulted. Players confirmed to have won at least one Ballon d'Or AND to have appeared in Step 2's squad list:
+
+| Player | Ballon d'Or year(s) | National team at 1982 WC |
+|---|---|---|
+| Oleg Blokhin | 1975 | USSR |
+| Kevin Keegan | 1978, 1979 | England |
+| Karl-Heinz Rummenigge | 1980, 1981 | West Germany |
+| Paolo Rossi | 1982 | Italy |
+| Michel Platini | 1983, 1984, 1985 | France |
+| Lothar Matthäus | 1990 | West Germany |
+
+Players considered and excluded: Diego Maradona (Argentina, in squad) — never formally awarded a Ballon d'Or (the award was restricted to European-passport players until 1995; the 2020 France Football "retroactive" exercise was not a formal award); Allan Simonsen (1977 winner) — Denmark did not qualify for 1982; Johan Cruyff (1971, 1973, 1974) — Netherlands did not qualify; Zbigniew Boniek (Poland, in squad) — finished 3rd in 1982 voting, did not win; Zico (Brazil, in squad) — never won the Ballon d'Or; Igor Belanov (1986 winner, USSR) — insufficient certainty he was in the 1982 USSR squad, omitted per instructions.
+
+[4] Wikipedia, "UEFA Men's Player of the Year Award," https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+Confirms award history (UEFA Club Footballer of the Year from 1998; renamed UEFA Best Player in Europe Award in 2011). All winners from 1998 onward were born after ~1972 and therefore could not have been named to any 1982 World Cup squad. No additional qualifiers.
+
+---
+
+**Step 4 — Confirm birthplaces for each qualifying player.**
+
+[5] Wikipedia, "Oleg Blokhin," https://en.wikipedia.org/wiki/Oleg_Blokhin — born Kyiv, Ukrainian SSR.
+
+[6] Wikipedia, "Kevin Keegan," https://en.wikipedia.org/wiki/Kevin_Keegan — born Armthorpe, Doncaster, Yorkshire, England.
+
+[7] Wikipedia, "Karl-Heinz Rummenigge," https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge — born Lippstadt, North Rhine-Westphalia, West Germany.
+
+[8] Wikipedia, "Paolo Rossi," https://en.wikipedia.org/wiki/Paolo_Rossi_(footballer) — born Prato, Tuscany, Italy.
+
+[9] Wikipedia, "Michel Platini," https://en.wikipedia.org/wiki/Michel_Platini — born Jœuf, Meurthe-et-Moselle, France.
+
+[10] Wikipedia, "Lothar Matthäus," https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us — born Erlangen, Bavaria, West Germany.
+
+---
+
+**Step 5 — Obtain population figures for each birthplace.**
+
+[11] Wikipedia, "Kyiv," https://en.wikipedia.org/wiki/Kyiv — population approximately 2,952,000 (2021 official estimate; the figure has fluctuated since 2022 due to the war).
+
+[12] Wikipedia, "Armthorpe," https://en.wikipedia.org/wiki/Armthorpe — population approximately 21,000 (2021 UK Census).
+
+[13] Wikipedia, "Lippstadt," https://en.wikipedia.org/wiki/Lippstadt — population approximately 67,000 (recent municipal statistic).
+
+[14] Wikipedia, "Prato," https://en.wikipedia.org/wiki/Prato — population approximately 194,000 (2022 municipality figure).
+
+[15] Wikipedia, "Jœuf," https://en.wikipedia.org/wiki/J%C5%93uf — population approximately 7,100 (2019 INSEE census).
+
+[16] Wikipedia, "Erlangen," https://en.wikipedia.org/wiki/Erlangen — population approximately 113,000 (2022 Bavarian statistics).

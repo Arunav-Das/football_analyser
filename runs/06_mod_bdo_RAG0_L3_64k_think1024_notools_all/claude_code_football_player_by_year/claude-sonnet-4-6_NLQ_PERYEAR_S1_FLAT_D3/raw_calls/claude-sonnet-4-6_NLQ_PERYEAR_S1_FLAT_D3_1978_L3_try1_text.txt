@@ -1,0 +1,70 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1978	Karl-Heinz Rummenigge	Ballon d'Or 1980, Ballon d'Or 1981	Lippstadt, Germany	~67,000
+2	1978	Paolo Rossi	Ballon d'Or 1982	Prato, Italy	~192,000
+3	1978	Michel Platini	Ballon d'Or 1983, Ballon d'Or 1984, Ballon d'Or 1985	Jœuf, France	~6,500
+
+---
+
+**Step-by-step reasoning and citations in order of use:**
+
+**Step 1 — Confirm the 1978 FIFA World Cup was held**
+The 1978 FIFA World Cup was held in Argentina from 1 June to 25 June 1978. Sixteen nations competed; Argentina defeated the Netherlands 3–1 (a.e.t.) in the final.
+[1] Wikipedia, "1978 FIFA World Cup," https://en.wikipedia.org/wiki/1978_FIFA_World_Cup
+
+**Step 2 — Obtain the full list of players named to national-team squads**
+Each of the 16 participating nations submitted a 22-man squad, giving 352 players in total. The teams were: Argentina, Austria, Brazil, France, Hungary, Iran, Italy, Mexico, Netherlands, Peru, Poland, Scotland, Spain, Sweden, Tunisia, West Germany.
+[2] Wikipedia, "1978 FIFA World Cup squads," https://en.wikipedia.org/wiki/1978_FIFA_World_Cup_squads
+
+**Step 3 — Identify all Ballon d'Or winners and cross-reference with squad lists**
+Using the complete historical list of Ballon d'Or winners, I checked every winner against every squad:
+[3] Wikipedia, "Ballon d'Or," https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+Key eliminations:
+- Johan Cruyff (Ballon d'Or 1971, 1973, 1974): famously did **not** travel to Argentina; excluded from the Netherlands squad.
+- Franz Beckenbauer (Ballon d'Or 1972, 1976): had moved to New York Cosmos in June 1977; his last international cap was in 1977, and he was **not** named to the 1978 West Germany squad.
+- Oleg Blokhin (1975), Allan Simonsen (1977), Kevin Keegan (1978, 1979): their nations (USSR, Denmark, England) **did not qualify** for the 1978 tournament.
+- Ruud Gullit (1987), Marco van Basten (1988, 1989, 1992): born 1962 and 1964 respectively — far too young to be in any 1978 squad.
+- All subsequent Ballon d'Or winners (Matthäus 1990, Papin 1991, Baggio 1993, etc.) were either born too late or their nations did not qualify.
+
+**UEFA Club Footballer of the Year / UEFA Best Player in Europe / UEFA Men's Player of the Year**: these awards began in 1997–98, 2010–11, and 2021 respectively. Any player who was squad-eligible in 1978 would have been aged 38+ by the first UEFA award year; none won any of these awards.
+
+**Three qualifying players identified:**
+
+---
+
+**Step 4 — Confirm Karl-Heinz Rummenigge was in the 1978 West Germany squad**
+Rummenigge (born 25 September 1955) was an established Bayern Munich forward and was included in West Germany's 1978 World Cup squad, making appearances in the tournament. He later won the Ballon d'Or in 1980 and 1981.
+[2] (same as above — squad confirmation)
+[3] (same as above — Ballon d'Or confirmation)
+
+**Rummenigge's birthplace:** Lippstadt, North Rhine-Westphalia, Germany
+[4] Wikipedia, "Karl-Heinz Rummenigge," https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge
+
+**Population of Lippstadt:** approximately 67,000
+[5] Wikipedia, "Lippstadt," https://en.wikipedia.org/wiki/Lippstadt
+
+---
+
+**Step 5 — Confirm Paolo Rossi was in the 1978 Italy squad**
+Rossi (born 23 September 1956) was a rising striker on loan to Vicenza and was selected for Italy's 1978 squad. Italy finished fourth. Rossi won the Ballon d'Or in 1982.
+[2] (squad confirmation)
+[3] (Ballon d'Or confirmation)
+
+**Rossi's birthplace:** Prato, Tuscany, Italy
+[6] Wikipedia, "Paolo Rossi," https://en.wikipedia.org/wiki/Paolo_Rossi
+
+**Population of Prato:** approximately 192,000
+[7] Wikipedia, "Prato," https://en.wikipedia.org/wiki/Prato
+
+---
+
+**Step 6 — Confirm Michel Platini was in the 1978 France squad**
+Platini (born 21 June 1955) was selected for France's 1978 World Cup squad (France were eliminated in the group stage). He subsequently won the Ballon d'Or in 1983, 1984, and 1985.
+[2] (squad confirmation)
+[3] (Ballon d'Or confirmation)
+
+**Platini's birthplace:** Jœuf, Meurthe-et-Moselle, France
+[8] Wikipedia, "Michel Platini," https://en.wikipedia.org/wiki/Michel_Platini
+
+**Population of Jœuf:** approximately 6,500 (the town, formerly a steel-industry centre, has declined significantly from a mid-20th-century peak of ~15,000)
+[9] Wikipedia, "Jœuf," https://en.wikipedia.org/wiki/Jo%C3%ABuf

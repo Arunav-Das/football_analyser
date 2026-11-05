@@ -1,0 +1,99 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1994	Lothar Matthäus	Ballon d'Or 1990	Erlangen, Germany	~113,000
+2	1994	Roberto Baggio	Ballon d'Or 1993	Caldogno, Italy	~11,500
+3	1994	Hristo Stoichkov	Ballon d'Or 1994	Plovdiv, Bulgaria	~345,000
+4	1994	Matthias Sammer	Ballon d'Or 1996	Dresden, Germany	~554,000
+5	1994	Ronaldo (R9)	Ballon d'Or 1997; Ballon d'Or 2002; UEFA Club Footballer of the Year 2002	Bento Ribeiro, Rio de Janeiro, Brazil	~6,200,000
+
+---
+
+## Steps and Citations
+
+**Step 1 — Confirm the 1994 FIFA World Cup was held in the stated calendar year**
+
+The 1994 FIFA World Cup was hosted by the United States, running from 17 June to 17 July 1994, and was not cancelled or abandoned.
+
+> [1] "1994 FIFA World Cup" — Wikipedia: https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+
+---
+
+**Step 2 — Obtain the list of all players named to national-team squads for the 1994 edition**
+
+All 24 national teams submitted 22-man squads. The full roster listings (including squad numbers, clubs, and dates of birth) are compiled on the squads page.
+
+> [2] "1994 FIFA World Cup squads" — Wikipedia: https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_squads
+
+---
+
+**Step 3 — Identify which of those players ever won the men's Ballon d'Or**
+
+Scanning the Ballon d'Or roll of honour against the squad lists from [2]:
+
+| Ballon d'Or year | Winner | National team at 1994 WC? | In 1994 squad? |
+|---|---|---|---|
+| 1990 | Lothar Matthäus | Germany (reached QF) | Yes — captain |
+| 1993 | Roberto Baggio | Italy (reached final) | Yes — key striker |
+| 1994 | Hristo Stoichkov | Bulgaria (reached SF) | Yes — key striker |
+| 1996 | Matthias Sammer | Germany (reached QF) | Yes — regular starter |
+| 1997 & 2002 | Ronaldo (R9) | Brazil (won tournament) | Yes — 17-year-old squad member; did not play but holds winner's medal |
+
+All other Ballon d'Or winners (e.g. van Basten, Gullit, Papin, Weah, Zidane, Figo, Owen, Nedvěd, Shevchenko, Ronaldinho, Cannavaro, Kaká, Messi, C. Ronaldo) either represented nations that did not qualify for 1994 or were not yet born / too young to be named to a 1994 squad.
+
+Specific notes:
+- **Romário** (Brazil, 1994) won the FIFA World Player of the Year 1994 but did not win the Ballon d'Or (that year's award went to Stoichkov); excluded.
+- **Fabio Cannavaro** (Ballon d'Or 2006) made his Italy debut in January 1997; not in the 1994 squad; excluded.
+- **Rivaldo** (UEFA Club Footballer of the Year 1999) was 22 during the 1994 tournament but was not called up by Brazil; excluded.
+- **Diego Maradona** (Argentina, present for first two 1994 group games before expulsion for doping) never won the standard annual Ballon d'Or; the 1995 "Super Ballon d'Or" was a one-time 40th-anniversary special award, not a regular annual award; excluded accordingly.
+
+> [3] "Ballon d'Or" — Wikipedia: https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+---
+
+**Step 4 — Check UEFA Club Footballer of the Year / UEFA Best Player in Europe Award winners against the 1994 squads**
+
+The UEFA Club Footballer of the Year was first awarded for the 1997–98 season. Scanning all winners:
+
+- **Ronaldo (R9)** won the 2001–02 UEFA Club Footballer of the Year (Real Madrid/Brazil). He was already identified in Step 3; this is an additional qualifying award.
+- No other UEFA award winner (Zidane 1998, Rivaldo 1999, Figo 2000, Raúl 2001, Nedvěd 2003, Shevchenko 2004, Lampard 2005, Cannavaro 2006, Kaká 2007, C. Ronaldo 2008 onward, Messi, Modrić, van Dijk, Neuer, Jorginho, Benzema, Haaland, Rodri, etc.) was present in a 1994 World Cup squad.
+
+> [4] "UEFA Club Footballer of the Year" — Wikipedia: https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year
+
+> [5] "UEFA Men's Player of the Year Award" — Wikipedia: https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+---
+
+**Step 5 — Confirm birthplaces of the five qualifying players**
+
+> [6] "Lothar Matthäus" — Wikipedia: https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us
+> (Birthplace confirmed: Erlangen, Bavaria, West Germany)
+
+> [7] "Roberto Baggio" — Wikipedia: https://en.wikipedia.org/wiki/Roberto_Baggio
+> (Birthplace confirmed: Caldogno, Veneto, Italy)
+
+> [8] "Hristo Stoichkov" — Wikipedia: https://en.wikipedia.org/wiki/Hristo_Stoichkov
+> (Birthplace confirmed: Plovdiv, Bulgaria)
+
+> [9] "Matthias Sammer" — Wikipedia: https://en.wikipedia.org/wiki/Matthias_Sammer
+> (Birthplace confirmed: Dresden, East Germany — now Dresden, Saxony, Germany)
+
+> [10] "Ronaldo (Brazilian footballer)" — Wikipedia: https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)
+> (Birthplace confirmed: Bento Ribeiro, a neighbourhood in the North Zone of Rio de Janeiro city, Rio de Janeiro, Brazil)
+
+---
+
+**Step 6 — Obtain population figures for each birthplace**
+
+> [11] "Erlangen" — Wikipedia: https://en.wikipedia.org/wiki/Erlangen
+> Population: ~113,000 (city proper, circa 2020 Bavarian statistics)
+
+> [12] "Caldogno" — Wikipedia: https://en.wikipedia.org/wiki/Caldogno
+> Population: ~11,500 (comune population, ISTAT data)
+
+> [13] "Plovdiv" — Wikipedia: https://en.wikipedia.org/wiki/Plovdiv
+> Population: ~345,000 (city proper, 2021 Bulgarian census ~344,326)
+
+> [14] "Dresden" — Wikipedia: https://en.wikipedia.org/wiki/Dresden
+> Population: ~554,000 (city proper, circa 2022 Saxony statistics)
+
+> [15] "Rio de Janeiro" — Wikipedia: https://en.wikipedia.org/wiki/Rio_de_Janeiro
+> Population: ~6,200,000 (city/município proper, 2022 Brazilian Census). Bento Ribeiro is a neighbourhood within Rio de Janeiro city; the city-level figure is used as the settlement-level population since Bento Ribeiro does not constitute an independent municipality.

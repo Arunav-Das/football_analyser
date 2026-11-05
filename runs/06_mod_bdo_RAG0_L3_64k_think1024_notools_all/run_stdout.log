@@ -1,0 +1,207 @@
+2026-11-05 01:31:43,146 - INFO - === run started: football_analyzer_inf_mod.py --model claude-sonnet-4-6 --per_year --strategy S1 --directive_level 3 --max_new_tokens 64000 --timeout 1800 --no-resume --rag_tier RAG0 --max_thinking_tokens 1024 --no_tool_directive (script version 2026-11-04.8-claude-code) ===
+========================================================================
+FOOTBALL PLAYER ANALYSER - CLAUDE CODE   (script version 2026-11-04.8-claude-code)
+========================================================================
+  Mode             : PER-YEAR loop (placeholder replaced by the year)
+  Years (23)     : 1930 1934 1938 1950 1954 1958 1962 1966 1970 1974 1978 1982 1986 1990 1994 1998 2002 2006 2010 2014 2018 2022 2026
+  Models (1) : claude-sonnet-4-6
+  Strategy(ies)    : S1
+  RAG tier(s)      : RAG0
+  System directive : ON via --system-prompt (fallback: prepended to the user turn)
+  Directive level  : 3   escalate_on_decline: False   no_tool_directive: True
+  Tools            : none   max budget/call: None
+  Calls            : 23 (1 cell(s) x 23 years; escalation can add more per declined call)
+  Resume           : OFF (--no-resume)
+  Max new tokens   : 64000 per call; max thinking tokens: 1024; timeout 1800s
+  Output root      : claude_code_football_player_by_year   (log: claude_code_football_player_by_year/run.log; raw events: <cell dir>/raw_calls)
+========================================================================
+
+########################################################################
+  MODEL [1/1] claude-sonnet-4-6
+########################################################################
+2026-11-05 01:31:43,146 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=64000  max_thinking_tokens=1024  directive=ON (level 3)  no_tool_directive=True  tools=none  max_turns=1  max_budget_usd=None  mode=per_year
+2026-11-05 01:31:43,146 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 01:31:46,534 - INFO - Validation OK - response: 'OK'
+
+------------------------------------------------------------------------
+  claude-sonnet-4-6 | S1 (flat_conjunctive) | RAG0 (no_evidence)
+------------------------------------------------------------------------
+2026-11-05 01:31:46,534 - INFO - No existing results file found. Starting fresh.
+2026-11-05 01:31:46,534 - INFO - Per-year run  strategy=S1  rag=RAG0  model=claude-sonnet-4-6  directive=level 3  escalate=False  years to run: 23 of 23 (0 already done)
+2026-11-05 01:32:12,047 - INFO -   [1930] OK 25.5s status=ok label=NO QUALIFYING PLAYER rows=0 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1454.0 text_chars=3243 thinking_chars=0 cost_usd=0.032556
+2026-11-05 01:32:36,068 - INFO -   [1934] OK 24.0s status=ok label=NO QUALIFYING PLAYER rows=0 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1422.0 text_chars=3129 thinking_chars=0 cost_usd=0.032082
+2026-11-05 01:33:08,432 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1938] streaming 32s: text=1874 chars  thinking=0 chars
+2026-11-05 01:33:08,720 - INFO -   [1938] OK 32.6s status=ok label=NO QUALIFYING PLAYER rows=0 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1797.0 text_chars=1874 thinking_chars=0 cost_usd=0.037701
+2026-11-05 01:33:39,140 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1950] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-05 01:34:07,006 - INFO -   [1950] OK 58.3s status=ok label=ROWS rows=1 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=3394.0 text_chars=3477 thinking_chars=0 cost_usd=0.061661999999999995
+2026-11-05 01:34:37,071 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1954] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-05 01:35:08,071 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1954] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 01:35:40,605 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1954] streaming 94s: text=5203 chars  thinking=0 chars
+2026-11-05 01:35:41,096 - INFO -   [1954] OK 94.1s status=ok label=ROWS rows=2 off_year=10 self_excluded=0 contradiction=False level=3 attempts=1 tokens=6752.0 text_chars=5203 thinking_chars=0 cost_usd=0.11202000000000001
+2026-11-05 01:36:11,853 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1958] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 01:36:42,519 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1958] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 01:37:12,709 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1958] streaming 92s: text=0 chars  thinking=0 chars
+2026-11-05 01:37:42,710 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1958] streaming 122s: text=2042 chars  thinking=0 chars
+2026-11-05 01:37:56,904 - INFO -   [1958] OK 135.8s status=ok label=ROWS rows=5 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=9985.0 text_chars=5340 thinking_chars=0 cost_usd=0.16051500000000002
+2026-11-05 01:38:30,007 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1962] streaming 33s: text=6686 chars  thinking=0 chars
+2026-11-05 01:38:30,299 - INFO -   [1962] OK 33.4s status=ok label=ROWS rows=6 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2234.0 text_chars=6686 thinking_chars=0 cost_usd=0.044274
+2026-11-05 01:39:00,496 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1966] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-05 01:39:30,544 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1966] streaming 60s: text=2343 chars  thinking=0 chars
+2026-11-05 01:39:56,034 - INFO -   [1966] OK 85.7s status=ok label=ROWS rows=7 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=6618.0 text_chars=8532 thinking_chars=0 cost_usd=0.110022
+2026-11-05 01:40:27,442 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1970] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 01:40:57,486 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1970] streaming 61s: text=985 chars  thinking=0 chars
+2026-11-05 01:41:22,845 - INFO -   [1970] OK 86.8s status=ok label=ROWS rows=4 off_year=24 self_excluded=0 contradiction=False level=3 attempts=1 tokens=6916.0 text_chars=6543 thinking_chars=0 cost_usd=0.11451
+2026-11-05 01:41:53,675 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1974] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 01:42:24,055 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1974] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 01:42:46,123 - INFO -   [1974] OK 83.3s status=ok label=ROWS rows=4 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=6004.0 text_chars=3666 thinking_chars=0 cost_usd=0.100824
+2026-11-05 01:43:16,895 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1978] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 01:43:47,467 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1978] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 01:44:18,657 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1978] streaming 93s: text=0 chars  thinking=0 chars
+2026-11-05 01:44:48,704 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1978] streaming 123s: text=2530 chars  thinking=0 chars
+2026-11-05 01:44:58,436 - INFO -   [1978] OK 132.3s status=ok label=ROWS rows=3 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=10248.0 text_chars=4325 thinking_chars=0 cost_usd=0.164466
+2026-11-05 01:45:29,483 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1982] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 01:46:00,196 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1982] streaming 62s: text=0 chars  thinking=0 chars
+2026-11-05 01:46:30,246 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1982] streaming 92s: text=1540 chars  thinking=0 chars
+2026-11-05 01:46:50,197 - INFO -   [1982] OK 111.8s status=ok label=ROWS rows=6 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=8817.0 text_chars=5606 thinking_chars=0 cost_usd=0.14300700000000002
+2026-11-05 01:47:20,820 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1986] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 01:47:51,532 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1986] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 01:48:21,959 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1986] streaming 92s: text=0 chars  thinking=0 chars
+2026-11-05 01:48:52,199 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1986] streaming 122s: text=0 chars  thinking=0 chars
+2026-11-05 01:49:23,240 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1986] streaming 153s: text=5152 chars  thinking=0 chars
+2026-11-05 01:49:23,747 - INFO -   [1986] OK 153.5s status=ok label=ROWS rows=4 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=11214.0 text_chars=5152 thinking_chars=0 cost_usd=0.178938
+2026-11-05 01:49:54,047 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1990] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-05 01:50:24,905 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1990] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 01:50:56,095 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1990] streaming 92s: text=0 chars  thinking=0 chars
+2026-11-05 01:51:27,285 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1990] streaming 124s: text=0 chars  thinking=0 chars
+2026-11-05 01:51:55,355 - INFO -   [1990] OK 151.6s status=ok label=ROWS rows=5 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=11027.0 text_chars=4742 thinking_chars=0 cost_usd=0.176139
+2026-11-05 01:52:26,328 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1994] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 01:52:57,090 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1994] streaming 62s: text=0 chars  thinking=0 chars
+2026-11-05 01:53:28,041 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1994] streaming 93s: text=0 chars  thinking=0 chars
+2026-11-05 01:53:58,661 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1994] streaming 123s: text=0 chars  thinking=0 chars
+2026-11-05 01:54:29,470 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1994] streaming 154s: text=0 chars  thinking=0 chars
+2026-11-05 01:54:59,516 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1994] streaming 184s: text=649 chars  thinking=0 chars
+2026-11-05 01:55:27,471 - INFO -   [1994] OK 212.1s status=ok label=ROWS rows=5 off_year=3 self_excluded=0 contradiction=False level=3 attempts=1 tokens=15707.0 text_chars=5632 thinking_chars=0 cost_usd=0.24632099999999998
+2026-11-05 01:55:57,927 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-05 01:56:28,356 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 01:56:59,308 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 92s: text=0 chars  thinking=0 chars
+2026-11-05 01:57:29,783 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 122s: text=0 chars  thinking=0 chars
+2026-11-05 01:58:00,688 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 153s: text=0 chars  thinking=0 chars
+2026-11-05 01:58:31,497 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 184s: text=0 chars  thinking=0 chars
+2026-11-05 01:59:02,068 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 215s: text=0 chars  thinking=0 chars
+2026-11-05 01:59:32,496 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 245s: text=0 chars  thinking=0 chars
+2026-11-05 02:00:03,072 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 276s: text=0 chars  thinking=0 chars
+2026-11-05 02:00:33,114 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 306s: text=146 chars  thinking=0 chars
+2026-11-05 02:01:03,161 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 336s: text=6815 chars  thinking=0 chars
+2026-11-05 02:01:11,239 - INFO -   [1998] OK 343.8s status=ok label=ROWS rows=8 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=25054.0 text_chars=7982 thinking_chars=0 cost_usd=0.38656799999999997
+2026-11-05 02:01:42,189 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 02:02:13,046 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 62s: text=0 chars  thinking=0 chars
+2026-11-05 02:02:43,808 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 93s: text=0 chars  thinking=0 chars
+2026-11-05 02:03:14,331 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 123s: text=0 chars  thinking=0 chars
+2026-11-05 02:03:45,426 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 154s: text=0 chars  thinking=0 chars
+2026-11-05 02:04:15,664 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 184s: text=0 chars  thinking=0 chars
+2026-11-05 02:04:46,376 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 215s: text=0 chars  thinking=0 chars
+2026-11-05 02:05:16,709 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 245s: text=0 chars  thinking=0 chars
+2026-11-05 02:05:47,138 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 276s: text=0 chars  thinking=0 chars
+2026-11-05 02:06:17,566 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 306s: text=0 chars  thinking=0 chars
+2026-11-05 02:06:48,233 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 337s: text=0 chars  thinking=0 chars
+2026-11-05 02:07:18,280 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 367s: text=4060 chars  thinking=0 chars
+2026-11-05 02:07:26,320 - INFO -   [2002] OK 375.1s status=ok label=ROWS rows=8 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=28156.0 text_chars=5988 thinking_chars=0 cost_usd=0.433092
+2026-11-05 02:07:57,110 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 02:08:27,773 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 02:08:58,061 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 92s: text=0 chars  thinking=0 chars
+2026-11-05 02:09:28,154 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 122s: text=0 chars  thinking=0 chars
+2026-11-05 02:09:59,820 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 153s: text=0 chars  thinking=0 chars
+2026-11-05 02:10:30,676 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 184s: text=0 chars  thinking=0 chars
+2026-11-05 02:11:01,295 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 215s: text=0 chars  thinking=0 chars
+2026-11-05 02:11:32,104 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 246s: text=0 chars  thinking=0 chars
+2026-11-05 02:12:03,247 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 277s: text=0 chars  thinking=0 chars
+2026-11-05 02:12:33,532 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 307s: text=0 chars  thinking=0 chars
+2026-11-05 02:13:04,247 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 338s: text=0 chars  thinking=0 chars
+2026-11-05 02:13:34,294 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 368s: text=0 chars  thinking=0 chars
+2026-11-05 02:14:04,340 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 398s: text=430 chars  thinking=0 chars
+2026-11-05 02:14:35,434 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 429s: text=8164 chars  thinking=0 chars
+2026-11-05 02:14:35,956 - INFO -   [2006] OK 429.6s status=ok label=ROWS rows=11 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=33339.0 text_chars=8164 thinking_chars=0 cost_usd=0.5108309999999999
+2026-11-05 02:15:06,634 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 02:15:37,442 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 02:16:08,536 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 93s: text=0 chars  thinking=0 chars
+2026-11-05 02:16:39,299 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 123s: text=0 chars  thinking=0 chars
+2026-11-05 02:17:09,440 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 153s: text=0 chars  thinking=0 chars
+2026-11-05 02:17:39,534 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 184s: text=0 chars  thinking=0 chars
+2026-11-05 02:18:09,771 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 214s: text=0 chars  thinking=0 chars
+2026-11-05 02:18:40,151 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 244s: text=0 chars  thinking=0 chars
+2026-11-05 02:19:10,675 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 275s: text=0 chars  thinking=0 chars
+2026-11-05 02:19:41,341 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 305s: text=0 chars  thinking=0 chars
+2026-11-05 02:20:12,626 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 337s: text=0 chars  thinking=0 chars
+2026-11-05 02:20:42,673 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2010] streaming 367s: text=1717 chars  thinking=0 chars
+2026-11-05 02:21:09,599 - INFO -   [2010] OK 393.6s status=ok label=ROWS rows=9 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=28665.0 text_chars=8124 thinking_chars=0 cost_usd=0.44075099999999995
+2026-11-05 02:21:40,402 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2014] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 02:22:10,636 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2014] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 02:22:40,826 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2014] streaming 91s: text=0 chars  thinking=0 chars
+2026-11-05 02:23:11,825 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2014] streaming 122s: text=0 chars  thinking=0 chars
+2026-11-05 02:23:41,924 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2014] streaming 152s: text=0 chars  thinking=0 chars
+2026-11-05 02:24:12,920 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2014] streaming 183s: text=0 chars  thinking=0 chars
+2026-11-05 02:24:42,967 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2014] streaming 213s: text=4801 chars  thinking=0 chars
+2026-11-05 02:24:49,200 - INFO -   [2014] OK 219.6s status=ok label=ROWS rows=5 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=17663.0 text_chars=6010 thinking_chars=0 cost_usd=0.275697
+2026-11-05 02:25:19,614 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2018] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-05 02:25:49,946 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2018] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 02:26:19,946 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2018] streaming 91s: text=0 chars  thinking=0 chars
+2026-11-05 02:26:50,804 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2018] streaming 122s: text=0 chars  thinking=0 chars
+2026-11-05 02:27:21,994 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2018] streaming 153s: text=0 chars  thinking=0 chars
+2026-11-05 02:27:52,040 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2018] streaming 183s: text=0 chars  thinking=0 chars
+2026-11-05 02:28:22,041 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2018] streaming 213s: text=3368 chars  thinking=0 chars
+2026-11-05 02:28:40,003 - INFO -   [2018] OK 230.8s status=ok label=ROWS rows=5 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=17733.0 text_chars=6825 thinking_chars=0 cost_usd=0.27675299999999997
+2026-11-05 02:29:10,343 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 30s: text=0 chars  thinking=0 chars
+2026-11-05 02:29:40,580 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 61s: text=0 chars  thinking=0 chars
+2026-11-05 02:30:11,723 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 92s: text=0 chars  thinking=0 chars
+2026-11-05 02:30:42,104 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 122s: text=0 chars  thinking=0 chars
+2026-11-05 02:31:12,106 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2022] streaming 152s: text=5458 chars  thinking=0 chars
+2026-11-05 02:31:17,414 - INFO -   [2022] OK 157.4s status=ok label=ROWS rows=8 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=11855.0 text_chars=5870 thinking_chars=0 cost_usd=0.18858899999999998
+2026-11-05 02:31:48,462 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 31s: text=0 chars  thinking=0 chars
+2026-11-05 02:32:18,948 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 62s: text=0 chars  thinking=0 chars
+2026-11-05 02:32:49,842 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 92s: text=0 chars  thinking=0 chars
+2026-11-05 02:33:20,652 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 123s: text=0 chars  thinking=0 chars
+2026-11-05 02:33:50,747 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 153s: text=0 chars  thinking=0 chars
+2026-11-05 02:34:21,794 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 184s: text=0 chars  thinking=0 chars
+2026-11-05 02:34:52,984 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 216s: text=0 chars  thinking=0 chars
+2026-11-05 02:35:23,839 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 246s: text=0 chars  thinking=0 chars
+2026-11-05 02:35:53,885 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 276s: text=2375 chars  thinking=0 chars
+2026-11-05 02:36:18,987 - INFO -   [2026] OK 301.6s status=ok label=ROWS rows=3 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=21325.0 text_chars=6434 thinking_chars=0 cost_usd=0.330615
+2026-11-05 02:36:18,992 - INFO - SUMMARY  model=claude-sonnet-4-6  strategy=S1  rag=RAG0  years ok=23/23  output -> claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3.json
+  done: success=23/23 errors=0 time=1:04:32.458264  -> claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3.json
+
+========================================================================
+ALL RUNS COMPLETE
+  Total wall-clock time : 1:04:35.846757
+  Output root           : claude_code_football_player_by_year
+========================================================================
+2026-11-05 02:36:19,006 - INFO - GroundTruthStore: 130/130 rows loaded from 'df_gt_football.csv' spanning 22 editions.
+2026-11-05 02:36:19,282 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 02:36:19,283 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 02:36:19,417 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 02:36:19,418 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 02:36:22,280 - INFO - Analysis written to claude_code_football_player_by_year/analysis (32 plots, report + CSVs)
+====================================================================================================
+FOOTBALL PLAYER ANALYSER (CLAUDE CODE) - ANALYSIS REPORT
+generated 2026-11-05T02:36:22  (script version 2026-11-04.8-claude-code)
+====================================================================================================
+
+1. SCOPE
+  run mode: PER-YEAR (placeholder replaced by the year; one call per year, aggregated per model x strategy x RAG tier)
+  prompt mode: user turn + --system-prompt directive
+  directive levels present: [3]   escalated records: 0  (levels are pooled in the by-model tables below; filter eval_per_record.csv on directive_level to compare them)
+  records=1 (one per model x strategy x RAG tier x level)  models=1  strategies=1  rag_tiers=1  editions seen in answers=20  verbatim-prompt records=0
+  Backend: `claude -p` inside a Claude Code cloud session; temperature / top_p are not controllable; tools disabled; raw events per call are in <cell dir>/raw_calls.
+  Editions are read from the WorldCup_Year column of the returned rows and (single-shot) from the edition headers the model wrote. 'Agreement with consensus' = Jaccard overlap between a record's (edition, player) set and the set returned by >=50% of the usable records (needs >=3). It measures agreement, NOT correctness.
+  Per-year: tokens, latency and URL counts are TOTALS per cell (sum over its years); stall / decline / error / truncation figures are shares of the cell's year calls. Rows labelled with a different year than requested are dropped and counted (off_year_rows).
+  Ground-truth scoring: ON (1 scored records; only editions present in the GT file are scored; editions with no qualifier count every returned row as a false positive; '..._reached' metrics only count editions up to the last one the model declared or returned; false/true 'none' = explicit 'no qualifying player' claims checked against the GT)
+
+2. HEADLINE (all records pooled)
+  mean_rows                   109.0000
+  mean_editions_covered       20.0000
+  mean_editions_declared      23.0000
+  median_last_edition         2026.0000
+  false_none_per_record       0.0000
+  true_none_per_record        3.0000
+  mean_jaccard_to_consensus   n/a
+
+  Full report: claude_code_football_player_by_year/analysis/analysis_report.txt

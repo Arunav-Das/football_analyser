@@ -1,0 +1,110 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1958	Raymond Kopa	Ballon d'Or 1958	Nœux-les-Mines, France	~12,000
+2	1958	Omar Sívori	Ballon d'Or 1961	San Nicolás de los Arroyos, Argentina	~145,000
+3	1958	Josef Masopust	Ballon d'Or 1962	Stříbro, Czech Republic	~7,000
+4	1958	Lev Yashin	Ballon d'Or 1963	Moscow, Russia	~12,500,000
+5	1958	Bobby Charlton	Ballon d'Or 1966	Ashington, England	~27,000
+
+---
+
+## Steps and Citations (in order of use)
+
+**Step 1 — Confirm the 1958 FIFA World Cup was actually held**
+
+The 1958 FIFA World Cup was held in Sweden from 8–29 June 1958. It was not cancelled or abandoned.
+
+> [1] FIFA Official Archive — "1958 FIFA World Cup Sweden™"
+> https://www.fifa.com/tournaments/mens/worldcup/sweden1958
+
+---
+
+**Step 2 — Obtain the full list of players named to national team squads for the 1958 World Cup**
+
+The tournament had 16 participating nations: Brazil, England, France, West Germany, Sweden, Argentina, Czechoslovakia, Yugoslavia, Northern Ireland, USSR, Scotland, Wales, Hungary, Austria, Paraguay, and Mexico. The complete squad lists (23-man rosters per team) are compiled on Wikipedia's dedicated squads article.
+
+> [2] Wikipedia — "1958 FIFA World Cup squads"
+> https://en.wikipedia.org/wiki/1958_FIFA_World_Cup_squads
+
+Using source [2], the following squad-membership facts were confirmed:
+- **Raymond Kopa** was named to France's squad.
+- **Omar Sívori** was named to Argentina's squad (he held Argentine nationality in 1958; Italian citizenship/eligibility came later).
+- **Josef Masopust** was named to Czechoslovakia's squad (Czechoslovakia was in Group 1).
+- **Lev Yashin** was named to the USSR's squad (USSR was in Group 4).
+- **Bobby Charlton** was named to England's squad (England was in Group 4; Charlton had survived the Munich air disaster in February 1958 and was selected for Sweden).
+
+Additionally confirmed as **not** present at the 1958 World Cup for the award winners checked below:
+- Alfredo Di Stéfano (1957, 1959 Ballon d'Or): Spain did not qualify; his Argentine international career had ended in 1947.
+- Stanley Matthews (1956 Ballon d'Or): Last England cap was May 1957; not selected for 1958.
+- Denis Law (1964 Ballon d'Or): Scotland debut was October 1958, **after** the tournament.
+- Eusébio (1965 Ballon d'Or): Portugal did not qualify.
+- Florian Albert (1967 Ballon d'Or): Born 1941; only 16 years old at the time, not in Hungary's squad.
+- George Best (1968 Ballon d'Or): Born 1946; only 11–12 at the time, not in Northern Ireland's squad.
+
+---
+
+**Step 3 — Identify which players from those squads won a Ballon d'Or or UEFA Men's Player of the Year at any point in their career**
+
+The France Football Ballon d'Or has been awarded since 1956 (originally restricted to European players). The UEFA Men's Player of the Year / UEFA Club Footballer of the Year / UEFA Best Player in Europe Award began in 1998; all winners of that award are from a later generation and none appeared at the 1958 World Cup.
+
+> [3] Wikipedia — "Ballon d'Or"
+> https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+> [4] Wikipedia — "UEFA Men's Player of the Year Award"
+> https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+From source [3], the confirmed Ballon d'Or winners who were also in 1958 World Cup squads per source [2]:
+- **Raymond Kopa** — Ballon d'Or 1958
+- **Omar Sívori** — Ballon d'Or 1961
+- **Josef Masopust** — Ballon d'Or 1962
+- **Lev Yashin** — Ballon d'Or 1963
+- **Bobby Charlton** — Ballon d'Or 1966
+
+No qualifying player from the 1958 World Cup squads won a UEFA Men's Player of the Year Award (sources [4]).
+
+---
+
+**Step 4 — Confirm birthplace of each qualifying player**
+
+> [5] Wikipedia — "Raymond Kopa"
+> https://en.wikipedia.org/wiki/Raymond_Kopa
+> Birthplace confirmed: **Nœux-les-Mines**, Pas-de-Calais, France.
+
+> [6] Wikipedia — "Omar Sívori"
+> https://en.wikipedia.org/wiki/Omar_S%C3%ADvori
+> Birthplace confirmed: **San Nicolás de los Arroyos**, Buenos Aires Province, Argentina.
+
+> [7] Wikipedia — "Josef Masopust"
+> https://en.wikipedia.org/wiki/Josef_Masopust
+> Birthplace confirmed: **Stříbro** (formerly Mies), western Bohemia, Czechoslovakia (now Czech Republic).
+
+> [8] Wikipedia — "Lev Yashin"
+> https://en.wikipedia.org/wiki/Lev_Yashin
+> Birthplace confirmed: **Moscow**, Russian SFSR, USSR (now Russia).
+
+> [9] Wikipedia — "Bobby Charlton"
+> https://en.wikipedia.org/wiki/Bobby_Charlton
+> Birthplace confirmed: **Ashington**, Northumberland, England.
+
+---
+
+**Step 5 — Obtain population of each birthplace**
+
+> [10] Wikipedia — "Nœux-les-Mines"
+> https://en.wikipedia.org/wiki/N%C5%93ux-les-Mines
+> Population of Nœux-les-Mines: approximately **12,000** (commune population per recent INSEE census).
+
+> [11] Wikipedia — "San Nicolás de los Arroyos"
+> https://en.wikipedia.org/wiki/San_Nicol%C3%A1s_de_los_Arroyos
+> Population of San Nicolás de los Arroyos: approximately **145,000** (2010 Argentine national census).
+
+> [12] Wikipedia — "Stříbro"
+> https://en.wikipedia.org/wiki/St%C5%99%C3%ADbro
+> Population of Stříbro: approximately **7,000**.
+
+> [13] Wikipedia — "Moscow"
+> https://en.wikipedia.org/wiki/Moscow
+> Population of Moscow: approximately **12,500,000** (city proper, recent estimates).
+
+> [14] Wikipedia — "Ashington"
+> https://en.wikipedia.org/wiki/Ashington
+> Population of Ashington: approximately **27,000**.

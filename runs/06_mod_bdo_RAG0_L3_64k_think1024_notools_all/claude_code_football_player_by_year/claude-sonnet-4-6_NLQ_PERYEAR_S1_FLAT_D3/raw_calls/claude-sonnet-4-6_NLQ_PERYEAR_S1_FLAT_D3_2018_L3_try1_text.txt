@@ -1,0 +1,105 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 2018 | Lionel Messi | Ballon d'Or (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023); UEFA Best Player in Europe Award (2011, 2015) | Rosario, Santa Fe, Argentina | 948,312 (INDEC 2010 census) |
+| 2 | 2018 | Cristiano Ronaldo | Ballon d'Or (2008, 2013, 2014, 2016, 2017); UEFA Best Player in Europe / UEFA Men's Player of the Year (2014, 2016, 2017) | Funchal, Madeira, Portugal | 105,000 (INE Portugal, 2021 census approx.) |
+| 3 | 2018 | Luka Modrić | Ballon d'Or (2018); UEFA Men's Player of the Year (2018) | Zadar, Croatia | 71,471 (Croatian Bureau of Statistics, 2021 census) |
+| 4 | 2018 | Andrés Iniesta | UEFA Best Player in Europe Award (2012) | Fuentealbilla, Albacete, Spain | 2,357 (INE Spain, 2020 municipal register) |
+| 5 | 2018 | Robert Lewandowski | UEFA Men's Player of the Year (2020) | Warsaw, Poland | 1,794,166 (GUS Poland, 2021 estimate) |
+
+---
+
+## Steps and Citations
+
+**Step 1 — Confirming the 2018 FIFA World Cup was held in the stated calendar year**
+
+The 2018 FIFA World Cup was held in Russia from 14 June to 15 July 2018. It was not cancelled or abandoned.
+
+> [1] Wikipedia, "2018 FIFA World Cup" — https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
+
+---
+
+**Step 2 — Obtaining the full list of players named to national team squads for the 2018 World Cup**
+
+All 32 participating nations submitted 23-man squads. Players confirmed as named to squads and relevant to this search include Lionel Messi (Argentina), Cristiano Ronaldo (Portugal), Luka Modrić (Croatia), Andrés Iniesta (Spain), Robert Lewandowski (Poland), Neymar (Brazil), Kylian Mbappé (France), Antoine Griezmann (France), Harry Kane (England), Kevin De Bruyne (Belgium), and hundreds of others.
+
+> [2] Wikipedia, "2018 FIFA World Cup squads" — https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_squads
+
+---
+
+**Step 3 — Identifying which of those players have ever won the Ballon d'Or**
+
+The Ballon d'Or is awarded annually (with a gap in 2020 due to COVID-19). Winners relevant to players who appeared in the 2018 World Cup squads:
+
+- **Lionel Messi**: 2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023
+- **Cristiano Ronaldo**: 2008, 2013, 2014, 2016, 2017
+- **Luka Modrić**: 2018 (awarded in December 2018, after the World Cup concluded in July — still qualifies because the question is career-independent of timing)
+- **Karim Benzema**: 2022 — Benzema was famously excluded from France's national team from 2015 to 2021 and was **not** named to France's 2018 World Cup squad; he does not qualify.
+- **Kylian Mbappé**: Through my knowledge cutoff (August 2025), Mbappé has **not** won the Ballon d'Or (Rodri won 2024); excluded.
+- All other 2018 squad members reviewed (Neymar, Griezmann, Kane, De Bruyne, Hazard, Suárez, etc.) have not won the Ballon d'Or.
+
+> [3] Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+---
+
+**Step 4 — Identifying which of those players have ever won the UEFA Men's Player of the Year / UEFA Best Player in Europe Award / UEFA Club Footballer of the Year**
+
+Award timeline and winners relevant to 2018 World Cup squad members:
+
+| Award Year | Winner | In 2018 WC Squad? |
+|------------|--------|-------------------|
+| 2011 | Lionel Messi | Yes (Argentina) |
+| 2012 | Andrés Iniesta | Yes (Spain) |
+| 2013 | Franck Ribéry | No (retired from international football before 2018) |
+| 2014 | Cristiano Ronaldo | Yes (Portugal) |
+| 2015 | Lionel Messi | Yes (Argentina) |
+| 2016 | Cristiano Ronaldo | Yes (Portugal) |
+| 2017 | Cristiano Ronaldo | Yes (Portugal) |
+| 2018 | Luka Modrić | Yes (Croatia) |
+| 2019 | Virgil van Dijk | Netherlands did **not** qualify for 2018 WC; not in any squad |
+| 2020 | Robert Lewandowski | Yes (Poland) |
+| 2021 | Jorginho | Italy did **not** qualify for 2018 WC |
+| 2022 | Karim Benzema | Not in 2018 France squad (see above) |
+| 2023 | Erling Haaland | Norway did not qualify for 2018 WC |
+| 2024 | Rodri | Spain's 2018 squad did not include Rodri (he was not yet capped at senior level for 2018 WC selection; Spain's midfield was Busquets, Thiago, D. Silva, Iniesta, Koke, Saúl, Asensio, Isco) |
+
+For the older UEFA Club Footballer of the Year (c.1998–2003): all winners (Zidane, Rivaldo, Figo, Ronaldo Nazário, etc.) had long retired before 2018 and were not named to any 2018 World Cup squad.
+
+> [4] Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+---
+
+**Step 5 — Birthplace of each qualifying player**
+
+- **Lionel Messi** born 24 June 1987 in Rosario, Santa Fe, Argentina.
+> [5] Wikipedia, "Lionel Messi" — https://en.wikipedia.org/wiki/Lionel_Messi
+
+- **Cristiano Ronaldo** born 5 February 1985 in Funchal, Madeira, Portugal.
+> [6] Wikipedia, "Cristiano Ronaldo" — https://en.wikipedia.org/wiki/Cristiano_Ronaldo
+
+- **Luka Modrić** born 9 September 1985 in Zadar, SR Croatia (then part of SFR Yugoslavia, now Croatia). His family originated from the village of Modrići in the Zadar hinterland, but his place of birth as registered is Zadar city.
+> [7] Wikipedia, "Luka Modrić" — https://en.wikipedia.org/wiki/Luka_Modri%C4%87
+
+- **Andrés Iniesta** born 11 May 1984 in Fuentealbilla, Albacete, Castilla-La Mancha, Spain.
+> [8] Wikipedia, "Andrés Iniesta" — https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta
+
+- **Robert Lewandowski** born 21 August 1988 in Warsaw, Poland. His parents were both professional athletes (his father Krzysztof a judoka/footballer, his mother Iwona a volleyball player), and the family was based in Warsaw.
+> [9] Wikipedia, "Robert Lewandowski" — https://en.wikipedia.org/wiki/Robert_Lewandowski
+
+---
+
+**Step 6 — Population of each birthplace**
+
+- **Rosario, Argentina**: 948,312 per the Argentine INDEC national census of 2010 (city proper). The metropolitan area is approximately 1.5 million.
+> [10] Wikipedia, "Rosario, Santa Fe" — https://en.wikipedia.org/wiki/Rosario,_Santa_Fe (citing INDEC 2010)
+
+- **Funchal, Madeira, Portugal**: approximately 105,000 (municipality), per the 2021 INE Portugal census.
+> [11] Wikipedia, "Funchal" — https://en.wikipedia.org/wiki/Funchal (citing INE Portugal 2021)
+
+- **Zadar, Croatia**: 71,471, per the 2021 Croatian Bureau of Statistics census.
+> [12] Wikipedia, "Zadar" — https://en.wikipedia.org/wiki/Zadar (citing CBS Croatia 2021)
+
+- **Fuentealbilla, Spain**: approximately 2,357, per the INE Spain 2020 municipal population register (padrón municipal).
+> [13] Wikipedia, "Fuentealbilla" — https://en.wikipedia.org/wiki/Fuentealbilla (citing INE Spain)
+
+- **Warsaw, Poland**: 1,794,166, per the GUS (Central Statistical Office of Poland) 2021 estimate.
+> [14] Wikipedia, "Warsaw" — https://en.wikipedia.org/wiki/Warsaw (citing GUS Poland 2021)

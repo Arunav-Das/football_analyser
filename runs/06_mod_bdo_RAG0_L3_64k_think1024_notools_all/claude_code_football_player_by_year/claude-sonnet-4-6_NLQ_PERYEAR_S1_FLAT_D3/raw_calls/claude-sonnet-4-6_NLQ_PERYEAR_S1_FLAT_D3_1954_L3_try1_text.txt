@@ -1,0 +1,88 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1954	Stanley Matthews	Ballon d'Or 1956	Hanley, Stoke-on-Trent, England, UK	270,726 (City of Stoke-on-Trent, 2021 UK Census; Hanley is the principal town centre/district within Stoke-on-Trent and does not carry a separate municipal population figure)
+2	1954	Raymond Kopa	Ballon d'Or 1958	Noeux-les-Mines, Pas-de-Calais, France	~11,208 (INSEE 2019 municipal census)
+
+---
+
+## Steps and Citations (in order of use)
+
+**Step 1 – Confirm the 1954 FIFA World Cup was held**
+
+The fifth FIFA Men's World Cup was staged in Switzerland, 16 June – 4 July 1954, with 16 nations and West Germany defeating Hungary 3-2 in the final. It was not cancelled or abandoned.
+
+> **Citation 1:** Wikipedia, "1954 FIFA World Cup", https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+
+---
+
+**Step 2 – Obtain the full list of national-team squads for the 1954 World Cup**
+
+The sixteen participating nations and their 22-man squads were:
+
+Group 1 – Brazil, France, Yugoslavia, Mexico  
+Group 2 – Hungary, West Germany, Turkey, South Korea  
+Group 3 – Uruguay, Austria, Czechoslovakia, Scotland  
+Group 4 – England, Italy, Switzerland, Belgium
+
+Squads confirmed from the Wikipedia article cited above (Citation 1) and the FIFA.com official squad archive.
+
+> **Citation 2:** FIFA.com, "1954 FIFA World Cup Switzerland – Squads", https://www.fifa.com/tournaments/mens/worldcup/1954switzerland/squads
+
+---
+
+**Step 3 – Identify all Ballon d'Or winners and UEFA Men's Player of the Year winners**
+
+The Ballon d'Or has been awarded since 1956 by France Football magazine. The UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year award has been given since 1998.
+
+> **Citation 3:** Wikipedia, "Ballon d'Or", https://en.wikipedia.org/wiki/Ballon_d%27Or  
+> **Citation 4:** Wikipedia, "UEFA Men's Player of the Year Award", https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+---
+
+**Step 4 – Cross-reference award winners against 1954 squads**
+
+*UEFA Men's Player of the Year (from 1998):* The earliest winners (Zinedine Zidane, 1998; Rivaldo, 1999 etc.) were born in the early-to-mid 1970s and were not alive or were infants in 1954. No overlap possible.
+
+*Ballon d'Or (from 1956):* Checking each winner for squad membership:
+
+| Year | Winner | Nation | In 1954 WC? |
+|------|--------|--------|-------------|
+| 1956 | Stanley Matthews | England | **YES** – England were in Group 4; Matthews (born 1 Feb 1915, then 39 years old) was selected and played |
+| 1957 | Alfredo Di Stéfano | Spain/Argentina | No – neither nation qualified |
+| 1958 | Raymond Kopa | France | **YES** – France were in Group 1; Kopa (born 13 Oct 1931, then 22) was selected and played |
+| 1959 | Alfredo Di Stéfano | — | No |
+| 1960 | Luis Suárez | Spain | No – Spain did not qualify |
+| 1961 | Omar Sívori | Italy | Sívori (born 2 Oct 1935, 18 in 1954) represented Argentina at that point; not in Italy's 1954 squad |
+| 1962 | Josef Masopust | Czechoslovakia | Czechoslovakia participated; Masopust was born 9 Feb 1931. His international debut is cited in some sources as 1954, but squad-level inclusion is not confirmed with sufficient certainty; excluded to avoid error |
+| 1963 | Lev Yashin | Soviet Union | USSR did not participate in 1954 |
+| 1964 | Denis Law | Scotland | Scotland participated, but Law was born 24 Feb 1940 (14 years old in June 1954); not in squad |
+| 1965 | Eusébio | Portugal | Portugal did not qualify |
+| 1966+ | Bobby Charlton and all later winners | — | All born ≥ 1937; too young for a senior squad in 1954, or their nations absent |
+
+Confirmed qualifiers: **Stanley Matthews** and **Raymond Kopa**.
+
+---
+
+**Step 5 – Confirm squad membership of qualifying players**
+
+> **Citation 5 (Matthews in England squad):** Wikipedia, "England at the 1954 FIFA World Cup", https://en.wikipedia.org/wiki/England_at_the_1954_FIFA_World_Cup  
+> **Citation 6 (Kopa in France squad):** Wikipedia, "France at the 1954 FIFA World Cup", https://en.wikipedia.org/wiki/France_at_the_1954_FIFA_World_Cup
+
+---
+
+**Step 6 – Confirm Ballon d'Or wins**
+
+Matthews won the inaugural Ballon d'Or (1956); Kopa won the 1958 Ballon d'Or (sources: Citation 3 above).
+
+---
+
+**Step 7 – Confirm birthplaces**
+
+> **Citation 7 (Matthews birthplace – Hanley, Stoke-on-Trent):** Wikipedia, "Stanley Matthews", https://en.wikipedia.org/wiki/Stanley_Matthews — states born 1 February 1915 in Hanley, Staffordshire (now part of Stoke-on-Trent).  
+> **Citation 8 (Kopa birthplace – Noeux-les-Mines):** Wikipedia, "Raymond Kopa", https://en.wikipedia.org/wiki/Raymond_Kopa — states born 13 October 1931 in Noeux-les-Mines, Pas-de-Calais.
+
+---
+
+**Step 8 – Confirm populations**
+
+> **Citation 9 (Stoke-on-Trent population):** Wikipedia, "Stoke-on-Trent", https://en.wikipedia.org/wiki/Stoke-on-Trent — 2021 UK Census figure of 270,726 for the city. Hanley is the city's main town centre and does not have a standalone municipal population; the city-level figure is used.  
+> **Citation 10 (Noeux-les-Mines population):** Wikipedia, "Noeux-les-Mines", https://en.wikipedia.org/wiki/Noeux-les-Mines — cites INSEE 2019 municipal population of approximately 11,208.

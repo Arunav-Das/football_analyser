@@ -1,0 +1,49 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|---------------|--------------|------------|------------|------------|
+| — | — | No qualifying players | — | — | — |
+
+**No player qualifies for this edition.**
+
+---
+
+## Steps and Citations
+
+**Step 1 — Confirm the 1930 FIFA World Cup was actually held**
+
+The first FIFA Men's World Cup was held in Uruguay from 13–30 July 1930. It was not cancelled or abandoned. Thirteen national teams participated.
+
+> Source 1: Wikipedia, "1930 FIFA World Cup" — https://en.wikipedia.org/wiki/1930_FIFA_World_Cup
+
+---
+
+**Step 2 — Establish the list of national-team squads at the 1930 World Cup**
+
+The thirteen participating nations were: Uruguay, Argentina, Brazil, Chile, Bolivia, Peru, Paraguay, United States, Mexico, France, Belgium, Romania, and Yugoslavia. Squad rosters are documented on the Wikipedia article for each nation's participation and on the main 1930 World Cup article. Players were typically born between approximately 1898 and 1912 to be of playing age (roughly 18–32) in 1930.
+
+> Source 2: Wikipedia, "1930 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1930_FIFA_World_Cup_squads
+
+---
+
+**Step 3 — Establish which editions of the Ballon d'Or and UEFA Men's Player of the Year award exist and when they were first presented**
+
+The **Ballon d'Or** (France Football) was first awarded in **1956**, won by Stanley Matthews. It did not exist before 1956.
+
+The **UEFA Club Footballer of the Year** (later renamed UEFA Best Player in Europe Award, then UEFA Men's Player of the Year) was first awarded in **1997–98**, i.e. the first winner was Ronaldo (1998).
+
+Both awards therefore post-date the 1930 World Cup by decades.
+
+> Source 3: Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+> Source 4: Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+---
+
+**Step 4 — Cross-reference 1930 squad players with all-time Ballon d'Or / UEFA award winners**
+
+A player who appeared in a 1930 World Cup squad and was of competitive age in 1930 would have been born no later than roughly 1912 (for an 18-year-old in 1930). By 1956 (the first year the Ballon d'Or was awarded), that same player would be at minimum **44 years old** — well past any competitive playing career. No player from any 1930 World Cup squad appears on any Ballon d'Or or UEFA award winners list, because those awards did not exist during the active careers of the 1930 participants.
+
+> Source 5 (same as Source 3): Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or (complete historical winners list)
+> Source 6 (same as Source 4): Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award (complete historical winners list)
+
+---
+
+**Conclusion:** There are **zero** players who were named to a 1930 FIFA World Cup squad and who have ever won a Ballon d'Or or UEFA Men's Player of the Year Award (under any of its names). The structural reason is that both awards were created long after the last 1930 World Cup participants had retired, and no winner of either award has any documented connection to a 1930 squad.

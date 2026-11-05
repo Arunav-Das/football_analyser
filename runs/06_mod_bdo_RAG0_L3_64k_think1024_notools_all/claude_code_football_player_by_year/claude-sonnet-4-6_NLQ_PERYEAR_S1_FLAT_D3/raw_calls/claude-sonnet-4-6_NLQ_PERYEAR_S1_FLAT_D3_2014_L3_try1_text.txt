@@ -1,0 +1,101 @@
+S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population
+---|---|---|---|---|---
+1 | 2014 | Lionel Messi | Ballon d'Or (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023); UEFA Best Player in Europe Award (2011, 2015) | Rosario, Santa Fe, Argentina | 1,193,605
+2 | 2014 | Cristiano Ronaldo | Ballon d'Or (2008, 2013, 2014, 2016, 2017); UEFA Club Footballer of the Year (2007–08); UEFA Best Player in Europe Award (2014, 2016, 2017) | Funchal, Madeira, Portugal | 111,892
+3 | 2014 | Andrés Iniesta | UEFA Best Player in Europe Award (2012) | Fuentealbilla, Albacete, Spain | 2,399
+4 | 2014 | Karim Benzema | Ballon d'Or (2022); UEFA Men's Player of the Year (2022) | Lyon, Auvergne-Rhône-Alpes, France | 522,228
+5 | 2014 | Luka Modrić | Ballon d'Or (2018); UEFA Men's Player of the Year (2018) | Zadar, Croatia | 75,062
+
+---
+
+## Steps and Citations
+
+**Step 1 — Confirm the 2014 FIFA World Cup was actually held**
+
+The 2014 FIFA World Cup was held in Brazil from 12 June to 13 July 2014. It was not cancelled or abandoned.
+
+> Citation 1: Wikipedia, "2014 FIFA World Cup," https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+
+---
+
+**Step 2 — Obtain the full list of players named to national team squads for the 2014 World Cup**
+
+All 32 participating nations each submitted a 23-player squad, giving 736 players in total.
+
+> Citation 2: Wikipedia, "2014 FIFA World Cup squads," https://en.wikipedia.org/wiki/2014_FIFA_World_Cup_squads
+
+---
+
+**Step 3 — Identify all Ballon d'Or winners (past, present and future relative to 2014)**
+
+Using the full historical list of Ballon d'Or winners, candidates who were also in a 2014 WC squad were cross-checked:
+
+- **Lionel Messi** (Argentina squad ✓) — won 2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023
+- **Cristiano Ronaldo** (Portugal squad ✓) — won 2008, 2013, 2014, 2016, 2017
+- **Karim Benzema** (France squad ✓) — won 2022
+- **Luka Modrić** (Croatia squad ✓) — won 2018
+- **Kaká** — won 2007; however, Kaká was **not** selected in Brazil's final 23 for 2014 (Scolari's squad comprised Júlio César, Jefferson, Victor; Thiago Silva, David Luiz, Dante, Marcelo, Maxwell, Dani Alves, Maicon, Henrique; Luiz Gustavo, Fernandinho, Paulinho, Ramires, Hernanes; Neymar, Oscar, Hulk, Bernard, Jo, Fred, Willian) — excluded
+- **Ronaldo (Nazário)**, **Ronaldinho**, **Cannavaro**, **Nedvěd** etc. — all retired before 2014 — excluded
+
+> Citation 3: Wikipedia, "Ballon d'Or," https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+---
+
+**Step 4 — Identify all UEFA Club Footballer of the Year / UEFA Best Player in Europe / UEFA Men's Player of the Year winners who were in a 2014 WC squad**
+
+The award lineage (all in-scope per the question):
+
+| Season | Award name at the time | Winner |
+|---|---|---|
+| 2007–08 | UEFA Club Footballer of the Year | Cristiano Ronaldo |
+| 2010–11 | UEFA Best Player in Europe Award (new name) | Lionel Messi |
+| 2011–12 | UEFA Best Player in Europe Award | Andrés Iniesta |
+| 2012–13 | UEFA Best Player in Europe Award | Franck Ribéry |
+| 2013–14 | UEFA Best Player in Europe Award | Cristiano Ronaldo |
+| 2014–15 | UEFA Best Player in Europe Award | Lionel Messi |
+| 2015–16 | UEFA Best Player in Europe Award | Cristiano Ronaldo |
+| 2016–17 | UEFA Best Player in Europe Award | Cristiano Ronaldo |
+| 2017–18 | UEFA Men's Player of the Year (renamed) | Luka Modrić |
+| 2021–22 | UEFA Men's Player of the Year | Karim Benzema |
+
+Cross-check against 2014 WC squads:
+- **Cristiano Ronaldo** (Portugal ✓)
+- **Lionel Messi** (Argentina ✓)
+- **Andrés Iniesta** (Spain ✓; Spain reached 2014 WC, Iniesta was in their squad)
+- **Franck Ribéry** (France) — Ribéry sustained a back injury in the 2013–14 Bundesliga season and was **not selected** by Deschamps for France's 2014 WC squad; France's attackers were Benzema, Giroud, Griezmann, Rémy, Ménez, Valbuena — **excluded**
+- **Luka Modrić** (Croatia ✓)
+- **Karim Benzema** (France ✓; France's starting centre-forward throughout the tournament)
+
+> Citation 4: Wikipedia, "UEFA Best Player in Europe Award," https://en.wikipedia.org/wiki/UEFA_Best_Player_in_Europe_Award
+> Citation 5: Wikipedia, "UEFA Men's Player of the Year Award," https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+> Citation 6: Wikipedia, "UEFA Club Footballer of the Year," https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year
+
+---
+
+**Step 5 — Confirm squad membership for each qualifying player**
+
+- Messi: Argentina squad (captain) — Citation 2
+- Cristiano Ronaldo: Portugal squad (captain) — Citation 2
+- Iniesta: Spain squad — Citation 2
+- Modrić: Croatia squad (captain) — Citation 2
+- Benzema: France squad (starting striker) — Citation 2
+
+---
+
+**Step 6 — Confirm birthplaces**
+
+> Citation 7: Wikipedia, "Lionel Messi," https://en.wikipedia.org/wiki/Lionel_Messi — born Rosario, Santa Fe, Argentina
+> Citation 8: Wikipedia, "Cristiano Ronaldo," https://en.wikipedia.org/wiki/Cristiano_Ronaldo — born Funchal, Madeira, Portugal
+> Citation 9: Wikipedia, "Andrés Iniesta," https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta — born Fuentealbilla, Albacete, Spain
+> Citation 10: Wikipedia, "Karim Benzema," https://en.wikipedia.org/wiki/Karim_Benzema — born Lyon, France
+> Citation 11: Wikipedia, "Luka Modrić," https://en.wikipedia.org/wiki/Luka_Modri%C4%87 — born Zadar, Croatia (then SR Croatia, SFR Yugoslavia)
+
+---
+
+**Step 7 — Confirm population of each birthplace**
+
+> Citation 12: Wikipedia, "Rosario, Santa Fe," https://en.wikipedia.org/wiki/Rosario,_Santa_Fe — 2010 Argentine census: 1,193,605 (city municipality)
+> Citation 13: Wikipedia, "Funchal," https://en.wikipedia.org/wiki/Funchal — 2011 Portuguese census: 111,892 (municipality)
+> Citation 14: Wikipedia, "Fuentealbilla," https://en.wikipedia.org/wiki/Fuentealbilla — 2020 Spanish municipal register: 2,399
+> Citation 15: Wikipedia, "Lyon," https://en.wikipedia.org/wiki/Lyon — 2019 French census: 522,228 (commune proper)
+> Citation 16: Wikipedia, "Zadar," https://en.wikipedia.org/wiki/Zadar — 2021 Croatian census: 75,062 (city)

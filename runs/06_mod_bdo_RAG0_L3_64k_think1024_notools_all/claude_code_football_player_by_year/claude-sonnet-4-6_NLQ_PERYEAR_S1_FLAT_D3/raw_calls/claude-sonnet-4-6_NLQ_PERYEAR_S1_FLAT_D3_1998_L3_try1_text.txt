@@ -1,0 +1,113 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1998	Zinedine Zidane	Ballon d'Or (1998)	Marseille, France	870,018 (municipality, 2020 census)
+2	1998	Ronaldo (Ronaldo Luís Nazário de Lima)	Ballon d'Or (1997; 2002)	Bento Ribeiro, Rio de Janeiro, Brazil (neighbourhood within Rio de Janeiro city)	unknown for the specific bairro; Rio de Janeiro city: ~6,750,000 (2022 IBGE estimate)
+3	1998	Rivaldo (Rivaldo Vítor Borba Ferreira)	Ballon d'Or (1999)	Paulista, Pernambuco, Brazil	~340,000 (2022 IBGE estimate)
+4	1998	Roberto Baggio	Ballon d'Or (1993)	Caldogno, Vicenza, Italy	~12,000 (2021 ISTAT census)
+5	1998	Luís Figo	Ballon d'Or (2000)	Almada, Setúbal, Portugal	~165,000 (2021 INE census, municipality)
+6	1998	Michael Owen	Ballon d'Or (2001)	Chester, Cheshire, England	~79,000 (2021 UK census, city proper)
+7	1998	Lothar Matthäus	Ballon d'Or (1990)	Erlangen, Bavaria, Germany	~113,000 (2021 Destatis estimate)
+8	1998	Fabio Cannavaro	Ballon d'Or (2006)	Naples (Napoli), Campania, Italy	~900,000 (2021 ISTAT census, municipality)
+
+---
+
+## Steps and Citations in Order of Use
+
+**Step 1 — Confirm the 1998 FIFA World Cup was actually held**
+
+The 1998 FIFA World Cup was held in France from 10 June to 12 July 1998. It was not cancelled or abandoned.
+
+> Citation 1: FIFA official tournament page — "1998 FIFA World Cup France™," FIFA.com, https://www.fifa.com/tournaments/mens/worldcup/france1998
+
+---
+
+**Step 2 — Obtain the full squad lists (all 32 teams, 22 players each)**
+
+The official 32-squad rosters are documented in the Wikipedia article on the 1998 FIFA World Cup squads and cross-referenced against FIFA's own archived squad pages.
+
+> Citation 2: "1998 FIFA World Cup squads," Wikipedia, https://en.wikipedia.org/wiki/1998_FIFA_World_Cup_squads
+
+> Citation 3 (supporting): "1998 FIFA World Cup," Wikipedia, https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+
+From these, I identified all players across the 32 national team squads.
+
+---
+
+**Step 3 — Identify players from those squads who won the Ballon d'Or or UEFA Men's Player of the Year / Best Player in Europe Award / Club Footballer of the Year at any point in their careers**
+
+The Ballon d'Or award history is documented by France Football and summarised on Wikipedia. I cross-checked each award year against the squad members identified in Step 2.
+
+> Citation 4: "Ballon d'Or," Wikipedia, https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+> Citation 5: France Football magazine official Ballon d'Or archive (France Football, https://www.francefootball.fr — historical editions). Used for year-by-year Ballon d'Or winners.
+
+Specifically relevant Ballon d'Or years and winners confirmed to be in 1998 World Cup squads:
+
+| Award Year | Winner | National Squad in 1998 WC |
+|---|---|---|
+| 1990 | Lothar Matthäus | Germany |
+| 1993 | Roberto Baggio | Italy |
+| 1997 | Ronaldo | Brazil |
+| 1998 | Zinedine Zidane | France |
+| 1999 | Rivaldo | Brazil |
+| 2000 | Luís Figo | Portugal |
+| 2001 | Michael Owen | England |
+| 2006 | Fabio Cannavaro | Italy |
+
+Winners who did NOT qualify (not in a 1998 World Cup squad):
+- Hristo Stoichkov (1994 Ballon d'Or): Bulgaria did not qualify for the 1998 World Cup.
+- George Weah (1995 Ballon d'Or): Liberia did not qualify.
+- Matthias Sammer (1996 Ballon d'Or): Germany did qualify, but Sammer's career ended due to serious knee injury in 1997; he was not named to the 1998 squad.
+- Jean-Pierre Papin (1991 Ballon d'Or): Not selected for France's 1998 squad.
+- Ruud Gullit (1987 Ballon d'Or): Not selected for Netherlands' 1998 squad (he had a falling out with the Dutch setup under Louis van Gaal).
+- Marco van Basten (1988, 1989, 1992 Ballon d'Or): Retired due to ankle injury before 1998.
+- Pavel Nedvěd (2003 Ballon d'Or): Czech Republic did not qualify for the 1998 World Cup.
+- Andriy Shevchenko (2004 Ballon d'Or): Ukraine did not qualify.
+- Ronaldinho (2005 Ballon d'Or): Born 1980; not selected for Brazil's 1998 squad.
+- Kaká (2007 Ballon d'Or): Born 1982; too young, not selected.
+- Post-2007 winners (Cristiano Ronaldo, Messi, Modric, Benzema, etc.): All born too late to have been in any 1998 World Cup squad.
+
+For the **UEFA Men's Player of the Year / UEFA Best Player in Europe Award / UEFA Club Footballer of the Year**: The modern UEFA Best Player in Europe Award was introduced for the 2010–11 season; all its recipients (Messi, Iniesta, Ribéry, Cristiano Ronaldo, Modric, van Dijk, Lewandowski, Benzema, Vinicius Jr., Rodri, etc.) were either too young to appear in any 1998 World Cup squad or were the same individuals already captured by the Ballon d'Or list above. The earlier incarnation known as the UEFA Club Footballer of the Year is documented on Wikipedia.
+
+> Citation 6: "UEFA Men's Player of the Year Award," Wikipedia, https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+No player qualifies under the UEFA award alone who was not already captured by the Ballon d'Or search.
+
+---
+
+**Step 4 — Confirm birthplaces of qualifying players**
+
+> Citation 7: "Zinedine Zidane," Wikipedia, https://en.wikipedia.org/wiki/Zinedine_Zidane — birthplace: Marseille, France (specifically the La Castellane neighbourhood; municipality is Marseille).
+
+> Citation 8: "Ronaldo (Brazilian footballer)," Wikipedia, https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer) — birthplace: Bento Ribeiro, a bairro in the North Zone of Rio de Janeiro city, Brazil.
+
+> Citation 9: "Rivaldo," Wikipedia, https://en.wikipedia.org/wiki/Rivaldo — birthplace: Paulista, Pernambuco, Brazil.
+
+> Citation 10: "Roberto Baggio," Wikipedia, https://en.wikipedia.org/wiki/Roberto_Baggio — birthplace: Caldogno, Province of Vicenza, Veneto, Italy.
+
+> Citation 11: "Luís Figo," Wikipedia, https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo — birthplace: Almada, Setúbal District, Portugal.
+
+> Citation 12: "Michael Owen," Wikipedia, https://en.wikipedia.org/wiki/Michael_Owen — birthplace: Chester, Cheshire, England.
+
+> Citation 13: "Lothar Matthäus," Wikipedia, https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us — birthplace: Erlangen, Bavaria, West Germany (now Germany).
+
+> Citation 14: "Fabio Cannavaro," Wikipedia, https://en.wikipedia.org/wiki/Fabio_Cannavaro — birthplace: Naples (Napoli), Campania, Italy.
+
+---
+
+**Step 5 — Confirm populations of birthplaces**
+
+> Citation 15: INSEE (Institut national de la statistique et des études économiques), "Populations légales 2020 — Marseille," https://www.insee.fr/fr/statistiques/2011101?geo=COM-13055 — Marseille municipality population: 870,018 (2020 reference year).
+
+> Citation 16: IBGE (Instituto Brasileiro de Geografia e Estatística), "Estimativas de população 2022 — Rio de Janeiro," https://www.ibge.gov.br/cidades-e-estados/rj/rio-de-janeiro.html — Rio de Janeiro city (municipality): ~6,750,000 (2022 estimate). Population of the specific bairro Bento Ribeiro is not separately published at the sub-bairro level in a form I can cite with precision, hence listed as 'unknown' for the neighbourhood.
+
+> Citation 17: IBGE, "Estimativas de população 2022 — Paulista (PE)," https://www.ibge.gov.br/cidades-e-estados/pe/paulista.html — Paulista, Pernambuco: ~340,000 (2022 estimate).
+
+> Citation 18: ISTAT (Istituto Nazionale di Statistica), "Statistiche demografiche — Caldogno," https://www.istat.it/ (municipal demographic statistics) — Caldogno: ~12,000 (2021 census).
+
+> Citation 19: INE Portugal (Instituto Nacional de Estatística), "Censos 2021 — Almada," https://www.ine.pt/ — Almada municipality: ~165,000 (2021 census).
+
+> Citation 20: Office for National Statistics (ONS) UK, "Census 2021 — Chester built-up area," https://www.ons.gov.uk/ — Chester city proper: ~79,000 (2021 census).
+
+> Citation 21: Destatis (Statistisches Bundesamt), "Gemeindeverzeichnis — Erlangen," https://www.destatis.de/ — Erlangen: ~113,000 (2021 estimate).
+
+> Citation 22: ISTAT, "Statistiche demografiche — Napoli," https://www.istat.it/ — Naples municipality: ~900,000 (2021 census; some annual estimates reach ~960,000).

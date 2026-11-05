@@ -1,0 +1,42 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1950 | Stanley Matthews | Ballon d'Or 1956 | Hanley, Stoke-on-Trent, England | ~78,000 (Hanley district); ~270,000 (City of Stoke-on-Trent) |
+
+---
+
+**Steps and Citations in order of use:**
+
+**Step 1 — Confirm the 1950 FIFA World Cup was actually held**
+The fourth FIFA Men's World Cup was staged in Brazil from 24 June to 16 July 1950. It was the first post-war edition, held after the 1942 and 1946 tournaments were cancelled.
+1. Wikipedia, "1950 FIFA World Cup" — https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+
+**Step 2 — Establish the list of squads / players named to national team squads**
+Thirteen nations participated (India withdrew without playing). The squads are listed on the Wikipedia article for the tournament and its dedicated squad-list article.
+2. Wikipedia, "1950 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1950_FIFA_World_Cup_squads
+
+Key squad facts relied upon:
+- England participated in their first-ever World Cup in 1950; **Stanley Matthews** (born 1 February 1915) was selected in the England squad.
+- Other notable squads: Brazil, Uruguay, Spain, Italy, Sweden, Yugoslavia, Switzerland, Chile, USA, Mexico, Paraguay, Bolivia.
+
+**Step 3 — Establish which players from those squads have won the Ballon d'Or or UEFA Men's Player of the Year (any name)**
+
+The Ballon d'Or was first awarded in 1956 (by France Football). The UEFA Club Footballer of the Year / UEFA Best Player in Europe / UEFA Men's Player of the Year has been awarded since 1998. Because 1950 World Cup players would have been retired by 1998, only the Ballon d'Or is relevant.
+
+Screening the squads:
+- **Stanley Matthews** (England) — won the inaugural **Ballon d'Or in 1956** at age 41, while still playing for Blackpool. He is the oldest recipient of the award. ✓ Qualifies.
+- Juan Schiaffino (Uruguay) — finished 2nd in the 1954 Ballon d'Or vote but never won it. ✗
+- Gunnar Nordahl (Sweden) — received votes but never won the Ballon d'Or. ✗
+- Zizinho, Ademir, Ghiggia, Obdulio Varela, and others from the squads — none won the Ballon d'Or or UEFA award at any point in their careers. ✗
+- Alfredo Di Stéfano (multiple Ballon d'Or wins) — was not in a 1950 World Cup squad; Argentina withdrew and Colombia (which he represented in 1949–1952) did not participate. ✗
+
+3. Wikipedia, "Ballon d'Or" (history and list of winners) — https://en.wikipedia.org/wiki/Ballon_d%27Or
+4. Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews
+
+**Step 4 — Confirm Stanley Matthews's birthplace**
+Stanley Matthews was born on 1 February 1915 in **Hanley**, one of the six towns that make up the City of Stoke-on-Trent, Staffordshire, England.
+5. Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews
+
+**Step 5 — Population of Hanley, Stoke-on-Trent**
+Hanley is the city centre and principal commercial district of Stoke-on-Trent; it does not carry a separate unitary census figure but is often cited at approximately 78,000 for the Hanley-defined area. The City of Stoke-on-Trent as a whole had a population of approximately 270,000–275,000 at the 2021 England and Wales Census.
+6. Wikipedia, "Hanley, Stoke-on-Trent" — https://en.wikipedia.org/wiki/Hanley,_Stoke-on-Trent
+7. Wikipedia, "Stoke-on-Trent" (2021 census population) — https://en.wikipedia.org/wiki/Stoke-on-Trent
