@@ -7,14 +7,14 @@
 #                     run 06 showed the CLI does NOT enforce it, so the remaining low-thinking runs use effort low)
 #   thinking low    : adaptive thinking (CLI default) with --effort low; no MAX_THINKING_TOKENS
 #   tools off       : --no_tool_directive  (CLI already gets --tools "" and --max-turns 1)
-#   tools on        : --enable_tools WebSearch,WebFetch --max_turns 20 --max_budget_usd 2.0
+#   tools on        : --enable_tools WebSearch,WebFetch --max_turns 60 --max_budget_usd 4.0  (20 turns was too few: runs 07y)
 set -u
 cd "$(dirname "$0")/.."
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 COMMON="--model claude-sonnet-4-6 --per_year --strategy S1 --directive_level 3 --max_new_tokens 64000 --timeout 1800 --no-resume"
 OFF_ENV="--env CLAUDE_CODE_DISABLE_THINKING=1 --env CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING=1"
 LOW_ENV="--env CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING=1"
-TOOLS="--enable_tools WebSearch,WebFetch --max_turns 20 --max_budget_usd 2.0"
+TOOLS="--enable_tools WebSearch,WebFetch --max_turns 60 --max_budget_usd 4.0"
 MOD="python3 football_analyzer_inf_mod.py"
 DOM="python3 claude_football_inf_dom.py --dl_definition open"
 MOD_ROOT=claude_code_football_player_by_year
@@ -43,15 +43,16 @@ run() {      # $1 id, $2 label, $3 root, $4 env flags, rest = command
 {
 # already done by the first version of this queue (kept for the record):
 #   04 mod RAG4 / 05 mod RAG5 / 06 mod think1024 no tools / 07x mod no-think tools (killed by a worker restart)
+#   07y mod no-think tools at 20 turns (stopped: turn limit hit before answering)
 # A restarted queue skips any run whose runs/<id>_<label>/ folder already exists.
 LOWT="--effort low"
 for spec in \
-  "07|mod_bdo_RAG0_L3_64k_nothink_tools_all|$MOD_ROOT|$OFF_ENV|$MOD $COMMON --rag_tier RAG0 --max_thinking_tokens 0 $TOOLS" \
+  "07|mod_bdo_RAG0_L3_64k_nothink_tools60_all|$MOD_ROOT|$OFF_ENV|$MOD $COMMON --rag_tier RAG0 --max_thinking_tokens 0 $TOOLS" \
   "08|mod_bdo_RAG0_L3_64k_thinklow_notools_all|$MOD_ROOT||$MOD $COMMON --rag_tier RAG0 $LOWT --no_tool_directive" \
-  "09|mod_bdo_RAG0_L3_64k_thinklow_tools_all|$MOD_ROOT||$MOD $COMMON --rag_tier RAG0 $LOWT $TOOLS" \
+  "09|mod_bdo_RAG0_L3_64k_thinklow_tools60_all|$MOD_ROOT||$MOD $COMMON --rag_tier RAG0 $LOWT $TOOLS" \
   "10|dom_open_RAG0_L3_64k_thinklow_notools_all|$DOM_ROOT||$DOM $COMMON --rag_tier RAG0 $LOWT --no_tool_directive" \
-  "11|dom_open_RAG0_L3_64k_nothink_tools_all|$DOM_ROOT|$OFF_ENV|$DOM $COMMON --rag_tier RAG0 --max_thinking_tokens 0 $TOOLS" \
-  "12|dom_open_RAG0_L3_64k_thinklow_tools_all|$DOM_ROOT||$DOM $COMMON --rag_tier RAG0 $LOWT $TOOLS"
+  "11|dom_open_RAG0_L3_64k_nothink_tools60_all|$DOM_ROOT|$OFF_ENV|$DOM $COMMON --rag_tier RAG0 --max_thinking_tokens 0 $TOOLS" \
+  "12|dom_open_RAG0_L3_64k_thinklow_tools60_all|$DOM_ROOT||$DOM $COMMON --rag_tier RAG0 $LOWT $TOOLS"
 do
   IFS='|' read -r id label root envs cmd <<< "$spec"
   if [ -d "runs/${id}_${label}" ]; then echo "QUEUE skip ${id}_${label} (exists)"; continue; fi

@@ -1,0 +1,31 @@
+The search confirms no retroactive or honorary Ballon d'Or was ever given to any 1930s-era player. The 2016 retroactive reassessment was explicitly hypothetical/illustrative and did not change the official winners list.
+
+**Conclusion:** No player named to any national team squad for the 1930 FIFA World Cup has ever won a Ballon d'Or or a UEFA Men's Player of the Year award (under any of its names). This is structurally impossible because:
+1. The youngest known 1930 World Cup player (Carvalho Leite, born 1912) would have been 44 years old by the time the first Ballon d'Or was awarded in 1956.
+2. The UEFA Club Footballer of the Year (first UEFA award in this category) began in 1998, 68 years after the 1930 World Cup.
+3. No retroactive, honorary, or posthumous versions of these awards have ever been granted to any 1930 World Cup player.
+
+---
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+
+**No player qualifies.** No footballer named to any national team squad for the 1930 FIFA World Cup has ever won a men's Ballon d'Or or a UEFA Men's Player of the Year Award (under any of its names). The Ballon d'Or was first awarded in 1956 — 26 years after the 1930 tournament — by which point even the youngest 1930 World Cup participant (Brazil's Carvalho Leite, born 25 June 1912) would have been 44 years old and long retired. The UEFA Club Footballer of the Year (the earliest form of the UEFA award) began only in 1998, 68 years after the 1930 edition. No retroactive, honorary, or posthumous version of either award has ever been granted to any player from the 1930 World Cup squads.
+
+---
+
+**Citations in order of use:**
+
+1. **1930 FIFA World Cup confirmed held** — Wikipedia / FIFA Museum: The 1930 FIFA World Cup was held in Uruguay from 13–30 July 1930. [FIFA Museum – Uruguay 1930: The First FIFA World Cup](https://editorial.fifamuseum.com/en/read/uruguay-1930-the-first-fifa-world-cup/)
+
+2. **1930 FIFA World Cup squads (all 13 teams)** — Wikipedia: [1930 FIFA World Cup squads – Wikipedia](https://en.wikipedia.org/wiki/1930_FIFA_World_Cup_squads)
+
+3. **Youngest 1930 World Cup player birth date (Carvalho Leite, born 25 June 1912)** — Wikipedia: [Carvalho Leite – Wikipedia](https://en.wikipedia.org/wiki/Carvalho_Leite)
+
+4. **Ballon d'Or first awarded in 1956 (Stanley Matthews, born 1915); complete winners list** — FourFourTwo: [Every Ballon d'Or winner: A complete list](https://www.fourfourtwo.com/us/features/ballon-dor-complete-list-of-winners); Olympics.com: [Ballon d'Or winners complete list](https://olympics.com/en/news/ballon-d-or-winners-messi-ronaldo-zidane-complete-list)
+
+5. **1956 Ballon d'Or details (Matthews, 41 years old, oldest winner)** — TopEndSports: [1956 Ballon d'Or Results](https://new.topendsports.com/sport/soccer/awards/ballondor-1956.htm); Wikipedia: [Stanley Matthews](https://en.wikipedia.org/wiki/Stanley_Matthews)
+
+6. **UEFA Men's Player of the Year / Club Footballer of the Year started 1998** — FBref: [UEFA Men's Player of the Year Winners](https://fbref.com/en/awards/uefa_poy_m/UEFA-Mens-Player-of-the-Year); Wikiwand: [UEFA Men's Player of the Year Award](https://www.wikiwand.com/en/articles/UEFA_Men%27s_Player_of_the_Year_Award)
+
+7. **No retroactive/honorary Ballon d'Or awarded to 1930s players** — TopEndSports: [Ballon d'Or Honorary Awards](https://www.topendsports.com/sport/soccer/awards/ballondor-honorary.htm)
