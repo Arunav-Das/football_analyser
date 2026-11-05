@@ -80,3 +80,56 @@
 2026-11-04 23:41:50,896 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2026-11-04 23:41:50,896 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2026-11-04 23:41:53,010 - INFO - Analysis written to claude_code_football_player_by_year/analysis (32 plots, report + CSVs)
+2026-11-04 23:44:25,875 - INFO - === run started: football_analyzer_inf_mod.py --model claude-sonnet-4-6 --per_year --strategy S1 --rag_tier RAG0 --directive_level 3 --no_tool_directive --max_new_tokens 16000 --max_thinking_tokens 0 --timeout 900 --no-resume (script version 2026-11-04.8-claude-code) ===
+2026-11-04 23:44:25,876 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=16000  max_thinking_tokens=0  directive=ON (level 3)  no_tool_directive=True  mode=per_year
+2026-11-04 23:44:25,876 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-04 23:44:29,043 - INFO - Validation OK - response: 'OK'
+2026-11-04 23:44:29,043 - INFO - --no-resume: deleting existing per-year output and reprocessing from scratch.
+2026-11-04 23:44:29,043 - INFO - No existing results file found. Starting fresh.
+2026-11-04 23:44:29,043 - INFO - Per-year run  strategy=S1  rag=RAG0  model=claude-sonnet-4-6  directive=level 3  escalate=False  years to run: 23 of 23 (0 already done)
+2026-11-04 23:44:43,883 - INFO -   [1930] OK 14.8s status=ok label=NO QUALIFYING PLAYER rows=0 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=678.0 text_chars=2323 thinking_chars=0 cost_usd=0.020757
+2026-11-04 23:45:07,892 - INFO -   [1934] OK 24.0s status=ok label=ROWS rows=2 off_year=0 self_excluded=0 contradiction=True level=3 attempts=1 tokens=1426.0 text_chars=4645 thinking_chars=0 cost_usd=0.031971
+2026-11-04 23:45:35,524 - INFO -   [1938] OK 27.6s status=ok label=ROWS rows=1 off_year=0 self_excluded=0 contradiction=True level=3 attempts=1 tokens=1605.0 text_chars=4711 thinking_chars=0 cost_usd=0.03468
+2026-11-04 23:46:02,755 - INFO -   [1950] OK 27.2s status=ok label=ROWS rows=2 off_year=0 self_excluded=0 contradiction=True level=3 attempts=1 tokens=1883.0 text_chars=6040 thinking_chars=0 cost_usd=0.038844
+2026-11-04 23:46:25,766 - INFO -   [1954] OK 23.0s status=ok label=ROWS rows=5 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1645.0 text_chars=4714 thinking_chars=0 cost_usd=0.035267999999999994
+2026-11-04 23:46:55,802 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1958] streaming 30s: text=6300 chars  thinking=0 chars
+2026-11-04 23:47:01,447 - INFO -   [1958] OK 35.7s status=ok label=ROWS rows=10 off_year=0 self_excluded=0 contradiction=True level=3 attempts=1 tokens=2596.0 text_chars=7204 thinking_chars=0 cost_usd=0.049532999999999994
+2026-11-04 23:47:30,716 - INFO -   [1962] OK 29.3s status=ok label=ROWS rows=9 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2352.0 text_chars=6532 thinking_chars=0 cost_usd=0.045861
+2026-11-04 23:48:00,741 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1966] streaming 30s: text=6756 chars  thinking=0 chars
+2026-11-04 23:48:10,664 - INFO -   [1966] OK 39.9s status=ok label=ROWS rows=8 off_year=0 self_excluded=0 contradiction=True level=3 attempts=1 tokens=3197.0 text_chars=9312 thinking_chars=0 cost_usd=0.058530000000000006
+2026-11-04 23:48:40,708 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1970] streaming 30s: text=6606 chars  thinking=0 chars
+2026-11-04 23:48:57,306 - INFO -   [1970] OK 46.6s status=ok label=ROWS rows=9 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=3979.0 text_chars=11045 thinking_chars=0 cost_usd=0.07026600000000001
+2026-11-04 23:49:24,546 - INFO -   [1974] OK 27.2s status=ok label=ROWS rows=15 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2121.0 text_chars=5465 thinking_chars=0 cost_usd=0.04240200000000001
+2026-11-04 23:49:54,579 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1978] streaming 30s: text=7111 chars  thinking=0 chars
+2026-11-04 23:50:24,626 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1978] streaming 60s: text=15040 chars  thinking=0 chars
+2026-11-04 23:50:28,757 - INFO -   [1978] OK 64.2s status=ok label=ROWS rows=13 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=5779.0 text_chars=15040 thinking_chars=0 cost_usd=0.09726599999999999
+2026-11-04 23:50:58,803 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1982] streaming 30s: text=6083 chars  thinking=0 chars
+2026-11-04 23:51:19,112 - INFO -   [1982] OK 50.3s status=ok label=ROWS rows=7 off_year=0 self_excluded=7 contradiction=False level=3 attempts=1 tokens=4209.0 text_chars=11368 thinking_chars=0 cost_usd=0.07371
+2026-11-04 23:51:46,015 - INFO -   [1986] OK 26.9s status=ok label=ROWS rows=9 off_year=0 self_excluded=8 contradiction=False level=3 attempts=1 tokens=2655.0 text_chars=6927 thinking_chars=0 cost_usd=0.050412
+2026-11-04 23:52:09,371 - INFO -   [1990] OK 23.4s status=ok label=ROWS rows=11 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2087.0 text_chars=5529 thinking_chars=0 cost_usd=0.041916
+2026-11-04 23:52:39,401 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1994] streaming 30s: text=6288 chars  thinking=0 chars
+2026-11-04 23:53:09,452 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1994] streaming 60s: text=12760 chars  thinking=0 chars
+2026-11-04 23:53:15,342 - INFO -   [1994] OK 66.0s status=ok label=ROWS rows=13 off_year=0 self_excluded=1 contradiction=False level=3 attempts=1 tokens=5239.0 text_chars=14303 thinking_chars=0 cost_usd=0.089166
+2026-11-04 23:53:45,358 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1998] streaming 30s: text=6181 chars  thinking=0 chars
+2026-11-04 23:54:03,834 - INFO -   [1998] OK 48.5s status=ok label=ROWS rows=17 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=4216.0 text_chars=11146 thinking_chars=0 cost_usd=0.073827
+2026-11-04 23:54:33,845 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2002] streaming 30s: text=6595 chars  thinking=0 chars
+2026-11-04 23:54:49,704 - INFO -   [2002] OK 45.9s status=ok label=ROWS rows=15 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=4076.0 text_chars=10959 thinking_chars=0 cost_usd=0.071757
+2026-11-04 23:55:19,723 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2006] streaming 30s: text=8208 chars  thinking=0 chars
+2026-11-04 23:55:32,087 - INFO -   [2006] OK 42.4s status=ok label=ROWS rows=14 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=4194.0 text_chars=11113 thinking_chars=0 cost_usd=0.07350299999999999
+2026-11-04 23:56:01,904 - INFO -   [2010] OK 29.8s status=ok label=ROWS rows=17 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2585.0 text_chars=6867 thinking_chars=0 cost_usd=0.04937400000000001
+2026-11-04 23:56:32,843 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2014] streaming 31s: text=6664 chars  thinking=0 chars
+2026-11-04 23:56:33,305 - INFO -   [2014] OK 31.4s status=ok label=ROWS rows=11 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2500.0 text_chars=6664 thinking_chars=0 cost_usd=0.048099
+2026-11-04 23:57:01,243 - INFO -   [2018] OK 27.9s status=ok label=ROWS rows=8 off_year=0 self_excluded=4 contradiction=False level=3 attempts=1 tokens=2487.0 text_chars=6316 thinking_chars=0 cost_usd=0.047874
+2026-11-04 23:57:25,469 - INFO -   [2022] OK 24.2s status=ok label=ROWS rows=6 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2039.0 text_chars=5315 thinking_chars=0 cost_usd=0.041172
+2026-11-04 23:57:55,507 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 30s: text=5980 chars  thinking=0 chars
+2026-11-04 23:58:25,553 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 60s: text=13218 chars  thinking=0 chars
+2026-11-04 23:58:55,600 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 90s: text=20302 chars  thinking=0 chars
+2026-11-04 23:59:25,663 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_2026] streaming 120s: text=27580 chars  thinking=0 chars
+2026-11-04 23:59:47,374 - INFO -   [2026] OK 141.9s status=ok label=ROWS rows=1 off_year=8 self_excluded=0 contradiction=False level=3 attempts=1 tokens=10346.0 text_chars=32595 thinking_chars=0 cost_usd=0.165783
+2026-11-04 23:59:47,380 - INFO - SUMMARY  model=claude-sonnet-4-6  strategy=S1  rag=RAG0  years ok=23/23  output -> claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3.json
+2026-11-04 23:59:47,393 - INFO - GroundTruthStore: 130/130 rows loaded from 'df_gt_football.csv' spanning 22 editions.
+2026-11-04 23:59:47,673 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-04 23:59:47,674 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-04 23:59:47,808 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-04 23:59:47,809 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-04 23:59:50,691 - INFO - Analysis written to claude_code_football_player_by_year/analysis (32 plots, report + CSVs)

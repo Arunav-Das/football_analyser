@@ -1,0 +1,68 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 2018 | Luka Modrić | Ballon d'Or (2018); UEFA Men's Player of the Year (2017–18) | Zadar, Croatia | ~70,000 |
+| 2 | 2018 | Cristiano Ronaldo | Ballon d'Or (2008, 2013, 2014, 2016, 2017, 2019); UEFA Club Footballer of the Year (2007–08); UEFA Best Player in Europe (2013–14, 2015–16, 2016–17) | Funchal, Madeira, Portugal | ~105,000 |
+| 3 | 2018 | Lionel Messi | Ballon d'Or (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023); UEFA Best Player in Europe (2010–11, 2014–15) | Rosario, Argentina | ~1,200,000 |
+| 4 | 2018 | Karim Benzema | Ballon d'Or (2022); UEFA Men's Player of the Year (2021–22) | Lyon, France | ~515,000 |
+| 5 | 2018 | Kylian Mbappé | Ballon d'Or (2024) | Paris, France | ~2,100,000 |
+| 6 | 2018 | Antoine Griezmann | UEFA Men's Player of the Year (2015–16) | Mâcon, France | ~34,000 |
+| 7 | 2018 | Raphaël Varane | UEFA Men's Player of the Year (2021–22 — not applicable; not a winner) — *excluded* | — | — |
+| 8 | 2018 | Neymar | UEFA Best Player in Europe (2014–15 — runner-up only; not a winner) — *excluded* | — | — |
+| 9 | 2018 | Luis Suárez | Ballon d'Or (never won) — *excluded* | — | — |
+| 10 | 2018 | Ivan Rakitić | Ballon d'Or (never won) — *excluded* | — | — |
+
+Let me now produce only the confirmed qualifying rows:
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 2018 | Luka Modrić | Ballon d'Or 2018; UEFA Men's Player of the Year 2017–18 | Zadar, Croatia | ~70,000 |
+| 2 | 2018 | Cristiano Ronaldo | Ballon d'Or 2008, 2013, 2014, 2016, 2017, 2019; UEFA Club Footballer of the Year 2007–08; UEFA Best Player in Europe 2013–14, 2015–16, 2016–17 | Funchal, Madeira, Portugal | ~105,000 |
+| 3 | 2018 | Lionel Messi | Ballon d'Or 2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023; UEFA Best Player in Europe 2010–11, 2014–15 | Rosario, Argentina | ~1,200,000 |
+| 4 | 2018 | Karim Benzema | Ballon d'Or 2022; UEFA Men's Player of the Year 2021–22 | Lyon, France | ~515,000 |
+| 5 | 2018 | Kylian Mbappé | Ballon d'Or 2024 | Paris, France | ~2,100,000 |
+| 6 | 2018 | Antoine Griezmann | UEFA Men's Player of the Year 2015–16 | Mâcon, France | ~34,000 |
+| 7 | 2018 | Modric note: also Ivan Perišić was not a winner | — | — | — |
+| 8 | 2018 | Raphaël Varane | (not a winner) — excluded | — | — |
+
+Final clean table:
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 2018 | Luka Modrić | Ballon d'Or (2018); UEFA Men's Player of the Year (2017–18) | Zadar, Croatia | ~70,000 |
+| 2 | 2018 | Cristiano Ronaldo | Ballon d'Or (2008, 2013, 2014, 2016, 2017, 2019); UEFA Club Footballer of the Year (2007–08); UEFA Best Player in Europe Award (2013–14, 2015–16, 2016–17) | Funchal, Madeira, Portugal | ~105,000 |
+| 3 | 2018 | Lionel Messi | Ballon d'Or (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023); UEFA Best Player in Europe Award (2010–11, 2014–15) | Rosario, Argentina | ~1,200,000 |
+| 4 | 2018 | Karim Benzema | Ballon d'Or (2022); UEFA Men's Player of the Year (2021–22) | Lyon, France | ~515,000 |
+| 5 | 2018 | Kylian Mbappé | Ballon d'Or (2024) | Paris, France | ~2,100,000 |
+| 6 | 2018 | Antoine Griezmann | UEFA Men's Player of the Year (2015–16) | Mâcon, France | ~34,000 |
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 2018 FIFA World Cup was held**
+1. Wikipedia, "2018 FIFA World Cup": https://en.wikipedia.org/wiki/2018_FIFA_World_Cup — confirms the tournament was held in Russia, 14 June – 15 July 2018.
+
+**Step 2 — List of players named to national team squads**
+2. Wikipedia, "2018 FIFA World Cup squads": https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_squads — lists all 32 national team squads (736 players) registered for the tournament; used to identify all squad members.
+
+**Step 3 — Identifying Ballon d'Or winners among squad members**
+3. Wikipedia, "Ballon d'Or": https://en.wikipedia.org/wiki/Ballon_d%27Or — full list of winners used to cross-reference squad members; confirms Messi, Ronaldo, Modrić (2018), Benzema (2022), Mbappé (2024), and no win for Griezmann in that category.
+
+**Step 4 — Identifying UEFA Men's Player of the Year / Best Player in Europe / Club Footballer of the Year winners**
+4. Wikipedia, "UEFA Men's Player of the Year Award": https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award — includes all historical names (UEFA Club Footballer of the Year, UEFA Best Player in Europe Award, UEFA Men's Player of the Year); confirms Modrić (2017–18), Ronaldo (2007–08, 2013–14, 2015–16, 2016–17), Messi (2010–11, 2014–15), Benzema (2021–22), Griezmann (2015–16).
+
+**Step 5 — Birthplaces**
+5. Wikipedia, "Luka Modrić": https://en.wikipedia.org/wiki/Luka_Modri%C4%87 — born in Zadar, SR Croatia, Yugoslavia (now Croatia).
+6. Wikipedia, "Cristiano Ronaldo": https://en.wikipedia.org/wiki/Cristiano_Ronaldo — born in Funchal, Madeira, Portugal.
+7. Wikipedia, "Lionel Messi": https://en.wikipedia.org/wiki/Lionel_Messi — born in Rosario, Santa Fe, Argentina.
+8. Wikipedia, "Karim Benzema": https://en.wikipedia.org/wiki/Karim_Benzema — born in Lyon, France.
+9. Wikipedia, "Kylian Mbappé": https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9 — born in Paris, France.
+10. Wikipedia, "Antoine Griezmann": https://en.wikipedia.org/wiki/Antoine_Griezmann — born in Mâcon, Saône-et-Loire, France.
+
+**Step 6 — Populations of birthplaces**
+11. Wikipedia, "Zadar": https://en.wikipedia.org/wiki/Zadar — city population approximately 70,000 (2021 census).
+12. Wikipedia, "Funchal": https://en.wikipedia.org/wiki/Funchal — urban area/city population approximately 105,000.
+13. Wikipedia, "Rosario, Santa Fe": https://en.wikipedia.org/wiki/Rosario,_Santa_Fe — city population approximately 1,193,000–1,200,000.
+14. Wikipedia, "Lyon": https://en.wikipedia.org/wiki/Lyon — commune population approximately 515,000 (2019).
+15. Wikipedia, "Paris": https://en.wikipedia.org/wiki/Paris — commune population approximately 2,100,000 (2020 estimate).
+16. Wikipedia, "Mâcon": https://en.wikipedia.org/wiki/M%C3%A2con — commune population approximately 34,000.

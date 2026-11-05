@@ -1,0 +1,80 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|-----------|------------|
+| 1 | 1954 | Raymond Kopa | Ballon d'Or (1958) | Nœux-les-Mines, France | ~12,000 |
+| 2 | 1954 | Just Fontaine | Ballon d'Or (never won — removing) | — | — |
+| 3 | 1954 | Stanley Matthews | Ballon d'Or (1956) | Hanley, Stoke-on-Trent, England | ~60,000 (Hanley area) |
+| 4 | 1954 | Ferenc Puskás | Ballon d'Or (never won per records — removing) | — | — |
+| 5 | 1954 | Fritz Walter | Ballon d'Or (never won — removing) | — | — |
+
+Let me reconstruct this table properly after carefully reviewing qualifying players.
+
+---
+
+**Step-by-step reasoning and citations:**
+
+**Step 1: Confirm the 1954 FIFA World Cup was held.**
+The 1954 FIFA World Cup was held in Switzerland from 16 June to 4 July 1954. It was the fifth FIFA World Cup and was not cancelled or abandoned.
+
+**Step 2: Identify squads.**
+The 1954 FIFA World Cup featured 16 nations. I rely on Wikipedia's article on the 1954 FIFA World Cup squads to identify players named to national team squads.
+
+**Step 3: Identify Ballon d'Or and UEFA Men's Player of the Year winners who were in those squads.**
+
+The Ballon d'Or was first awarded in 1956. The UEFA Club Footballer of the Year (later UEFA Best Player in Europe Award) was first awarded in 1998. Therefore, only the Ballon d'Or is relevant for players who were active around 1954.
+
+Ballon d'Or winners I need to cross-check against 1954 World Cup squad members:
+
+- **Stanley Matthews** (England) — Won Ballon d'Or 1956. England participated in the 1954 World Cup. Matthews was in England's 1954 World Cup squad.
+- **Raymond Kopa** (France) — Won Ballon d'Or 1958. France participated in the 1954 World Cup. Kopa was in France's 1954 World Cup squad.
+- **Helmut Rahn** (West Germany) — Did NOT win Ballon d'Or.
+- **Ferenc Puskás** (Hungary) — Did NOT win Ballon d'Or (he was a finalist/runner-up multiple times but never won).
+- **Sandro Mazzola** — not in 1954 squads.
+- **Just Fontaine** (France) — Did NOT win Ballon d'Or.
+- **Nándor Hidegkuti** (Hungary) — Did NOT win Ballon d'Or.
+- **Gunnar Gren** (Sweden) — Did NOT win Ballon d'Or.
+- **Gunnar Nordahl** (Sweden) — Did NOT win Ballon d'Or.
+- **Nils Liedholm** (Sweden) — Did NOT win Ballon d'Or.
+
+Checking other Ballon d'Or winners and cross-referencing with 1954 World Cup squads:
+
+- **Alfredo Di Stéfano** — Won Ballon d'Or 1957 and 1959. Di Stéfano played for Spain from 1957 onward but was not in a 1954 World Cup squad (Spain did not qualify for the 1954 World Cup). He had played for Colombia internationally, and Argentina — neither of which was in the 1954 World Cup. **Does not qualify.**
+- **Omar Sívori** — Won Ballon d'Or 1961. Argentina did not qualify for the 1954 World Cup. **Does not qualify.**
+
+After careful review, the confirmed qualifying players are:
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|-----------|------------|
+| 1 | 1954 | Stanley Matthews | Ballon d'Or (1956) | Hanley, Stoke-on-Trent, England, UK | ~67,000 (Stoke-on-Trent) |
+| 2 | 1954 | Raymond Kopa | Ballon d'Or (1958) | Nœux-les-Mines, Pas-de-Calais, France | ~12,500 |
+
+---
+
+**Citations in order of use:**
+
+1. **Confirmation that the 1954 FIFA World Cup was held:**
+Wikipedia, "1954 FIFA World Cup" — https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+
+2. **List of players named to national team squads for the 1954 FIFA World Cup:**
+Wikipedia, "1954 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1954_FIFA_World_Cup_squads
+
+3. **Stanley Matthews winning the Ballon d'Or 1956:**
+Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews
+
+4. **Raymond Kopa winning the Ballon d'Or 1958:**
+Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+Wikipedia, "Raymond Kopa" — https://en.wikipedia.org/wiki/Raymond_Kopa
+
+5. **Stanley Matthews' birthplace (Hanley, Stoke-on-Trent):**
+Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews
+
+6. **Raymond Kopa's birthplace (Nœux-les-Mines, France):**
+Wikipedia, "Raymond Kopa" — https://en.wikipedia.org/wiki/Raymond_Kopa
+
+7. **Population of Hanley / Stoke-on-Trent:**
+Wikipedia, "Stoke-on-Trent" — https://en.wikipedia.org/wiki/Stoke-on-Trent
+(Stoke-on-Trent as a whole city: approximately 255,000; Hanley as a town district within it: approximately 67,000)
+
+8. **Population of Nœux-les-Mines:**
+Wikipedia, "Nœux-les-Mines" — https://en.wikipedia.org/wiki/N%C5%93ux-les-Mines
+(Population approximately 12,500 as of recent census data)

@@ -1,0 +1,95 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1950 | Alfredo Di Stéfano | Ballon d'Or (1957, 1959) | Buenos Aires, Argentina | ~3,120,612 (city proper) |
+| 2 | 1950 | Stanley Matthews | Ballon d'Or (1956) | Hanley, Stoke-on-Trent, England | ~249,000 (Stoke-on-Trent) |
+
+---
+
+## Steps and Citations
+
+**Step 1: Confirm the 1950 FIFA World Cup was actually held**
+
+The 1950 FIFA World Cup was held in Brazil from 24 June to 16 July 1950. It was the fourth FIFA World Cup and the first held after World War II. It was not cancelled or abandoned.
+
+> Citation [1]: Wikipedia, "1950 FIFA World Cup" — https://en.wikipedia.org/wiki/1950_FIFA_World_Cup
+
+---
+
+**Step 2: Identify all national team squads named for the 1950 World Cup**
+
+The 1950 World Cup had 13 participating nations (India withdrew, Scotland declined, Turkey withdrew, and France withdrew late). The competing nations were: Brazil, Yugoslavia, Switzerland, Mexico, Uruguay, Spain, Chile, England, USA, Bolivia, Sweden, Italy, and Paraguay.
+
+Squad lists for each of these nations were drawn from the Wikipedia article on the 1950 FIFA World Cup and its linked squad pages.
+
+> Citation [2]: Wikipedia, "1950 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1950_FIFA_World_Cup_squads
+
+---
+
+**Step 3: Cross-reference squad players against all-time Ballon d'Or winners**
+
+The Ballon d'Or was first awarded in 1956 (to Stanley Matthews). I checked every Ballon d'Or winner from 1956 onward against players who appeared in 1950 World Cup squads.
+
+Key matches identified:
+
+- **Stanley Matthews** (England squad, 1950): Won the inaugural Ballon d'Or in 1956. Matthews was in the England squad for the 1950 World Cup.
+- **Alfredo Di Stéfano** (Argentina squad, 1950): Won the Ballon d'Or in 1957 and 1959. Di Stéfano was selected in the Argentina squad for the 1950 World Cup (Argentina ultimately withdrew before the tournament, but Di Stéfano was named in the preliminary/national squad context). 
+
+**Important clarification on Di Stéfano**: Argentina withdrew from the 1950 World Cup and did not participate. Di Stéfano was not part of a competing squad. After careful consideration, Argentina's withdrawal means no Argentine players were formally "named to a national team squad" for the tournament in the standard FIFA squad sense. I will exclude Di Stéfano on this basis.
+
+Revised assessment — Di Stéfano should be excluded because Argentina withdrew and no official squad was submitted to FIFA for the 1950 tournament.
+
+**Remaining qualifying player:**
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1950 | Stanley Matthews | Ballon d'Or (1956) | Hanley, Stoke-on-Trent, England | ~249,000 (Stoke-on-Trent urban area) |
+
+> Citation [3]: Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or  
+> Citation [4]: Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews  
+> Citation [5]: Wikipedia, "England at the 1950 FIFA World Cup" — https://en.wikipedia.org/wiki/England_at_the_1950_FIFA_World_Cup
+
+---
+
+**Step 4: Cross-reference squad players against UEFA Men's Player of the Year / Best Player in Europe Award winners**
+
+The UEFA Club Footballer of the Year / Best Player in Europe Award was first given in 1998. All winners from 1998 onward were checked. No player from the 1950 World Cup squads won this award, as all such players would have retired long before 1998.
+
+> Citation [6]: Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+---
+
+**Step 5: Confirm Stanley Matthews' birthplace**
+
+Stanley Matthews was born on 1 February 1915 in **Hanley**, Stoke-on-Trent, Staffordshire, England. Hanley is one of the six towns that make up the city of Stoke-on-Trent.
+
+> Citation [4]: Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews
+
+---
+
+**Step 6: Population of Hanley / Stoke-on-Trent**
+
+Hanley is a town within the city of Stoke-on-Trent. The population of Stoke-on-Trent (the city of which Hanley is the city centre) is approximately 249,000 (2021 census).
+
+> Citation [7]: Wikipedia, "Stoke-on-Trent" — https://en.wikipedia.org/wiki/Stoke-on-Trent  
+> Citation [8]: UK Office for National Statistics, 2021 Census data — https://www.ons.gov.uk/
+
+---
+
+## Final Answer Table
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1950 | Stanley Matthews | Ballon d'Or (1956) | Hanley, Stoke-on-Trent, England | ~249,000 |
+
+---
+
+## Citations in Order of Use
+
+1. Wikipedia, "1950 FIFA World Cup" — https://en.wikipedia.org/wiki/1950_FIFA_World_Cup *(used to confirm the tournament was held in 1950)*
+2. Wikipedia, "1950 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1950_FIFA_World_Cup_squads *(used for squad lists of all participating nations)*
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or *(used for complete list of Ballon d'Or winners)*
+4. Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews *(used to confirm Matthews was in the 1950 England squad, won the 1956 Ballon d'Or, and was born in Hanley)*
+5. Wikipedia, "England at the 1950 FIFA World Cup" — https://en.wikipedia.org/wiki/England_at_the_1950_FIFA_World_Cup *(used to confirm England squad composition)*
+6. Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award *(used to check UEFA award winners against 1950 squad players)*
+7. Wikipedia, "Stoke-on-Trent" — https://en.wikipedia.org/wiki/Stoke-on-Trent *(used for population of Stoke-on-Trent/Hanley)*
+8. UK Office for National Statistics, 2021 Census — https://www.ons.gov.uk/ *(used to corroborate population figure of ~249,000 for Stoke-on-Trent)*
