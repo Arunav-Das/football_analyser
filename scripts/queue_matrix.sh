@@ -3,7 +3,9 @@
 # Common to every run: claude-sonnet-4-6, per-year, all 23 editions, strategy S1, directive level 3,
 # 64,000-token output cap, 1,800 s timeout, --no-resume.
 #   thinking off    : CLAUDE_CODE_DISABLE_THINKING=1 CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING=1 --max_thinking_tokens 0
-#   thinking 1024   : CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING=1 --max_thinking_tokens 1024   (fixed low budget)
+#   thinking 1024   : CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING=1 --max_thinking_tokens 1024   (requested fixed budget;
+#                     run 06 showed the CLI does NOT enforce it, so the remaining low-thinking runs use effort low)
+#   thinking low    : adaptive thinking (CLI default) with --effort low; no MAX_THINKING_TOKENS
 #   tools off       : --no_tool_directive  (CLI already gets --tools "" and --max-turns 1)
 #   tools on        : --enable_tools WebSearch,WebFetch --max_turns 20 --max_budget_usd 2.0
 set -u
@@ -39,13 +41,21 @@ run() {      # $1 id, $2 label, $3 root, $4 env flags, rest = command
 
 # shellcheck disable=SC2086
 {
-run 04 mod_bdo_RAG4_L3_64k_nothink_notools_all   $MOD_ROOT "$OFF_ENV" $MOD $COMMON --rag_tier RAG4 --max_thinking_tokens 0 --no_tool_directive
-run 05 mod_bdo_RAG5_L3_64k_nothink_notools_all   $MOD_ROOT "$OFF_ENV" $MOD $COMMON --rag_tier RAG5 --max_thinking_tokens 0 --no_tool_directive
-run 06 mod_bdo_RAG0_L3_64k_think1024_notools_all $MOD_ROOT "$LOW_ENV" $MOD $COMMON --rag_tier RAG0 --max_thinking_tokens 1024 --no_tool_directive
-run 07 mod_bdo_RAG0_L3_64k_nothink_tools_all     $MOD_ROOT "$OFF_ENV" $MOD $COMMON --rag_tier RAG0 --max_thinking_tokens 0 $TOOLS
-run 08 mod_bdo_RAG0_L3_64k_think1024_tools_all   $MOD_ROOT "$LOW_ENV" $MOD $COMMON --rag_tier RAG0 --max_thinking_tokens 1024 $TOOLS
-run 09 dom_open_RAG0_L3_64k_think1024_notools_all $DOM_ROOT "$LOW_ENV" $DOM $COMMON --rag_tier RAG0 --max_thinking_tokens 1024 --no_tool_directive
-run 10 dom_open_RAG0_L3_64k_nothink_tools_all     $DOM_ROOT "$OFF_ENV" $DOM $COMMON --rag_tier RAG0 --max_thinking_tokens 0 $TOOLS
-run 11 dom_open_RAG0_L3_64k_think1024_tools_all   $DOM_ROOT "$LOW_ENV" $DOM $COMMON --rag_tier RAG0 --max_thinking_tokens 1024 $TOOLS
+# already done by the first version of this queue (kept for the record):
+#   04 mod RAG4 / 05 mod RAG5 / 06 mod think1024 no tools / 07x mod no-think tools (killed by a worker restart)
+# A restarted queue skips any run whose runs/<id>_<label>/ folder already exists.
+LOWT="--effort low"
+for spec in \
+  "07|mod_bdo_RAG0_L3_64k_nothink_tools_all|$MOD_ROOT|$OFF_ENV|$MOD $COMMON --rag_tier RAG0 --max_thinking_tokens 0 $TOOLS" \
+  "08|mod_bdo_RAG0_L3_64k_thinklow_notools_all|$MOD_ROOT||$MOD $COMMON --rag_tier RAG0 $LOWT --no_tool_directive" \
+  "09|mod_bdo_RAG0_L3_64k_thinklow_tools_all|$MOD_ROOT||$MOD $COMMON --rag_tier RAG0 $LOWT $TOOLS" \
+  "10|dom_open_RAG0_L3_64k_thinklow_notools_all|$DOM_ROOT||$DOM $COMMON --rag_tier RAG0 $LOWT --no_tool_directive" \
+  "11|dom_open_RAG0_L3_64k_nothink_tools_all|$DOM_ROOT|$OFF_ENV|$DOM $COMMON --rag_tier RAG0 --max_thinking_tokens 0 $TOOLS" \
+  "12|dom_open_RAG0_L3_64k_thinklow_tools_all|$DOM_ROOT||$DOM $COMMON --rag_tier RAG0 $LOWT $TOOLS"
+do
+  IFS='|' read -r id label root envs cmd <<< "$spec"
+  if [ -d "runs/${id}_${label}" ]; then echo "QUEUE skip ${id}_${label} (exists)"; continue; fi
+  run "$id" "$label" "$root" "$envs" $cmd
+done
 }
 echo "QUEUE all done $(date -u +%H:%M:%S)"

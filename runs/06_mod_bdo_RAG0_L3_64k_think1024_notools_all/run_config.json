@@ -33,5 +33,6 @@
   "started_utc": "2026-11-05T01:31:42+00:00",
   "finished_utc": "2026-11-05T02:36:22+00:00",
   "exit_code": 0,
-  "output_moved_to": "runs/06_mod_bdo_RAG0_L3_64k_think1024_notools_all/claude_code_football_player_by_year"
+  "output_moved_to": "runs/06_mod_bdo_RAG0_L3_64k_think1024_notools_all/claude_code_football_player_by_year",
+  "post_run_note": "MAX_THINKING_TOKENS=1024 (with CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING=1) was requested but NOT enforced by the CLI: each edition has one thinking block, and output tokens minus visible text far exceed 1024 (e.g. 2002: 28,156 output tokens for 5,988 visible chars). Treat this run as 'thinking on, budget 1024 requested, not enforced'. The low-thinking runs were redone with --effort low."
 }

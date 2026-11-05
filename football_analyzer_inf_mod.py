@@ -1118,7 +1118,8 @@ class ClaudeCodeClient:
                  one_shot: bool = True, directive_level: int = 1, per_year: bool = False,
                  claude_bin: str = "claude", timeout: int = REQUEST_TIMEOUT,
                  max_thinking_tokens: Optional[int] = None, no_tool_directive: bool = False,
-                 enable_tools: Optional[str] = None, max_turns: int = 1, max_budget_usd: Optional[float] = None):
+                 enable_tools: Optional[str] = None, max_turns: int = 1, max_budget_usd: Optional[float] = None,
+                 effort: Optional[str] = None):
         if model_alias not in MODEL_REGISTRY:
             raise ValueError(f"Unknown model alias '{model_alias}'")
         # Opt-in (--enable_tools): give the CLI these built-in tools (comma-separated, e.g. "WebSearch,WebFetch"),
@@ -1128,6 +1129,7 @@ class ClaudeCodeClient:
             raise ValueError("--enable_tools and --no_tool_directive contradict each other; use one of them")
         self.max_turns = int(max_turns) if self.enable_tools else 1
         self.max_budget_usd = max_budget_usd
+        self.effort = effort                 # opt-in --effort (claude -p --effort); default: CLI default
         base_levels = DIRECTIVE_LEVELS_PY if per_year else DIRECTIVE_LEVELS
         self.no_tool_directive = bool(no_tool_directive)
         self.levels: Dict[int, str] = ({k: v + NO_TOOL_ADDENDUM for k, v in base_levels.items()}
@@ -1153,7 +1155,7 @@ class ClaudeCodeClient:
                     f"max_output_tokens={self.max_tokens}  max_thinking_tokens={max_thinking_tokens}  directive="
                     f"{'ON (level ' + str(self.directive_level) + ')' if one_shot else 'OFF (Claude Code default system prompt)'}  "
                     f"no_tool_directive={self.no_tool_directive and one_shot}  "
-                    f"tools={self.enable_tools or 'none'}  max_turns={self.max_turns}  max_budget_usd={self.max_budget_usd}  "
+                    f"tools={self.enable_tools or 'none'}  max_turns={self.max_turns}  max_budget_usd={self.max_budget_usd}  effort={self.effort or 'default'}  "
                     f"mode={'per_year' if per_year else 'single_shot'}")
 
     @property
@@ -1261,6 +1263,8 @@ class ClaudeCodeClient:
                 cmd += ["--allowedTools", self.enable_tools]
             if self.max_budget_usd is not None:
                 cmd += ["--max-budget-usd", str(self.max_budget_usd)]
+            if self.effort:
+                cmd += ["--effort", self.effort]
             if native:
                 cmd += ["--system-prompt", sysmsg]
             env = dict(os.environ, CLAUDE_CODE_MAX_OUTPUT_TOKENS=str(mt))
@@ -1387,7 +1391,7 @@ def _common_metadata(a: Any, run_mode: str) -> Dict[str, Any]:
         "one_shot_directive": not a.raw_prompt, "system_mode": c.system_mode,
         "one_shot_system_text": c.system_text, "directive_level": c.directive_level,
         "no_tool_directive": bool(c.no_tool_directive and c.system_text),
-        "tools_enabled": c.enable_tools, "max_turns": c.max_turns, "max_budget_usd": c.max_budget_usd,
+        "tools_enabled": c.enable_tools, "max_turns": c.max_turns, "max_budget_usd": c.max_budget_usd, "effort": c.effort,
         "escalate_on_decline": a.escalate,
         "raw_prompt_note": "RAW = no --system-prompt flag, so Claude Code's default system prompt applies" if a.raw_prompt else "",
         "response_text_policy": "Generated_Response is the model text as returned; never altered",
@@ -2845,6 +2849,8 @@ def main() -> int:
                         "(pre-approved via --allowedTools); default: no tools")
     p.add_argument("--max_turns", type=int, default=20, help="turn limit per call when --enable_tools is set (default 20)")
     p.add_argument("--max_budget_usd", type=float, default=None, help="per-call spend cap passed to claude -p")
+    p.add_argument("--effort", choices=["low", "medium", "high", "xhigh", "max"], default=None,
+                   help="passed to claude -p --effort (adaptive-thinking depth); default: CLI default")
     p.add_argument("--no-resume", dest="no_resume", action="store_true", default=False)
     p.add_argument("--reference_file", default=REFERENCE_FILE, help="only for RAG1..RAG3 (and RAG6 distractors)")
     p.add_argument("--ground_truth_file", default=GROUND_TRUTH_FILE, help="only for RAG4..RAG6 and optional scoring")
@@ -2913,7 +2919,7 @@ def main() -> int:
     print(f"  Directive level  : {'-' if args.raw_prompt else args.directive_level}   escalate_on_decline: {args.escalate_on_decline and not args.raw_prompt}"
           f"   no_tool_directive: {args.no_tool_directive and not args.raw_prompt}")
     print(f"  Tools            : {args.enable_tools or 'none'}"
-          f"{'   max turns: ' + str(args.max_turns) if args.enable_tools else ''}   max budget/call: {args.max_budget_usd}")
+          f"{'   max turns: ' + str(args.max_turns) if args.enable_tools else ''}   max budget/call: {args.max_budget_usd}   effort: {args.effort or 'default'}")
     print(f"  Calls            : {n_cells * (len(years) if args.per_year else 1)} "
           f"({n_cells} cell(s){' x ' + str(len(years)) + ' years' if args.per_year else ''}; escalation can add more per declined call)")
     print(f"  Resume           : {'OFF (--no-resume)' if args.no_resume else 'ON (default)'}{'  + retry stalled' if args.retry_stalled else ''}")
@@ -2951,7 +2957,7 @@ def main() -> int:
                                       max_thinking_tokens=args.max_thinking_tokens,
                                       no_tool_directive=args.no_tool_directive,
                                       enable_tools=args.enable_tools, max_turns=args.max_turns,
-                                      max_budget_usd=args.max_budget_usd)
+                                      max_budget_usd=args.max_budget_usd, effort=args.effort)
             client.raw_dir = root / "raw_calls"
             client.validate_access()
         except Exception as e:

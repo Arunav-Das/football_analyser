@@ -1,0 +1,34 @@
+2026-11-05 02:36:26,594 - INFO - === run started: football_analyzer_inf_mod.py --model claude-sonnet-4-6 --per_year --strategy S1 --directive_level 3 --max_new_tokens 64000 --timeout 1800 --no-resume --rag_tier RAG0 --max_thinking_tokens 0 --enable_tools WebSearch,WebFetch --max_turns 20 --max_budget_usd 2.0 (script version 2026-11-04.8-claude-code) ===
+========================================================================
+FOOTBALL PLAYER ANALYSER - CLAUDE CODE   (script version 2026-11-04.8-claude-code)
+========================================================================
+  Mode             : PER-YEAR loop (placeholder replaced by the year)
+  Years (23)     : 1930 1934 1938 1950 1954 1958 1962 1966 1970 1974 1978 1982 1986 1990 1994 1998 2002 2006 2010 2014 2018 2022 2026
+  Models (1) : claude-sonnet-4-6
+  Strategy(ies)    : S1
+  RAG tier(s)      : RAG0
+  System directive : ON via --system-prompt (fallback: prepended to the user turn)
+  Directive level  : 3   escalate_on_decline: False   no_tool_directive: False
+  Tools            : WebSearch,WebFetch   max turns: 20   max budget/call: 2.0
+  Calls            : 23 (1 cell(s) x 23 years; escalation can add more per declined call)
+  Resume           : OFF (--no-resume)
+  Max new tokens   : 64000 per call; max thinking tokens: 0; timeout 1800s
+  Output root      : claude_code_football_player_by_year   (log: claude_code_football_player_by_year/run.log; raw events: <cell dir>/raw_calls)
+========================================================================
+
+########################################################################
+  MODEL [1/1] claude-sonnet-4-6
+########################################################################
+2026-11-05 02:36:26,594 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=64000  max_thinking_tokens=0  directive=ON (level 3)  no_tool_directive=False  tools=WebSearch,WebFetch  max_turns=20  max_budget_usd=2.0  mode=per_year
+2026-11-05 02:36:26,594 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 02:36:29,744 - INFO - Validation OK - response: 'OK'
+
+------------------------------------------------------------------------
+  claude-sonnet-4-6 | S1 (flat_conjunctive) | RAG0 (no_evidence)
+------------------------------------------------------------------------
+2026-11-05 02:36:29,745 - INFO - No existing results file found. Starting fresh.
+2026-11-05 02:36:29,745 - INFO - Per-year run  strategy=S1  rag=RAG0  model=claude-sonnet-4-6  directive=level 3  escalate=False  years to run: 23 of 23 (0 already done)
+2026-11-05 02:36:59,780 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1930] streaming 30s: text=380 chars  thinking=0 chars
+2026-11-05 02:37:30,816 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1930] streaming 61s: text=1112 chars  thinking=0 chars
+2026-11-05 02:38:00,819 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_D3_1930] streaming 91s: text=3995 chars  thinking=0 chars
+2026-11-05 02:38:26,772 - INFO -   [1930] OK 117.0s status=ok label=NO QUALIFYING PLAYER rows=0 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=4694.0 text_chars=6350 thinking_chars=0 cost_usd=0.3793678999999999
