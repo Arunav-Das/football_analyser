@@ -86,6 +86,30 @@ def status_bucket(s):
     return "empty/other"
 
 
+def thinking_blocks(rec, run_dir):
+    """count thinking content blocks in the final attempt's raw CLI events (thinking text itself is not returned)"""
+    files = [f for f in (rec.get("raw_files") or []) if str(f).endswith("_events.jsonl")]
+    if not files:
+        return np.nan
+    p = run_dir / files[-1]
+    if not p.exists():
+        hits = list(run_dir.rglob(Path(files[-1]).name))
+        if not hits:
+            return np.nan
+        p = hits[0]
+    n = 0
+    with open(p, encoding="utf-8") as fh:
+        for line in fh:
+            if '"content_block_start"' in line and '"thinking"' in line:
+                try:
+                    e = json.loads(line)
+                    if (e.get("event") or {}).get("content_block", {}).get("type") == "thinking":
+                        n += 1
+                except ValueError:
+                    pass
+    return n
+
+
 def load():
     runs, years, players = [], [], {}
     for cfgp in sorted(RUNS.glob("*/run_config.json")):
@@ -108,6 +132,7 @@ def load():
             except Exception:
                 pass
         d["tool_calls"] = d["year"].map(lambda y: sum((recs.get(int(y), {}).get("tool_calls") or {}).values()))
+        d["thinking_blocks"] = d["year"].map(lambda y: thinking_blocks(recs.get(int(y), {}), cfgp.parent))
         d["num_turns"] = d["year"].map(lambda y: recs.get(int(y), {}).get("num_turns"))
         d["status_bucket"] = d["status"].map(status_bucket)
         for c, v in meta.items():
@@ -128,6 +153,7 @@ def load():
             "rows_total": int(d["n_pred"].sum()), "output_tokens": float(d["completion_tokens"].sum()),
             "cost_usd": float(d["cost_usd"].sum()), "latency_s": float(d["latency_s"].sum()),
             "thinking_chars": float(d["thinking_chars"].sum()), "tool_calls": int(d["tool_calls"].sum()),
+            "thinking_blocks": float(d["thinking_blocks"].sum()),
             "citation_complete_share": float(d["citation_complete"].mean()),
             "gt_scored_editions": int(len(gt)) if meta["task"] == "bdo" else 0,
             "micro_precision": P if meta["task"] == "bdo" else np.nan,
@@ -272,7 +298,7 @@ def main():
     ov = ov.sort_values("run_id").reset_index(drop=True)
     ov.to_csv(OUT / "runs_overview.csv", index=False)
     keep = [c for c in ["run", "task", "rag", "directive_level", "thinking", "tools", "cap", "year", "status",
-                        "n_pred", "n_gt", "tp", "precision", "recall", "f1", "completion_tokens", "thinking_chars",
+                        "n_pred", "n_gt", "tp", "precision", "recall", "f1", "completion_tokens", "thinking_blocks",
                         "tool_calls", "num_turns", "cost_usd", "latency_s", "citation_complete", "missed_players",
                         "false_positive_players"] if c in py.columns]
     py[keep].sort_values(["run", "year"]).to_csv(OUT / "per_year_by_run.csv", index=False)
@@ -296,8 +322,9 @@ def main():
     plots.append(hbar_single(ov, "latency_s", "Wall time per run (seconds, sum over editions)", "latency_by_run.png", lambda v: f"{v:,.0f}s"))
     if (ov["tool_calls"].fillna(0) > 0).any():
         plots.append(heat(py[py["tool_calls"].fillna(0) >= 0], "tool_calls", "Tool calls per edition", "tool_calls_heatmap.png", fmt="{:.0f}"))
-    if (ov["thinking_chars"].fillna(0) > 0).any():
-        plots.append(heat(py, "thinking_chars", "Thinking length per edition (chars; 0 = off or omitted)", "thinking_chars_heatmap.png", fmt="{:.0f}"))
+    if (ov["thinking_blocks"].fillna(0) > 0).any():
+        plots.append(heat(py, "thinking_blocks", "Thinking blocks per edition (from raw CLI events; thinking text is not returned)",
+                          "thinking_blocks_heatmap.png", fmt="{:.0f}"))
     ag = dl_agreement(players, dl["run"].tolist())
     ag.to_csv(OUT / "dl_agreement_pairs.csv", index=False)
     plots.append(agreement_matrix(ag, dl["run"].tolist(), "dl_agreement_matrix.png"))
@@ -317,7 +344,7 @@ def main():
     L.append("")
     L.append("2. HEALTH AND COST (sums over editions)")
     L.append(fmt_table(ov, ["run_id", "editions_run", "status_ok", "status_truncated", "status_error_or_empty", "rows_total",
-                            "output_tokens", "thinking_chars", "tool_calls", "cost_usd", "latency_s", "citation_complete_share"],
+                            "output_tokens", "thinking_blocks", "tool_calls", "cost_usd", "latency_s", "citation_complete_share"],
                        "{:.2f}"))
     if len(bdo):
         L.append("")
