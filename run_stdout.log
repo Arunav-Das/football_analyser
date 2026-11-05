@@ -1,0 +1,108 @@
+2026-11-05 00:12:22,110 - INFO - Domestic-league variant 2026-11-04.1-dl: definition=open; roots=claude_code_football_player_dl_open_strategies | claude_code_football_player_dl_open_by_year
+2026-11-05 00:12:22,110 - INFO - === run started: claude_football_inf_dom.py --model claude-sonnet-4-6 --per_year --strategy S1 --rag_tier RAG0 --years 2022 --max_new_tokens 3000 --timeout 600 --no-resume --max_thinking_tokens 0 --no_tool_directive (script version 2026-11-04.8-claude-code) ===
+========================================================================
+FOOTBALL PLAYER ANALYSER - CLAUDE CODE   (script version 2026-11-04.8-claude-code)
+========================================================================
+  Mode             : PER-YEAR loop (placeholder replaced by the year)
+  Years (1)     : 2022
+  Models (1) : claude-sonnet-4-6
+  Strategy(ies)    : S1
+  RAG tier(s)      : RAG0
+  System directive : ON via --system-prompt (fallback: prepended to the user turn)
+  Directive level  : 1   escalate_on_decline: False   no_tool_directive: True
+  Calls            : 1 (1 cell(s) x 1 years; escalation can add more per declined call)
+  Resume           : OFF (--no-resume)
+  Max new tokens   : 3000 per call; max thinking tokens: 0; timeout 600s
+  Output root      : claude_code_football_player_dl_open_by_year   (log: claude_code_football_player_dl_open_by_year/run.log; raw events: <cell dir>/raw_calls)
+========================================================================
+
+########################################################################
+  MODEL [1/1] claude-sonnet-4-6
+########################################################################
+2026-11-05 00:12:22,111 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=3000  max_thinking_tokens=0  directive=ON (level 1)  no_tool_directive=True  mode=per_year
+2026-11-05 00:12:22,111 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 00:12:25,253 - INFO - Validation OK - response: 'OK'
+
+------------------------------------------------------------------------
+  claude-sonnet-4-6 | S1 (flat_conjunctive) | RAG0 (no_evidence)
+------------------------------------------------------------------------
+2026-11-05 00:12:25,253 - INFO - No existing results file found. Starting fresh.
+2026-11-05 00:12:25,253 - INFO - Per-year run  strategy=S1  rag=RAG0  model=claude-sonnet-4-6  directive=level 1  escalate=False  years to run: 1 of 1 (0 already done)
+2026-11-05 00:12:55,291 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 30s: text=6113 chars  thinking=0 chars
+2026-11-05 00:13:25,291 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 60s: text=13189 chars  thinking=0 chars
+2026-11-05 00:13:55,328 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 90s: text=20449 chars  thinking=0 chars
+2026-11-05 00:14:25,344 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 120s: text=26193 chars  thinking=0 chars
+2026-11-05 00:14:47,838 - WARNING -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] hit the 3000-token output cap after 143s (text=31993 chars, thinking=0 chars). Not retried. Raw: claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_events.jsonl
+2026-11-05 00:14:47,846 - INFO -   [2022] OK 142.6s status=truncated_length label=ROWS rows=105 off_year=0 self_excluded=0 contradiction=False level=1 attempts=1 tokens=12000.0 text_chars=31993 thinking_chars=0 cost_usd=0.2506401
+2026-11-05 00:14:47,846 - WARNING -   [2022] output TRUNCATED (raw files: ['claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_prompt.txt', 'claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_events.jsonl', 'claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_text.txt', 'claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_stderr.txt'])
+2026-11-05 00:14:47,847 - INFO - SUMMARY  model=claude-sonnet-4-6  strategy=S1  rag=RAG0  years ok=1/1  output -> claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT.json
+  done: success=1/1 errors=0 time=0:02:22.594150  -> claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT.json
+
+========================================================================
+ALL RUNS COMPLETE
+  Total wall-clock time : 0:02:25.736647
+  Output root           : claude_code_football_player_dl_open_by_year
+========================================================================
+2026-11-05 00:14:47,849 - INFO - Analysis: no ground-truth file found - structural and consensus analysis only (no accuracy scoring).
+2026-11-05 00:14:48,171 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:14:48,172 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:14:48,258 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:14:48,258 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:14:49,850 - INFO - Analysis written to claude_code_football_player_dl_open_by_year/analysis (25 plots, report + CSVs)
+====================================================================================================
+FOOTBALL PLAYER ANALYSER (CLAUDE CODE) - ANALYSIS REPORT
+generated 2026-11-05T00:14:49  (script version 2026-11-04.8-claude-code)
+====================================================================================================
+
+1. SCOPE
+  run mode: PER-YEAR (placeholder replaced by the year; one call per year, aggregated per model x strategy x RAG tier)
+  prompt mode: user turn + --system-prompt directive
+  directive levels present: [1]   escalated records: 0  (levels are pooled in the by-model tables below; filter eval_per_record.csv on directive_level to compare them)
+  records=1 (one per model x strategy x RAG tier x level)  models=1  strategies=1  rag_tiers=1  editions seen in answers=1  verbatim-prompt records=0
+  Backend: `claude -p` inside a Claude Code cloud session; temperature / top_p are not controllable; tools disabled; raw events per call are in <cell dir>/raw_calls.
+  Editions are read from the WorldCup_Year column of the returned rows and (single-shot) from the edition headers the model wrote. 'Agreement with consensus' = Jaccard overlap between a record's (edition, player) set and the set returned by >=50% of the usable records (needs >=3). It measures agreement, NOT correctness.
+  Per-year: tokens, latency and URL counts are TOTALS per cell (sum over its years); stall / decline / error / truncation figures are shares of the cell's year calls. Rows labelled with a different year than requested are dropped and counted (off_year_rows).
+  Ground-truth scoring: OFF (no ground-truth file found)
+
+2. HEADLINE (all records pooled)
+  mean_rows                   105.0000
+  mean_editions_covered       1.0000
+  mean_editions_declared      1.0000
+  median_last_edition         2022.0000
+  false_none_per_record       0.0000
+  true_none_per_record        0.0000
+  mean_jaccard_to_consensus   n/a
+
+  Full report: claude_code_football_player_dl_open_by_year/analysis/analysis_report.txt
+
+====================================================================================================
+D. DOMESTIC-LEAGUE VARIANT ADDENDUM
+====================================================================================================
+  variant version 2026-11-04.1-dl; definition mode: open
+  Awards are read from the Award_Type cell: items split on ';', league = first comma-separated part of the final parenthesis. Items not written in that format count as 'league not parsed'.
+  Sections 1-18 above are the base report: its award-type counts (section 11) do not apply here, and ground-truth scoring is OFF unless you supplied a ground truth for this task.
+
+D1. WHAT EACH MODEL SURFACED (rows, awards per row, distinct leagues / award types)
+      model_alias  rows  mean_awards_per_row  rows_without_award_text  award_items  distinct_leagues  distinct_award_types  league_not_parsed_share  interpretation_line_share
+claude-sonnet-4-6   105                1.610                        3          169                15                    67                    0.710                      0.000
+
+D2. LEAGUES RETURNED (15 distinct across all records; top 25 by award items)
+               league  award_items  models_returning
+       Premier League           13                 1
+              La Liga            8                 1
+           Eredivisie            7                 1
+           Premio AIC            4                 1
+           Bundesliga            4                 1
+              Ligue 1            3                 1
+                  MLS            2                 1
+Campeonato Brasileiro            1                 1
+               Brazil            1                 1
+              Belgium            1                 1
+        Primeira Liga            1                 1
+   Qatar Stars League            1                 1
+                  RPL            1                 1
+     Saudi Pro League            1                 1
+              Serie A            1                 1
+
+D3. No INTERPRETATION lines found (expected in 'pinned' mode, where none is requested).
+EXIT=0

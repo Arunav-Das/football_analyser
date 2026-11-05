@@ -1,0 +1,20 @@
+2026-11-05 00:12:22,110 - INFO - === run started: claude_football_inf_dom.py --model claude-sonnet-4-6 --per_year --strategy S1 --rag_tier RAG0 --years 2022 --max_new_tokens 3000 --timeout 600 --no-resume --max_thinking_tokens 0 --no_tool_directive (script version 2026-11-04.8-claude-code) ===
+2026-11-05 00:12:22,111 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=3000  max_thinking_tokens=0  directive=ON (level 1)  no_tool_directive=True  mode=per_year
+2026-11-05 00:12:22,111 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 00:12:25,253 - INFO - Validation OK - response: 'OK'
+2026-11-05 00:12:25,253 - INFO - No existing results file found. Starting fresh.
+2026-11-05 00:12:25,253 - INFO - Per-year run  strategy=S1  rag=RAG0  model=claude-sonnet-4-6  directive=level 1  escalate=False  years to run: 1 of 1 (0 already done)
+2026-11-05 00:12:55,291 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 30s: text=6113 chars  thinking=0 chars
+2026-11-05 00:13:25,291 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 60s: text=13189 chars  thinking=0 chars
+2026-11-05 00:13:55,328 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 90s: text=20449 chars  thinking=0 chars
+2026-11-05 00:14:25,344 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] streaming 120s: text=26193 chars  thinking=0 chars
+2026-11-05 00:14:47,838 - WARNING -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022] hit the 3000-token output cap after 143s (text=31993 chars, thinking=0 chars). Not retried. Raw: claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_events.jsonl
+2026-11-05 00:14:47,846 - INFO -   [2022] OK 142.6s status=truncated_length label=ROWS rows=105 off_year=0 self_excluded=0 contradiction=False level=1 attempts=1 tokens=12000.0 text_chars=31993 thinking_chars=0 cost_usd=0.2506401
+2026-11-05 00:14:47,846 - WARNING -   [2022] output TRUNCATED (raw files: ['claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_prompt.txt', 'claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_events.jsonl', 'claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_text.txt', 'claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/raw_calls/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_2022_L1_try1_stderr.txt'])
+2026-11-05 00:14:47,847 - INFO - SUMMARY  model=claude-sonnet-4-6  strategy=S1  rag=RAG0  years ok=1/1  output -> claude_code_football_player_dl_open_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT.json
+2026-11-05 00:14:47,849 - INFO - Analysis: no ground-truth file found - structural and consensus analysis only (no accuracy scoring).
+2026-11-05 00:14:48,171 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:14:48,172 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:14:48,258 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:14:48,258 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:14:49,850 - INFO - Analysis written to claude_code_football_player_dl_open_by_year/analysis (25 plots, report + CSVs)

@@ -2,11 +2,11 @@
 """
 Football Player Analyser - Claude Code (cloud session) Edition
 ==============================================================
-SCRIPT_VERSION 2026-11-04.7-claude-code
+SCRIPT_VERSION 2026-11-04.8-claude-code
 
 SCOPE
   Claude models ONLY. Every call is a headless Claude Code invocation (`claude -p`) made from inside a Claude Code
-  cloud session, so usage is metered by Claude Code, not by Bedrock. No Bedrock endpoint, API key or region exists.
+  cloud session. No Bedrock endpoint, API key or region exists.
   Only the two repository CSVs are read, and only for RAG1..RAG6 and optional ground-truth scoring:
       world_cup_squads_reference.csv   df_gt_football.csv
 
@@ -17,11 +17,19 @@ TWO RUN MODES
   --per_year            : ONE call per (model, strategy, RAG tier, YEAR); only the placeholder is replaced by the year.
                           Output root: ./claude_code_football_player_by_year
 
-CALL CONFIGURATION (Claude Code headless)
-  claude -p --model <id> --output-format json --tools "" --max-turns 1 [--system-prompt <directive>]
-  prompt via stdin; cwd = empty temp dir (no CLAUDE.md / repo context is loaded); output cap via
-  CLAUDE_CODE_MAX_OUTPUT_TOKENS. temperature / top_p / top_k are NOT controllable through the CLI (metadata says so).
-  --raw_prompt omits --system-prompt, so Claude Code's own default system prompt applies (outputs go to *_RAW).
+CALL CONFIGURATION (Claude Code headless, streamed)
+  claude -p --model <id> --output-format stream-json --verbose --include-partial-messages --tools "" --max-turns 1
+         [--system-prompt <directive>]
+  prompt via stdin; cwd = empty temp dir; output cap via CLAUDE_CODE_MAX_OUTPUT_TOKENS; optional MAX_THINKING_TOKENS.
+  temperature / top_p / top_k are NOT controllable through the CLI.
+
+EVIDENCE ON DISK (nothing is discarded)
+  <output_dir>/raw_calls/<label>_L<level>_try<n>_prompt.txt   exact system + user text sent
+                                                _events.jsonl  every raw line the CLI emitted
+                                                _text.txt      visible answer as it was generated
+                                                _stderr.txt    CLI stderr
+  <output_root>/run.log                                        full log of every run (appended)
+  A call that hits the output-token cap is NOT retried: it is stored as a truncated record with its partial text.
   The model's text is never altered; stalls, refusals, loops, contradictions are only flagged. --reparse is offline.
 """
 import re
@@ -35,6 +43,7 @@ import shutil
 import logging
 import tempfile
 import argparse
+import threading
 import traceback
 import subprocess
 import unicodedata
@@ -50,7 +59,7 @@ import numpy as np
 import pandas as pd
 import requests          # used only by --check_urls (URL reachability)
 
-SCRIPT_VERSION = "2026-11-04.7-claude-code"
+SCRIPT_VERSION = "2026-11-04.8-claude-code"
 
 # ---------------------------------------------------------------------------
 # CONSTANTS - Claude models only (alias -> model string passed to `claude --model`)
@@ -82,6 +91,7 @@ MAX_RETRIES    = 3
 RETRY_BASE_SEC = 5.0
 REQUEST_TIMEOUT = 1800
 MAX_CONSECUTIVE_YEAR_ERRORS = 3       # per-year: abort a cell after this many failed calls in a row
+PROGRESS_LOG_EVERY_SEC = 30
 
 PLACEHOLDER = "<one by one each edition>"
 PER_YEAR_LIST: List[int] = [1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990,
@@ -134,6 +144,15 @@ PY_L3_ADDENDUM = (
 DIRECTIVE_LEVELS_PY: Dict[int, str] = {1: PER_YEAR_SYSTEM,
                                        2: PER_YEAR_SYSTEM + PY_L2_ADDENDUM,
                                        3: PER_YEAR_SYSTEM + PY_L2_ADDENDUM + PY_L3_ADDENDUM}
+# Opt-in (--no_tool_directive): appended to whichever directive level is active. Without the flag the directive
+# text is unchanged, so earlier runs stay reproducible.
+NO_TOOL_ADDENDUM = (
+    " You have NO tools in this session: no web search, no web fetch, no shell, no code execution and no file access. "
+    "Do not write tool calls, <function_calls> or <invoke> markup, shell commands or code of any kind - nothing you "
+    "write will be executed and no result will come back. Answer entirely from your own knowledge in this single "
+    "response. For each required citation, name the source you are relying on (title and URL) from memory; do not "
+    "attempt to open or verify it."
+)
 
 _STALL_RE = re.compile(
     r"let me know|ready for me to proceed|shall i (?:proceed|continue)|would you like me to|do you want me to|"
@@ -1076,19 +1095,35 @@ class LatentPathExtractor:
 
 
 # ---------------------------------------------------------------------------
-# CLAUDE CODE CLIENT - headless `claude -p` subprocess (replaces the Bedrock client)
+# CLAUDE CODE CLIENT - streamed headless `claude -p`; every call leaves raw evidence on disk
 # ---------------------------------------------------------------------------
 _SYSTEM_FLAG_COMPLAINT_RE = re.compile(r"system[- ]prompt|unknown (?:option|argument)|unrecognized (?:option|argument)", re.I)
 _BILLING_ENV_VARS = ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN", "CLAUDE_CODE_USE_BEDROCK", "CLAUDE_CODE_USE_VERTEX")
 
 
+def _completion_tokens(usage: Any) -> float:
+    if not isinstance(usage, dict):
+        return float("nan")
+    for k in ("output_tokens", "completion_tokens", "outputTokens", "generation_token_count"):
+        if usage.get(k) is not None:
+            try:
+                return float(usage[k])
+            except (TypeError, ValueError):
+                pass
+    return float("nan")
+
+
 class ClaudeCodeClient:
     def __init__(self, model_alias: str = DEFAULT_MODEL_ALIAS, max_new_tokens: int = GENERATION_MAX_NEW_TOKENS,
                  one_shot: bool = True, directive_level: int = 1, per_year: bool = False,
-                 claude_bin: str = "claude", timeout: int = REQUEST_TIMEOUT):
+                 claude_bin: str = "claude", timeout: int = REQUEST_TIMEOUT,
+                 max_thinking_tokens: Optional[int] = None, no_tool_directive: bool = False):
         if model_alias not in MODEL_REGISTRY:
             raise ValueError(f"Unknown model alias '{model_alias}'")
-        self.levels: Dict[int, str] = DIRECTIVE_LEVELS_PY if per_year else DIRECTIVE_LEVELS
+        base_levels = DIRECTIVE_LEVELS_PY if per_year else DIRECTIVE_LEVELS
+        self.no_tool_directive = bool(no_tool_directive)
+        self.levels: Dict[int, str] = ({k: v + NO_TOOL_ADDENDUM for k, v in base_levels.items()}
+                                       if self.no_tool_directive else base_levels)
         if directive_level not in self.levels:
             raise ValueError(f"directive_level must be one of {sorted(self.levels)}")
         found = shutil.which(claude_bin)
@@ -1097,15 +1132,19 @@ class ClaudeCodeClient:
         self.bin, self.timeout = found, timeout
         self.model_alias, self.model_id, self.family = model_alias, MODEL_REGISTRY[model_alias], FAMILY
         self.visible_tokens = self.max_tokens = int(max_new_tokens)
+        self.max_thinking_tokens = max_thinking_tokens
         self.directive_level = directive_level if one_shot else 0
         self.system_text: Optional[str] = self.levels[directive_level] if one_shot else None
         self.system_native = True            # False -> directive is prepended to the user turn instead
         self.dropped: List[str] = []
+        self.raw_dir: Optional[Path] = None  # set by main / the analysers: <output>/raw_calls
+        self.call_label = "call"             # set by the analysers before each call
         self.workdir = tempfile.mkdtemp(prefix="cc_football_")   # empty cwd: no CLAUDE.md / repo context is loaded
         atexit.register(shutil.rmtree, self.workdir, True)
         logger.info(f"ClaudeCodeClient ready  alias={model_alias}  model={self.model_id}  bin={self.bin}  "
-                    f"max_output_tokens={self.max_tokens}  directive="
+                    f"max_output_tokens={self.max_tokens}  max_thinking_tokens={max_thinking_tokens}  directive="
                     f"{'ON (level ' + str(self.directive_level) + ')' if one_shot else 'OFF (Claude Code default system prompt)'}  "
+                    f"no_tool_directive={self.no_tool_directive and one_shot}  "
                     f"mode={'per_year' if per_year else 'single_shot'}")
 
     @property
@@ -1116,15 +1155,81 @@ class ClaudeCodeClient:
         self.directive_level = level
         self.system_text = self.levels[level]
 
-    @staticmethod
-    def _envelope(stdout: str) -> Optional[Dict[str, Any]]:
+    def _stem(self, attempt: int) -> Path:
+        d = self.raw_dir or Path(self.workdir)
+        d.mkdir(parents=True, exist_ok=True)
+        return d / f"{self.call_label}_L{self.directive_level}_try{attempt}"
+
+    def _run_streaming(self, cmd: List[str], user_text: str, system_text: Optional[str],
+                       env: Dict[str, str], stem: Path) -> Dict[str, Any]:
+        """Run one call, writing everything to disk AS IT ARRIVES (a failed / killed call still leaves evidence)."""
+        p_prompt, p_in = Path(f"{stem}_prompt.txt"), Path(f"{stem}_stdin.tmp")
+        p_jsonl, p_text, p_err = Path(f"{stem}_events.jsonl"), Path(f"{stem}_text.txt"), Path(f"{stem}_stderr.txt")
+        p_prompt.write_text((f"[SYSTEM]\n{system_text}\n\n" if system_text else "") + "[USER]\n" + user_text, encoding="utf-8")
+        p_in.write_text(user_text, encoding="utf-8")
+        text_parts: List[str] = []
+        assistant_text, think_chars = "", 0
+        result_evt: Optional[Dict[str, Any]] = None
+        timed_out = {"v": False}
+        t0 = time.perf_counter()
+        last_log = t0
+        with open(p_in, "rb") as fin, open(p_err, "wb") as ferr, \
+                open(p_jsonl, "w", encoding="utf-8") as fj, open(p_text, "w", encoding="utf-8") as ft:
+            proc = subprocess.Popen(cmd, stdin=fin, stdout=subprocess.PIPE, stderr=ferr, cwd=self.workdir, env=env,
+                                    text=True, encoding="utf-8", errors="replace", bufsize=1)
+
+            def _kill():
+                timed_out["v"] = True
+                proc.kill()
+
+            watchdog = threading.Timer(self.timeout, _kill)
+            watchdog.start()
+            try:
+                for line in proc.stdout:
+                    fj.write(line); fj.flush()
+                    try:
+                        evt = json.loads(line)
+                    except ValueError:
+                        continue
+                    et = evt.get("type")
+                    if et == "stream_event":
+                        ev = evt.get("event") or {}
+                        if ev.get("type") == "content_block_delta":
+                            d = ev.get("delta") or {}
+                            if d.get("type") == "text_delta":
+                                s = d.get("text", "")
+                                text_parts.append(s); ft.write(s); ft.flush()
+                            elif d.get("type") == "thinking_delta":
+                                think_chars += len(d.get("thinking", ""))
+                    elif et == "assistant":
+                        for b in (evt.get("message") or {}).get("content") or []:
+                            if isinstance(b, dict) and b.get("type") == "text":
+                                assistant_text += b.get("text", "")
+                    elif et == "result":
+                        result_evt = evt
+                    now = time.perf_counter()
+                    if now - last_log >= PROGRESS_LOG_EVERY_SEC:
+                        last_log = now
+                        logger.info(f"  [{self.call_label}] streaming {now - t0:.0f}s: "
+                                    f"text={sum(len(x) for x in text_parts)} chars  thinking={think_chars} chars")
+                proc.wait()
+            finally:
+                watchdog.cancel()
+        text = "".join(text_parts) or assistant_text
+        if not text and result_evt and not result_evt.get("is_error"):
+            text = str(result_evt.get("result") or "")
+        if text and not text_parts:
+            p_text.write_text(text, encoding="utf-8")
+        stderr_text = p_err.read_text(encoding="utf-8", errors="replace")
+        blob = stderr_text + " " + (str(result_evt.get("result", "")) if result_evt else "")
         try:
-            data = json.loads(stdout)
-        except ValueError:
-            return None
-        if isinstance(data, list):                       # some versions emit a list of events
-            data = next((e for e in reversed(data) if isinstance(e, dict) and e.get("type") == "result"), None)
-        return data if isinstance(data, dict) else None
+            p_in.unlink()
+        except OSError:
+            pass
+        return {"text": text, "thinking_chars": think_chars, "result_evt": result_evt, "returncode": proc.returncode,
+                "stderr": stderr_text, "timed_out": timed_out["v"], "latency": time.perf_counter() - t0,
+                "hit_cap": bool(re.search(r"output token maximum", blob, re.I)),
+                "files": [str(x) for x in (p_prompt, p_jsonl, p_text, p_err)]}
 
     def generate(self, prompt: str, max_tokens: Optional[int] = None, use_system: bool = True) -> Dict[str, Any]:
         mt = int(max_tokens or self.max_tokens)
@@ -1133,46 +1238,48 @@ class ClaudeCodeClient:
         for attempt in range(1, MAX_RETRIES + 1):
             native = bool(sysmsg and self.system_native)
             user_text = (sysmsg + "\n\n" + prompt) if (sysmsg and not self.system_native) else prompt
-            cmd = [self.bin, "-p", "--model", self.model_id, "--output-format", "json", "--tools", "", "--max-turns", "1"]
+            cmd = [self.bin, "-p", "--model", self.model_id, "--output-format", "stream-json", "--verbose",
+                   "--include-partial-messages", "--tools", "", "--max-turns", "1"]
             if native:
                 cmd += ["--system-prompt", sysmsg]
             env = dict(os.environ, CLAUDE_CODE_MAX_OUTPUT_TOKENS=str(mt))
-            try:
-                t0 = time.perf_counter()
-                proc = subprocess.run(cmd, input=user_text, capture_output=True, text=True,
-                                      timeout=self.timeout, cwd=self.workdir, env=env)
-                latency = time.perf_counter() - t0
-            except subprocess.TimeoutExpired as exc:
-                logger.warning(f"timeout attempt {attempt}/{MAX_RETRIES} - retry in {wait:.0f}s")
-                time.sleep(wait); wait *= 2.0; last_exc = exc
+            if self.max_thinking_tokens is not None:
+                env["MAX_THINKING_TOKENS"] = str(self.max_thinking_tokens)
+            r = self._run_streaming(cmd, user_text, sysmsg if native else None, env, self._stem(attempt))
+            text = r["text"].strip()
+            evt = r["result_evt"] or {}
+            usage = evt.get("usage") if isinstance(evt.get("usage"), dict) else None
+            base = {"raw_response": text, "response": text, "latency_sec": round(r["latency"], 3), "usage": usage,
+                    "cost_usd": evt.get("total_cost_usd"), "max_tokens_sent": mt,
+                    "system_mode": self.system_mode if use_system else "none",
+                    "thinking_chars": r["thinking_chars"], "text_chars": len(text), "raw_files": r["files"]}
+            if r["hit_cap"]:       # deterministic: do NOT retry; keep the partial text and flag it
+                logger.warning(f"  [{self.call_label}] hit the {mt}-token output cap after {r['latency']:.0f}s "
+                               f"(text={len(text)} chars, thinking={r['thinking_chars']} chars). Not retried. Raw: {r['files'][1]}")
+                return dict(base, status=ST_TRUNC_LENGTH, finish_reason="output_token_cap")
+            ok = r["returncode"] == 0 and bool(evt) and not evt.get("is_error") and not r["timed_out"]
+            if ok:
+                finish = evt.get("stop_reason") or evt.get("subtype")
+                out_tok = _completion_tokens(usage)
+                status = ST_EMPTY if not text else ST_OK
+                if text and ((out_tok == out_tok and out_tok >= 0.98 * mt) or str(finish or "").lower() in ("max_tokens", "length")):
+                    status = ST_TRUNC_LENGTH
+                return dict(base, status=status, finish_reason=None if finish is None else str(finish))
+            msg = ("TIMEOUT " if r["timed_out"] else "") + (str(evt.get("result", "")) if evt else "") + " " + r["stderr"][:400]
+            if native and _SYSTEM_FLAG_COMPLAINT_RE.search(msg):
+                self.system_native = False
+                self.dropped.append("system_prompt_flag->prepended_to_user_turn")
+                logger.warning(f"--system-prompt rejected ({msg[:120]!r}) - prepending the directive to the user turn")
                 continue
-            env_json = self._envelope(proc.stdout or "")
-            failed = proc.returncode != 0 or env_json is None or bool(env_json.get("is_error"))
-            if failed:
-                msg = ((proc.stderr or "") + " " + (str((env_json or {}).get("result", "")) or (proc.stdout or "")))[:500]
-                if native and _SYSTEM_FLAG_COMPLAINT_RE.search(msg):
-                    self.system_native = False
-                    self.dropped.append("system_prompt_flag->prepended_to_user_turn")
-                    logger.warning(f"--system-prompt rejected ({msg[:120]!r}) - prepending the directive to the user turn")
-                    continue
-                logger.warning(f"claude exit={proc.returncode} attempt {attempt}/{MAX_RETRIES}: {msg[:200]!r} - retry in {wait:.0f}s")
-                time.sleep(wait); wait *= 2.0; last_exc = RuntimeError(msg[:300])
-                continue
-            text = str(env_json.get("result") or "").strip()
-            usage = env_json.get("usage") if isinstance(env_json.get("usage"), dict) else None
-            finish = env_json.get("stop_reason") or env_json.get("subtype")
-            out_tok = _completion_tokens(usage)
-            status = ST_EMPTY if not text else ST_OK
-            if text and ((out_tok == out_tok and out_tok >= 0.98 * mt) or str(finish or "").lower() in ("max_tokens", "length")):
-                status = ST_TRUNC_LENGTH
-            return {"raw_response": text, "response": text, "status": status,
-                    "finish_reason": None if finish is None else str(finish),
-                    "latency_sec": round(latency, 3), "usage": usage, "cost_usd": env_json.get("total_cost_usd"),
-                    "max_tokens_sent": mt, "system_mode": self.system_mode if use_system else "none"}
-        raise RuntimeError(f"claude -p failed after {MAX_RETRIES} attempts. Last error: {last_exc}") from last_exc
+            logger.warning(f"claude exit={r['returncode']} attempt {attempt}/{MAX_RETRIES}: {msg[:200]!r} "
+                           f"(raw: {r['files'][1]}) - retry in {wait:.0f}s")
+            time.sleep(wait); wait *= 2.0; last_exc = RuntimeError(msg[:300])
+        raise RuntimeError(f"claude -p failed after {MAX_RETRIES} attempts. Last error: {last_exc}. "
+                           f"Raw logs: {self.raw_dir or self.workdir}") from last_exc
 
     def validate_access(self) -> bool:
         logger.info(f"Validating Claude Code access  alias={self.model_alias}  model={self.model_id} ...")
+        self.call_label = "validate"
         res = self.generate("Respond with only the word: OK", 256, use_system=False)
         logger.info(f"Validation OK - response: '{res['response'][:60]}'")
         return True
@@ -1180,15 +1287,18 @@ class ClaudeCodeClient:
 
 # ---------------------------------------------------------------------------
 # RESTART MANAGER
+#   A finished record counts as done only if it was produced with the SAME directive setting AND level, is not an
+#   error / legacy placeholder, and (if truncated) was produced with a cap at least as large as the current one.
 # ---------------------------------------------------------------------------
 class RestartManager:
     def __init__(self, output_file: Path, want_system: bool = True, retry_stalled: bool = False,
-                 want_level: int = 1, per_year: bool = False):
+                 want_level: int = 1, per_year: bool = False, max_tokens: int = 0):
         self.output_file = output_file
         self.want_system = want_system
         self.retry_stalled = retry_stalled
         self.want_level = want_level
         self.per_year = per_year
+        self.max_tokens = max_tokens
         self.processed_ids: Set[int] = set()
         self.existing_results: List[Dict[str, Any]] = []
 
@@ -1213,6 +1323,10 @@ class RestartManager:
                 if self.want_system and int(r.get("directive_level_requested", 1)) != self.want_level:
                     logger.info("Existing record used a different directive level - it will be re-run.")
                     continue
+                if (r.get("generation_status") in (ST_TRUNC_LENGTH, ST_TRUNC_REASONING)
+                        and int(r.get("max_tokens_sent") or 0) < self.max_tokens):
+                    logger.info("Existing record was truncated under a smaller output cap - it will be re-run.")
+                    continue
                 if self.retry_stalled and r.get("Conversational_Stall"):
                     logger.info("Existing record is a conversational stall - it will be re-run (--retry_stalled).")
                     continue
@@ -1223,18 +1337,6 @@ class RestartManager:
         except Exception as e:
             logger.warning(f"Could not load existing results ({e}). Starting fresh.")
             return False
-
-
-def _completion_tokens(usage: Any) -> float:
-    if not isinstance(usage, dict):
-        return float("nan")
-    for k in ("output_tokens", "completion_tokens", "outputTokens", "generation_token_count"):
-        if usage.get(k) is not None:
-            try:
-                return float(usage[k])
-            except (TypeError, ValueError):
-                pass
-    return float("nan")
 
 
 def _common_metadata(a: Any, run_mode: str) -> Dict[str, Any]:
@@ -1249,12 +1351,15 @@ def _common_metadata(a: Any, run_mode: str) -> Dict[str, Any]:
         "rag_tier_description": RAG_TIER_DESCRIPTION.get(a.rag_tier, ""),
         "rag_max_rows_per_edition": a.rag_max_rows or "all records",
         "output_suffix": a.suffix, "timestamp": datetime.now().isoformat(),
-        "max_output_tokens_requested": c.max_tokens, "params_adapted": c.dropped, "request_timeout_s": c.timeout,
+        "max_output_tokens_requested": c.max_tokens, "max_thinking_tokens_env": c.max_thinking_tokens,
+        "params_adapted": c.dropped, "request_timeout_s": c.timeout,
         "sampling_note": "temperature / top_p / top_k are not controllable through `claude -p`; the CLI defaults apply",
-        "claude_code_call": "claude -p --model <id> --output-format json --tools '' --max-turns 1 [--system-prompt <directive>]; "
-                            "cwd = empty temp dir; output cap via CLAUDE_CODE_MAX_OUTPUT_TOKENS",
+        "claude_code_call": "claude -p --model <id> --output-format stream-json --verbose --include-partial-messages "
+                            "--tools '' --max-turns 1 [--system-prompt <directive>]; cwd = empty temp dir; "
+                            "output cap via CLAUDE_CODE_MAX_OUTPUT_TOKENS; raw events in <output_dir>/raw_calls",
         "one_shot_directive": not a.raw_prompt, "system_mode": c.system_mode,
         "one_shot_system_text": c.system_text, "directive_level": c.directive_level,
+        "no_tool_directive": bool(c.no_tool_directive and c.system_text),
         "escalate_on_decline": a.escalate,
         "raw_prompt_note": "RAW = no --system-prompt flag, so Claude Code's default system prompt applies" if a.raw_prompt else "",
         "response_text_policy": "Generated_Response is the model text as returned; never altered",
@@ -1284,6 +1389,8 @@ def _record_common(a: Any, res: Dict[str, Any], raw: str, history: list, start_l
         "model_alias": a.model_alias, "model_id": a.model_id, "model_family": a.family,
         "Generated_Response": raw, "generation_status": res["status"], "finish_reason": res["finish_reason"],
         "max_tokens_sent": res["max_tokens_sent"], "usage": res["usage"], "cost_usd_reported": res.get("cost_usd"),
+        "thinking_chars": res.get("thinking_chars"), "text_chars": res.get("text_chars"),
+        "raw_files": res.get("raw_files"),
         "generation_time_seconds": res["latency_sec"], "processing_timestamp": datetime.now().isoformat(),
     }
 
@@ -1322,7 +1429,8 @@ class WorldCupPlayerAnalyser:
             logger.info("--no-resume: deleting existing output and reprocessing from scratch.")
             self.output_file.unlink()
         self.restart_manager = RestartManager(self.output_file, want_system=not raw_prompt,
-                                              retry_stalled=retry_stalled, want_level=max(1, client.directive_level))
+                                              retry_stalled=retry_stalled, want_level=max(1, client.directive_level),
+                                              max_tokens=client.max_tokens)
         if self.restart_manager.load_existing_results() and not no_resume:
             logger.info(f"RESUME MODE - query already done: {sorted(self.restart_manager.processed_ids)}")
         self._latent_extractor = LatentPathExtractor()
@@ -1347,6 +1455,8 @@ class WorldCupPlayerAnalyser:
         results = [r for r in self.restart_manager.existing_results if int(r.get("Query_ID", -1)) != QUERY_ID
                    and not str(r.get("Generated_Response", "")).startswith("ERROR")]
         start_level = self.client.directive_level
+        self.client.raw_dir = self.output_dir / "raw_calls"
+        self.client.call_label = f"{self.model_slug}_{self.suffix}_all"
         logger.info(f"Sending the prompt  strategy={STRATEGY_CODE[self.strategy]}  rag={RAG_CODE[self.rag_tier]}  "
                     f"model={self.model_id}  directive={'OFF' if self.raw_prompt else 'level ' + str(start_level)}  "
                     f"escalate_on_decline={self.escalate}")
@@ -1410,6 +1520,7 @@ class WorldCupPlayerAnalyser:
                         f"stall={stall}  declined={declined}  contradiction={contradiction}  degenerate_tail={degenerate}  "
                         f"system_mode={res['system_mode']}  level={self.client.directive_level}  attempts={len(history)}  "
                         f"cit_complete={audit.get('complete')}  urls={len(parsed['urls'])}  usage={res['usage']}  "
+                        f"text_chars={res.get('text_chars')}  thinking_chars={res.get('thinking_chars')}  "
                         f"cost_usd={res.get('cost_usd')}")
             if len(history) > 1:
                 logger.info("  escalation history: " + "; ".join(
@@ -1425,7 +1536,7 @@ class WorldCupPlayerAnalyser:
             if res["status"] in (ST_TRUNC_LENGTH, ST_TRUNC_REASONING):
                 logger.warning("  Output was TRUNCATED - later editions are probably missing (see --max_new_tokens)")
             if not real and not stall and not declined:
-                logger.warning("  No table rows were parsed. Inspect the response text file; --reparse re-parses offline.")
+                logger.warning("  No table rows were parsed. Inspect the raw_calls files; --reparse re-parses offline.")
             if self.client.dropped:
                 logger.warning(f"  Call parameters were adapted: {self.client.dropped}")
         except Exception as e:
@@ -1485,7 +1596,8 @@ class WorldCupYearLoopAnalyser:
             logger.info("--no-resume: deleting existing per-year output and reprocessing from scratch.")
             self.output_file.unlink()
         self.restart_manager = RestartManager(self.output_file, want_system=not raw_prompt, retry_stalled=retry_stalled,
-                                              want_level=max(1, client.directive_level), per_year=True)
+                                              want_level=max(1, client.directive_level), per_year=True,
+                                              max_tokens=client.max_tokens)
         if self.restart_manager.load_existing_results() and not no_resume:
             logger.info(f"RESUME MODE - years already done: {sorted(self.restart_manager.processed_ids)}")
         self._latent_extractor = LatentPathExtractor()
@@ -1513,6 +1625,8 @@ class WorldCupYearLoopAnalyser:
 
     def _run_year(self, year: int) -> Dict[str, Any]:
         start_level = self.client.directive_level
+        self.client.raw_dir = self.output_dir / "raw_calls"
+        self.client.call_label = f"{self.model_slug}_{self.suffix}_{year}"
         try:
             block, rag = None, dict(_EMPTY_RAG)
             if self.rag_tier != RAG_TIER_NO_EVIDENCE:
@@ -1551,9 +1665,11 @@ class WorldCupYearLoopAnalyser:
             logger.info(f"  [{year}] OK {res['latency_sec']:.1f}s status={res['status']} label={fields['Year_Label'] or 'ROWS'} "
                         f"rows={n_rows} off_year={fields['Off_Year_Rows']} self_excluded={fields['Self_Excluded_Rows']} "
                         f"contradiction={fields['Self_Contradiction']} level={self.client.directive_level} "
-                        f"attempts={len(history)} tokens={_completion_tokens(res['usage'])} cost_usd={res.get('cost_usd')}")
+                        f"attempts={len(history)} tokens={_completion_tokens(res['usage'])} "
+                        f"text_chars={res.get('text_chars')} thinking_chars={res.get('thinking_chars')} "
+                        f"cost_usd={res.get('cost_usd')}")
             if res["status"] in (ST_TRUNC_LENGTH, ST_TRUNC_REASONING):
-                logger.warning(f"  [{year}] output TRUNCATED")
+                logger.warning(f"  [{year}] output TRUNCATED (raw files: {res.get('raw_files')})")
             return record
         except Exception as e:
             logger.error(f"  [{year}] query failed: {e}")
@@ -1934,6 +2050,7 @@ def build_year_table(recs: List[Dict[str, Any]], gt_by_year: Optional[Dict[str, 
                 "self_excluded_rows": int(yr.get("Self_Excluded_Rows", 0) or 0),
                 "contradiction": bool(yr.get("Self_Contradiction")), "closing_offer": bool(yr.get("Closing_Offer")),
                 "status": yr.get("generation_status"), "completion_tokens": _completion_tokens(yr.get("usage")),
+                "text_chars": yr.get("text_chars"), "thinking_chars": yr.get("thinking_chars"),
                 "cost_usd": yr.get("cost_usd_reported"),
                 "latency_s": yr.get("generation_time_seconds"), "citation_complete": bool(ca.get("complete", False)),
                 "n_urls": int(ca.get("n_urls", 0) or 0),
@@ -1964,6 +2081,8 @@ def summarise_years(ydf: pd.DataFrame) -> pd.DataFrame:
                     "false_none_calls": int(g["false_none"].sum()), "true_none_calls": int(g["true_none"].sum()),
                     "mean_off_year_rows": g["off_year_rows"].mean(),
                     "mean_completion_tokens": pd.to_numeric(g["completion_tokens"], errors="coerce").mean(),
+                    "mean_text_chars": pd.to_numeric(g["text_chars"], errors="coerce").mean(),
+                    "mean_thinking_chars": pd.to_numeric(g["thinking_chars"], errors="coerce").mean(),
                     "mean_latency_s": pd.to_numeric(g["latency_s"], errors="coerce").mean()})
     return pd.DataFrame(out)
 
@@ -2315,6 +2434,8 @@ def _make_year_plots(ydf: pd.DataFrame, ysum: pd.DataFrame, outdir: Path) -> Lis
     heat("precision", "Precision by model x edition (per-year calls)", "year_precision_heatmap.png", 1.0)
     heat("n_pred", "Rows returned by model x edition", "year_rows_heatmap.png")
     heat("completion_tokens", "Completion tokens by model x edition", "year_tokens_heatmap.png")
+    heat("text_chars", "Visible answer length (chars) by model x edition", "year_text_chars_heatmap.png")
+    heat("thinking_chars", "Thinking length (chars) by model x edition", "year_thinking_chars_heatmap.png")
     if not ysum.empty:
         ys = ysum.sort_values("year")
         x = np.arange(len(ys))
@@ -2418,7 +2539,7 @@ def run_analysis(root: Path = OUTPUT_ROOT, do_url_check: bool = False, raw: bool
     add(f"  records={len(df)} (one per model x strategy x RAG tier x level)  models={df['model_alias'].nunique()}  strategies={df['strategy'].nunique()}  "
         f"rag_tiers={df['rag_tier'].nunique()}  editions seen in answers={len(ed)}  verbatim-prompt records={int(df['prompt_is_verbatim'].sum())}")
     add("  Backend: `claude -p` inside a Claude Code cloud session; temperature / top_p are not controllable; tools disabled; "
-        "do not compare these numbers directly with Bedrock runs.")
+        "raw events per call are in <cell dir>/raw_calls.")
     add("  Editions are read from the WorldCup_Year column of the returned rows and (single-shot) from the edition headers the model wrote. "
         "'Agreement with consensus' = Jaccard overlap between a record's (edition, player) set and the set returned by >=50% of the usable "
         "records (needs >=3). It measures agreement, NOT correctness.")
@@ -2497,7 +2618,8 @@ def run_analysis(root: Path = OUTPUT_ROOT, do_url_check: bool = False, raw: bool
     if per_year_mode and not ysum.empty:
         add("\n16A. PER-YEAR ANALYSIS (every call = one edition; pooled over models / strategies / RAG tiers / levels)")
         add(_tbl(ysum))
-        for val, ttl in (("recall", "RECALL"), ("precision", "PRECISION"), ("n_pred", "ROWS RETURNED")):
+        for val, ttl in (("recall", "RECALL"), ("precision", "PRECISION"), ("n_pred", "ROWS RETURNED"),
+                         ("text_chars", "VISIBLE ANSWER LENGTH (chars)"), ("thinking_chars", "THINKING LENGTH (chars)")):
             pv = ydf.pivot_table(values=val, index="model_alias", columns="year", aggfunc="mean")
             if not pv.empty:
                 add(f"\n  {ttl} by model x edition (mean over the model's cells; blank = not defined / no GT)")
@@ -2509,7 +2631,7 @@ def run_analysis(root: Path = OUTPUT_ROOT, do_url_check: bool = False, raw: bool
         fp = Counter(p for s in ydf["false_positive_players"] for p in str(s).split("; ") if p)
         add("  Most missed players across all per-year calls: " + ("; ".join(f"{a}: {b}" for a, b in mp.most_common(15)) or "none"))
         add("  Most frequent false-positive names:             " + ("; ".join(f"{a}: {b}" for a, b in fp.most_common(15)) or "none"))
-        cost = pd.to_numeric(ydf.get("cost_usd"), errors="coerce").sum() if "cost_usd" in ydf else float("nan")
+        cost = pd.to_numeric(ydf["cost_usd"], errors="coerce").sum() if "cost_usd" in ydf else float("nan")
         if cost == cost and cost > 0:
             add(f"  Reported cost across per-year calls (Claude Code 'total_cost_usd', summed): {cost:.2f} USD")
 
@@ -2587,10 +2709,10 @@ def run_analysis(root: Path = OUTPUT_ROOT, do_url_check: bool = False, raw: bool
         trm = by_model[by_model["truncated_rate"] > 0].sort_values("truncated_rate", ascending=False)
         ins.append(f"{h['truncated_rate']:.1%} of responses were truncated (models: "
                    + ", ".join(f"{r['model_alias']} {r['truncated_rate']:.0%}" for _, r in trm.head(8).iterrows())
-                   + "); truncated answers omit later rows. Use the '..._reached' columns to judge them on the editions they did reach.")
+                   + "); truncated answers keep their partial text and omit later rows. Use the '..._reached' columns to judge them on the editions they did reach.")
     if h["unparsed_rate"] == h["unparsed_rate"] and h["unparsed_rate"] > 0:
         ins.append(f"{h['unparsed_rate']:.1%} of records had no recognisable table row, no explicit 'no player qualifies' statement and no refusal "
-                   f"(open the *_response.txt files; --reparse re-parses stored text after a parser change).")
+                   f"(open the raw_calls/*_text.txt files; --reparse re-parses stored text after a parser change).")
     if h["mean_completion_tokens"] == h["mean_completion_tokens"]:
         ins.append(f"Mean reported completion tokens per cell: {h['mean_completion_tokens']:.0f}.")
     ins.append(f"Citation chains are complete (heuristic) in {df['citation_complete'].mean():.1%} of records.")
@@ -2607,7 +2729,7 @@ def run_analysis(root: Path = OUTPUT_ROOT, do_url_check: bool = False, raw: bool
     add("  - Name merging uses normalised names and token subsets; a bare surname shared by two players in one edition can be merged.")
     add("  - Per-year mode changes the user turn (the placeholder becomes the year) and the system message; do not compare its numbers directly with single-shot runs.")
     add("  - Editions absent from the ground-truth file (e.g. 2026) are never scored.")
-    add("  - Sampling parameters cannot be set through `claude -p`; truncation is inferred from reported output tokens vs the requested cap.")
+    add("  - Sampling parameters cannot be set through `claude -p`; a call that hits the output-token cap is stored truncated, not retried.")
     add("  - Stronger directive levels / escalation change what the model is told; do not mix them with level-1 runs when comparing models.")
     add("  - One call per cell and year: small differences between cells may be sampling noise (no replicates).")
     add("\nFILES: " + (", ".join(Path(p).name for p in plots) if plots else "(no plots written)"))
@@ -2667,9 +2789,9 @@ def main() -> int:
     global REFERENCE_FILE, GROUND_TRUTH_FILE
     p = argparse.ArgumentParser(
         description=(f"Football Player Analyser - Claude Code edition (script version {SCRIPT_VERSION})\n"
-                     "Claude models only; every call is a headless `claude -p` run inside a Claude Code cloud session.\n"
+                     "Claude models only; every call is a streamed headless `claude -p` run inside a Claude Code cloud session.\n"
                      "Single-shot (default): user turn = the prompt as-is; --per_year: one call per year (placeholder replaced by the year).\n"
-                     "The model's text is never altered; stalls / refusals / loops / contradictions are only flagged. --reparse is offline.\n"),
+                     "Raw events of every call are saved under <cell dir>/raw_calls; the full log is <output root>/run.log.\n"),
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="\n".join(["", "Models (--model; several aliases or 'all')", "-" * 42]
                          + [f"  {a:<20} -> {MODEL_REGISTRY[a]}{'  [DEFAULT]' if a == DEFAULT_MODEL_ALIAS else ''}" for a in sorted(MODEL_REGISTRY)]
@@ -2684,6 +2806,11 @@ def main() -> int:
     p.add_argument("--years", nargs="+", default=None, metavar="YYYY")
     p.add_argument("--claude_bin", default="claude", help="Claude Code CLI executable (default: claude)")
     p.add_argument("--timeout", type=int, default=REQUEST_TIMEOUT, help="seconds allowed per `claude -p` call")
+    p.add_argument("--max_thinking_tokens", type=int, default=None,
+                   help="sets MAX_THINKING_TOKENS for the call (0 = try to disable thinking); default: untouched")
+    p.add_argument("--no_tool_directive", action="store_true", default=False,
+                   help="append an explicit 'you have no tools - answer from your own knowledge' instruction to the "
+                        "system directive (ignored with --raw_prompt); default: directive unchanged")
     p.add_argument("--no-resume", dest="no_resume", action="store_true", default=False)
     p.add_argument("--reference_file", default=REFERENCE_FILE, help="only for RAG1..RAG3 (and RAG6 distractors)")
     p.add_argument("--ground_truth_file", default=GROUND_TRUTH_FILE, help="only for RAG4..RAG6 and optional scoring")
@@ -2701,6 +2828,12 @@ def main() -> int:
     args = p.parse_args()
     REFERENCE_FILE, GROUND_TRUTH_FILE = args.reference_file, args.ground_truth_file
     root = OUTPUT_ROOT_PY if args.per_year else OUTPUT_ROOT
+
+    root.mkdir(parents=True, exist_ok=True)                       # full log of every run, kept next to the results
+    fh = logging.FileHandler(root / "run.log", encoding="utf-8")
+    fh.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+    logging.getLogger().addHandler(fh)
+    logger.info(f"=== run started: {' '.join(sys.argv)} (script version {SCRIPT_VERSION}) ===")
 
     if args.reparse:
         reparse_outputs(root)
@@ -2743,12 +2876,13 @@ def main() -> int:
     print(f"  Strategy(ies)    : {', '.join(STRATEGY_CODE[s] for s in strategies_to_run)}")
     print(f"  RAG tier(s)      : {', '.join(RAG_CODE[t] for t in tiers)}")
     print(f"  System directive : {'OFF (--raw_prompt: Claude Code default system prompt)' if args.raw_prompt else 'ON via --system-prompt (fallback: prepended to the user turn)'}")
-    print(f"  Directive level  : {'-' if args.raw_prompt else args.directive_level}   escalate_on_decline: {args.escalate_on_decline and not args.raw_prompt}")
+    print(f"  Directive level  : {'-' if args.raw_prompt else args.directive_level}   escalate_on_decline: {args.escalate_on_decline and not args.raw_prompt}"
+          f"   no_tool_directive: {args.no_tool_directive and not args.raw_prompt}")
     print(f"  Calls            : {n_cells * (len(years) if args.per_year else 1)} "
           f"({n_cells} cell(s){' x ' + str(len(years)) + ' years' if args.per_year else ''}; escalation can add more per declined call)")
     print(f"  Resume           : {'OFF (--no-resume)' if args.no_resume else 'ON (default)'}{'  + retry stalled' if args.retry_stalled else ''}")
-    print(f"  Max new tokens   : {args.max_new_tokens} per call; timeout {args.timeout}s")
-    print(f"  Output root      : {root}")
+    print(f"  Max new tokens   : {args.max_new_tokens} per call; max thinking tokens: {args.max_thinking_tokens}; timeout {args.timeout}s")
+    print(f"  Output root      : {root}   (log: {root / 'run.log'}; raw events: <cell dir>/raw_calls)")
     print("=" * 72)
 
     ref_store: Optional[ReferenceStore] = None
@@ -2777,7 +2911,10 @@ def main() -> int:
         try:
             client = ClaudeCodeClient(model_alias=alias, max_new_tokens=args.max_new_tokens, one_shot=not args.raw_prompt,
                                       directive_level=args.directive_level, per_year=args.per_year,
-                                      claude_bin=args.claude_bin, timeout=args.timeout)
+                                      claude_bin=args.claude_bin, timeout=args.timeout,
+                                      max_thinking_tokens=args.max_thinking_tokens,
+                                      no_tool_directive=args.no_tool_directive)
+            client.raw_dir = root / "raw_calls"
             client.validate_access()
         except Exception as e:
             logger.error(f"{alias}: startup check failed - skipping this model ({e})")

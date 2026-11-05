@@ -1,0 +1,2 @@
+﻿model_alias,strategy,rag_tier,directive_level,year,label,answered,gt_available,n_pred,n_gt,tp,precision,recall,f1,stated_none,false_none,true_none,off_year_rows,self_excluded_rows,contradiction,closing_offer,status,completion_tokens,text_chars,thinking_chars,cost_usd,latency_s,citation_complete,n_urls,missed_players,false_positive_players
+claude-sonnet-4-6,flat_conjunctive,no_evidence,1,2022,ROWS,True,False,105,,0,,,,False,False,False,0,0,False,False,truncated_length,12000.0,31993,0,0.2506401,142.584,False,5,,

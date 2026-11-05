@@ -1,0 +1,2 @@
+﻿model_alias,rows,mean_awards_per_row,rows_without_award_text,award_items,distinct_leagues,distinct_award_types,league_not_parsed_share,interpretation_line_share
+claude-sonnet-4-6,105,1.6095238095238096,3,169,15,67,0.7100591715976331,0.0
