@@ -1,0 +1,99 @@
+2026-11-05 01:23:21,408 - INFO - === run started: football_analyzer_inf_mod.py --model claude-sonnet-4-6 --per_year --strategy S1 --directive_level 3 --max_new_tokens 64000 --timeout 1800 --no-resume --rag_tier RAG5 --max_thinking_tokens 0 --no_tool_directive (script version 2026-11-04.8-claude-code) ===
+========================================================================
+FOOTBALL PLAYER ANALYSER - CLAUDE CODE   (script version 2026-11-04.8-claude-code)
+========================================================================
+  Mode             : PER-YEAR loop (placeholder replaced by the year)
+  Years (23)     : 1930 1934 1938 1950 1954 1958 1962 1966 1970 1974 1978 1982 1986 1990 1994 1998 2002 2006 2010 2014 2018 2022 2026
+  Models (1) : claude-sonnet-4-6
+  Strategy(ies)    : S1
+  RAG tier(s)      : RAG5
+  System directive : ON via --system-prompt (fallback: prepended to the user turn)
+  Directive level  : 3   escalate_on_decline: False   no_tool_directive: True
+  Tools            : none   max budget/call: None
+  Calls            : 23 (1 cell(s) x 23 years; escalation can add more per declined call)
+  Resume           : OFF (--no-resume)
+  Max new tokens   : 64000 per call; max thinking tokens: 0; timeout 1800s
+  Output root      : claude_code_football_player_by_year   (log: claude_code_football_player_by_year/run.log; raw events: <cell dir>/raw_calls)
+========================================================================
+2026-11-05 01:23:21,414 - INFO - GroundTruthStore: 130/130 rows loaded from 'df_gt_football.csv' spanning 22 editions.
+
+  RAG COVERAGE (RAG5 / full_with_population): 22 editions in the evidence file; records total=130, per edition min/median/max = 1/5/18
+    no row cap: every record is injected; approx. evidence size ~3250 tokens
+
+########################################################################
+  MODEL [1/1] claude-sonnet-4-6
+########################################################################
+2026-11-05 01:23:21,415 - INFO - ClaudeCodeClient ready  alias=claude-sonnet-4-6  model=claude-sonnet-4-6  bin=/opt/node22/bin/claude  max_output_tokens=64000  max_thinking_tokens=0  directive=ON (level 3)  no_tool_directive=True  tools=none  max_turns=1  max_budget_usd=None  mode=per_year
+2026-11-05 01:23:21,415 - INFO - Validating Claude Code access  alias=claude-sonnet-4-6  model=claude-sonnet-4-6 ...
+2026-11-05 01:23:24,497 - INFO - Validation OK - response: 'OK'
+
+------------------------------------------------------------------------
+  claude-sonnet-4-6 | S1 (flat_conjunctive) | RAG5 (full_with_population)
+------------------------------------------------------------------------
+2026-11-05 01:23:24,497 - INFO - No existing results file found. Starting fresh.
+2026-11-05 01:23:24,497 - INFO - Per-year run  strategy=S1  rag=RAG5  model=claude-sonnet-4-6  directive=level 3  escalate=False  years to run: 23 of 23 (0 already done)
+2026-11-05 01:23:36,928 - INFO -   [1930] OK 12.4s status=ok label=NO QUALIFYING PLAYER rows=0 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=647.0 text_chars=2309 thinking_chars=0 cost_usd=0.020814
+2026-11-05 01:23:55,794 - INFO -   [1934] OK 18.9s status=ok label=ROWS rows=1 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1093.0 text_chars=3813 thinking_chars=0 cost_usd=0.027468
+2026-11-05 01:24:16,335 - INFO -   [1938] OK 20.5s status=ok label=ROWS rows=1 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1138.0 text_chars=3799 thinking_chars=0 cost_usd=0.028172999999999997
+2026-11-05 01:24:31,378 - INFO -   [1950] OK 15.0s status=ok label=ROWS rows=1 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=831.0 text_chars=2796 thinking_chars=0 cost_usd=0.023663999999999998
+2026-11-05 01:24:51,834 - INFO -   [1954] OK 20.5s status=ok label=ROWS rows=2 off_year=0 self_excluded=1 contradiction=False level=3 attempts=1 tokens=1279.0 text_chars=3997 thinking_chars=0 cost_usd=0.030546
+2026-11-05 01:25:09,239 - INFO -   [1958] OK 17.4s status=ok label=ROWS rows=4 off_year=0 self_excluded=0 contradiction=True level=3 attempts=1 tokens=1041.0 text_chars=3212 thinking_chars=0 cost_usd=0.027288
+2026-11-05 01:25:27,558 - INFO -   [1962] OK 18.3s status=ok label=ROWS rows=8 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1486.0 text_chars=4072 thinking_chars=0 cost_usd=0.034773
+2026-11-05 01:25:49,412 - INFO -   [1966] OK 21.9s status=ok label=ROWS rows=7 off_year=0 self_excluded=0 contradiction=True level=3 attempts=1 tokens=1723.0 text_chars=4535 thinking_chars=0 cost_usd=0.03804
+2026-11-05 01:26:18,724 - INFO -   [1970] OK 29.3s status=ok label=ROWS rows=9 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2187.0 text_chars=6342 thinking_chars=0 cost_usd=0.044610000000000004
+2026-11-05 01:26:39,501 - INFO -   [1974] OK 20.8s status=ok label=ROWS rows=7 off_year=0 self_excluded=2 contradiction=False level=3 attempts=1 tokens=1802.0 text_chars=4822 thinking_chars=0 cost_usd=0.038811
+2026-11-05 01:26:56,359 - INFO -   [1978] OK 16.9s status=ok label=ROWS rows=3 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=982.0 text_chars=2791 thinking_chars=0 cost_usd=0.026265
+2026-11-05 01:27:14,598 - INFO -   [1982] OK 18.2s status=ok label=ROWS rows=6 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1351.0 text_chars=3727 thinking_chars=0 cost_usd=0.032327999999999996
+2026-11-05 01:27:37,330 - INFO -   [1986] OK 22.7s status=ok label=ROWS rows=10 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2141.0 text_chars=5701 thinking_chars=0 cost_usd=0.044532
+2026-11-05 01:27:52,806 - INFO -   [1990] OK 15.5s status=ok label=ROWS rows=4 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=944.0 text_chars=2755 thinking_chars=0 cost_usd=0.025809
+2026-11-05 01:28:11,509 - INFO -   [1994] OK 18.7s status=ok label=ROWS rows=7 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1363.0 text_chars=4457 thinking_chars=0 cost_usd=0.0327
+2026-11-05 01:28:29,914 - INFO -   [1998] OK 18.4s status=ok label=ROWS rows=10 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1562.0 text_chars=4359 thinking_chars=0 cost_usd=0.036267
+2026-11-05 01:28:54,514 - INFO -   [2002] OK 24.6s status=ok label=ROWS rows=10 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1580.0 text_chars=4650 thinking_chars=0 cost_usd=0.036614999999999995
+2026-11-05 01:29:26,933 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_RAG5_POPULATION_D3_2006] streaming 32s: text=7859 chars  thinking=0 chars
+2026-11-05 01:29:27,207 - INFO -   [2006] OK 32.7s status=ok label=ROWS rows=18 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=2929.0 text_chars=7859 thinking_chars=0 cost_usd=0.058488000000000005
+2026-11-05 01:29:56,276 - INFO -   [2010] OK 29.1s status=ok label=ROWS rows=9 off_year=0 self_excluded=1 contradiction=False level=3 attempts=1 tokens=2642.0 text_chars=7209 thinking_chars=0 cost_usd=0.052587
+2026-11-05 01:30:15,056 - INFO -   [2014] OK 18.8s status=ok label=ROWS rows=7 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1365.0 text_chars=3783 thinking_chars=0 cost_usd=0.03285
+2026-11-05 01:30:34,795 - INFO -   [2018] OK 19.7s status=ok label=ROWS rows=5 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1278.0 text_chars=3810 thinking_chars=0 cost_usd=0.031184999999999997
+2026-11-05 01:31:00,184 - INFO -   [2022] OK 25.4s status=ok label=ROWS rows=7 off_year=0 self_excluded=0 contradiction=False level=3 attempts=1 tokens=1829.0 text_chars=5353 thinking_chars=0 cost_usd=0.039791999999999994
+2026-11-05 01:31:00,189 - WARNING -   [2026] no evidence for tier 'full_with_population' in the evidence file - prompt sent without it
+2026-11-05 01:31:30,195 - INFO -   [claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_RAG5_POPULATION_D3_2026] streaming 30s: text=6988 chars  thinking=0 chars
+2026-11-05 01:31:36,710 - INFO -   [2026] OK 36.5s status=ok label=ROWS rows=6 off_year=0 self_excluded=1 contradiction=False level=3 attempts=1 tokens=2690.0 text_chars=7743 thinking_chars=0 cost_usd=0.050961000000000006
+2026-11-05 01:31:36,717 - INFO - SUMMARY  model=claude-sonnet-4-6  strategy=S1  rag=RAG5  years ok=23/23  output -> claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_RAG5_POPULATION_D3/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_RAG5_POPULATION_D3.json
+  done: success=23/23 errors=0 time=0:08:12.220414  -> claude_code_football_player_by_year/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_RAG5_POPULATION_D3/claude-sonnet-4-6_NLQ_PERYEAR_S1_FLAT_RAG5_POPULATION_D3.json
+
+========================================================================
+ALL RUNS COMPLETE
+  Total wall-clock time : 0:08:15.302795
+  Output root           : claude_code_football_player_by_year
+========================================================================
+2026-11-05 01:31:36,726 - INFO - GroundTruthStore: 130/130 rows loaded from 'df_gt_football.csv' spanning 22 editions.
+2026-11-05 01:31:36,962 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 01:31:36,963 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 01:31:37,091 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 01:31:37,091 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 01:31:39,987 - INFO - Analysis written to claude_code_football_player_by_year/analysis (32 plots, report + CSVs)
+====================================================================================================
+FOOTBALL PLAYER ANALYSER (CLAUDE CODE) - ANALYSIS REPORT
+generated 2026-11-05T01:31:39  (script version 2026-11-04.8-claude-code)
+====================================================================================================
+
+1. SCOPE
+  run mode: PER-YEAR (placeholder replaced by the year; one call per year, aggregated per model x strategy x RAG tier)
+  prompt mode: user turn + --system-prompt directive
+  directive levels present: [3]   escalated records: 0  (levels are pooled in the by-model tables below; filter eval_per_record.csv on directive_level to compare them)
+  records=1 (one per model x strategy x RAG tier x level)  models=1  strategies=1  rag_tiers=1  editions seen in answers=22  verbatim-prompt records=0
+  Backend: `claude -p` inside a Claude Code cloud session; temperature / top_p are not controllable; tools disabled; raw events per call are in <cell dir>/raw_calls.
+  Editions are read from the WorldCup_Year column of the returned rows and (single-shot) from the edition headers the model wrote. 'Agreement with consensus' = Jaccard overlap between a record's (edition, player) set and the set returned by >=50% of the usable records (needs >=3). It measures agreement, NOT correctness.
+  Per-year: tokens, latency and URL counts are TOTALS per cell (sum over its years); stall / decline / error / truncation figures are shares of the cell's year calls. Rows labelled with a different year than requested are dropped and counted (off_year_rows).
+  Ground-truth scoring: ON (1 scored records; only editions present in the GT file are scored; editions with no qualifier count every returned row as a false positive; '..._reached' metrics only count editions up to the last one the model declared or returned; false/true 'none' = explicit 'no qualifying player' claims checked against the GT)
+
+2. HEADLINE (all records pooled)
+  mean_rows                   142.0000
+  mean_editions_covered       22.0000
+  mean_editions_declared      23.0000
+  median_last_edition         2026.0000
+  false_none_per_record       0.0000
+  true_none_per_record        1.0000
+  mean_jaccard_to_consensus   n/a
+
+  Full report: claude_code_football_player_by_year/analysis/analysis_report.txt

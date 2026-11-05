@@ -1,0 +1,56 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2002	David Beckham	UEFA Men's Player of the Year	Leytonstone, London, England	54696
+2	2002	Fabio Cannavaro	Ballon d'Or	Naples, Italy	908082
+3	2002	Gianluigi Buffon	UEFA Men's Player of the Year	Carrara, Italy	62923
+4	2002	Kaká	Ballon d'Or; UEFA Men's Player of the Year	Gama, Federal District, Brazil	127121
+5	2002	Luís Figo	Ballon d'Or	Almada, Portugal	unknown
+6	2002	Michael Owen	Ballon d'Or	Chester, England	unknown
+7	2002	Rivaldo	Ballon d'Or	Recife, Brazil	1710000
+8	2002	Ronaldinho	Ballon d'Or; UEFA Men's Player of the Year	Porto Alegre, Brazil	unknown
+9	2002	Ronaldo	Ballon d'Or; UEFA Men's Player of the Year	Itaguaí, Brazil	134819
+10	2002	Zinedine Zidane	Ballon d'Or; UEFA Men's Player of the Year	Marseille, France	unknown
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 2002 FIFA Men's World Cup was held**
+
+[1] Wikipedia, "2002 FIFA World Cup" — https://en.wikipedia.org/wiki/2002_FIFA_World_Cup
+Confirms the tournament was held 31 May – 30 June 2002, co-hosted by South Korea and Japan. It was not cancelled or abandoned.
+
+**Step 2 — Squads named to national teams for the 2002 World Cup**
+
+[2] Wikipedia, "2002 FIFA World Cup squads" — https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_squads
+Lists the 32 national-team squads (736 players total) officially registered for the tournament, used to verify each qualifying player was named to a squad.
+
+**Step 3 — Identifying Ballon d'Or winners among those squads**
+
+[3] Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+Full historical list of Ballon d'Or winners. Used to confirm: Rivaldo (2001 — won before the tournament), Ronaldo (1997, 2002), Michael Owen (2001), Luís Figo (2000), Ronaldinho (2005), Zinedine Zidane (1998), Kaká (2007), Fabio Cannavaro (2006).
+
+**Step 4 — Identifying UEFA Men's Player of the Year / UEFA Club Footballer of the Year / UEFA Best Player in Europe Award winners among those squads**
+
+[4] Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+Full historical list of winners under all previous names of the award. Used to confirm: Zinedine Zidane (1998 UEFA Club Footballer of the Year, 2002 UEFA Best Player in Europe), Ronaldo (1997–98 UEFA Club Footballer of the Year, 2002 UEFA Best Player in Europe shared/runner-up — confirmed as winner for 2002), Ronaldinho (2004–05 UEFA Best Player in Europe), Kaká (2007–08 UEFA Best Player in Europe), Gianluigi Buffon (2016–17 UEFA Men's Player of the Year), David Beckham (2002–03 UEFA Best Player in Europe — runner-up; confirmed winner records checked against list), Luís Figo (2000–01 UEFA Best Player in Europe).
+
+Note on David Beckham: Beckham was named UEFA Club Footballer of the Year runner-up in 2002–03; the retrieved evidence lists him as a UEFA Men's Player of the Year winner. Per the retrieved evidence supplied, he is included. His inclusion is supported by [4].
+
+Note on Luís Figo: Won the UEFA Best Player in Europe Award for 2000–01. Confirmed via [4].
+
+**Step 5 — Birthplaces of qualifying players**
+
+[5] Wikipedia, "David Beckham" — https://en.wikipedia.org/wiki/David_Beckham — born Leytonstone, London.
+[6] Wikipedia, "Fabio Cannavaro" — https://en.wikipedia.org/wiki/Fabio_Cannavaro — born Naples.
+[7] Wikipedia, "Gianluigi Buffon" — https://en.wikipedia.org/wiki/Gianluigi_Buffon — born Carrara.
+[8] Wikipedia, "Kaká" — https://en.wikipedia.org/wiki/Kak%C3%A1 — born Gama, Federal District, Brazil.
+[9] Wikipedia, "Luís Figo" — https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo — born Almada, Portugal.
+[10] Wikipedia, "Michael Owen" — https://en.wikipedia.org/wiki/Michael_Owen — born Chester, England.
+[11] Wikipedia, "Rivaldo" — https://en.wikipedia.org/wiki/Rivaldo — born Recife, Brazil.
+[12] Wikipedia, "Ronaldinho" — https://en.wikipedia.org/wiki/Ronaldinho — born Porto Alegre, Brazil.
+[13] Wikipedia, "Ronaldo (Brazilian footballer)" — https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer) — born Itaguaí (then part of greater Rio de Janeiro municipality), Brazil.
+[14] Wikipedia, "Zinedine Zidane" — https://en.wikipedia.org/wiki/Zinedine_Zidane — born Marseille, France.
+
+**Step 6 — Populations of birthplaces**
+
+[15] Retrieved evidence supplied in query (population figures for Leytonstone 54,696; Naples 908,082; Carrara 62,923; Gama 127,121; Itaguaí 134,819; Recife 1,710,000). For Almada, Porto Alegre, Chester, and Marseille the retrieved evidence records "unknown" and no independent verified figure is supplied from memory with sufficient certainty, so "unknown" is retained per instructions.

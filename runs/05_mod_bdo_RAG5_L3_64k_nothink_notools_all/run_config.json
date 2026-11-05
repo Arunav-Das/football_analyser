@@ -1,0 +1,38 @@
+{
+  "run_id": "05",
+  "label": "mod_bdo_RAG5_L3_64k_nothink_notools_all",
+  "output_root": "claude_code_football_player_by_year",
+  "command": [
+    "python3",
+    "football_analyzer_inf_mod.py",
+    "--model",
+    "claude-sonnet-4-6",
+    "--per_year",
+    "--strategy",
+    "S1",
+    "--directive_level",
+    "3",
+    "--max_new_tokens",
+    "64000",
+    "--timeout",
+    "1800",
+    "--no-resume",
+    "--rag_tier",
+    "RAG5",
+    "--max_thinking_tokens",
+    "0",
+    "--no_tool_directive"
+  ],
+  "env_overrides": {
+    "CLAUDE_CODE_DISABLE_THINKING": "1",
+    "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1"
+  },
+  "note": "",
+  "git_branch": "dl-diagnostic-2022",
+  "git_commit": "e343fd6278dd38712adce6700acca206221b2db6",
+  "git_dirty_files": [],
+  "started_utc": "2026-11-05T01:23:21+00:00",
+  "finished_utc": "2026-11-05T01:31:40+00:00",
+  "exit_code": 0,
+  "output_moved_to": "runs/05_mod_bdo_RAG5_L3_64k_nothink_notools_all/claude_code_football_player_by_year"
+}

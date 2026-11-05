@@ -1,0 +1,24 @@
+﻿model_alias,strategy,rag_tier,directive_level,year,label,answered,gt_available,n_pred,n_gt,tp,precision,recall,f1,stated_none,false_none,true_none,off_year_rows,self_excluded_rows,contradiction,closing_offer,status,completion_tokens,text_chars,thinking_chars,cost_usd,latency_s,citation_complete,n_urls,missed_players,false_positive_players
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1930,NO QUALIFYING PLAYER,True,True,0,0.0,0,,,,True,False,True,0,0,False,False,ok,647.0,2309,0,0.020814,12.429,True,4,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1934,ROWS,True,True,1,0.0,0,0.0,,,False,False,False,0,0,False,False,ok,1093.0,3813,0,0.027468,18.863,False,5,,Giuseppe Meazza
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1938,ROWS,True,True,1,0.0,0,0.0,,,False,False,False,0,0,False,False,ok,1138.0,3799,0,0.028172999999999997,20.539,False,7,,Silvio Piola
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1950,ROWS,True,True,1,1.0,1,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,831.0,2796,0,0.023663999999999998,15.041,True,6,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1954,ROWS,True,True,2,2.0,2,1.0,1.0,1.0,False,False,False,0,1,False,False,ok,1279.0,3997,0,0.030546,20.451,True,6,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1958,ROWS,True,True,4,4.0,4,1.0,1.0,1.0,False,False,False,0,0,True,False,ok,1041.0,3212,0,0.027288,17.401,True,11,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1962,ROWS,True,True,8,8.0,8,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,1486.0,4072,0,0.034773,18.314,True,19,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1966,ROWS,True,True,7,7.0,7,1.0,1.0,1.0,False,False,False,0,0,True,False,ok,1723.0,4535,0,0.03804,21.85,False,17,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1970,ROWS,True,True,9,5.0,5,0.5555555555555556,1.0,0.7142857142857143,False,False,False,0,0,False,False,ok,2187.0,6342,0,0.044610000000000004,29.305,False,17,,Pelé; Florian Albert; Dragan Džajić; Gigi Riva
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1974,ROWS,True,True,7,5.0,5,0.7142857142857143,1.0,0.8333333333333333,False,False,False,0,2,False,False,ok,1802.0,4822,0,0.038811,20.772,False,16,,Sepp Maier; Dino Zoff
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1978,ROWS,True,True,3,3.0,3,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,982.0,2791,0,0.026265,16.852,False,10,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1982,ROWS,True,True,6,6.0,6,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,1351.0,3727,0,0.032327999999999996,18.234,False,16,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1986,ROWS,True,True,10,8.0,8,0.8,1.0,0.888888888888889,False,False,False,0,0,False,False,ok,2141.0,5701,0,0.044532,22.722,True,24,,Marco van Basten; Ruud Gullit
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1990,ROWS,True,True,4,4.0,4,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,944.0,2755,0,0.025809,15.471,True,12,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1994,ROWS,True,True,7,7.0,7,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,1363.0,4457,0,0.0327,18.694,False,14,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,1998,ROWS,True,True,10,10.0,10,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,1562.0,4359,0,0.036267,18.399,False,17,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,2002,ROWS,True,True,10,10.0,10,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,1580.0,4650,0,0.036614999999999995,24.591,False,14,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,2006,ROWS,True,True,18,18.0,18,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,2929.0,7859,0,0.058488000000000005,32.687,True,40,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,2010,ROWS,True,True,9,10.0,9,1.0,0.9,0.9473684210526316,False,False,False,0,1,False,False,ok,2642.0,7209,0,0.052587,29.063,True,23,Diego Milito,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,2014,ROWS,True,True,7,7.0,7,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,1365.0,3783,0,0.03285,18.77,False,18,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,2018,ROWS,True,True,5,5.0,5,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,1278.0,3810,0,0.031184999999999997,19.73,True,14,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,2022,ROWS,True,True,7,7.0,7,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,1829.0,5353,0,0.039791999999999994,25.379,True,20,,
+claude-sonnet-4-6,flat_conjunctive,full_with_population,3,2026,ROWS,True,False,6,,0,,,,False,False,False,0,1,False,False,ok,2690.0,7743,0,0.050961000000000006,36.518,True,18,,

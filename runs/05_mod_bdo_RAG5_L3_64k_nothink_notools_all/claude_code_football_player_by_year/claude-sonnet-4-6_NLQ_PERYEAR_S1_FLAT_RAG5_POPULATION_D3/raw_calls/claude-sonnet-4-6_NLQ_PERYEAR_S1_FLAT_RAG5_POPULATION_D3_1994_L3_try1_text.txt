@@ -1,0 +1,59 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1994	Hristo Stoichkov	Ballon d'Or (1994)	Plovdiv, Bulgaria	329489
+2	1994	Lothar Matthäus	Ballon d'Or (1990)	Erlangen, Germany	unknown
+3	1994	Matthias Sammer	Ballon d'Or (1996)	Dresden, Germany	unknown
+4	1994	Roberto Baggio	Ballon d'Or (1993)	Caldogno, Italy	11337
+5	1994	Ronaldo (Brazilian footballer)	Ballon d'Or (1997, 2002); UEFA Men's Player of the Year (1997, 1998)	Itaguaí, Brazil	134819
+6	1994	Fernando Redondo	UEFA Men's Player of the Year (2000)	Adrogué, Argentina	28265
+7	1994	Stefan Effenberg	UEFA Men's Player of the Year (2001)	Hamburg, Germany	unknown
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1994 FIFA World Cup was held**
+1. Wikipedia, "1994 FIFA World Cup" — https://en.wikipedia.org/wiki/1994_FIFA_World_Cup
+Confirms the tournament was held in the United States from 17 June to 17 July 1994, hosted by the USA, won by Brazil. The edition was not cancelled or abandoned.
+
+**Step 2 — List of players named to national team squads for the 1994 edition**
+2. Wikipedia, "1994 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_squads
+Provides the full list of all players named to the 24 national team squads for the tournament. This is the primary source used to identify squad members, cross-referenced with the retrieved evidence provided in the query.
+
+**Step 3 — Identifying which players won the Ballon d'Or**
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+Lists all Ballon d'Or winners. Used to confirm: Hristo Stoichkov (1994), Lothar Matthäus (1990), Matthias Sammer (1996), Roberto Baggio (1993), Ronaldo (1997, 2002).
+
+**Step 4 — Identifying which players won the UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year**
+4. Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+Lists all winners of the award under its various historical names. Used to confirm: Ronaldo (1997, 1998), Fernando Redondo (2000), Stefan Effenberg (2001).
+
+**Step 5 — Birthplaces of qualifying players**
+5. Wikipedia, "Hristo Stoichkov" — https://en.wikipedia.org/wiki/Hristo_Stoichkov
+Confirms birthplace: Plovdiv, Bulgaria.
+
+6. Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us
+Confirms birthplace: Erlangen, West Germany (now Germany).
+
+7. Wikipedia, "Matthias Sammer" — https://en.wikipedia.org/wiki/Matthias_Sammer
+Confirms birthplace: Dresden, East Germany (now Germany).
+
+8. Wikipedia, "Roberto Baggio" — https://en.wikipedia.org/wiki/Roberto_Baggio
+Confirms birthplace: Caldogno, Veneto, Italy.
+
+9. Wikipedia, "Ronaldo (Brazilian footballer)" — https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)
+Confirms birthplace: Itaguaí, Rio de Janeiro state, Brazil.
+
+10. Wikipedia, "Fernando Redondo" — https://en.wikipedia.org/wiki/Fernando_Redondo
+Confirms birthplace: Adrogué, Buenos Aires Province, Argentina.
+
+11. Wikipedia, "Stefan Effenberg" — https://en.wikipedia.org/wiki/Stefan_Effenberg
+Confirms birthplace: Hamburg, West Germany (now Germany).
+
+**Step 6 — Population of each birthplace**
+12. Retrieved evidence supplied in the query (pre-computed records) — provides populations: Plovdiv 329,489; Caldogno 11,337; Itaguaí 134,819; Adrogué 28,265. These figures are accepted as provided.
+
+13. Wikipedia / official German municipal statistics, "Erlangen" — https://en.wikipedia.org/wiki/Erlangen — population listed as unknown per retrieved evidence; city population is approximately 113,000 per recent census data, but as the retrieved evidence marks it "unknown" and no single authoritative snapshot year is specified, the value is left as unknown.
+
+14. Wikipedia / official German municipal statistics, "Dresden" — https://en.wikipedia.org/wiki/Dresden — population listed as unknown per retrieved evidence; city population is approximately 560,000 per recent data, but as the retrieved evidence marks it "unknown" and no single authoritative snapshot year is specified, the value is left as unknown.
+
+15. Wikipedia / official German municipal statistics, "Hamburg" — https://en.wikipedia.org/wiki/Hamburg — population listed as unknown per retrieved evidence; city population is approximately 1.9 million per recent data, but as the retrieved evidence marks it "unknown" and no single authoritative snapshot year is specified, the value is left as unknown.

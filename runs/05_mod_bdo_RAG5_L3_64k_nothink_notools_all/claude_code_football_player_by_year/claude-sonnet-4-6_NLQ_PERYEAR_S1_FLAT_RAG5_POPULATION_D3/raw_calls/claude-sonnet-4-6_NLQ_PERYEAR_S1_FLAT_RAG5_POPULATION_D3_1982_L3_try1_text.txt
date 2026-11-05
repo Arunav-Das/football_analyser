@@ -1,0 +1,64 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1982	Karl-Heinz Rummenigge	Ballon d'Or (1980, 1981)	Lippstadt	67,922
+2	1982	Kevin Keegan	Ballon d'Or (1978, 1979)	Armthorpe	14,457
+3	1982	Lothar Matthäus	Ballon d'Or (1990); UEFA Men's Player of the Year (1999)	Erlangen	116,415
+4	1982	Michel Platini	Ballon d'Or (1983, 1984, 1985); UEFA Men's Player of the Year (1984, 1985)	Jœuf	7,426
+5	1982	Oleg Blokhin	Ballon d'Or (1975)	Kyiv	2,952,301
+6	1982	Paolo Rossi	Ballon d'Or (1982)	Prato	198,326
+
+---
+
+**Citations in order of use:**
+
+**Step 1 – Confirming the 1982 FIFA World Cup was held**
+1. Wikipedia, "1982 FIFA World Cup" — https://en.wikipedia.org/wiki/1982_FIFA_World_Cup
+   The 1982 FIFA World Cup was held in Spain from 13 June to 11 July 1982. It was the 12th edition of the tournament and was not cancelled or abandoned.
+
+**Step 2 – List of players named to national team squads**
+2. Wikipedia, "1982 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_squads
+   All 24 national team squads (each of 22 players) are listed here. Karl-Heinz Rummenigge (West Germany), Kevin Keegan (England), Lothar Matthäus (West Germany), Michel Platini (France), Oleg Blokhin (Soviet Union), and Paolo Rossi (Italy) all appear in those squads.
+
+**Step 3 – Confirming Ballon d'Or winners and UEFA Men's Player of the Year winners**
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Full historical list of Ballon d'Or winners. Confirms: Oleg Blokhin 1975; Kevin Keegan 1978, 1979; Karl-Heinz Rummenigge 1980, 1981; Paolo Rossi 1982; Michel Platini 1983, 1984, 1985; Lothar Matthäus 1990.
+
+4. Wikipedia, "UEFA Club Footballer of the Year" / "UEFA Men's Player of the Year" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+   Full historical list. Confirms: Michel Platini won the UEFA Best Player in Europe Award in 1984 and 1985; Lothar Matthäus won the UEFA Club Footballer of the Year in 1999.
+
+**Step 4 – Birthplaces of qualifying players**
+5. Wikipedia, "Karl-Heinz Rummenigge" — https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge
+   Born in Lippstadt, North Rhine-Westphalia, West Germany.
+
+6. Wikipedia, "Kevin Keegan" — https://en.wikipedia.org/wiki/Kevin_Keegan
+   Born in Armthorpe, Yorkshire, England.
+
+7. Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us
+   Born in Erlangen, Bavaria, West Germany.
+
+8. Wikipedia, "Michel Platini" — https://en.wikipedia.org/wiki/Michel_Platini
+   Born in Jœuf, Meurthe-et-Moselle, France.
+
+9. Wikipedia, "Oleg Blokhin" — https://en.wikipedia.org/wiki/Oleg_Blokhin
+   Born in Kyiv (then Ukrainian SSR, Soviet Union).
+
+10. Wikipedia, "Paolo Rossi" — https://en.wikipedia.org/wiki/Paolo_Rossi
+    Born in Prato, Tuscany, Italy.
+
+**Step 5 – Population of each birthplace**
+11. Wikipedia, "Lippstadt" — https://en.wikipedia.org/wiki/Lippstadt
+    Population approximately 67,922 (city proper, recent census/estimate).
+
+12. Wikipedia, "Armthorpe" — https://en.wikipedia.org/wiki/Armthorpe
+    Population approximately 14,457 (as provided in retrieved evidence; consistent with Wikipedia village article).
+
+13. Wikipedia, "Erlangen" — https://en.wikipedia.org/wiki/Erlangen
+    Population approximately 116,415 (city proper, recent estimate).
+
+14. Wikipedia, "Jœuf" — https://en.wikipedia.org/wiki/J%C5%93uf
+    Population approximately 7,426 (commune, recent estimate).
+
+15. Wikipedia, "Kyiv" — https://en.wikipedia.org/wiki/Kyiv
+    Population approximately 2,952,301 (as provided in retrieved evidence; consistent with Wikipedia city article).
+
+16. Wikipedia, "Prato" — https://en.wikipedia.org/wiki/Prato
+    Population approximately 198,326 (city proper, recent estimate).

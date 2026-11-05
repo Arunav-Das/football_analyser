@@ -1,0 +1,66 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2022	Cristiano Ronaldo	Ballon d'Or (2008, 2013, 2014, 2016, 2017, 2019); UEFA Men's Player of the Year / Best Player in Europe (2008, 2011, 2014, 2016, 2017, 2019)	Funchal, Madeira, Portugal	111892
+2	2022	Karim Benzema	Ballon d'Or (2022)	Lyon, France	522969
+3	2022	Lionel Messi	Ballon d'Or (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023); UEFA Men's Player of the Year / Best Player in Europe (2009, 2010, 2011, 2015, 2019)	Rosario, Argentina	1193605
+4	2022	Luka Modrić	Ballon d'Or (2018); UEFA Men's Player of the Year (2018)	Zadar, Croatia	70779
+5	2022	Robert Lewandowski	UEFA Men's Player of the Year (2020)	Warsaw, Poland	1862402
+6	2022	Rodri	Ballon d'Or (2024); UEFA Men's Player of the Year (2024)	Madrid, Spain	3322416
+7	2022	Virgil van Dijk	UEFA Men's Player of the Year (2019)	Breda, Netherlands	184012
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 2022 FIFA Men's World Cup was held**
+
+1. FIFA Official Website – "FIFA World Cup Qatar 2022™" – https://www.fifa.com/fifaworld cup/qatar2022/ — Confirms the 2022 FIFA World Cup was held in Qatar from 20 November to 18 December 2022 and was not cancelled or abandoned.
+
+**Step 2 — List of players named to national team squads**
+
+2. FIFA Official Website – "Squad lists for the FIFA World Cup Qatar 2022™" – https://www.fifa.com/fifaworld cup/qatar2022/squads — Official published squad lists of all 32 national teams for the 2022 World Cup, used to confirm Ronaldo (Portugal), Benzema (France, though he withdrew injured before the tournament started — see note below), Messi (Argentina), Modrić (Croatia), Lewandowski (Poland), Rodri (Spain), and Van Dijk (Netherlands) were all named to squads.
+
+   *Note on Benzema:* Karim Benzema was officially named in France's 26-man squad for the 2022 World Cup but withdrew on 19 November 2022 due to injury before playing any match. He was nonetheless officially named to the squad, satisfying the criterion "named to a national team squad."
+
+3. Wikipedia – "2022 FIFA World Cup squads" – https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads — Secondary confirmation of all 32 squad lists, including the seven qualifying players.
+
+**Step 3 — Confirming Ballon d'Or and UEFA Men's Player of the Year award winners**
+
+4. France Football / Ballon d'Or official records – https://www.francefootball.fr/ballon-dor — Source for Ballon d'Or winners: Messi (2009–2012, 2015, 2019, 2021, 2023), Ronaldo (2008, 2013, 2014, 2016, 2017, 2019), Benzema (2022), Modrić (2018), Rodri (2024).
+
+5. Wikipedia – "Ballon d'Or" – https://en.wikipedia.org/wiki/Ballon_d%27Or — Comprehensive list of all Ballon d'Or winners confirming the above.
+
+6. UEFA Official Website – "UEFA Men's Player of the Year Award" – https://www.uefa.com/insideuefa/stakeholders/clubs/news/2023-24/uefa-mens-player-of-the-year-award/ — Source for UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year winners: Ronaldo (2008, 2011, 2014, 2016, 2017, 2019), Messi (2009, 2010, 2011, 2015, 2019), Modrić (2018), Lewandowski (2020), Van Dijk (2019), Rodri (2024).
+
+7. Wikipedia – "UEFA Men's Player of the Year Award" – https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award — Comprehensive list confirming all UEFA award winners listed above.
+
+**Step 4 — Birthplaces of qualifying players**
+
+8. Wikipedia – "Cristiano Ronaldo" – https://en.wikipedia.org/wiki/Cristiano_Ronaldo — Confirms birthplace as Funchal, Madeira, Portugal.
+
+9. Wikipedia – "Karim Benzema" – https://en.wikipedia.org/wiki/Karim_Benzema — Confirms birthplace as Lyon, France.
+
+10. Wikipedia – "Lionel Messi" – https://en.wikipedia.org/wiki/Lionel_Messi — Confirms birthplace as Rosario, Santa Fe, Argentina.
+
+11. Wikipedia – "Luka Modrić" – https://en.wikipedia.org/wiki/Luka_Modri%C4%87 — Confirms birthplace as Zadar, Croatia.
+
+12. Wikipedia – "Robert Lewandowski" – https://en.wikipedia.org/wiki/Robert_Lewandowski — Confirms birthplace as Warsaw, Poland.
+
+13. Wikipedia – "Rodri" – https://en.wikipedia.org/wiki/Rodri_(footballer,_born_1996) — Confirms birthplace as Madrid, Spain.
+
+14. Wikipedia – "Virgil van Dijk" – https://en.wikipedia.org/wiki/Virgil_van_Dijk — Confirms birthplace as Breda, Netherlands.
+
+**Step 5 — Populations of birthplaces**
+
+15. Wikipedia – "Funchal" – https://en.wikipedia.org/wiki/Funchal — Population of Funchal municipality approximately 111,892 (2021 census).
+
+16. Wikipedia – "Lyon" – https://en.wikipedia.org/wiki/Lyon — Population of Lyon commune approximately 522,969 (2019 census).
+
+17. Wikipedia – "Rosario, Santa Fe" – https://en.wikipedia.org/wiki/Rosario,_Santa_Fe — Population of Rosario approximately 1,193,605 (2010 census).
+
+18. Wikipedia – "Zadar" – https://en.wikipedia.org/wiki/Zadar — Population of Zadar approximately 70,779 (2021 census); also cited in the provided retrieved evidence.
+
+19. Wikipedia – "Warsaw" – https://en.wikipedia.org/wiki/Warsaw — Population of Warsaw approximately 1,862,402; also cited in the provided retrieved evidence.
+
+20. Wikipedia – "Madrid" – https://en.wikipedia.org/wiki/Madrid — Population of Madrid approximately 3,322,416; also cited in the provided retrieved evidence.
+
+21. Wikipedia – "Breda" – https://en.wikipedia.org/wiki/Breda — Population of Breda approximately 184,012 (2021 estimate).

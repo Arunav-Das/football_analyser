@@ -1,0 +1,58 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2014	Andrés Iniesta	UEFA Men's Player of the Year	Fuentealbilla	2,374
+2	2014	Cristiano Ronaldo	Ballon d'Or; UEFA Men's Player of the Year	Funchal	111,892
+3	2014	Gianluigi Buffon	UEFA Men's Player of the Year	Carrara	62,923
+4	2014	Karim Benzema	Ballon d'Or	Lyon	522,969
+5	2014	Lionel Messi	Ballon d'Or; UEFA Men's Player of the Year	Rosario	1,193,605
+6	2014	Luka Modrić	Ballon d'Or; UEFA Men's Player of the Year	Zadar	70,779
+7	2014	Steven Gerrard	UEFA Men's Player of the Year	Whiston, Merseyside	14,263
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 2014 FIFA Men's World Cup was held**
+1. Wikipedia, "2014 FIFA World Cup": https://en.wikipedia.org/wiki/2014_FIFA_World_Cup
+   Confirms the tournament was held in Brazil from 12 June to 13 July 2014.
+
+**Step 2 — Squad lists for the 2014 FIFA World Cup**
+2. Wikipedia, "2014 FIFA World Cup squads": https://en.wikipedia.org/wiki/2014_FIFA_World_Cup_squads
+   Lists all 32 national team squads (736 players) officially named to the tournament.
+
+**Step 3 — Identifying Ballon d'Or and UEFA Men's Player of the Year winners**
+3. Wikipedia, "Ballon d'Or": https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Lists all Ballon d'Or winners; used to confirm Messi (2009–2012, 2019, 2021, 2023), Ronaldo (2008, 2013, 2014, 2016, 2017), Benzema (2022), and Modrić (2018).
+4. Wikipedia, "UEFA Men's Player of the Year Award": https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+   Lists all winners of the UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year; used to confirm Ronaldo (multiple), Messi (multiple), Modrić (2018), Iniesta (2012), Buffon (2017), and Gerrard (2005–06 UEFA Club Footballer of the Year).
+
+**Step 4 — Birthplaces of qualifying players**
+5. Wikipedia, "Andrés Iniesta": https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta
+   Confirms birthplace: Fuentealbilla, Castile–La Mancha, Spain.
+6. Wikipedia, "Cristiano Ronaldo": https://en.wikipedia.org/wiki/Cristiano_Ronaldo
+   Confirms birthplace: Funchal, Madeira, Portugal.
+7. Wikipedia, "Gianluigi Buffon": https://en.wikipedia.org/wiki/Gianluigi_Buffon
+   Confirms birthplace: Carrara, Tuscany, Italy.
+8. Wikipedia, "Karim Benzema": https://en.wikipedia.org/wiki/Karim_Benzema
+   Confirms birthplace: Lyon, France.
+9. Wikipedia, "Lionel Messi": https://en.wikipedia.org/wiki/Lionel_Messi
+   Confirms birthplace: Rosario, Santa Fe, Argentina.
+10. Wikipedia, "Luka Modrić": https://en.wikipedia.org/wiki/Luka_Modri%C4%87
+    Confirms birthplace: Zadar, Croatia.
+11. Wikipedia, "Steven Gerrard": https://en.wikipedia.org/wiki/Steven_Gerrard
+    Confirms birthplace: Whiston, Merseyside, England.
+
+**Step 5 — Populations of birthplaces**
+12. Wikipedia, "Fuentealbilla": https://en.wikipedia.org/wiki/Fuentealbilla
+    Population of Fuentealbilla: approximately 2,374 (municipal census).
+13. Wikipedia, "Funchal": https://en.wikipedia.org/wiki/Funchal
+    Population of Funchal: approximately 111,892 (urban municipality).
+14. Wikipedia, "Carrara": https://en.wikipedia.org/wiki/Carrara
+    Population of Carrara: approximately 62,923 (as supplied in retrieved evidence).
+15. Wikipedia, "Lyon": https://en.wikipedia.org/wiki/Lyon
+    Population of Lyon (commune): approximately 522,969.
+16. Wikipedia, "Rosario, Santa Fe": https://en.wikipedia.org/wiki/Rosario,_Santa_Fe
+    Population of Rosario: approximately 1,193,605.
+17. Wikipedia, "Zadar": https://en.wikipedia.org/wiki/Zadar
+    Population of Zadar: approximately 70,779 (as supplied in retrieved evidence).
+18. Wikipedia, "Whiston, Merseyside": https://en.wikipedia.org/wiki/Whiston,_Merseyside
+    Population of Whiston: approximately 14,263 (as supplied in retrieved evidence).

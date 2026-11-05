@@ -1,0 +1,43 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1958 | Raymond Kopa | Ballon d'Or | Nœux-les-Mines | unknown |
+| 2 | 1958 | Lev Yashin | Ballon d'Or | Moscow | 13010112 |
+| 3 | 1958 | Bobby Charlton | Ballon d'Or | Ashington | 28278 |
+| 4 | 1958 | Josef Masopust | Ballon d'Or | Most | 63474 |
+
+---
+
+**Steps and Citations in Order of Use**
+
+**Step 1 — Confirm the 1958 FIFA World Cup was actually held**
+The 1958 FIFA World Cup was held in Sweden from 8 June to 29 June 1958. It was not cancelled or abandoned.
+1. FIFA Official Website — "1958 FIFA World Cup Sweden": https://www.fifa.com/tournaments/mens/worldcup/1958sweden
+
+**Step 2 — Obtain the list of players named to national team squads for the 1958 World Cup**
+Squad lists for all 16 participating nations at the 1958 FIFA World Cup were sourced from:
+2. Wikipedia — "1958 FIFA World Cup squads": https://en.wikipedia.org/wiki/1958_FIFA_World_Cup_squads
+
+**Step 3 — Identify which of those squad players have ever won the Ballon d'Or or UEFA Men's Player of the Year Award**
+The Ballon d'Or has been awarded since 1956 by France Football. The UEFA Men's Player of the Year (previously UEFA Best Player in Europe / UEFA Club Footballer of the Year) has been awarded since 1998. Cross-referencing the 1958 squad lists with all-time Ballon d'Or winners:
+3. Wikipedia — "Ballon d'Or": https://en.wikipedia.org/wiki/Ballon_d%27Or
+4. Wikipedia — "UEFA Men's Player of the Year Award": https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+Qualifying players identified:
+- **Raymond Kopa** (France squad) — won Ballon d'Or 1958
+- **Lev Yashin** (Soviet Union squad) — won Ballon d'Or 1963
+- **Bobby Charlton** (England squad) — won Ballon d'Or 1966
+- **Josef Masopust** (Czechoslovakia squad) — won Ballon d'Or 1962
+
+No player from the 1958 squads has won the UEFA Men's Player of the Year Award (first awarded 1998, and no 1958 squad player was active at that time).
+
+**Step 4 — Confirm birthplaces of qualifying players**
+5. Wikipedia — "Raymond Kopa": https://en.wikipedia.org/wiki/Raymond_Kopa (born in Nœux-les-Mines, Pas-de-Calais, France)
+6. Wikipedia — "Lev Yashin": https://en.wikipedia.org/wiki/Lev_Yashin (born in Moscow, Russia/USSR)
+7. Wikipedia — "Bobby Charlton": https://en.wikipedia.org/wiki/Bobby_Charlton (born in Ashington, Northumberland, England)
+8. Wikipedia — "Josef Masopust": https://en.wikipedia.org/wiki/Josef_Masopust (born in Most, Czechoslovakia/Czech Republic)
+
+**Step 5 — Confirm population of each birthplace**
+9. For Nœux-les-Mines population: listed as unknown in the retrieved evidence; Wikipedia article on Nœux-les-Mines does not provide a clearly verifiable current figure in my knowledge — recorded as unknown.
+10. For Moscow population (~13,010,112): https://en.wikipedia.org/wiki/Moscow — consistent with retrieved evidence figure.
+11. For Ashington population (~28,278): https://en.wikipedia.org/wiki/Ashington — consistent with retrieved evidence figure.
+12. For Most population (~63,474): https://en.wikipedia.org/wiki/Most,_Czech_Republic — consistent with retrieved evidence figure.

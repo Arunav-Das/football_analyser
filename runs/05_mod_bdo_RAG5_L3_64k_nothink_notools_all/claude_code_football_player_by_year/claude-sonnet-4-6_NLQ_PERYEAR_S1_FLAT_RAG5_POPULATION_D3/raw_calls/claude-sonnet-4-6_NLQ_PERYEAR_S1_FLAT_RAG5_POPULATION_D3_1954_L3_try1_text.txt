@@ -1,0 +1,55 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1954 | Raymond Kopa | Ballon d'Or | Nœux-les-Mines | unknown |
+| 2 | 1954 | Stanley Matthews | Ballon d'Or | Stoke-on-Trent | 259965 |
+| 3 | 1954 | Ferenc Puskás | Ballon d'Or (runner-up legacy; not a winner) — EXCLUDED | — | — |
+
+**Re-evaluation note:** Ferenc Puskás never won the Ballon d'Or outright. He is excluded. The two confirmed qualifiers are Kopa and Matthews.
+
+---
+
+**STEPS AND CITATIONS**
+
+**Step 1 — Confirm the 1954 FIFA World Cup was held**
+The 1954 FIFA World Cup was held in Switzerland from 16 June to 4 July 1954. It was the fifth FIFA World Cup and was not cancelled or abandoned.
+- Citation [1]: Wikipedia, "1954 FIFA World Cup", https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+
+**Step 2 — Obtain squad lists for all national teams at the 1954 World Cup**
+The tournament featured 16 nations. Squad rosters are documented on Wikipedia and in FIFA's official historical records.
+- Citation [2]: Wikipedia, "1954 FIFA World Cup squads", https://en.wikipedia.org/wiki/1954_FIFA_World_Cup_squads
+
+**Step 3 — Identify which squad players ever won the Ballon d'Or or UEFA Men's Player of the Year**
+The Ballon d'Or was first awarded in 1956 (France Football). The UEFA Club Footballer of the Year / UEFA Best Player in Europe was first awarded in 1998. Cross-referencing all winners against 1954 squad members:
+
+- **Raymond Kopa** (France squad, 1954): Won the **Ballon d'Or in 1958**.
+- **Stanley Matthews** (England squad, 1954): Won the **inaugural Ballon d'Or in 1956**.
+- No 1954 squad player won a UEFA Men's Player of the Year / UEFA Best Player in Europe Award (that award began in 1998, and no player active in 1954 was still active then).
+
+Ferenc Puskás (Hungary, 1954) never won the Ballon d'Or (he finished runner-up multiple times but never won). Helmut Rahn, Sándor Kocsis, and others from 1954 squads also never won either award.
+- Citation [3]: Wikipedia, "Ballon d'Or", https://en.wikipedia.org/wiki/Ballon_d%27Or (list of all winners)
+- Citation [4]: Wikipedia, "Raymond Kopa", https://en.wikipedia.org/wiki/Raymond_Kopa
+- Citation [5]: Wikipedia, "Stanley Matthews", https://en.wikipedia.org/wiki/Stanley_Matthews
+
+**Step 4 — Birthplaces of qualifying players**
+- Raymond Kopa: Born in **Nœux-les-Mines**, Pas-de-Calais, France (confirmed by provided evidence and Citation [4]).
+- Stanley Matthews: Born in **Stoke-on-Trent**, Staffordshire, England (confirmed by provided evidence and Citation [5]).
+- Citation [4]: Wikipedia, "Raymond Kopa", https://en.wikipedia.org/wiki/Raymond_Kopa
+- Citation [5]: Wikipedia, "Stanley Matthews", https://en.wikipedia.org/wiki/Stanley_Matthews
+
+**Step 5 — Population of birthplaces**
+- Nœux-les-Mines: Population **unknown** (small commune; reliable current figure not confirmed in available knowledge — provided evidence also states "unknown").
+- Stoke-on-Trent: Population **259,965** (per provided evidence; consistent with UK census data for the city).
+- Citation [6]: Provided retrieved evidence for this query (population of Stoke-on-Trent = 259,965; Nœux-les-Mines = unknown).
+- Citation [7]: Wikipedia, "Stoke-on-Trent", https://en.wikipedia.org/wiki/Stoke-on-Trent (confirms city population circa 2011 census ~249,000–260,000 range).
+
+---
+
+**Numbered Citations in Order of Use:**
+
+1. Wikipedia, "1954 FIFA World Cup" — https://en.wikipedia.org/wiki/1954_FIFA_World_Cup
+2. Wikipedia, "1954 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1954_FIFA_World_Cup_squads
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+4. Wikipedia, "Raymond Kopa" — https://en.wikipedia.org/wiki/Raymond_Kopa
+5. Wikipedia, "Stanley Matthews" — https://en.wikipedia.org/wiki/Stanley_Matthews
+6. Retrieved evidence provided in query (birthplace and population data)
+7. Wikipedia, "Stoke-on-Trent" — https://en.wikipedia.org/wiki/Stoke-on-Trent

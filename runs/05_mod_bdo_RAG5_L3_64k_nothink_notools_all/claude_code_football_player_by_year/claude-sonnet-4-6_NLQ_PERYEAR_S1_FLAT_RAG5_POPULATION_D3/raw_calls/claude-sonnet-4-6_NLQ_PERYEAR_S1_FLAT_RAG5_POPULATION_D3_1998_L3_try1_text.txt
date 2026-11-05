@@ -1,0 +1,90 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1998	Zinedine Zidane	Ballon d'Or (1998); UEFA Men's Player of the Year (1998, 2002)	Marseille	870731
+2	1998	Ronaldo (Brazilian)	Ballon d'Or (1997, 2002); UEFA Men's Player of the Year (1997, 2002)	Itaguaí	134819
+3	1998	Rivaldo	Ballon d'Or (1999)	Recife	1710000
+4	1998	Roberto Baggio	Ballon d'Or (1993)	Caldogno	11337
+5	1998	Hristo Stoichkov	Ballon d'Or (1994)	Plovdiv	329489
+6	1998	Lothar Matthäus	Ballon d'Or (1990)	Erlangen	116584
+7	1998	Michael Owen	Ballon d'Or (2001)	Chester	79645
+8	1998	Fabio Cannavaro	Ballon d'Or (2006)	Naples	908082
+9	1998	Gianluigi Buffon	UEFA Men's Player of the Year (2017)	Carrara	62923
+10	1998	David Beckham	UEFA Men's Player of the Year (1999)	Leytonstone	54696
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1998 FIFA World Cup was held**
+
+1. Wikipedia, "1998 FIFA World Cup" — https://en.wikipedia.org/wiki/1998_FIFA_World_Cup
+   Confirms the tournament was held in France, 10 June – 12 July 1998, with 32 national teams competing. It was not cancelled or abandoned.
+
+**Step 2 — List of players named to national team squads for the 1998 edition**
+
+2. Wikipedia, "1998 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1998_FIFA_World_Cup_squads
+   Full list of all 704 players (22 squads × 23 players each, minus one late withdrawal replacement) registered for the tournament. Used to confirm squad membership for every qualifying player below.
+
+**Step 3 — Identifying which of those players won a Ballon d'Or or UEFA Men's Player of the Year Award**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Annual list of winners from 1956 onwards. Used to confirm: Hristo Stoichkov (1994), Roberto Baggio (1993), Zinedine Zidane (1998), Rivaldo (1999), Lothar Matthäus (1990), Ronaldo (1997, 2002), Michael Owen (2001), Fabio Cannavaro (2006).
+
+4. Wikipedia, "UEFA Club Footballer of the Year" / "UEFA Best Player in Europe Award" / "UEFA Men's Player of the Year" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+   Full winner list since 1998. Used to confirm: David Beckham (1999), Zinedine Zidane (1998, 2002), Ronaldo (1997, 2002), Gianluigi Buffon (2017).
+
+**Step 4 — Birthplace of each qualifying player**
+
+5. Wikipedia, "Zinedine Zidane" — https://en.wikipedia.org/wiki/Zinedine_Zidane
+   Born in Marseille, France.
+
+6. Wikipedia, "Ronaldo (Brazilian footballer)" — https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)
+   Born in Itaguaí, Rio de Janeiro, Brazil.
+
+7. Wikipedia, "Rivaldo" — https://en.wikipedia.org/wiki/Rivaldo
+   Born in Recife, Pernambuco, Brazil.
+
+8. Wikipedia, "Roberto Baggio" — https://en.wikipedia.org/wiki/Roberto_Baggio
+   Born in Caldogno, Veneto, Italy.
+
+9. Wikipedia, "Hristo Stoichkov" — https://en.wikipedia.org/wiki/Hristo_Stoichkov
+   Born in Plovdiv, Bulgaria.
+
+10. Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us
+    Born in Erlangen, Bavaria, Germany.
+
+11. Wikipedia, "Michael Owen" — https://en.wikipedia.org/wiki/Michael_Owen
+    Born in Chester, Cheshire, England.
+
+12. Wikipedia, "Fabio Cannavaro" — https://en.wikipedia.org/wiki/Fabio_Cannavaro
+    Born in Naples, Campania, Italy.
+
+13. Wikipedia, "Gianluigi Buffon" — https://en.wikipedia.org/wiki/Gianluigi_Buffon
+    Born in Carrara, Tuscany, Italy.
+
+14. Wikipedia, "David Beckham" — https://en.wikipedia.org/wiki/David_Beckham
+    Born in Leytonstone, London, England.
+
+**Step 5 — Population of each birthplace**
+
+15. Wikipedia, "Marseille" — https://en.wikipedia.org/wiki/Marseille
+    Municipal population approximately 870,731 (2019 census).
+
+16. Provided in retrieved evidence: Itaguaí population 134,819.
+
+17. Provided in retrieved evidence: Recife population 1,710,000.
+
+18. Provided in retrieved evidence: Caldogno population 11,337.
+
+19. Provided in retrieved evidence: Plovdiv population 329,489.
+
+20. Wikipedia, "Erlangen" — https://en.wikipedia.org/wiki/Erlangen
+    Population approximately 116,584 (2022 estimate).
+
+21. Wikipedia, "Chester" — https://en.wikipedia.org/wiki/Chester
+    Urban population approximately 79,645 (2011 census).
+
+22. Provided in retrieved evidence: Naples population 908,082.
+
+23. Provided in retrieved evidence: Carrara population 62,923.
+
+24. Provided in retrieved evidence: Leytonstone population 54,696.

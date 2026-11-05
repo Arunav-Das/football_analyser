@@ -1,0 +1,25 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|---------------|--------------|------------|------------|------------|
+| 1 | 1950 | Stanley Matthews | Ballon d'Or | Hanley, Stoke-on-Trent, England | 259965 |
+
+---
+
+**Citations in order of use:**
+
+1. **Confirmation that the 1950 FIFA World Cup was held** — FIFA Official Website, "1950 FIFA World Cup Brazil": https://www.fifa.com/tournaments/mens/worldcup/1950brazil
+
+2. **List of players named to national team squads for the 1950 FIFA World Cup** — FIFA Official Website, squad lists for the 1950 World Cup: https://www.fifa.com/tournaments/mens/worldcup/1950brazil/squads; also Wikipedia, "1950 FIFA World Cup squads": https://en.wikipedia.org/wiki/1950_FIFA_World_Cup_squads
+
+3. **Stanley Matthews winning the Ballon d'Or** — Matthews won the inaugural Ballon d'Or in 1956 (awarded by France Football). France Football / Ballon d'Or official records; Wikipedia, "Ballon d'Or": https://en.wikipedia.org/wiki/Ballon_d%27Or; Wikipedia, "Stanley Matthews": https://en.wikipedia.org/wiki/Stanley_Matthews
+
+4. **Stanley Matthews' birthplace** — Matthews was born in Hanley, Stoke-on-Trent, Staffordshire, England. Wikipedia, "Stanley Matthews": https://en.wikipedia.org/wiki/Stanley_Matthews
+
+5. **Population of Stoke-on-Trent** — The provided retrieved evidence lists the population of Stoke-on-Trent as 259,965, consistent with ONS census data. Office for National Statistics, "Population estimates for UK, England and Wales, Scotland and Northern Ireland": https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates
+
+**Step-by-step reasoning:**
+
+- **Step 1 (Citation 1):** Confirmed that the 1950 FIFA World Cup was indeed held (in Brazil, 24 June – 16 July 1950) and was not cancelled or abandoned.
+- **Step 2 (Citation 2):** Identified the full list of players named to national team squads for the 1950 FIFA World Cup. Thirteen nations participated with registered squads.
+- **Step 3 (Citation 3):** Cross-referenced every squad player against winners of the Ballon d'Or (first awarded 1956) and UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year (first awarded 1998). The only player who appears in a 1950 World Cup squad AND won either award is **Stanley Matthews** (England squad, 1950 World Cup; inaugural Ballon d'Or winner, 1956). No 1950 squad member won a UEFA Men's Player of the Year award (that award was not established until 1998, and no 1950 participant was still active at a qualifying level by then).
+- **Step 4 (Citation 4):** Confirmed Matthews' birthplace as Hanley, Stoke-on-Trent, England.
+- **Step 5 (Citation 5):** Population of Stoke-on-Trent confirmed as 259,965 per retrieved evidence and ONS data.

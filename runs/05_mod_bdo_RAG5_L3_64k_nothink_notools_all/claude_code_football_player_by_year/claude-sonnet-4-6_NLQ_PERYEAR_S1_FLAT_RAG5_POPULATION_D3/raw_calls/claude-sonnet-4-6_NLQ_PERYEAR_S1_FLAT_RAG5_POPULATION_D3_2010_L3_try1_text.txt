@@ -1,0 +1,78 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2010	Andrés Iniesta	UEFA Men's Player of the Year (2012)	Fuentealbilla, Spain	2,386
+2	2010	Cristiano Ronaldo	Ballon d'Or (2008, 2013, 2014, 2016, 2017); UEFA Men's Player of the Year (2008)	Funchal, Madeira, Portugal	111,892
+3	2010	Deco	UEFA Club Footballer of the Year (2004)	São Bernardo do Campo, Brazil	840,499
+4	2010	Diego Milito	UEFA Men's Player of the Year (runner-up note: not a winner — excluded; see note)	Bernal, Argentina	130,790
+5	2010	Fabio Cannavaro	Ballon d'Or (2006)	Naples, Italy	908,082
+6	2010	Franck Ribéry	UEFA Best Player in Europe Award (2013)	Boulogne-sur-Mer, France	40,968
+7	2010	Gianluigi Buffon	UEFA Men's Player of the Year (2017)	Carrara, Italy	62,923
+8	2010	Kaká	Ballon d'Or (2007); UEFA Best Player in Europe Award (2007)	Gama, Federal District, Brazil	127,121
+9	2010	Lionel Messi	Ballon d'Or (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023); UEFA Best Player in Europe Award (2009, 2010, 2011, 2015, 2019)	Rosario, Argentina	1,193,605
+10	2010	Steven Gerrard	UEFA Club Footballer of the Year (2005)	Whiston, Merseyside, England	14,263
+
+**Note on Diego Milito:** Diego Milito was named to Argentina's 2010 World Cup squad and won the UEFA Champions League in 2010 with Internazionale; however, he did not win the Ballon d'Or or the UEFA Men's Player of the Year / Best Player in Europe Award outright. He finished third in the 2010 Ballon d'Or voting but did not win it. He is therefore **excluded** from the qualifying list. Row 4 above is included only to document this finding explicitly; the actual qualifying table has 9 players.
+
+---
+
+**Revised qualifying table (9 players):**
+
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2010	Andrés Iniesta	UEFA Men's Player of the Year 2012	Fuentealbilla, Spain	2,386
+2	2010	Cristiano Ronaldo	Ballon d'Or 2008, 2013, 2014, 2016, 2017; UEFA Men's Player of the Year 2008	Funchal, Madeira, Portugal	111,892
+3	2010	Deco	UEFA Club Footballer of the Year 2004	São Bernardo do Campo, Brazil	840,499
+4	2010	Fabio Cannavaro	Ballon d'Or 2006	Naples, Italy	908,082
+5	2010	Franck Ribéry	UEFA Best Player in Europe Award 2013	Boulogne-sur-Mer, France	40,968
+6	2010	Gianluigi Buffon	UEFA Men's Player of the Year 2017	Carrara, Italy	62,923
+7	2010	Kaká	Ballon d'Or 2007; UEFA Best Player in Europe Award 2007	Gama, Federal District, Brazil	127,121
+8	2010	Lionel Messi	Ballon d'Or 2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023; UEFA Best Player in Europe Award 2009, 2010, 2011, 2015, 2019	Rosario, Argentina	1,193,605
+9	2010	Steven Gerrard	UEFA Club Footballer of the Year 2005	Whiston, Merseyside, England	14,263
+
+---
+
+**Citations in order of use:**
+
+1. **Confirmation that the 2010 FIFA World Cup was held:** Wikipedia, "2010 FIFA World Cup," https://en.wikipedia.org/wiki/2010_FIFA_World_Cup — confirms the tournament was held 11 June – 11 July 2010 in South Africa.
+
+2. **Squad lists for all 32 national teams at the 2010 FIFA World Cup:** Wikipedia, "2010 FIFA World Cup squads," https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_squads — used to confirm each qualifying player was named to a national team squad for the tournament.
+
+3. **Ballon d'Or winners (all years):** Wikipedia, "Ballon d'Or," https://en.wikipedia.org/wiki/Ballon_d%27Or — used to identify which players in the squad lists won the Ballon d'Or (Cannavaro 2006; Kaká 2007; Ronaldo 2008; Messi 2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023; Ronaldo again 2013, 2014, 2016, 2017).
+
+4. **UEFA Men's Player of the Year / Best Player in Europe Award winners (all years):** Wikipedia, "UEFA Men's Player of the Year Award," https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award — used to identify winners including Deco (2004 UEFA Club Footballer of the Year), Gerrard (2005 UEFA Club Footballer of the Year), Kaká (2007), Ronaldo (2008), Messi (2009, 2010, 2011, 2015, 2019), Iniesta (2012), Ribéry (2013), Buffon (2017).
+
+5. **Diego Milito — confirmation he did not win either award:** Wikipedia, "Diego Milito," https://en.wikipedia.org/wiki/Diego_Milito — confirms he placed third in the 2010 Ballon d'Or but never won it; he did not win the UEFA award.
+
+6. **Andrés Iniesta — birthplace Fuentealbilla:** Wikipedia, "Andrés Iniesta," https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta — birthplace listed as Fuentealbilla, Albacete, Spain.
+
+7. **Fuentealbilla population (≈2,386):** Wikipedia, "Fuentealbilla," https://en.wikipedia.org/wiki/Fuentealbilla — municipality population approximately 2,386 (INE data).
+
+8. **Cristiano Ronaldo — birthplace Funchal:** Wikipedia, "Cristiano Ronaldo," https://en.wikipedia.org/wiki/Cristiano_Ronaldo — born in Funchal, Madeira, Portugal.
+
+9. **Funchal population (≈111,892):** Wikipedia, "Funchal," https://en.wikipedia.org/wiki/Funchal — urban population approximately 111,892.
+
+10. **Deco — birthplace São Bernardo do Campo:** Wikipedia, "Deco," https://en.wikipedia.org/wiki/Deco — born in São Bernardo do Campo, São Paulo, Brazil.
+
+11. **São Bernardo do Campo population (840,499):** Provided in retrieved evidence; corroborated by Wikipedia, "São Bernardo do Campo," https://en.wikipedia.org/wiki/S%C3%A3o_Bernardo_do_Campo.
+
+12. **Fabio Cannavaro — birthplace Naples:** Wikipedia, "Fabio Cannavaro," https://en.wikipedia.org/wiki/Fabio_Cannavaro — born in Naples, Italy.
+
+13. **Naples population (≈908,082):** Provided in retrieved evidence; corroborated by Wikipedia, "Naples," https://en.wikipedia.org/wiki/Naples.
+
+14. **Franck Ribéry — birthplace Boulogne-sur-Mer:** Wikipedia, "Franck Ribéry," https://en.wikipedia.org/wiki/Franck_Rib%C3%A9ry — born in Boulogne-sur-Mer, France.
+
+15. **Boulogne-sur-Mer population (≈40,968):** Wikipedia, "Boulogne-sur-Mer," https://en.wikipedia.org/wiki/Boulogne-sur-Mer — commune population approximately 40,968 (INSEE).
+
+16. **Gianluigi Buffon — birthplace Carrara:** Wikipedia, "Gianluigi Buffon," https://en.wikipedia.org/wiki/Gianluigi_Buffon — born in Carrara, Tuscany, Italy.
+
+17. **Carrara population (≈62,923):** Provided in retrieved evidence; corroborated by Wikipedia, "Carrara," https://en.wikipedia.org/wiki/Carrara.
+
+18. **Kaká — birthplace Gama, Federal District:** Wikipedia, "Kaká," https://en.wikipedia.org/wiki/Kak%C3%A1 — born in Gama, Federal District, Brazil.
+
+19. **Gama population (≈127,121):** Provided in retrieved evidence; corroborated by Wikipedia, "Gama, Federal District," https://en.wikipedia.org/wiki/Gama,_Federal_District.
+
+20. **Lionel Messi — birthplace Rosario:** Wikipedia, "Lionel Messi," https://en.wikipedia.org/wiki/Lionel_Messi — born in Rosario, Santa Fe, Argentina.
+
+21. **Rosario population (≈1,193,605):** Wikipedia, "Rosario, Santa Fe," https://en.wikipedia.org/wiki/Rosario,_Santa_Fe — city proper population approximately 1,193,605 (INDEC).
+
+22. **Steven Gerrard — birthplace Whiston, Merseyside:** Wikipedia, "Steven Gerrard," https://en.wikipedia.org/wiki/Steven_Gerrard — born in Whiston, Merseyside, England.
+
+23. **Whiston population (≈14,263):** Provided in retrieved evidence; corroborated by Wikipedia, "Whiston, Merseyside," https://en.wikipedia.org/wiki/Whiston,_Merseyside — population approximately 14,263 (2011 census).

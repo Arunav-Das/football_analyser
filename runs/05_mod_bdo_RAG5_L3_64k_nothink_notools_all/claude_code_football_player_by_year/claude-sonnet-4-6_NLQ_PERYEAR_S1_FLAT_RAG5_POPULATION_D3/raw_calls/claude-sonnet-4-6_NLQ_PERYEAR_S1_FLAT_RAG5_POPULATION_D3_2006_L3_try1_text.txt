@@ -1,0 +1,119 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2006	Andriy Shevchenko	Ballon d'Or	Dvirkivshchyna	unknown
+2	2006	Andrés Iniesta	UEFA Men's Player of the Year	Fuentealbilla	unknown
+3	2006	Cristiano Ronaldo	Ballon d'Or; UEFA Men's Player of the Year	Funchal	111892
+4	2006	David Beckham	UEFA Men's Player of the Year	Leytonstone	54696
+5	2006	Deco	UEFA Men's Player of the Year	São Bernardo do Campo	840499
+6	2006	Fabio Cannavaro	Ballon d'Or	Naples	908082
+7	2006	Franck Ribéry	UEFA Men's Player of the Year	Boulogne-sur-Mer	42336
+8	2006	Gianluigi Buffon	UEFA Men's Player of the Year	Carrara	62923
+9	2006	Kaká	Ballon d'Or; UEFA Men's Player of the Year	Gama, Federal District	127121
+10	2006	Lionel Messi	Ballon d'Or; UEFA Men's Player of the Year	Rosario	1193605
+11	2006	Luka Modrić	Ballon d'Or; UEFA Men's Player of the Year	Zadar	70779
+12	2006	Luís Figo	Ballon d'Or	Almada	101500
+13	2006	Michael Owen	Ballon d'Or	Chester	79645
+14	2006	Pavel Nedvěd	Ballon d'Or	Cheb	32808
+15	2006	Ronaldinho	Ballon d'Or; UEFA Men's Player of the Year	Porto Alegre	1409351
+16	2006	Ronaldo (Brazilian footballer)	Ballon d'Or; UEFA Men's Player of the Year	Itaguaí	134819
+17	2006	Steven Gerrard	UEFA Men's Player of the Year	Whiston, Merseyside	14263
+18	2006	Zinedine Zidane	Ballon d'Or; UEFA Men's Player of the Year	Marseille	861635
+
+---
+
+## Citations in order of use
+
+**Step 1 — Confirming the 2006 FIFA World Cup was held**
+
+1. Wikipedia, "2006 FIFA World Cup" — https://en.wikipedia.org/wiki/2006_FIFA_World_Cup
+   Confirms the tournament was held 9 June – 9 July 2006 in Germany. It was not cancelled or abandoned.
+
+**Step 2 — List of players named to national team squads for the 2006 edition**
+
+2. Wikipedia, "2006 FIFA World Cup squads" — https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_squads
+   Lists all 736 players across the 32 national team squads. Used to verify that every player in the output table was named to a squad for this edition (Shevchenko → Ukraine, Iniesta → Spain, C. Ronaldo → Portugal, Beckham → England, Deco → Portugal, Cannavaro → Italy, Ribéry → France, Buffon → Italy, Kaká → Brazil, Messi → Argentina, Modrić → Croatia, Figo → Portugal, Owen → England, Nedvěd → Czech Republic, Ronaldinho → Brazil, Ronaldo → Brazil, Gerrard → England, Zidane → France).
+
+**Step 3 — Determining which players won the Ballon d'Or**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Lists all winners from 1956 onward. Used to confirm Ballon d'Or wins for: Shevchenko (2004), C. Ronaldo (2008, 2011, 2012, 2013, 2014, 2016, 2017, 2019), Cannavaro (2006), Kaká (2007), Messi (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2022, 2023), Modrić (2018), Figo (2000), Owen (2001), Nedvěd (2003), Ronaldinho (2005), Ronaldo/Brazilian (1997, 2002), Zidane (1998).
+
+**Step 4 — Determining which players won the UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year**
+
+4. Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+   Lists all winners under the award's various names since 1998. Used to confirm UEFA award wins for: Iniesta (2012), C. Ronaldo (2008, 2011, 2014, 2016, 2017, 2019), Beckham (1999), Deco (2004), Ribéry (2013), Buffon (2017), Kaká (2007), Messi (2009, 2010, 2011, 2012, 2015, 2019), Modrić (2018), Ronaldinho (2005), Ronaldo/Brazilian (2002), Gerrard (2005), Zidane (1998, 2002).
+
+**Step 5 — Birthplaces of qualifying players**
+
+5. Wikipedia, "Andriy Shevchenko" — https://en.wikipedia.org/wiki/Andriy_Shevchenko — birthplace: Dvirkivshchyna, Ukrainian SSR.
+
+6. Wikipedia, "Andrés Iniesta" — https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta — birthplace: Fuentealbilla, Albacete, Spain.
+
+7. Wikipedia, "Cristiano Ronaldo" — https://en.wikipedia.org/wiki/Cristiano_Ronaldo — birthplace: Funchal, Madeira, Portugal.
+
+8. Wikipedia, "David Beckham" — https://en.wikipedia.org/wiki/David_Beckham — birthplace: Leytonstone, London, England.
+
+9. Wikipedia, "Deco" — https://en.wikipedia.org/wiki/Deco — birthplace: São Bernardo do Campo, São Paulo, Brazil.
+
+10. Wikipedia, "Fabio Cannavaro" — https://en.wikipedia.org/wiki/Fabio_Cannavaro — birthplace: Naples, Italy.
+
+11. Wikipedia, "Franck Ribéry" — https://en.wikipedia.org/wiki/Franck_Rib%C3%A9ry — birthplace: Boulogne-sur-Mer, France.
+
+12. Wikipedia, "Gianluigi Buffon" — https://en.wikipedia.org/wiki/Gianluigi_Buffon — birthplace: Carrara, Tuscany, Italy.
+
+13. Wikipedia, "Kaká" — https://en.wikipedia.org/wiki/Kak%C3%A1 — birthplace: Gama, Federal District, Brazil.
+
+14. Wikipedia, "Lionel Messi" — https://en.wikipedia.org/wiki/Lionel_Messi — birthplace: Rosario, Santa Fe, Argentina.
+
+15. Wikipedia, "Luka Modrić" — https://en.wikipedia.org/wiki/Luka_Modri%C4%87 — birthplace: Zadar, SR Croatia, Yugoslavia (now Croatia).
+
+16. Wikipedia, "Luís Figo" — https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo — birthplace: Almada, Setúbal District, Portugal.
+
+17. Wikipedia, "Michael Owen" — https://en.wikipedia.org/wiki/Michael_Owen — birthplace: Chester, Cheshire, England.
+
+18. Wikipedia, "Pavel Nedvěd" — https://en.wikipedia.org/wiki/Pavel_Nedv%C4%9Bd — birthplace: Cheb, Bohemia, Czechoslovakia (now Czech Republic).
+
+19. Wikipedia, "Ronaldinho" — https://en.wikipedia.org/wiki/Ronaldinho — birthplace: Porto Alegre, Rio Grande do Sul, Brazil.
+
+20. Wikipedia, "Ronaldo (Brazilian footballer)" — https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer) — birthplace: Itaguaí, Rio de Janeiro, Brazil.
+
+21. Wikipedia, "Steven Gerrard" — https://en.wikipedia.org/wiki/Steven_Gerrard — birthplace: Whiston, Merseyside, England.
+
+22. Wikipedia, "Zinedine Zidane" — https://en.wikipedia.org/wiki/Zinedine_Zidane — birthplace: Marseille, France.
+
+**Step 6 — Populations of birthplaces**
+
+23. Wikipedia, "Funchal" — https://en.wikipedia.org/wiki/Funchal — population approximately 111,892 (municipality).
+
+24. Wikipedia, "Leytonstone" — https://en.wikipedia.org/wiki/Leytonstone — population 54,696 (as provided in retrieved evidence; ward-level figure).
+
+25. Wikipedia, "São Bernardo do Campo" — https://en.wikipedia.org/wiki/S%C3%A3o_Bernardo_do_Campo — population 840,499.
+
+26. Wikipedia, "Naples" — https://en.wikipedia.org/wiki/Naples — population 908,082.
+
+27. Wikipedia, "Boulogne-sur-Mer" — https://en.wikipedia.org/wiki/Boulogne-sur-Mer — population approximately 42,336 (commune).
+
+28. Wikipedia, "Carrara" — https://en.wikipedia.org/wiki/Carrara — population 62,923.
+
+29. Wikipedia, "Gama, Federal District" — https://en.wikipedia.org/wiki/Gama,_Federal_District — population 127,121.
+
+30. Wikipedia, "Rosario, Santa Fe" — https://en.wikipedia.org/wiki/Rosario,_Santa_Fe — population approximately 1,193,605 (city proper).
+
+31. Wikipedia, "Zadar" — https://en.wikipedia.org/wiki/Zadar — population 70,779.
+
+32. Wikipedia, "Almada" — https://en.wikipedia.org/wiki/Almada — population approximately 101,500 (municipality).
+
+33. Wikipedia, "Chester" — https://en.wikipedia.org/wiki/Chester — population approximately 79,645 (city).
+
+34. Wikipedia, "Cheb" — https://en.wikipedia.org/wiki/Cheb — population 32,808.
+
+35. Wikipedia, "Porto Alegre" — https://en.wikipedia.org/wiki/Porto_Alegre — population approximately 1,409,351.
+
+36. Wikipedia, "Itaguaí" — https://en.wikipedia.org/wiki/Itagu%C3%A1 — population 134,819.
+
+37. Wikipedia, "Whiston, Merseyside" — https://en.wikipedia.org/wiki/Whiston,_Merseyside — population 14,263.
+
+38. Wikipedia, "Marseille" — https://en.wikipedia.org/wiki/Marseille — population approximately 861,635.
+
+39. Wikipedia, "Dvirkivshchyna" — https://en.wikipedia.org/wiki/Dvirkivshchyna — population unknown (very small village; no reliable figure available).
+
+40. Wikipedia, "Fuentealbilla" — https://en.wikipedia.org/wiki/Fuentealbilla — population unknown (very small municipality; no reliable figure confirmed).

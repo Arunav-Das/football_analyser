@@ -1,0 +1,95 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1966	Bobby Charlton	Ballon d'Or (1966)	Ashington, England	28278
+2	1966	Eusébio	Ballon d'Or (1965)	Lourenço Marques (now Maputo), Mozambique	1088449
+3	1966	Flórián Albert	Ballon d'Or (1967)	Hercegszántó, Hungary	2329
+4	1966	Franz Beckenbauer	Ballon d'Or (1972, 1976)	Munich, West Germany	1512491
+5	1966	Gianni Rivera	Ballon d'Or (1969)	Alessandria, Italy	93657
+6	1966	Lev Yashin	Ballon d'Or (1963)	Moscow, Russia	13010112
+7	1966	Luis Suárez (born 1935)	Ballon d'Or (1960)	A Coruña, Spain	250438
+
+---
+
+**Steps and Citations in Order of Use**
+
+**Step 1 — Confirm the 1966 FIFA Men's World Cup was actually held**
+
+The 1966 FIFA World Cup was held in England from 11 July to 30 July 1966. It was the eighth FIFA World Cup and was not cancelled or abandoned.
+
+> **[1]** FIFA Official Match Results – 1966 FIFA World Cup England. FIFA.com. https://www.fifa.com/tournaments/mens/worldcup/1966england
+
+**Step 2 — Establish the list of national team squads named for the 1966 World Cup**
+
+The full squad lists for all 16 participating nations at the 1966 World Cup are documented on Wikipedia's dedicated article for the tournament squads.
+
+> **[2]** "1966 FIFA World Cup squads." Wikipedia. https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_squads
+
+This source confirms:
+- **Bobby Charlton** was in the England squad.
+- **Eusébio** was in the Portugal squad.
+- **Flórián Albert** was in the Hungary squad.
+- **Franz Beckenbauer** was in the West Germany squad.
+- **Gianni Rivera** was in the Italy squad.
+- **Lev Yashin** was in the USSR squad.
+- **Luis Suárez (born 1935)** was in the Spain squad.
+
+**Step 3 — Confirm Ballon d'Or wins for each qualifying player**
+
+The Ballon d'Or award history (France Football) is documented on Wikipedia.
+
+> **[3]** "Ballon d'Or." Wikipedia. https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+- **Bobby Charlton**: Won 1966 Ballon d'Or. ✓
+- **Eusébio**: Won 1965 Ballon d'Or. ✓
+- **Flórián Albert**: Won 1967 Ballon d'Or. ✓
+- **Franz Beckenbauer**: Won 1972 and 1976 Ballon d'Or. ✓
+- **Gianni Rivera**: Won 1969 Ballon d'Or. ✓
+- **Lev Yashin**: Won 1963 Ballon d'Or. ✓
+- **Luis Suárez (born 1935)**: Won 1960 Ballon d'Or. ✓
+
+No player from the 1966 squads is known to have won a UEFA Men's Player of the Year / UEFA Best Player in Europe Award (this award was not established until 1998, by which time none of the 1966 squad players were active at that level). The UEFA Club Footballer of the Year was established in 1998 as well and does not apply here.
+
+**Step 4 — Confirm birthplaces for each qualifying player**
+
+> **[4]** "Bobby Charlton." Wikipedia. https://en.wikipedia.org/wiki/Bobby_Charlton
+> Birthplace: Ashington, Northumberland, England. ✓
+
+> **[5]** "Eusébio." Wikipedia. https://en.wikipedia.org/wiki/Eus%C3%A9bio
+> Birthplace: Lourenço Marques (now Maputo), Portuguese East Africa (now Mozambique). ✓
+
+> **[6]** "Flórián Albert." Wikipedia. https://en.wikipedia.org/wiki/Fl%C3%B3ri%C3%A1n_Albert
+> Birthplace: Hercegszántó, Hungary. ✓
+
+> **[7]** "Franz Beckenbauer." Wikipedia. https://en.wikipedia.org/wiki/Franz_Beckenbauer
+> Birthplace: Munich, Bavaria, West Germany. ✓
+
+> **[8]** "Gianni Rivera." Wikipedia. https://en.wikipedia.org/wiki/Gianni_Rivera
+> Birthplace: Alessandria, Piedmont, Italy. ✓
+
+> **[9]** "Lev Yashin." Wikipedia. https://en.wikipedia.org/wiki/Lev_Yashin
+> Birthplace: Moscow, Russian SFSR, Soviet Union. ✓
+
+> **[10]** "Luis Suárez Miramontes." Wikipedia. https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_Miramontes
+> Birthplace: A Coruña, Galicia, Spain. ✓
+
+**Step 5 — Confirm population figures for each birthplace**
+
+> **[11]** "Ashington." Wikipedia. https://en.wikipedia.org/wiki/Ashington
+> Population of Ashington: 28,278 (2011 census). ✓
+
+> **[12]** "Maputo." Wikipedia. https://en.wikipedia.org/wiki/Maputo
+> Population of Maputo (city proper): 1,088,449. ✓
+
+> **[13]** "Hercegszántó." Wikipedia. https://en.wikipedia.org/wiki/Hercegsz%C3%A1nt%C3%B3
+> Population of Hercegszántó: 2,329. ✓
+
+> **[14]** "Munich." Wikipedia. https://en.wikipedia.org/wiki/Munich
+> Population of Munich (city proper): 1,512,491 (2022 estimate). ✓
+
+> **[15]** "Alessandria." Wikipedia. https://en.wikipedia.org/wiki/Alessandria
+> Population of Alessandria (comune): approximately 93,657. ✓
+
+> **[16]** "Moscow." Wikipedia. https://en.wikipedia.org/wiki/Moscow
+> Population of Moscow (city): 13,010,112. ✓
+
+> **[17]** "A Coruña." Wikipedia. https://en.wikipedia.org/wiki/A_Coru%C3%B1a
+> Population of A Coruña: 250,438. ✓

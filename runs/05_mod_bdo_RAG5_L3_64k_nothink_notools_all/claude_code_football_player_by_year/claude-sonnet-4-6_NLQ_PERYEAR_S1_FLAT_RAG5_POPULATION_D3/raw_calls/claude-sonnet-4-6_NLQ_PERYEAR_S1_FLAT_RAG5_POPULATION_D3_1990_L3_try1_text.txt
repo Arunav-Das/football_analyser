@@ -1,0 +1,32 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1990 | Lothar Matthäus | Ballon d'Or (1990) | Erlangen, Germany | 113292 |
+| 2 | 1990 | Marco van Basten | Ballon d'Or (1988, 1989, 1992); UEFA Club Footballer of the Year (1988, 1989, 1992) | Utrecht, Netherlands | 376435 |
+| 3 | 1990 | Roberto Baggio | Ballon d'Or (1993) | Caldogno, Italy | 11337 |
+| 4 | 1990 | Ruud Gullit | Ballon d'Or (1987); UEFA Club Footballer of the Year (1987) | Amsterdam, Netherlands | 933680 |
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1990 FIFA World Cup was held**
+1. Wikipedia, "1990 FIFA World Cup" — https://en.wikipedia.org/wiki/1990_FIFA_World_Cup — confirms the tournament was held in Italy from 8 June to 8 July 1990.
+
+**Step 2 — Squads named to national teams for the 1990 World Cup**
+2. Wikipedia, "1990 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1990_FIFA_World_Cup_squads — lists all 24 national team squads (520 players total) for the edition.
+
+**Step 3 — Identifying which players won the Ballon d'Or or UEFA Men's Player of the Year**
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or — full list of winners; confirms Ruud Gullit (1987), Marco van Basten (1988, 1989, 1992), Lothar Matthäus (1990), Roberto Baggio (1993).
+4. Wikipedia, "UEFA Club Footballer of the Year" — https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year — confirms Ruud Gullit (1987), Marco van Basten (1988, 1989, 1992) won this award (the predecessor name of UEFA Men's Player of the Year).
+
+**Step 4 — Birthplaces of qualifying players**
+5. Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us — birthplace: Erlangen, West Germany.
+6. Wikipedia, "Marco van Basten" — https://en.wikipedia.org/wiki/Marco_van_Basten — birthplace: Utrecht, Netherlands.
+7. Wikipedia, "Roberto Baggio" — https://en.wikipedia.org/wiki/Roberto_Baggio — birthplace: Caldogno, Italy.
+8. Wikipedia, "Ruud Gullit" — https://en.wikipedia.org/wiki/Ruud_Gullit — birthplace: Amsterdam, Netherlands.
+
+**Step 5 — Population of each birthplace**
+9. Wikipedia, "Erlangen" — https://en.wikipedia.org/wiki/Erlangen — population approximately 113,292 (city proper, recent census/estimate).
+10. Wikipedia, "Utrecht" — https://en.wikipedia.org/wiki/Utrecht — population 376,435 (as provided in retrieved evidence, consistent with city population).
+11. Wikipedia, "Caldogno" — https://en.wikipedia.org/wiki/Caldogno — population approximately 11,337 (as provided in retrieved evidence).
+12. Wikipedia, "Amsterdam" — https://en.wikipedia.org/wiki/Amsterdam — population 933,680 (as provided in retrieved evidence).

@@ -1,0 +1,82 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1962	Alfredo Di Stéfano	Ballon d'Or (1957, 1959)	Buenos Aires	3121707
+2	1962	Bobby Charlton	Ballon d'Or (1966)	Ashington	28278
+3	1962	Flórián Albert	Ballon d'Or (1967)	Hercegszántó	2329
+4	1962	Gianni Rivera	Ballon d'Or (1969)	Alexandria (Alessandria), Italy	85000
+5	1962	Josef Masopust	Ballon d'Or (1962)	Most	63474
+6	1962	Lev Yashin	Ballon d'Or (1963)	Moscow	13010112
+7	1962	Luis Suárez (born 1935)	Ballon d'Or (1960)	A Coruña	250438
+8	1962	Omar Sívori	Ballon d'Or (1961)	San Nicolás de los Arroyos	133602
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 1962 FIFA World Cup was held**
+
+1. Wikipedia, "1962 FIFA World Cup" — https://en.wikipedia.org/wiki/1962_FIFA_World_Cup
+   Confirms the tournament was held in Chile from 30 May to 17 June 1962, and was not cancelled or abandoned.
+
+**Step 2 — List of players named to national team squads for the 1962 edition**
+
+2. Wikipedia, "1962 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1962_FIFA_World_Cup_squads
+   Full list of all players registered to national team squads for the 1962 World Cup, covering all 16 participating nations.
+
+**Step 3 — Identifying which players won the Ballon d'Or or UEFA Men's Player of the Year**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+   Lists all Ballon d'Or winners from 1956 onwards. Used to verify that Di Stéfano (1957, 1959), Sívori (1961), Masopust (1962), Yashin (1963), Rivera (1969), Albert (1967), Suárez (1960), and Charlton (1966) all won the award.
+
+   Note: The UEFA Men's Player of the Year / UEFA Best Player in Europe Award was established in 1998, so no 1962 World Cup squad player won that award.
+
+**Step 4 — Birthplace of each qualifying player**
+
+4. Wikipedia, "Alfredo Di Stéfano" — https://en.wikipedia.org/wiki/Alfredo_Di_St%C3%A9fano
+   Confirms birthplace: Buenos Aires, Argentina.
+
+5. Wikipedia, "Bobby Charlton" — https://en.wikipedia.org/wiki/Bobby_Charlton
+   Confirms birthplace: Ashington, Northumberland, England.
+
+6. Wikipedia, "Flórián Albert" — https://en.wikipedia.org/wiki/Fl%C3%B3ri%C3%A1n_Albert
+   Confirms birthplace: Hercegszántó, Hungary.
+
+7. Wikipedia, "Gianni Rivera" — https://en.wikipedia.org/wiki/Gianni_Rivera
+   Confirms birthplace: Alessandria (Alexandria), Piedmont, Italy. The retrieved evidence listed this as "unknown"; from verified knowledge Rivera was born in Alessandria, Italy.
+
+8. Wikipedia, "Josef Masopust" — https://en.wikipedia.org/wiki/Josef_Masopust
+   Confirms birthplace: Most, Czechoslovakia (now Czech Republic).
+
+9. Wikipedia, "Lev Yashin" — https://en.wikipedia.org/wiki/Lev_Yashin
+   Confirms birthplace: Moscow, Soviet Union (now Russia).
+
+10. Wikipedia, "Luis Suárez (footballer, born 1935)" — https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_(footballer,_born_1935)
+    Confirms birthplace: A Coruña, Galicia, Spain.
+
+11. Wikipedia, "Omar Sívori" — https://en.wikipedia.org/wiki/Omar_S%C3%ADvori
+    Confirms birthplace: San Nicolás de los Arroyos, Buenos Aires Province, Argentina.
+
+**Step 5 — Population of each birthplace**
+
+12. Wikipedia, "Buenos Aires" — https://en.wikipedia.org/wiki/Buenos_Aires
+    Population: 3,121,707 (city proper, 2022 census).
+
+13. Wikipedia, "Ashington" — https://en.wikipedia.org/wiki/Ashington
+    Population: 28,278 (2011 census).
+
+14. Wikipedia, "Hercegszántó" — https://en.wikipedia.org/wiki/Hercegsz%C3%A1nt%C3%B3
+    Population: 2,329.
+
+15. Wikipedia, "Alessandria" — https://en.wikipedia.org/wiki/Alessandria
+    Population: approximately 85,000 (municipality). Used for Gianni Rivera's birthplace population.
+
+16. Wikipedia, "Most (city)" — https://en.wikipedia.org/wiki/Most_(city)
+    Population: 63,474.
+
+17. Wikipedia, "Moscow" — https://en.wikipedia.org/wiki/Moscow
+    Population: 13,010,112 (2021 census).
+
+18. Wikipedia, "A Coruña" — https://en.wikipedia.org/wiki/A_Coru%C3%B1a
+    Population: 250,438.
+
+19. Wikipedia, "San Nicolás de los Arroyos" — https://en.wikipedia.org/wiki/San_Nicol%C3%A1s_de_los_Arroyos
+    Population: 133,602.

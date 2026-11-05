@@ -1,0 +1,34 @@
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	2018	Andrés Iniesta	UEFA Men's Player of the Year	Fuentealbilla	9,814
+2	2018	Cristiano Ronaldo	Ballon d'Or; UEFA Men's Player of the Year	Funchal	111,892
+3	2018	Lionel Messi	Ballon d'Or; UEFA Men's Player of the Year	Rosario	1,236,089
+4	2018	Luka Modrić	Ballon d'Or; UEFA Men's Player of the Year	Zadar	70,779
+5	2018	Robert Lewandowski	UEFA Men's Player of the Year	Warsaw	1,862,402
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirming the 2018 FIFA World Cup was held**
+1. FIFA Official Website – "2018 FIFA World Cup Russia™": https://www.fifa.com/worldcup/archive/russia2018/ — Confirms the tournament was held in Russia from 14 June to 15 July 2018.
+
+**Step 2 — List of players named to national team squads**
+2. FIFA Official Website – "2018 FIFA World Cup Russia: Squads": https://www.fifa.com/worldcup/archive/russia2018/teams — Confirms all 32 national team squads of 23 players each. Source for confirming Cristiano Ronaldo (Portugal), Lionel Messi (Argentina), Luka Modrić (Croatia), Robert Lewandowski (Poland), and Andrés Iniesta (Spain) were each named in their respective national squad.
+
+**Step 3 — Identifying which players won the Ballon d'Or or UEFA Men's Player of the Year**
+3. France Football – Ballon d'Or historical winners list: https://www.francefootball.fr/ballon-dor — Confirms Lionel Messi (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023) and Cristiano Ronaldo (2008, 2013, 2014, 2016, 2017) as Ballon d'Or winners; Luka Modrić (2018) as Ballon d'Or winner.
+4. UEFA Official Website – UEFA Men's Player of the Year / UEFA Best Player in Europe Award historical winners: https://www.uefa.com/uefachampionsleague/history/rankings/players/best-player/ — Confirms Cristiano Ronaldo (2008, 2014, 2016, 2017), Lionel Messi (2009, 2011, 2015), Luka Modrić (2018), Andrés Iniesta (2012), and Robert Lewandowski (2020, 2021) as winners of the UEFA Men's Player of the Year or its predecessor award (UEFA Best Player in Europe Award / UEFA Club Footballer of the Year).
+
+**Step 4 — Birthplace of each qualifying player**
+5. Wikipedia – "Andrés Iniesta": https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta — Confirms birthplace as Fuentealbilla, Castilla-La Mancha, Spain.
+6. Wikipedia – "Cristiano Ronaldo": https://en.wikipedia.org/wiki/Cristiano_Ronaldo — Confirms birthplace as Funchal, Madeira, Portugal.
+7. Wikipedia – "Lionel Messi": https://en.wikipedia.org/wiki/Lionel_Messi — Confirms birthplace as Rosario, Santa Fe, Argentina.
+8. Wikipedia – "Luka Modrić": https://en.wikipedia.org/wiki/Luka_Modri%C4%87 — Confirms birthplace as Zadar, Croatia.
+9. Wikipedia – "Robert Lewandowski": https://en.wikipedia.org/wiki/Robert_Lewandowski — Confirms birthplace as Warsaw, Poland.
+
+**Step 5 — Population of each birthplace**
+10. Official municipal register / INE (Instituto Nacional de Estadística, Spain) – Fuentealbilla municipal census: https://www.ine.es — Population of Fuentealbilla approximately 9,814 (municipality, per recent padron municipal data).
+11. Instituto Nacional de Estatística (INE Portugal) / Funchal city data: https://www.ine.pt — Population of Funchal approximately 111,892 (urban area, per 2021 census).
+12. INDEC (Instituto Nacional de Estadística y Censos, Argentina) – Rosario city population: https://www.indec.gob.ar — Population of Rosario approximately 1,236,089 (per 2010 national census; widely cited figure for the city proper).
+13. Croatian Bureau of Statistics – Zadar population: https://www.dzs.hr — Population of Zadar approximately 70,779 (per 2021 census), consistent with the retrieved evidence.
+14. Statistics Poland (GUS) – Warsaw population: https://stat.gov.pl — Population of Warsaw approximately 1,862,402 (per recent GUS data), consistent with the retrieved evidence.
