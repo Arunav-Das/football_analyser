@@ -1,58 +1,58 @@
 ====================================================================================================
 FOOTBALL PLAYER ANALYSER (CLAUDE CODE) - ANALYSIS REPORT
-generated 2026-11-04T23:59:50  (script version 2026-11-04.8-claude-code)
+generated 2026-11-05T00:01:22  (script version 2026-11-04.8-claude-code)
 ====================================================================================================
 
 1. SCOPE
   run mode: PER-YEAR (placeholder replaced by the year; one call per year, aggregated per model x strategy x RAG tier)
   prompt mode: user turn + --system-prompt directive
-  directive levels present: [1, 3]   escalated records: 0  (levels are pooled in the by-model tables below; filter eval_per_record.csv on directive_level to compare them)
-  records=2 (one per model x strategy x RAG tier x level)  models=1  strategies=1  rag_tiers=1  editions seen in answers=22  verbatim-prompt records=0
+  directive levels present: [3]   escalated records: 0  (levels are pooled in the by-model tables below; filter eval_per_record.csv on directive_level to compare them)
+  records=1 (one per model x strategy x RAG tier x level)  models=1  strategies=1  rag_tiers=1  editions seen in answers=22  verbatim-prompt records=0
   Backend: `claude -p` inside a Claude Code cloud session; temperature / top_p are not controllable; tools disabled; raw events per call are in <cell dir>/raw_calls.
   Editions are read from the WorldCup_Year column of the returned rows and (single-shot) from the edition headers the model wrote. 'Agreement with consensus' = Jaccard overlap between a record's (edition, player) set and the set returned by >=50% of the usable records (needs >=3). It measures agreement, NOT correctness.
   Per-year: tokens, latency and URL counts are TOTALS per cell (sum over its years); stall / decline / error / truncation figures are shares of the cell's year calls. Rows labelled with a different year than requested are dropped and counted (off_year_rows).
-  Ground-truth scoring: ON (2 scored records; only editions present in the GT file are scored; editions with no qualifier count every returned row as a false positive; '..._reached' metrics only count editions up to the last one the model declared or returned; false/true 'none' = explicit 'no qualifying player' claims checked against the GT)
+  Ground-truth scoring: ON (1 scored records; only editions present in the GT file are scored; editions with no qualifier count every returned row as a false positive; '..._reached' metrics only count editions up to the last one the model declared or returned; false/true 'none' = explicit 'no qualifying player' claims checked against the GT)
 
 2. HEADLINE (all records pooled)
-  mean_rows                   101.5000
-  mean_editions_covered       11.0000
-  mean_editions_declared      11.5000
+  mean_rows                   203.0000
+  mean_editions_covered       22.0000
+  mean_editions_declared      23.0000
   median_last_edition         2026.0000
   false_none_per_record       0.0000
-  true_none_per_record        0.5000
+  true_none_per_record        1.0000
   mean_jaccard_to_consensus   n/a
   pop_numeric_rate            0.7291
   birthplace_blank_rate       0.0000
-  citation_complete           0.3261
-  citation_order_ok           0.3261
-  mean_urls                   167.0000
-  truncated_rate              0.5000
+  citation_complete           0.6522
+  citation_order_ok           0.6522
+  mean_urls                   334.0000
+  truncated_rate              0.0000
   stall_rate                  0.0000
   declined_rate               0.0000
-  contradiction_rate          0.1087
+  contradiction_rate          0.2174
   escalated_rate              0.0000
-  self_excluded_per_record    10.0000
+  self_excluded_per_record    20.0000
   degenerate_rate             0.0000
-  unparsed_rate               0.5000
+  unparsed_rate               0.0000
   error_rate                  0.0000
-  mean_latency_s              514.0005
-  mean_completion_tokens      42947.0000
-  mean_years_answered         11.5000
+  mean_latency_s              918.1800
+  mean_completion_tokens      73894.0000
+  mean_years_answered         23.0000
   mean_years_declined         0.0000
   mean_years_error            0.0000
-  off_year_rows_per_record    4.0000
+  off_year_rows_per_record    8.0000
 
 3. BY MODEL (sorted by agreement with consensus)
       model_alias  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
-claude-sonnet-4-6        2    101.500                 11.000                  11.500             2026.000                  0.000                 0.500                        NaN             0.729              0.326              0.326    167.000           0.500       0.000          0.000               0.109           0.000                    10.000            0.000          0.500       0.000         514.000               42947.000               11.500                0.000             0.000                     4.000
+claude-sonnet-4-6        1    203.000                 22.000                  23.000             2026.000                  0.000                 1.000                        NaN             0.729              0.652              0.652    334.000           0.000       0.000          0.000               0.217           0.000                    20.000            0.000          0.000       0.000         918.180               73894.000               23.000                0.000             0.000                     8.000
 
 4. BY STRATEGY
 code  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
-  S1        2    101.500                 11.000                  11.500             2026.000                  0.000                 0.500                        NaN             0.729              0.326              0.326    167.000           0.500       0.000          0.000               0.109           0.000                    10.000            0.000          0.500       0.000         514.000               42947.000               11.500                0.000             0.000                     4.000
+  S1        1    203.000                 22.000                  23.000             2026.000                  0.000                 1.000                        NaN             0.729              0.652              0.652    334.000           0.000       0.000          0.000               0.217           0.000                    20.000            0.000          0.000       0.000         918.180               73894.000               23.000                0.000             0.000                     8.000
 
 5. BY RAG TIER
 code  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
-RAG0        2    101.500                 11.000                  11.500             2026.000                  0.000                 0.500                        NaN             0.729              0.326              0.326    167.000           0.500       0.000          0.000               0.109           0.000                    10.000            0.000          0.500       0.000         514.000               42947.000               11.500                0.000             0.000                     4.000
+RAG0        1    203.000                 22.000                  23.000             2026.000                  0.000                 1.000                        NaN             0.729              0.652              0.652    334.000           0.000       0.000          0.000               0.217           0.000                    20.000            0.000          0.000       0.000         918.180               73894.000               23.000                0.000             0.000                     8.000
 
 6. PAIRED RAG EFFECT vs RAG0 on f1 (same model, strategy, directive level)
 (no data)
@@ -62,28 +62,28 @@ RAG0        2    101.500                 11.000                  11.500         
 
 8. EDITION COVERAGE (from parsed rows)
 WorldCup_Year  records_returning_edition  share_of_records  mean_players_when_returned  max_players
-         1934                          1             0.500                       2.000            2
-         1938                          1             0.500                       1.000            1
-         1950                          1             0.500                       2.000            2
-         1954                          1             0.500                       5.000            5
-         1958                          1             0.500                      10.000           10
-         1962                          1             0.500                       9.000            9
-         1966                          1             0.500                       8.000            8
-         1970                          1             0.500                       9.000            9
-         1974                          1             0.500                      15.000           15
-         1978                          1             0.500                      13.000           13
-         1982                          1             0.500                       7.000            7
-         1986                          1             0.500                       9.000            9
-         1990                          1             0.500                      11.000           11
-         1994                          1             0.500                      13.000           13
-         1998                          1             0.500                      17.000           17
-         2002                          1             0.500                      15.000           15
-         2006                          1             0.500                      14.000           14
-         2010                          1             0.500                      17.000           17
-         2014                          1             0.500                      11.000           11
-         2018                          1             0.500                       8.000            8
-         2022                          1             0.500                       6.000            6
-         2026                          1             0.500                       1.000            1
+         1934                          1             1.000                       2.000            2
+         1938                          1             1.000                       1.000            1
+         1950                          1             1.000                       2.000            2
+         1954                          1             1.000                       5.000            5
+         1958                          1             1.000                      10.000           10
+         1962                          1             1.000                       9.000            9
+         1966                          1             1.000                       8.000            8
+         1970                          1             1.000                       9.000            9
+         1974                          1             1.000                      15.000           15
+         1978                          1             1.000                      13.000           13
+         1982                          1             1.000                       7.000            7
+         1986                          1             1.000                       9.000            9
+         1990                          1             1.000                      11.000           11
+         1994                          1             1.000                      13.000           13
+         1998                          1             1.000                      17.000           17
+         2002                          1             1.000                      15.000           15
+         2006                          1             1.000                      14.000           14
+         2010                          1             1.000                      17.000           17
+         2014                          1             1.000                      11.000           11
+         2018                          1             1.000                       8.000            8
+         2022                          1             1.000                       6.000            6
+         2026                          1             1.000                       1.000            1
 
 9. CONSENSUS SETS PER EDITION (players returned by >=50% of usable records)
 (no data)
@@ -98,21 +98,20 @@ WorldCup_Year  records_returning_edition  share_of_records  mean_players_when_re
   numeric population rate=0.729  blank/unknown birthplace rate=0.000
 
 13. CITATION QUALITY (keyword/order heuristic over the whole response; sources are NOT verified)
-  all required categories present=0.326  in required order=0.326  mean URLs per cell=167.00
+  all required categories present=0.652  in required order=0.652  mean URLs per cell=334.00
   URL reachability: not run (use --check_urls)
 
 14. GENERATION HEALTH
-      model_alias  directive_level           status  count
-claude-sonnet-4-6                1 truncated_length      1
-claude-sonnet-4-6                3               ok      1
+      model_alias  directive_level status  count
+claude-sonnet-4-6                3     ok      1
 
 15. RAG EVIDENCE INTEGRITY
   records with evidence injected=0  incomplete evidence=0  population-check failures=0
 
 16. GROUND-TRUTH SCORING (scored records; editions present in the GT file only)
       model_alias  gt_scored_records  median_last_edition  gt_micro_precision  gt_micro_recall  gt_micro_f1  gt_precision_reached  gt_recall_reached  false_none_per_record  true_none_per_record  gt_award_acc  gt_birthplace_acc  gt_pop_within_5pct
-claude-sonnet-4-6                  2             2026.000               0.416            0.331        0.368                 0.416              0.661                  0.000                 0.500         0.774              0.738               0.575
-  Most missed qualifying players (edition player: records): 1962 Alfredo Di Stéfano: 2; 1962 Bobby Charlton: 2; 1962 Omar Sívori: 2; 1966 Gianni Rivera: 2; 1966 Luis Suárez (footballer, born 1935): 2; 1970 Lev Yashin: 2; 1974 Denis Law: 2; 1974 Gianni Rivera: 2; 1982 Oleg Blokhin: 2; 1986 Allan Simonsen: 2; 1986 Oleg Blokhin: 2; 1994 Fernando Redondo: 2; 1994 Matthias Sammer: 2; 1994 Stefan Effenberg: 2; 1998 Gianluigi Buffon: 2
+claude-sonnet-4-6                  1             2026.000               0.416            0.661        0.511                 0.416              0.661                  0.000                 1.000         0.774              0.738               0.575
+  Most missed qualifying players (edition player: records): 1962 Alfredo Di Stéfano: 1; 1962 Bobby Charlton: 1; 1962 Omar Sívori: 1; 1966 Gianni Rivera: 1; 1966 Luis Suárez (footballer, born 1935): 1; 1970 Lev Yashin: 1; 1974 Denis Law: 1; 1974 Gianni Rivera: 1; 1982 Oleg Blokhin: 1; 1986 Allan Simonsen: 1; 1986 Oleg Blokhin: 1; 1994 Fernando Redondo: 1; 1994 Matthias Sammer: 1; 1994 Stefan Effenberg: 1; 1998 Gianluigi Buffon: 1
   Most frequent false positives:                              1934 Giuseppe Meazza: 1; 1934 Silvio Piola: 1; 1938 Silvio Piola: 1; 1950 Alfredo Di Stéfano: 1; 1954 Just Fontaine: 1; 1954 Ferenc Puskás: 1; 1954 Fritz Walter: 1; 1958 Just Fontaine: 1; 1958 Ronaldo (R9): 1; 1958 Pelé: 1; 1958 Didi: 1; 1958 Karl-Heinz Schnellinger: 1; 1958 Helmut Rahn: 1; 1962 Garrincha: 1; 1962 Eusébio: 1
 
 16A. PER-YEAR ANALYSIS (every call = one edition; pooled over models / strategies / RAG tiers / levels)
@@ -138,12 +137,12 @@ claude-sonnet-4-6                  2             2026.000               0.416   
  2010      1          True      10.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     17.000            0.294         0.500     0.370                 0                0               0.000                2585.000         6867.000                0.000          29.811
  2014      1          True       7.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     11.000            0.364         0.571     0.444                 0                0               0.000                2500.000         6664.000                0.000          31.389
  2018      1          True       5.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      8.000            0.375         0.600     0.462                 0                0               0.000                2487.000         6316.000                0.000          27.931
- 2022      2          True       7.000           0.500       0.500             0.000           0.000          0.000           0.500        0.000      3.000            0.667         0.286     0.400                 0                0               0.000                7019.500        17426.000                0.000          67.019
+ 2022      1          True       7.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      6.000            0.667         0.571     0.615                 0                0               0.000                2039.000         5315.000                0.000          24.218
  2026      1         False         NaN           1.000       1.000             0.000           0.000          0.000           0.000        0.000      1.000              NaN           NaN       NaN                 0                0               8.000               10346.000        32595.000                0.000         141.890
 
   RECALL by model x edition (mean over the model's cells; blank = not defined / no GT)
       model_alias  1950  1954  1958  1962  1966  1970  1974  1978  1982  1986  1990  1994  1998  2002  2006  2010  2014  2018  2022
-claude-sonnet-4-6 1.000 1.000 1.000 0.625 0.714 0.800 0.600 1.000 0.833 0.750 1.000 0.571 0.700 0.700 0.444 0.500 0.571 0.600 0.286
+claude-sonnet-4-6 1.000 1.000 1.000 0.625 0.714 0.800 0.600 1.000 0.833 0.750 1.000 0.571 0.700 0.700 0.444 0.500 0.571 0.600 0.571
 
   PRECISION by model x edition (mean over the model's cells; blank = not defined / no GT)
       model_alias  1934  1938  1950  1954  1958  1962  1966  1970  1974  1978  1982  1986  1990  1994  1998  2002  2006  2010  2014  2018  2022
@@ -151,31 +150,29 @@ claude-sonnet-4-6 0.000 0.000 0.500 0.400 0.400 0.556 0.625 0.444 0.200 0.231 0.
 
   ROWS RETURNED by model x edition (mean over the model's cells; blank = not defined / no GT)
       model_alias  1930  1934  1938  1950  1954   1958  1962  1966  1970   1974   1978  1982  1986   1990   1994   1998   2002   2006   2010   2014  2018  2022  2026
-claude-sonnet-4-6 0.000 2.000 1.000 2.000 5.000 10.000 9.000 8.000 9.000 15.000 13.000 7.000 9.000 11.000 13.000 17.000 15.000 14.000 17.000 11.000 8.000 3.000 1.000
+claude-sonnet-4-6 0.000 2.000 1.000 2.000 5.000 10.000 9.000 8.000 9.000 15.000 13.000 7.000 9.000 11.000 13.000 17.000 15.000 14.000 17.000 11.000 8.000 6.000 1.000
 
   VISIBLE ANSWER LENGTH (chars) by model x edition (mean over the model's cells; blank = not defined / no GT)
-      model_alias     1930     1934     1938     1950     1954     1958     1962     1966      1970     1974      1978      1982     1986     1990      1994      1998      2002      2006     2010     2014     2018      2022      2026
-claude-sonnet-4-6 2323.000 4645.000 4711.000 6040.000 4714.000 7204.000 6532.000 9312.000 11045.000 5465.000 15040.000 11368.000 6927.000 5529.000 14303.000 11146.000 10959.000 11113.000 6867.000 6664.000 6316.000 17426.000 32595.000
+      model_alias     1930     1934     1938     1950     1954     1958     1962     1966      1970     1974      1978      1982     1986     1990      1994      1998      2002      2006     2010     2014     2018     2022      2026
+claude-sonnet-4-6 2323.000 4645.000 4711.000 6040.000 4714.000 7204.000 6532.000 9312.000 11045.000 5465.000 15040.000 11368.000 6927.000 5529.000 14303.000 11146.000 10959.000 11113.000 6867.000 6664.000 6316.000 5315.000 32595.000
 
   THINKING LENGTH (chars) by model x edition (mean over the model's cells; blank = not defined / no GT)
       model_alias  1930  1934  1938  1950  1954  1958  1962  1966  1970  1974  1978  1982  1986  1990  1994  1998  2002  2006  2010  2014  2018  2022  2026
 claude-sonnet-4-6 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
-  Most missed players across all per-year calls: Gianluigi Buffon: 5; Robert Lewandowski: 3; Steven Gerrard: 3; Cristiano Ronaldo: 2; Karim Benzema: 2; Lionel Messi: 2; Luka Modrić: 2; Rodri (footballer, born 1996): 2; Virgil van Dijk: 2; Gianni Rivera: 2; Oleg Blokhin: 2; David Beckham: 2; Kaká: 2; Andrés Iniesta: 2; Deco: 2
+  Most missed players across all per-year calls: Gianluigi Buffon: 5; Steven Gerrard: 3; Gianni Rivera: 2; Oleg Blokhin: 2; David Beckham: 2; Kaká: 2; Andrés Iniesta: 2; Deco: 2; Robert Lewandowski: 2; Alfredo Di Stéfano: 1; Bobby Charlton: 1; Omar Sívori: 1; Luis Suárez (footballer, born 1935): 1; Lev Yashin: 1; Denis Law: 1
   Most frequent false-positive names:             Ruud Gullit: 3; Marco van Basten: 3; Zinedine Zidane: 3; Roberto Carlos: 3; Ronaldinho: 3; Clarence Seedorf: 3; Raúl: 3; Silvio Piola: 2; Just Fontaine: 2; Pelé: 2; Karl-Heinz Schnellinger: 2; Gerd Müller: 2; Dino Zoff: 2; Sepp Maier: 2; Zbigniew Boniek: 2
-  Reported cost across per-year calls (Claude Code 'total_cost_usd', summed): 1.60 USD
+  Reported cost across per-year calls (Claude Code 'total_cost_usd', summed): 1.35 USD
 
 17. KEY INSIGHTS (computed from the data above)
-  - Rows the model itself marked 'does NOT qualify' were ignored (not scored as predictions); mean per record 10.0: claude-sonnet-4-6 10.0. Padding the table with non-qualifying rows is itself a quality issue.
-  - Rows labelled with a different year than the one requested were dropped; mean per cell 4.0: claude-sonnet-4-6 4.0.
-  - 10.9% of responses contradict themselves (table rows vs the model's own 'no player qualified' note): claude-sonnet-4-6 11%.
-  - Editions returned by the fewest records: 1934 (50%), 1938 (50%), 1950 (50%); by the most: 2018 (50%), 2022 (50%), 2026 (50%).
-  - Per-year recall (pooled): hardest edition 2022 (0.29), easiest 1950 (1.00).
-  - Lowest answered share (rows or explicit 'none'): 2022 (50%), 1930 (100%), 1938 (100%).
+  - Rows the model itself marked 'does NOT qualify' were ignored (not scored as predictions); mean per record 20.0: claude-sonnet-4-6 20.0. Padding the table with non-qualifying rows is itself a quality issue.
+  - Rows labelled with a different year than the one requested were dropped; mean per cell 8.0: claude-sonnet-4-6 8.0.
+  - 21.7% of responses contradict themselves (table rows vs the model's own 'no player qualified' note): claude-sonnet-4-6 22%.
+  - Editions returned by the fewest records: 1934 (100%), 1938 (100%), 1950 (100%); by the most: 2018 (100%), 2022 (100%), 2026 (100%).
+  - Per-year recall (pooled): hardest edition 2006 (0.44), easiest 1950 (1.00).
+  - Lowest answered share (rows or explicit 'none'): 1930 (100%), 1934 (100%), 1938 (100%).
   - 2026 has NO ground truth in the GT file: its rows are collected (mean 1.0 rows per call, answered share 100%) but not scored.
-  - 50.0% of responses were truncated (models: claude-sonnet-4-6 50%); truncated answers keep their partial text and omit later rows. Use the '..._reached' columns to judge them on the editions they did reach.
-  - 50.0% of records had no recognisable table row, no explicit 'no player qualifies' statement and no refusal (open the raw_calls/*_text.txt files; --reparse re-parses stored text after a parser change).
-  - Mean reported completion tokens per cell: 42947.
-  - Citation chains are complete (heuristic) in 32.6% of records.
+  - Mean reported completion tokens per cell: 73894.
+  - Citation chains are complete (heuristic) in 65.2% of records.
 
 18. LIMITATIONS
   - Consensus = agreement among records, not truth; a systematic error shared by most records becomes the consensus.

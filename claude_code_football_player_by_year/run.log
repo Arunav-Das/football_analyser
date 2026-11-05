@@ -133,3 +133,10 @@
 2026-11-04 23:59:47,808 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2026-11-04 23:59:47,809 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2026-11-04 23:59:50,691 - INFO - Analysis written to claude_code_football_player_by_year/analysis (32 plots, report + CSVs)
+2026-11-05 00:01:19,459 - INFO - === run started: football_analyzer_inf_mod.py --per_year --analyze_only (script version 2026-11-04.8-claude-code) ===
+2026-11-05 00:01:19,469 - INFO - GroundTruthStore: 130/130 rows loaded from 'df_gt_football.csv' spanning 22 editions.
+2026-11-05 00:01:19,710 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:01:19,711 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:01:19,843 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:01:19,843 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-11-05 00:01:22,675 - INFO - Analysis written to claude_code_football_player_by_year/analysis (32 plots, report + CSVs)
