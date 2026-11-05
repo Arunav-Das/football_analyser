@@ -1,0 +1,95 @@
+Based on all the research conducted, I have confirmed the following:
+
+**Step summary:**
+1. ✅ 1974 FIFA World Cup was held in West Germany (June 13 – July 7, 1974) — confirmed by Wikipedia and multiple sources
+2. ✅ The 16 teams included: West Germany, Netherlands, Brazil, Argentina, East Germany, Poland, Sweden, Scotland, Italy, Chile, Yugoslavia, Australia, Uruguay, Zaire, Haiti
+3. ✅ Ballon d'Or winners confirmed at 1974 WC:
+ - **Johan Cruyff** (Netherlands) — Ballon d'Or 1971, 1973, 1974 → Born Amsterdam
+ - **Franz Beckenbauer** (West Germany) — Ballon d'Or 1972, 1976 → Born Munich
+ - **Gerd Müller** (West Germany) — Ballon d'Or 1970 → Born Nördlingen
+ - **Denis Law** (Scotland) — Ballon d'Or 1964 → Born Aberdeen
+4. ✅ UEFA Men's Player of the Year / UEFA Club Footballer of the Year — started 1998 and 2011 respectively; no 1974 World Cup players were still active then
+5. ✅ Other Ballon d'Or winners checked: Rummenigge (not in 1974 squad), George Best's Northern Ireland didn't qualify, Bobby Charlton's England didn't qualify
+
+**Population data:**
+- Amsterdam: ~931,298 (Jan 1, 2024)
+- Munich: ~1,603,776 (Dec 31, 2024)
+- Nördlingen: ~20,185–20,352 (2022–2024 estimate)
+- Aberdeen: ~231,780 (mid-2024, NRS official)
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1974 | Johan Cruyff | Ballon d'Or (1971, 1973, 1974) | Amsterdam, Netherlands | ~931,298 (city proper, 1 Jan 2024) |
+| 2 | 1974 | Franz Beckenbauer | Ballon d'Or (1972, 1976) | Munich, Germany | ~1,603,776 (city proper, 31 Dec 2024) |
+| 3 | 1974 | Gerd Müller | Ballon d'Or (1970) | Nördlingen, Germany | ~20,185 (2022 census) |
+| 4 | 1974 | Denis Law | Ballon d'Or (1964) | Aberdeen, Scotland, UK | ~231,780 (mid-2024, NRS) |
+
+---
+
+**Citations in order of use:**
+
+1. **1974 FIFA World Cup confirmed held** — Wikipedia: [1974 FIFA World Cup](https://en.wikipedia.org/wiki/1974_FIFA_World_Cup) — confirms the tournament was held in West Germany from 13 June to 7 July 1974, with West Germany defeating the Netherlands 2–1 in the final.
+
+2. **1974 FIFA World Cup squads — full list of all national team squads** — Wikipedia: [1974 FIFA World Cup squads](https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_squads) — primary source for all 16 squads. Squad templates referenced via search results for West Germany, Netherlands, Scotland, Poland, Brazil, etc.
+
+3. **Scotland 1974 World Cup squad (Denis Law, No. 19)** — Wikipedia squad template confirmed via [Scotland squad 1974 FIFA World Cup template](https://EN.wikipedia.com/wiki/Template:Scotland_squad_1974_FIFA_World_Cup): Harvey, Jardine, McGrain, Bremner (c), Holton, Blackley, Johnstone, Dalglish, Jordan, Hay, Lorimer, Allan, Stewart, Buchan, Cormack, Donachie, Ford, Hutchison, Law, Morgan, McQueen, Schaedler.
+
+4. **Netherlands 1974 World Cup squad (Johan Cruyff, No. 14)** — [11v11.com Johan Cruyff Holland 1974](https://www.11v11.com/players/johan-cruyff-21474/team/holland-1974/) and [cfclassics.co Netherlands 1974 World Cup](https://www.cfclassics.co/national/netherlands/1974/netherlands-1974-world-cup.htm): confirms Cruyff in the squad and appeared in matches.
+
+5. **West Germany 1974 World Cup squad (Beckenbauer, Müller confirmed)** — [FIFA official news on 1974 final](https://www.fifa.com/news/muller-was-good-thing-the-dutch-scored-early-513553): confirms Gerd Müller scored the winning goal in the 1974 World Cup final. Getty Images and multiple match reports confirm Beckenbauer captained West Germany throughout the tournament. [FBref West Germany 1974](https://www.fbref.com/en/squads/c1e40422/1974/West-Germany-Men-Stats) lists both players.
+
+6. **Johan Cruyff Ballon d'Or wins (1971, 1973, 1974)** — [1971 Ballon d'Or – Topendsports](https://www.topendsports.com/sport/soccer/awards/ballondor-1971.htm); [1973 Ballon d'Or – Topendsports](https://ipv6.topendsports.com/sport/soccer/awards/ballondor-1973.htm); [1974 Ballon d'Or – Topendsports](https://www.topendsports.com/sport/soccer/awards/ballondor-1974.htm). Also corroborated by [World of Johan Cruyff](https://worldofjohancruyff.com/?p=8).
+
+7. **Franz Beckenbauer Ballon d'Or wins (1972, 1976)** — [1972 Ballon d'Or – Topendsports](https://fallback.topendsports.com/sport/soccer/awards/ballondor-1972.htm); [1976 Ballon d'Or – Topendsports](https://mail.topendsports.com/sport/soccer/awards/ballondor-1976.htm). Confirmed by multiple sources including [Supersport Beckenbauer profile](https://supersport.com/football/general/news/b5d3ecd4-aaf2-44aa-bac2-2a1be651a7f0/franz-beckenbauer-in-six-key-dates).
+
+8. **Gerd Müller Ballon d'Or win (1970)** — [1970 Ballon d'Or – Wikipedia](https://en.wikipedia.org/wiki/1970_Ballon_d%27Or): "The 1970 Ballon d'Or was awarded to West German forward Gerd Müller." Also confirmed by [Bundesliga.com](https://bundesliga.com/en/bundesliga/news/ballon-dor-winners-keegan-klinsmann-muller-rummenigge-sammer-simonsen-39643).
+
+9. **Denis Law Ballon d'Or win (1964)** — [1964 Ballon d'Or – Wikipedia](https://en.wikipedia.org/wiki/1964_Ballon_d%27Or) and [RSSSF European Footballer of the Year 1964](https://rsssf.org/miscellaneous/europa-poy64.html): Denis Law, Manchester United / Scotland, 61 points.
+
+10. **UEFA Club Footballer of the Year (began 1998) and UEFA Men's Player of the Year (began 2011)** — [UEFA Club Footballer of the Year – Wikipedia](https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year): first awarded for the 1997–98 season, so no 1974 World Cup player could have won this award while still an active-era player.
+
+11. **Johan Cruyff birthplace — Amsterdam** — [Wikipedia: Johan Cruyff](https://en.wikipedia.org/wiki/Johan_Cruyff): born 25 April 1947 in Amsterdam (at the Burgerziekenhuis hospital); grew up in Betondorp neighbourhood.
+
+12. **Franz Beckenbauer birthplace — Munich** — [Wikipedia: Franz Beckenbauer](https://en.wikipedia.org/wiki/Franz_Beckenbauer): born 11 September 1945 at a clinic in the Maxvorstadt borough of Munich.
+
+13. **Gerd Müller birthplace — Nördlingen** — [Wikipedia: Gerd Müller](https://en.wikipedia.org/wiki/Gerd_M%C3%BCller): "born on 3 November 1945 in Nördlingen, Bavaria, Germany."
+
+14. **Denis Law birthplace — Aberdeen** — [Wikipedia: Denis Law](https://en.wikipedia.org/wiki/Denis_Law): born 24 February 1940 in Aberdeen; grew up at Printfield Terrace, Woodside area of Aberdeen. Also confirmed by [STV News plaque announcement](https://news.stv.tv/north/denis-law-honoured-with-commemorative-plaque-at-birthplace-in-aberdeen).
+
+15. **Amsterdam population (~931,298 as of 1 Jan 2024)** — [top10cities.net Netherlands](https://top10cities.net/country/netherlands-admin.php): lists Amsterdam municipality population as 931,298 on 2024-01-01.
+
+16. **Munich population (~1,603,776 as of 31 Dec 2024)** — [Munich Statistical Office 2025 fact sheet](https://stadt.muenchen.de/dam/jcr%3A7192b6c9-c2ef-4325-b62e-78d12eb59974/LHM_Stat-Faltkarte_englisch_2025.pdf): "Inhabitants (registered with main residence in Munich) 1 603 776" as of 31 December 2024.
+
+17. **Nördlingen population (~20,185 per 2022 census)** — [citypopulation.de Nördlingen census](https://citypopulation.de/en/germany/census/bayern/09779194__n%25C3%25B6rdlingen/): 20,185 at the 15 May 2022 census; estimated ~20,352 for 2024.
+
+18. **Aberdeen population (~231,780 mid-2024)** — [National Records of Scotland, Aberdeen City profile](https://www.nrscotland.gov.uk/statistics-and-data/council-area-profiles/aberdeen-city): mid-2024 population estimate 231,780 (as of 30 June 2024, published August 2025).
+
+Sources:
+- [1974 FIFA World Cup – Wikipedia](https://en.wikipedia.org/wiki/1974_FIFA_World_Cup)
+- [1974 FIFA World Cup squads – Wikipedia](https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_squads)
+- [Scotland squad 1974 FIFA World Cup template – Wikipedia](https://EN.wikipedia.com/wiki/Template:Scotland_squad_1974_FIFA_World_Cup)
+- [Johan Cruyff – 11v11.com](https://www.11v11.com/players/johan-cruyff-21474/team/holland-1974/)
+- [Netherlands 1974 World Cup – cfclassics.co](https://www.cfclassics.co/national/netherlands/1974/netherlands-1974-world-cup.htm)
+- [FIFA news on 1974 final – Müller](https://www.fifa.com/news/muller-was-good-thing-the-dutch-scored-early-513553)
+- [FBref West Germany 1974](https://www.fbref.com/en/squads/c1e40422/1974/West-Germany-Men-Stats)
+- [1971 Ballon d'Or – Topendsports](https://www.topendsports.com/sport/soccer/awards/ballondor-1971.htm)
+- [1973 Ballon d'Or – Topendsports](https://ipv6.topendsports.com/sport/soccer/awards/ballondor-1973.htm)
+- [1974 Ballon d'Or – Topendsports](https://www.topendsports.com/sport/soccer/awards/ballondor-1974.htm)
+- [World of Johan Cruyff](https://worldofjohancruyff.com/?p=8)
+- [1972 Ballon d'Or – Topendsports](https://fallback.topendsports.com/sport/soccer/awards/ballondor-1972.htm)
+- [1976 Ballon d'Or – Topendsports](https://mail.topendsports.com/sport/soccer/awards/ballondor-1976.htm)
+- [Beckenbauer six key dates – Supersport](https://supersport.com/football/general/news/b5d3ecd4-aaf2-44aa-bac2-2a1be651a7f0/franz-beckenbauer-in-six-key-dates)
+- [1970 Ballon d'Or – Wikipedia](https://en.wikipedia.org/wiki/1970_Ballon_d%27Or)
+- [Bundesliga.com Ballon d'Or German winners](https://bundesliga.com/en/bundesliga/news/ballon-dor-winners-keegan-klinsmann-muller-rummenigge-sammer-simonsen-39643)
+- [1964 Ballon d'Or – Wikipedia](https://en.wikipedia.org/wiki/1964_Ballon_d%27Or)
+- [RSSSF European Footballer of the Year 1964](https://rsssf.org/miscellaneous/europa-poy64.html)
+- [UEFA Club Footballer of the Year – Wikipedia](https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year)
+- [Johan Cruyff – Wikipedia](https://en.wikipedia.org/wiki/Johan_Cruyff)
+- [Franz Beckenbauer – Wikipedia](https://en.wikipedia.org/wiki/Franz_Beckenbauer)
+- [Gerd Müller – Wikipedia](https://en.wikipedia.org/wiki/Gerd_M%C3%BCller)
+- [Denis Law – Wikipedia](https://en.wikipedia.org/wiki/Denis_Law)
+- [Denis Law birthplace plaque – STV](https://news.stv.tv/north/denis-law-honoured-with-commemorative-plaque-at-birthplace-in-aberdeen)
+- [Amsterdam population – top10cities.net](https://top10cities.net/country/netherlands-admin.php)
+- [Munich population – Munich Statistical Office 2025](https://stadt.muenchen.de/dam/jcr%3A7192b6c9-c2ef-4325-b62e-78d12eb59974/LHM_Stat-Faltkarte_englisch_2025.pdf)
+- [Nördlingen population – citypopulation.de census](https://citypopulation.de/en/germany/census/bayern/09779194__n%25C3%25B6rdlingen/)
+- [Aberdeen population – National Records of Scotland](https://www.nrscotland.gov.uk/statistics-and-data/council-area-profiles/aberdeen-city)

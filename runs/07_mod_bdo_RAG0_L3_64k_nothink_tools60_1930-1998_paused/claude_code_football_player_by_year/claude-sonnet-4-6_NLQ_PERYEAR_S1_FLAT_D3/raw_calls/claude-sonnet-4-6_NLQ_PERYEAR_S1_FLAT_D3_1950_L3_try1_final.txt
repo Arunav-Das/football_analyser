@@ -1,0 +1,70 @@
+Hanley is a constituent town/settlement of Stoke-on-Trent (one of the Six Towns) and no longer has its own separate population count since the federation in 1910. The appropriate population to give for "Hanley" as a birthplace location is the population of Stoke-on-Trent, the city of which it is the city centre/commercial heart. The 2021 census gives Stoke-on-Trent a population of approximately 258,400.
+
+Now let me compile the final answer. Based on all my research:
+
+**1950 FIFA World Cup** - confirmed held in Brazil, 24 June - 16 July 1950.
+
+**Players who qualify** (in 1950 World Cup squad AND won Ballon d'Or or UEFA Men's Player of the Year):
+- **Stanley Matthews** (England) - confirmed in England's 1950 World Cup squad; won the **inaugural 1956 Ballon d'Or**; born in **Hanley, Stoke-on-Trent**.
+
+No other player from the 1950 World Cup squads (13 teams: Brazil, Uruguay, Spain, Sweden, Italy, Switzerland, Yugoslavia, USA, Chile, Mexico, Bolivia, Paraguay, England) won a Ballon d'Or or UEFA award. The key reasons:
+- The Ballon d'Or only began in 1956, and by then only Matthews was still active/eligible from the 1950 squads
+- The UEFA Club Footballer of the Year (1998+) and UEFA Men's Player of the Year (2010+) awards came far too late for any 1950 World Cup participants
+- Di Stefano (double Ballon d'Or winner) was not in a 1950 World Cup squad (Argentina did not participate)
+
+---
+
+**S.No** | **WorldCup_Year** | **TargetPlayer** | **Award_Type** | **Birthplace** | **Population**
+---|---|---|---|---|---
+1 | 1950 | Stanley Matthews | Ballon d'Or (1956) | Hanley, Stoke-on-Trent, England | 258,400 (Stoke-on-Trent, 2021 census; Hanley is now merged into the city)
+
+---
+
+**Citations in order of use:**
+
+1. **1950 FIFA World Cup confirmed held** — Wikipedia, "1950 FIFA World Cup": The tournament was held in Brazil from 24 June to 16 July 1950, the first since 1938 (cancelled 1942, 1946 due to WWII). Source: [1950 FIFA World Cup – Wikipedia](https://en.wikipedia.org/wiki/1950_FIFA_World_Cup)
+
+2. **1950 World Cup squads — England squad including Stanley Matthews** — Wikipedia squad template for England confirmed Matthews as a forward in the squad; also corroborated by multiple secondary sources. Source: [1950 FIFA World Cup squads – Wikipedia](https://en.wikipedia.org/wiki/1950_FIFA_World_Cup_squads) and [Template:England squad 1950 FIFA World Cup – Wikipedia](https://en.wikipedia.com/wiki/Template:England_squad_1950_FIFA_World_Cup)
+
+3. **Stanley Matthews confirmed in 1950 squad and playing one match (vs Spain)** — The FA's centenary article, England Stats, and multiple sources confirm he was in the squad and appeared in the Spain match. Source: [The legend Sir Stanley Matthews born 100 years ago – The FA](https://www.thefa.com/news/2015/feb/01/sir-stanley-matthews-100); [Stanley Matthews – Wikipedia](https://en.wikipedia.org/wiki/Stanley_Matthews)
+
+4. **Ballon d'Or inaugural 1956 winner — Stanley Matthews** — Wikipedia's dedicated page for the 1956 Ballon d'Or confirms Matthews won with 47 points; Guinness World Records confirms him as first and oldest winner. Source: [1956 Ballon d'Or – Wikipedia](https://en.wikipedia.org/wiki/1956_Ballon_d%27Or); [Oldest winner of Ballon d'Or – Guinness World Records](https://www.guinnessworldrecords.com/world-records/788751-oldest-winner-of-footballs-soccers-ballon-dor-award)
+
+5. **Ballon d'Or complete winners list (confirming no other 1950 WC player won it)** — Multiple sources confirm Matthews as the only 1950 WC participant to win Ballon d'Or; complete winner list from 1956 confirms no other 1950 WC squad member won the award. Source: [Every Ballon d'Or winner – FourFourTwo](https://www.fourfourtwo.com/features/ballon-dor-complete-list-of-winners); [Sportskeeda Ballon d'Or complete list](https://sportskeeda.com/football/news-ballon-d-or-complete-list-men-s-award-winners-1956-2023)
+
+6. **UEFA Men's Player of the Year / Club Footballer of the Year winners** — All UEFA award winners are confirmed as being from post-1990 era, far too late for any 1950 WC participant. Source: [UEFA Club Footballer of the Year – Wikipedia](https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year); [UEFA Men's Player of the Year Winners – FBRef](https://fbref.com/en/awards/uefa_poy_m/UEFA-Mens-Player-of-the-Year)
+
+7. **Stanley Matthews birthplace: Hanley, Stoke-on-Trent** — Multiple sources including Wikipedia, Britannica, The FA, and England Stats all confirm birthplace as Hanley, Stoke-on-Trent, 1 February 1915. Source: [Stanley Matthews – Wikipedia](https://en.wikipedia.org/wiki/Stanley_Matthews); [Stanley Matthews – Britannica](https://www.britannica.com/print/article/369747)
+
+8. **Population of Stoke-on-Trent (Hanley's city)** — Hanley is one of six towns merged into Stoke-on-Trent (since 1910); the 2021 census population of Stoke-on-Trent is 258,400. Source: [Stoke-on-Trent population – ONS / CityPopulation.de](https://citypopulation.de/en/uk/england/admin/west_midlands/E06000021__stoke_on_trent/); [Hanley – Wikipedia](https://en.wikipedia.org/wiki/Hanley)
+
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+1	1950	Stanley Matthews	Ballon d'Or (1956)	Hanley, Stoke-on-Trent, England	258,400
+
+---
+
+**Numbered Citations in Order Used:**
+
+1. **[1950 FIFA World Cup – Wikipedia](https://en.wikipedia.org/wiki/1950_FIFA_World_Cup)** — Step: Confirming the 1950 FIFA World Cup was actually held. The tournament ran 24 June – 16 July 1950 in Brazil; 13 nations participated; Uruguay won.
+
+2. **[1950 FIFA World Cup squads – Wikipedia](https://en.wikipedia.org/wiki/1950_FIFA_World_Cup_squads)** — Step: Identifying players named to national team squads for the 1950 World Cup. The article lists all 13 participating nations' squads. Stanley Matthews is listed as a forward in the England squad.
+
+3. **[Template:England squad 1950 FIFA World Cup – Wikipedia](https://en.wikipedia.com/wiki/Template:England_squad_1950_FIFA_World_Cup)** — Step: Confirming the England squad composition, which lists Matthews (FW) alongside Finney, Milburn, Mortensen, Mannion, Mullen, Bentley and others.
+
+4. **[Stanley Matthews – Wikipedia](https://en.wikipedia.org/wiki/Stanley_Matthews)** — Step: Confirming Matthews was in the England 1950 World Cup squad and played one match (vs Spain, 2 July 1950); and confirming his birthplace as Hanley, Stoke-on-Trent, born 1 February 1915.
+
+5. **[The legend Sir Stanley Matthews born 100 years ago – The FA](https://www.thefa.com/news/2015/feb/01/sir-stanley-matthews-100)** — Step: Further corroboration of Matthews' birthplace (Hanley, Stoke-on-Trent) and World Cup participation.
+
+6. **[1956 Ballon d'Or – Wikipedia](https://en.wikipedia.org/wiki/1956_Ballon_d%27Or)** — Step: Confirming Stanley Matthews won the inaugural 1956 Ballon d'Or with 47 points (ahead of Di Stéfano and Kopa). This establishes him as a Ballon d'Or winner.
+
+7. **[Oldest winner of Ballon d'Or – Guinness World Records](https://www.guinnessworldrecords.com/world-records/788751-oldest-winner-of-footballs-soccers-ballon-dor-award)** — Step: Further confirmation that Matthews won the first-ever Ballon d'Or in 1956.
+
+8. **[Every Ballon d'Or winner – FourFourTwo](https://www.fourfourtwo.com/features/ballon-dor-complete-list-of-winners)** — Step: Reviewing the complete list of Ballon d'Or winners (1956–present) to confirm no other 1950 World Cup squad player won the award. All other early winners (Di Stéfano, Kopa, Suárez, Sívori, Masopust, Yashin, etc.) were not in any 1950 World Cup squad.
+
+9. **[UEFA Club Footballer of the Year – Wikipedia](https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year)** — Step: Reviewing UEFA Club Footballer of the Year winners (1998 onwards: Ronaldo, Beckham, Redondo, Effenberg, Zidane, etc.) to confirm none were in a 1950 World Cup squad.
+
+10. **[UEFA Men's Player of the Year Winners – FBRef](https://fbref.com/en/awards/uefa_poy_m/UEFA-Mens-Player-of-the-Year)** — Step: Reviewing UEFA Men's Player of the Year winners (2010–11 onwards: Messi, Iniesta, Ribéry, Ronaldo, etc.) to confirm none were in a 1950 World Cup squad.
+
+11. **[Hanley – Wikipedia](https://en.wikipedia.org/wiki/Hanley)** — Step: Confirming Hanley's status as a constituent town of Stoke-on-Trent (one of Six Towns merged since 1910), with the last standalone population of 67,891 at the 1921 census.
+
+12. **[Stoke-on-Trent population – CityPopulation.de](https://citypopulation.de/en/uk/england/admin/west_midlands/E06000021__stoke_on_trent/)** — Step: Obtaining the current population of Stoke-on-Trent (the city now encompassing Hanley): 258,369 / ~258,400 at the 2021 census.

@@ -1,0 +1,137 @@
+All key facts are confirmed. Now let me compile the final population figures precisely. I need current population for each birthplace:
+
+- **Nördlingen** (Gerd Müller): ~20,352 (2024 estimate from citypopulation.de)
+- **Munich** (Franz Beckenbauer): ~1,604,000 (2024, from city statistics)
+- **Alessandria** (Gianni Rivera): ~93,000 (comune population per Wikipedia)
+- **Ashington** (Bobby Charlton): ~28,278 (2021 census) / ~30,082 (2024 estimate)
+- **Moscow** (Lev Yashin): ~13,274,285 (2025 estimate from citypopulation.de)
+
+Now let me compile the table. The qualifying players are:
+
+1. **Lev Yashin** - USSR squad - 1963 Ballon d'Or - born Moscow
+2. **Bobby Charlton** - England squad - 1966 Ballon d'Or - born Ashington
+3. **Gianni Rivera** - Italy squad - 1969 Ballon d'Or - born Alessandria
+4. **Gerd Müller** - West Germany squad - 1970 Ballon d'Or - born Nördlingen
+5. **Franz Beckenbauer** - West Germany squad - 1972 & 1976 Ballon d'Or - born Munich
+
+The UEFA Men's Player of the Year / UEFA Club Footballer of the Year doesn't apply to any of these players (all retired before those awards began in 1998 and 2010-11 respectively).
+
+Let me verify the Nördlingen population more precisely:
+
+The citypopulation.de figure was approximately 20,352 (sum of 10,081 males + 10,271 females) for 2024 estimate. Let me use this.
+
+For Alessandria, the population is approximately 92,000-93,000 for the commune. Let me use ~93,000 from Wikipedia.
+
+Now I need to present the data. I should note Franz Beckenbauer won two Ballon d'Ors (1972 and 1976), so he gets listed with both awards.
+
+Let me also double-check the Wikipedia source for the 1970 World Cup squads:
+
+The sources for the squad are:
+- Wikipedia article on 1970 FIFA World Cup squads: https://en.wikipedia.org/wiki/1970_FIFA_World_Cup_squads
+- Wikiwand mirror: https://wikiwand.com/en/articles/1970_FIFA_World_Cup_squads
+
+For the confirmation the tournament was held:
+- Wikipedia 1970 FIFA World Cup: https://en.wikipedia.org/wiki/1970_FIFA_World_Cup
+
+For Ballon d'Or winners:
+- 1963: https://en.wikipedia.org/wiki/1963_Ballon_d%27Or (Yashin)
+- 1966: https://en.wikipedia.org/wiki/1966_Ballon_d%27Or (Charlton)
+- 1969: https://en.wikipedia.org/wiki/1969_Ballon_d%27Or (Rivera)
+- 1970: https://en.wikipedia.org/wiki/1970_Ballon_d%27Or (Müller)
+- 1972: https://en.wikipedia.org/wiki/1972_Ballon_d%27Or (Beckenbauer)
+- 1976: https://en.wikipedia.org/wiki/1976_Ballon_d%27Or (Beckenbauer)
+
+For birthplaces:
+- Yashin: Moscow - Wikipedia Lev Yashin article
+- Charlton: Ashington - Wikipedia Bobby Charlton article
+- Rivera: Alessandria - Wikipedia Gianni Rivera article
+- Müller: Nördlingen - Wikipedia Gerd Müller article
+- Beckenbauer: Munich - Wikipedia Franz Beckenbauer article
+
+For populations:
+- Nördlingen: citypopulation.de
+- Munich: stad.muenchen.de / Wikipedia Munich
+- Ashington: citypopulation.de / Wikipedia Ashington
+- Alessandria: Wikipedia Alessandria
+- Moscow: citypopulation.de
+
+S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population
+1 | 1970 | Lev Yashin | Ballon d'Or 1963 | Moscow, Soviet Union (now Russia) | ~13,274,285 (2025 est.)
+2 | 1970 | Bobby Charlton | Ballon d'Or 1966 | Ashington, Northumberland, England | ~28,278 (2021 census)
+3 | 1970 | Gianni Rivera | Ballon d'Or 1969 | Alessandria, Piedmont, Italy | ~93,409
+4 | 1970 | Gerd Müller | Ballon d'Or 1970 | Nördlingen, Bavaria, Germany | ~20,352 (2024 est.)
+5 | 1970 | Franz Beckenbauer | Ballon d'Or 1972, Ballon d'Or 1976 | Munich, Bavaria, Germany | ~1,604,384 (2024)
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|---------------|--------------|------------|------------|------------|
+| 1 | 1970 | Lev Yashin | Ballon d'Or (1963) | Moscow, Soviet Union (now Russia) | 13,274,285 (2025 est.) |
+| 2 | 1970 | Bobby Charlton | Ballon d'Or (1966) | Ashington, Northumberland, England | 28,278 (2021 census) |
+| 3 | 1970 | Gianni Rivera | Ballon d'Or (1969) | Alessandria, Piedmont, Italy | 93,409 |
+| 4 | 1970 | Gerd Müller | Ballon d'Or (1970) | Nördlingen, Bavaria, Germany | 20,352 (2024 est.) |
+| 5 | 1970 | Franz Beckenbauer | Ballon d'Or (1972); Ballon d'Or (1976) | Munich, Bavaria, Germany | 1,604,384 (2024) |
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirm the 1970 FIFA World Cup was held**
+1. Wikipedia, "1970 FIFA World Cup": [https://en.wikipedia.org/wiki/1970_FIFA_World_Cup](https://en.wikipedia.org/wiki/1970_FIFA_World_Cup) — Confirms the tournament was held in Mexico, 31 May – 21 June 1970; Brazil defeated Italy 4–1 in the final at Estadio Azteca.
+
+**Step 2 — Establish participating national teams and their squads**
+2. Wikipedia, "1970 FIFA World Cup squads": [https://en.wikipedia.org/wiki/1970_FIFA_World_Cup_squads](https://en.wikipedia.org/wiki/1970_FIFA_World_Cup_squads) — Primary source for all 16 national team rosters; lists all squad members including Lev Yashin (USSR, No. 13, unused), Bobby Charlton (England), Gianni Rivera (Italy), Gerd Müller (West Germany, No. 13), Franz Beckenbauer (West Germany, No. 4).
+3. Wikiwand mirror of the same article: [https://wikiwand.com/en/articles/1970_FIFA_World_Cup_squads](https://wikiwand.com/en/articles/1970_FIFA_World_Cup_squads) — Confirms Soviet Union squad including Yashin as goalkeeper No. 13 (unused).
+4. Wikipedia, "Template:West Germany squad 1970 FIFA World Cup": [https://EN.wikipedia.com/wiki/Template:West_Germany_squad_1970_FIFA_World_Cup](https://EN.wikipedia.com/wiki/Template:West_Germany_squad_1970_FIFA_World_Cup) — Confirms full 22-man West Germany squad; Beckenbauer No. 4, Müller No. 13.
+5. Wikipedia, "Template:Italy squad 1970 FIFA World Cup": [https://Www.Wikipedia.org/wiki/Template:Italy_squad_1970_FIFA_World_Cup](https://Www.Wikipedia.org/wiki/Template:Italy_squad_1970_FIFA_World_Cup) — Confirms Rivera and Mazzola in Italy's 22-man squad.
+6. Wikipedia, "Template:England Squad 1970 World Cup": [https://wiki.riteme.site/wiki/Template:England_Squad_1970_World_Cup](https://wiki.riteme.site/wiki/Template:England_Squad_1970_World_Cup) — Confirms Bobby Charlton in England's squad.
+7. The Soccer World Cups — Lev Yashin match data: [https://www.thesoccerworldcups.com/players/lev_yashin.php](https://www.thesoccerworldcups.com/players/lev_yashin.php) — Lists Yashin as DNP (did not play) across all 1970 World Cup matches; confirms he was a squad member.
+
+**Step 3 — Identify Ballon d'Or winners (and cross-reference UEFA awards)**
+8. Wikipedia, "1963 Ballon d'Or": [https://en.wikipedia.org/wiki/1963_Ballon_d%27Or](https://en.wikipedia.org/wiki/1963_Ballon_d%27Or) — Lev Yashin won with 73 points; presented 17 December 1963.
+9. Wikipedia, "1966 Ballon d'Or": [https://en.wikipedia.org/wiki/1966_Ballon_d%27Or](https://en.wikipedia.org/wiki/1966_Ballon_d%27Or) — Bobby Charlton won with 81 points; presented 27 December 1966.
+10. Wikipedia, "1969 Ballon d'Or": [https://wiki.riteme.site/wiki/1969_Ballon_d%27Or](https://wiki.riteme.site/wiki/1969_Ballon_d%27Or) — Gianni Rivera won; confirmed by multiple sources including topendsports.com.
+11. Wikipedia, "1970 Ballon d'Or": [https://en.wikipedia.org/wiki/1970_Ballon_d%27Or](https://en.wikipedia.org/wiki/1970_Ballon_d%27Or) — Gerd Müller won with 77 points; presented 29 December 1970.
+12. Wikipedia, "1972 Ballon d'Or": [https://en.wikipedia.org/wiki/1972_Ballon_d%27Or](https://en.wikipedia.org/wiki/1972_Ballon_d%27Or) — Franz Beckenbauer won with 81 points; presented 26 December 1972.
+13. Wikipedia, "1976 Ballon d'Or": [https://en.wikipedia.org/wiki/1976_Ballon_d%27Or](https://en.wikipedia.org/wiki/1976_Ballon_d%27Or) — Franz Beckenbauer won with 91 points; presented 28 December 1976.
+14. Wikipedia, "UEFA Club Footballer of the Year": [https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year](https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year) — Award ran from 1997–98 to 2009–10 season; no 1970 World Cup player won it (all were retired).
+15. Wikipedia, "UEFA Men's Player of the Year Award": [https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award](https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award) — Award started 2010–11; no 1970 World Cup player won it (all were retired).
+
+**Step 4 — Confirm birthplace of each qualifying player**
+16. Wikipedia, "Lev Yashin": [https://en.wikipedia.org/wiki/Lev_Yashin](https://en.wikipedia.org/wiki/Lev_Yashin) — Born 22 October 1929 in Moscow, Soviet Union.
+17. Wikipedia, "Bobby Charlton": [https://en.wikipedia.org/wiki/Bobby_Charlton](https://en.wikipedia.org/wiki/Bobby_Charlton) — Born 11 October 1937 in Ashington, Northumberland, England.
+18. Wikipedia, "Gianni Rivera": [https://en.wikipedia.org/wiki/Gianni_Rivera](https://en.wikipedia.org/wiki/Gianni_Rivera) — Born 18 August 1943 in Alessandria, Piedmont, Italy.
+19. Wikipedia, "Gerd Müller": [https://en.wikipedia.org/wiki/Gerd_M%C3%BCller](https://en.wikipedia.org/wiki/Gerd_M%C3%BCller) — Born 3 November 1945 in Nördlingen, Bavaria, Germany.
+20. Wikipedia, "Franz Beckenbauer": [https://en.wikipedia.org/wiki/Franz_Beckenbauer](https://en.wikipedia.org/wiki/Franz_Beckenbauer) — Born 11 September 1945 in Munich (Maxvorstadt clinic), Bavaria, Germany.
+
+**Step 5 — Population of each birthplace**
+21. Citypopulation.de, "Nördlingen": [https://citypopulation.de/en/germany/bayern/donau_ries/09779194__nördlingen/](https://citypopulation.de/en/germany/bayern/donau_ries/09779194__nördlingen/) — 2022 census: 20,185; 2024 estimate: ~20,352 (sum of 10,081 males + 10,271 females).
+22. Wikipedia, "Munich" / Munich City Statistics 2025 Leaflet (stadt.muenchen.de): [https://en.wikipedia.org/wiki/Munich](https://en.wikipedia.org/wiki/Munich) — Population 1,604,384 as of 30 November 2024; confirmed also by the city's own statistical leaflet.
+23. Wikipedia, "Ashington": [https://en.wikipedia.org/wiki/Ashington](https://en.wikipedia.org/wiki/Ashington) — 2021 census population: 28,278; Citypopulation.de mid-2024 estimate: 30,082.
+24. Wikipedia, "Alessandria": [https://en.wikipedia.org/wiki/Alessandria](https://en.wikipedia.org/wiki/Alessandria) — Commune population approximately 93,409.
+25. Citypopulation.de, "Russia: City of Moscow": [https://citypopulation.de/en/russia/gorodmoskva/](https://citypopulation.de/en/russia/gorodmoskva/) — 2021 census: 13,010,112; 2025 estimate: 13,274,285.
+
+Sources:
+- [1970 FIFA World Cup — Wikipedia](https://en.wikipedia.org/wiki/1970_FIFA_World_Cup)
+- [1970 FIFA World Cup squads — Wikipedia](https://en.wikipedia.org/wiki/1970_FIFA_World_Cup_squads)
+- [1970 FIFA World Cup squads — Wikiwand](https://wikiwand.com/en/articles/1970_FIFA_World_Cup_squads)
+- [Template:West Germany squad 1970 FIFA World Cup](https://EN.wikipedia.com/wiki/Template:West_Germany_squad_1970_FIFA_World_Cup)
+- [Template:Italy squad 1970 FIFA World Cup](https://Www.Wikipedia.org/wiki/Template:Italy_squad_1970_FIFA_World_Cup)
+- [Template:England Squad 1970 World Cup](https://wiki.riteme.site/wiki/Template:England_Squad_1970_World_Cup)
+- [Lev Yashin World Cup appearances — The Soccer World Cups](https://www.thesoccerworldcups.com/players/lev_yashin.php)
+- [1963 Ballon d'Or — Wikipedia](https://en.wikipedia.org/wiki/1963_Ballon_d%27Or)
+- [1966 Ballon d'Or — Wikipedia](https://en.wikipedia.org/wiki/1966_Ballon_d%27Or)
+- [1969 Ballon d'Or — Wikipedia](https://wiki.riteme.site/wiki/1969_Ballon_d%27Or)
+- [1970 Ballon d'Or — Wikipedia](https://en.wikipedia.org/wiki/1970_Ballon_d%27Or)
+- [1972 Ballon d'Or — Wikipedia](https://en.wikipedia.org/wiki/1972_Ballon_d%27Or)
+- [1976 Ballon d'Or — Wikipedia](https://en.wikipedia.org/wiki/1976_Ballon_d%27Or)
+- [UEFA Club Footballer of the Year — Wikipedia](https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year)
+- [UEFA Men's Player of the Year Award — Wikipedia](https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award)
+- [Lev Yashin — Wikipedia](https://en.wikipedia.org/wiki/Lev_Yashin)
+- [Bobby Charlton — Wikipedia](https://en.wikipedia.org/wiki/Bobby_Charlton)
+- [Gianni Rivera — Wikipedia](https://en.wikipedia.org/wiki/Gianni_Rivera)
+- [Gerd Müller — Wikipedia](https://en.wikipedia.org/wiki/Gerd_M%C3%BCller)
+- [Franz Beckenbauer — Wikipedia](https://en.wikipedia.org/wiki/Franz_Beckenbauer)
+- [Nördlingen population — Citypopulation.de](https://citypopulation.de/en/germany/bayern/donau_ries/09779194__nördlingen/)
+- [Munich — Wikipedia](https://en.wikipedia.org/wiki/Munich)
+- [Ashington — Wikipedia](https://en.wikipedia.org/wiki/Ashington)
+- [Alessandria — Wikipedia](https://en.wikipedia.org/wiki/Alessandria)
+- [Moscow — Citypopulation.de](https://citypopulation.de/en/russia/gorodmoskva/)

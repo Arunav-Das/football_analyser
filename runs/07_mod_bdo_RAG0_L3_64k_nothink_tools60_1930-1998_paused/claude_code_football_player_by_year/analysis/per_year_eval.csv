@@ -1,0 +1,17 @@
+﻿model_alias,strategy,rag_tier,directive_level,year,label,answered,gt_available,n_pred,n_gt,tp,precision,recall,f1,stated_none,false_none,true_none,off_year_rows,self_excluded_rows,contradiction,closing_offer,status,completion_tokens,text_chars,thinking_chars,cost_usd,latency_s,citation_complete,n_urls,missed_players,false_positive_players
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1930,NO QUALIFYING PLAYER,True,True,0,0,0,,,,True,False,True,0,0,False,False,ok,2476.0,2927,0,0.2380053,73.892,True,6,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1934,NO QUALIFYING PLAYER,True,True,0,0,0,,,,True,False,True,0,0,False,False,ok,4584.0,5935,0,0.3839977000000001,120.814,True,17,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1938,NO QUALIFYING PLAYER,True,True,0,0,0,,,,True,False,True,0,0,False,False,ok,6534.0,8234,0,0.5256974000000001,170.463,True,13,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1950,ROWS,True,True,1,1,1,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,9154.0,8624,0,1.2310446,270.014,True,14,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1954,ROWS,True,True,2,2,2,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,10632.0,11587,0,1.1212644999999997,266.327,True,33,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1958,ROWS,True,True,4,4,4,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,13026.0,17370,0,1.2294137,313.749,True,42,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1962,ROWS,True,True,8,8,8,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,9523.0,8102,0,0.9916886,227.576,True,28,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1966,ROWS,True,True,7,7,7,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,9774.0,8005,0,1.1012670999999998,238.72,True,32,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1970,ROWS,True,True,5,5,5,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,13133.0,12623,0,1.4739030999999994,324.433,True,26,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1974,ROWS,True,True,4,5,4,1.0,0.8,0.888888888888889,False,False,False,0,0,False,False,ok,13858.0,10644,0,1.6297709000000002,376.007,True,28,Gianni Rivera,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1978,ROWS,True,True,3,3,3,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,8922.0,6661,0,1.0762403,254.91,False,21,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1982,ROWS,True,True,4,6,4,1.0,0.6666666666666666,0.8,False,False,False,0,0,False,False,ok,7678.0,7215,0,0.8040396999999998,191.296,True,22,Kevin Keegan; Oleg Blokhin,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1986,ROWS,True,True,8,8,8,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,15217.0,11305,0,2.3760901000000003,426.073,True,24,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1990,ROWS,True,True,4,4,4,1.0,1.0,1.0,False,False,False,0,0,False,False,ok,11069.0,10947,0,1.5841402999999992,316.508,True,38,,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1994,ROWS,True,True,6,7,6,1.0,0.8571428571428571,0.923076923076923,False,False,False,0,0,False,False,ok,13722.0,9107,0,2.1092607,414.366,True,30,Fernando Redondo,
+claude-sonnet-4-6,flat_conjunctive,no_evidence,3,1998,ROWS,True,True,9,10,8,0.8888888888888888,0.8,0.8421052631578948,False,False,False,0,0,False,False,ok,19372.0,16501,0,2.7489433999999995,583.663,True,39,Fabio Cannavaro; Gianluigi Buffon,Ronaldo / R9 (Brazil)
