@@ -1,0 +1,33 @@
+{
+  "run_id": "00",
+  "label": "mod_bdo_RAG0_L3_16k_nothink_notools_all",
+  "imported": true,
+  "imported_from": "branch raw-logs-2022, commit 5da07dd (outputs) / 91a4497 (run)",
+  "output_root": "claude_code_football_player_by_year",
+  "command": [
+    "python3",
+    "football_analyzer_inf_mod.py",
+    "--model",
+    "claude-sonnet-4-6",
+    "--per_year",
+    "--strategy",
+    "S1",
+    "--rag_tier",
+    "RAG0",
+    "--directive_level",
+    "3",
+    "--no_tool_directive",
+    "--max_new_tokens",
+    "16000",
+    "--max_thinking_tokens",
+    "0",
+    "--timeout",
+    "900",
+    "--no-resume"
+  ],
+  "env_overrides": {
+    "CLAUDE_CODE_DISABLE_THINKING": "1",
+    "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1"
+  },
+  "note": "Ballon d'Or / UEFA task. 16k cap (no year exceeded 10.4k tokens). analysis/ regenerated with --analyze_only after archiving the earlier level-1 2022 cell. run.log contains every run appended on raw-logs-2022, not only this one."
+}

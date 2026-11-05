@@ -1,0 +1,2 @@
+[USER]
+Respond with only the word: OK

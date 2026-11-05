@@ -1,0 +1,176 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1982 | Paolo Rossi | Ballon d'Or (1982) | Prato, Italy | ~193,000 |
+| 2 | 1982 | Karl-Heinz Rummenigge | Ballon d'Or (1980, 1981) | Lippstadt, West Germany | ~68,000 |
+| 3 | 1982 | Zbigniew Boniek | Ballon d'Or (runner-up only — does not qualify; removing) | — | — |
+| 4 | 1982 | Michel Platini | Ballon d'Or (1983, 1984, 1985); UEFA Best Player in Europe (1983, 1984, 1985) | Jœuf, France | ~7,000 |
+| 5 | 1982 | Zico | Ballon d'Or (runner-up only — does not qualify; removing) | — | — |
+| 6 | 1982 | Falcão | Ballon d'Or (runner-up only — does not qualify; removing) | — | — |
+| 7 | 1982 | Dino Zoff | Ballon d'Or (runner-up only — does not qualify; removing) | — | — |
+| 8 | 1982 | Lothar Matthäus | Ballon d'Or (1990); UEFA Best Player in Europe (1999) | Erlangen, West Germany | ~114,000 |
+| 9 | 1982 | Bernd Schuster | Ballon d'Or (runner-up only — does not qualify; removing) | — | — |
+| 10 | 1982 | Rudi Völler | Ballon d'Or (runner-up only — does not qualify; removing) | — | — |
+| 11 | 1982 | Ruud Gullit | Ballon d'Or (1987); UEFA Best Player in Europe (1987) | Amsterdam, Netherlands | ~921,000 |
+| 12 | 1982 | Marco van Basten | Ballon d'Or (1988, 1989, 1992); UEFA Best Player in Europe (1988, 1989, 1992) | Utrecht, Netherlands | ~361,000 |
+| 13 | 1982 | Enzo Francescoli | Ballon d'Or (runner-up only — does not qualify; removing) | — | — |
+
+Let me now reconstruct cleanly, removing players who only placed as runners-up and did not win the Ballon d'Or or UEFA Men's Player of the Year, and re-checking squad membership for each qualifier:
+
+**Verification pass:**
+
+- **Paolo Rossi** (Italy) — Won Ballon d'Or 1982. Named to Italy's 1982 squad. ✓
+- **Karl-Heinz Rummenigge** (West Germany) — Won Ballon d'Or 1980 and 1981. Named to West Germany's 1982 squad. ✓
+- **Michel Platini** (France) — Won Ballon d'Or 1983, 1984, 1985; UEFA Best Player in Europe 1983, 1984, 1985. Named to France's 1982 squad. ✓
+- **Lothar Matthäus** (West Germany) — Won Ballon d'Or 1990; UEFA Best Player in Europe 1999. Named to West Germany's 1982 squad. ✓
+- **Ruud Gullit** (Netherlands) — Won Ballon d'Or 1987; UEFA Best Player in Europe 1987. Named to Netherlands' 1982 squad. ✓
+- **Marco van Basten** (Netherlands) — Won Ballon d'Or 1988, 1989, 1992; UEFA Best Player in Europe 1988, 1989, 1992. Named to Netherlands' 1982 squad. ✓
+
+**Note on Gullit and van Basten at 1982 WC:** The Netherlands did not qualify for the 1982 World Cup. I must remove them.
+
+**Note on Lothar Matthäus at 1982 WC:** Matthäus was indeed part of West Germany's squad at the 1982 World Cup. ✓
+
+**Re-checking Netherlands:** The Netherlands failed to qualify for the 1982 FIFA World Cup. Therefore Gullit and van Basten are removed.
+
+**Additional players to check:**
+- **Zbigniew Boniek** (Poland) — Did win the UEFA Club Footballer of the Year? No. He was Ballon d'Or runner-up 1982. Does not qualify.
+- **Dino Zoff** (Italy, 1982 squad) — No Ballon d'Or win. Does not qualify.
+- **Kevin Keegan** (England) — Won Ballon d'Or 1978 and 1979. Was he on England's 1982 squad? Yes, Keegan was in the England squad for the 1982 World Cup. ✓
+- **Allan Simonsen** (Denmark) — Won Ballon d'Or 1977. Denmark did not qualify for 1982 WC. Remove.
+- **Oleg Blokhin** (USSR) — Won Ballon d'Or 1975. Was he on USSR's 1982 squad? USSR did not qualify for the 1982 World Cup. Remove.
+- **Franz Beckenbauer** — Retired from playing by 1982, was not in a squad.
+- **Johan Cruyff** — Was in Netherlands squad? No, Netherlands didn't qualify.
+- **Gerd Müller** — Retired before 1982.
+- **Josef Masopust** — Not relevant era.
+- **Luís Figo** — Too young for 1982.
+- **Ronaldo (Brazilian)** — Too young.
+- **Roberto Baggio** — Born 1967, too young for 1982 squad (would be 14-15).
+- **George Weah** — Liberia never qualified; too young anyway.
+- **Zinedine Zidane** — Born 1972, too young.
+- **Ronaldinho** — Born 1980, too young.
+- **Rivaldo** — Born 1972, too young.
+- **Luis Suárez Miramontes** — Won Ballon d'Or 1960, too old for 1982.
+- **Gianni Rivera** — Won Ballon d'Or 1969, retired by 1982.
+- **Gerd Müller** — Won Ballon d'Or 1970, retired.
+- **Eusébio** — Won Ballon d'Or 1965, retired.
+- **Florian Albert** — Won Ballon d'Or 1967, retired.
+- **Dragan Džajić** — Won UEFA Best Player 1968; Yugoslavia at 1982? Yugoslavia did not qualify for 1982 WC.
+- **Ernest Pol / Kazimierz Deyna** — Poland was at 1982 WC, Deyna won no Ballon d'Or.
+- **Lev Yashin** — Won Ballon d'Or 1963, retired.
+- **Omar Sivori** — Won Ballon d'Or 1961, retired.
+- **Denis Law** — Won Ballon d'Or 1964, retired.
+- **Eusébio** — Won Ballon d'Or 1965, retired.
+- **Wim van Hanegem** — No Ballon d'Or win.
+- **Rainer Bonhof** — No Ballon d'Or win.
+- **Uli Hoeness** — No Ballon d'Or win.
+- **Karl-Heinz Förster** — No Ballon d'Or win.
+- **Hansi Müller** — No Ballon d'Or win.
+- **Klaus Fischer** — No Ballon d'Or win.
+
+**UEFA Men's Player of the Year / UEFA Best Player in Europe — checking early winners:**
+The UEFA Club Footballer of the Year was first awarded in 1998. The UEFA Best Player in Europe was first awarded in 1998 as well (later renamed UEFA Men's Player of the Year in 2011). So no 1982 WC player would have won it *before* the 1982 tournament (award didn't exist yet), but could have won it after. Post-1982 winners who might have been in 1982 squads: already covered (Matthäus 1999).
+
+**Checking Matthäus 1982 squad inclusion:** Matthäus made his World Cup debut in 1982 for West Germany. He was definitely in the squad. ✓
+
+**Additional check — Paolo Rossi and UEFA award:** He won Ballon d'Or 1982. No UEFA award won. ✓
+
+**Additional check — Zbigniew Boniek:** He won no Ballon d'Or outright and no UEFA award. Remove.
+
+**Additional check — Falcão (Brazilian):** He won no Ballon d'Or outright. Remove.
+
+**Additional check — Zico:** No Ballon d'Or win (finished 2nd and 3rd). Remove.
+
+**Additional check — Socrates:** No Ballon d'Or win. Remove.
+
+**Additional check — Rummenigge:** Ballon d'Or 1980 and 1981. West Germany 1982 squad. ✓ Birthplace: Lippstadt. ✓
+
+**Kevin Keegan double-check:** Keegan won Ballon d'Or 1978 and 1979 while at Hamburger SV/Liverpool. He was named to England's squad for the 1982 World Cup and played, though he was injured during the tournament. He appeared as a substitute. ✓
+
+**Final clean list:**
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1982 | Paolo Rossi | Ballon d'Or 1982 | Prato, Italy | ~193,000 |
+| 2 | 1982 | Karl-Heinz Rummenigge | Ballon d'Or 1980, 1981 | Lippstadt, West Germany | ~68,000 |
+| 3 | 1982 | Michel Platini | Ballon d'Or 1983, 1984, 1985; UEFA Best Player in Europe 1983, 1984, 1985 | Jœuf, France | ~7,000 |
+| 4 | 1982 | Lothar Matthäus | Ballon d'Or 1990; UEFA Best Player in Europe 1999 | Erlangen, West Germany | ~114,000 |
+| 5 | 1982 | Kevin Keegan | Ballon d'Or 1978, 1979 | Armthorpe, England | ~20,000 |
+
+---
+
+**CITATIONS IN ORDER OF USE:**
+
+**Step 1 — Confirming the 1982 FIFA World Cup was held**
+
+1. Wikipedia, "1982 FIFA World Cup" — https://en.wikipedia.org/wiki/1982_FIFA_World_Cup — confirms the tournament was held in Spain from 13 June to 11 July 1982, and was not cancelled or abandoned.
+
+**Step 2 — Squads named for the 1982 FIFA World Cup**
+
+2. Wikipedia, "1982 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_squads — lists all 24 national team squads and their players for the 1982 tournament.
+
+**Step 3 — Identifying Ballon d'Or winners (all-time)**
+
+3. Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or — lists all winners of the Ballon d'Or from 1956 to present, used to identify which players in the 1982 squads had won or would go on to win the award.
+
+**Step 4 — Identifying UEFA Men's Player of the Year / UEFA Best Player in Europe winners**
+
+4. Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award — lists all winners of the award (under its various names including UEFA Club Footballer of the Year and UEFA Best Player in Europe) from 1998 onwards, used to identify Lothar Matthäus (1999 winner).
+
+**Step 5 — Birthplace of Paolo Rossi**
+
+5. Wikipedia, "Paolo Rossi" — https://en.wikipedia.org/wiki/Paolo_Rossi — confirms born in Prato, Tuscany, Italy.
+
+**Step 6 — Population of Prato**
+
+6. Wikipedia, "Prato" — https://en.wikipedia.org/wiki/Prato — gives population of approximately 193,000 (municipality).
+
+**Step 7 — Birthplace of Karl-Heinz Rummenigge**
+
+7. Wikipedia, "Karl-Heinz Rummenigge" — https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge — confirms born in Lippstadt, North Rhine-Westphalia, West Germany.
+
+**Step 8 — Population of Lippstadt**
+
+8. Wikipedia, "Lippstadt" — https://en.wikipedia.org/wiki/Lippstadt — gives population of approximately 68,000.
+
+**Step 9 — Birthplace of Michel Platini**
+
+9. Wikipedia, "Michel Platini" — https://en.wikipedia.org/wiki/Michel_Platini — confirms born in Jœuf, Meurthe-et-Moselle, France.
+
+**Step 10 — Population of Jœuf**
+
+10. Wikipedia, "Jœuf" — https://en.wikipedia.org/wiki/J%C5%93uf — gives population of approximately 7,000.
+
+**Step 11 — Birthplace of Lothar Matthäus**
+
+11. Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us — confirms born in Erlangen, Bavaria, West Germany.
+
+**Step 12 — Population of Erlangen**
+
+12. Wikipedia, "Erlangen" — https://en.wikipedia.org/wiki/Erlangen — gives population of approximately 114,000.
+
+**Step 13 — Birthplace of Kevin Keegan**
+
+13. Wikipedia, "Kevin Keegan" — https://en.wikipedia.org/wiki/Kevin_Keegan — confirms born in Armthorpe, Yorkshire, England.
+
+**Step 14 — Population of Armthorpe**
+
+14. Wikipedia, "Armthorpe" — https://en.wikipedia.org/wiki/Armthorpe — gives population of approximately 20,000.
+
+**Step 15 — Confirming Kevin Keegan was in England's 1982 World Cup squad**
+
+15. Wikipedia, "1982 FIFA World Cup squads" (same as citation 2) — https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_squads — confirms Kevin Keegan was named in England's squad for the 1982 World Cup.
+
+**Step 16 — Confirming Netherlands did not qualify for 1982 (excluding Gullit and van Basten)**
+
+16. Wikipedia, "1982 FIFA World Cup qualification" — https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_qualification — confirms the Netherlands (Holland) failed to qualify for the 1982 World Cup, thus Ruud Gullit and Marco van Basten (even if they had been of eligible age) were not in any 1982 WC squad.
+
+---
+
+**FINAL ANSWER TABLE:**
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1982 | Paolo Rossi | Ballon d'Or (1982) | Prato, Italy | ~193,000 |
+| 2 | 1982 | Karl-Heinz Rummenigge | Ballon d'Or (1980, 1981) | Lippstadt, West Germany | ~68,000 |
+| 3 | 1982 | Michel Platini | Ballon d'Or (1983, 1984, 1985); UEFA Best Player in Europe (1983, 1984, 1985) | Jœuf, France | ~7,000 |
+| 4 | 1982 | Lothar Matthäus | Ballon d'Or (1990); UEFA Best Player in Europe (1999) | Erlangen, West Germany | ~114,000 |
+| 5 | 1982 | Kevin Keegan | Ballon d'Or (1978, 1979) | Armthorpe, England | ~20,000 |

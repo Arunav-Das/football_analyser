@@ -1,0 +1,192 @@
+====================================================================================================
+FOOTBALL PLAYER ANALYSER (CLAUDE CODE) - ANALYSIS REPORT
+generated 2026-11-05T00:01:22  (script version 2026-11-04.8-claude-code)
+====================================================================================================
+
+1. SCOPE
+  run mode: PER-YEAR (placeholder replaced by the year; one call per year, aggregated per model x strategy x RAG tier)
+  prompt mode: user turn + --system-prompt directive
+  directive levels present: [3]   escalated records: 0  (levels are pooled in the by-model tables below; filter eval_per_record.csv on directive_level to compare them)
+  records=1 (one per model x strategy x RAG tier x level)  models=1  strategies=1  rag_tiers=1  editions seen in answers=22  verbatim-prompt records=0
+  Backend: `claude -p` inside a Claude Code cloud session; temperature / top_p are not controllable; tools disabled; raw events per call are in <cell dir>/raw_calls.
+  Editions are read from the WorldCup_Year column of the returned rows and (single-shot) from the edition headers the model wrote. 'Agreement with consensus' = Jaccard overlap between a record's (edition, player) set and the set returned by >=50% of the usable records (needs >=3). It measures agreement, NOT correctness.
+  Per-year: tokens, latency and URL counts are TOTALS per cell (sum over its years); stall / decline / error / truncation figures are shares of the cell's year calls. Rows labelled with a different year than requested are dropped and counted (off_year_rows).
+  Ground-truth scoring: ON (1 scored records; only editions present in the GT file are scored; editions with no qualifier count every returned row as a false positive; '..._reached' metrics only count editions up to the last one the model declared or returned; false/true 'none' = explicit 'no qualifying player' claims checked against the GT)
+
+2. HEADLINE (all records pooled)
+  mean_rows                   203.0000
+  mean_editions_covered       22.0000
+  mean_editions_declared      23.0000
+  median_last_edition         2026.0000
+  false_none_per_record       0.0000
+  true_none_per_record        1.0000
+  mean_jaccard_to_consensus   n/a
+  pop_numeric_rate            0.7291
+  birthplace_blank_rate       0.0000
+  citation_complete           0.6522
+  citation_order_ok           0.6522
+  mean_urls                   334.0000
+  truncated_rate              0.0000
+  stall_rate                  0.0000
+  declined_rate               0.0000
+  contradiction_rate          0.2174
+  escalated_rate              0.0000
+  self_excluded_per_record    20.0000
+  degenerate_rate             0.0000
+  unparsed_rate               0.0000
+  error_rate                  0.0000
+  mean_latency_s              918.1800
+  mean_completion_tokens      73894.0000
+  mean_years_answered         23.0000
+  mean_years_declined         0.0000
+  mean_years_error            0.0000
+  off_year_rows_per_record    8.0000
+
+3. BY MODEL (sorted by agreement with consensus)
+      model_alias  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
+claude-sonnet-4-6        1    203.000                 22.000                  23.000             2026.000                  0.000                 1.000                        NaN             0.729              0.652              0.652    334.000           0.000       0.000          0.000               0.217           0.000                    20.000            0.000          0.000       0.000         918.180               73894.000               23.000                0.000             0.000                     8.000
+
+4. BY STRATEGY
+code  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
+  S1        1    203.000                 22.000                  23.000             2026.000                  0.000                 1.000                        NaN             0.729              0.652              0.652    334.000           0.000       0.000          0.000               0.217           0.000                    20.000            0.000          0.000       0.000         918.180               73894.000               23.000                0.000             0.000                     8.000
+
+5. BY RAG TIER
+code  records  mean_rows  mean_editions_covered  mean_editions_declared  median_last_edition  false_none_per_record  true_none_per_record  mean_jaccard_to_consensus  pop_numeric_rate  citation_complete  citation_order_ok  mean_urls  truncated_rate  stall_rate  declined_rate  contradiction_rate  escalated_rate  self_excluded_per_record  degenerate_rate  unparsed_rate  error_rate  mean_latency_s  mean_completion_tokens  mean_years_answered  mean_years_declined  mean_years_error  off_year_rows_per_record
+RAG0        1    203.000                 22.000                  23.000             2026.000                  0.000                 1.000                        NaN             0.729              0.652              0.652    334.000           0.000       0.000          0.000               0.217           0.000                    20.000            0.000          0.000       0.000         918.180               73894.000               23.000                0.000             0.000                     8.000
+
+6. PAIRED RAG EFFECT vs RAG0 on f1 (same model, strategy, directive level)
+(no data)
+
+7. PAIRED STRATEGY EFFECT vs S1 on f1 (same model, RAG tier, directive level)
+(no data)
+
+8. EDITION COVERAGE (from parsed rows)
+WorldCup_Year  records_returning_edition  share_of_records  mean_players_when_returned  max_players
+         1934                          1             1.000                       2.000            2
+         1938                          1             1.000                       1.000            1
+         1950                          1             1.000                       2.000            2
+         1954                          1             1.000                       5.000            5
+         1958                          1             1.000                      10.000           10
+         1962                          1             1.000                       9.000            9
+         1966                          1             1.000                       8.000            8
+         1970                          1             1.000                       9.000            9
+         1974                          1             1.000                      15.000           15
+         1978                          1             1.000                      13.000           13
+         1982                          1             1.000                       7.000            7
+         1986                          1             1.000                       9.000            9
+         1990                          1             1.000                      11.000           11
+         1994                          1             1.000                      13.000           13
+         1998                          1             1.000                      17.000           17
+         2002                          1             1.000                      15.000           15
+         2006                          1             1.000                      14.000           14
+         2010                          1             1.000                      17.000           17
+         2014                          1             1.000                      11.000           11
+         2018                          1             1.000                       8.000            8
+         2022                          1             1.000                       6.000            6
+         2026                          1             1.000                       1.000            1
+
+9. CONSENSUS SETS PER EDITION (players returned by >=50% of usable records)
+(no data)
+
+10. PLAYERS MOST OFTEN RETURNED (edition, player, number of records)
+  n/a
+
+11. AWARD TYPES RETURNED
+  Ballon d'Or rows=155  UEFA-family rows=77  rows whose award text matched neither=24
+
+12. POPULATION AND BIRTHPLACE FIELDS
+  numeric population rate=0.729  blank/unknown birthplace rate=0.000
+
+13. CITATION QUALITY (keyword/order heuristic over the whole response; sources are NOT verified)
+  all required categories present=0.652  in required order=0.652  mean URLs per cell=334.00
+  URL reachability: not run (use --check_urls)
+
+14. GENERATION HEALTH
+      model_alias  directive_level status  count
+claude-sonnet-4-6                3     ok      1
+
+15. RAG EVIDENCE INTEGRITY
+  records with evidence injected=0  incomplete evidence=0  population-check failures=0
+
+16. GROUND-TRUTH SCORING (scored records; editions present in the GT file only)
+      model_alias  gt_scored_records  median_last_edition  gt_micro_precision  gt_micro_recall  gt_micro_f1  gt_precision_reached  gt_recall_reached  false_none_per_record  true_none_per_record  gt_award_acc  gt_birthplace_acc  gt_pop_within_5pct
+claude-sonnet-4-6                  1             2026.000               0.416            0.661        0.511                 0.416              0.661                  0.000                 1.000         0.774              0.738               0.575
+  Most missed qualifying players (edition player: records): 1962 Alfredo Di Stéfano: 1; 1962 Bobby Charlton: 1; 1962 Omar Sívori: 1; 1966 Gianni Rivera: 1; 1966 Luis Suárez (footballer, born 1935): 1; 1970 Lev Yashin: 1; 1974 Denis Law: 1; 1974 Gianni Rivera: 1; 1982 Oleg Blokhin: 1; 1986 Allan Simonsen: 1; 1986 Oleg Blokhin: 1; 1994 Fernando Redondo: 1; 1994 Matthias Sammer: 1; 1994 Stefan Effenberg: 1; 1998 Gianluigi Buffon: 1
+  Most frequent false positives:                              1934 Giuseppe Meazza: 1; 1934 Silvio Piola: 1; 1938 Silvio Piola: 1; 1950 Alfredo Di Stéfano: 1; 1954 Just Fontaine: 1; 1954 Ferenc Puskás: 1; 1954 Fritz Walter: 1; 1958 Just Fontaine: 1; 1958 Ronaldo (R9): 1; 1958 Pelé: 1; 1958 Didi: 1; 1958 Karl-Heinz Schnellinger: 1; 1958 Helmut Rahn: 1; 1962 Garrincha: 1; 1962 Eusébio: 1
+
+16A. PER-YEAR ANALYSIS (every call = one edition; pooled over models / strategies / RAG tiers / levels)
+ year  calls  gt_available  gt_players  answered_share  rows_share  none_claim_share  declined_share  stalled_share  unparsed_share  error_share  mean_rows  micro_precision  micro_recall  micro_f1  false_none_calls  true_none_calls  mean_off_year_rows  mean_completion_tokens  mean_text_chars  mean_thinking_chars  mean_latency_s
+ 1930      1          True       0.000           1.000       0.000             1.000           0.000          0.000           0.000        0.000      0.000              NaN           NaN       NaN                 0                1               0.000                 678.000         2323.000                0.000          14.838
+ 1934      1          True       0.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      2.000            0.000           NaN       NaN                 0                0               0.000                1426.000         4645.000                0.000          24.006
+ 1938      1          True       0.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      1.000            0.000           NaN       NaN                 0                0               0.000                1605.000         4711.000                0.000          27.629
+ 1950      1          True       1.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      2.000            0.500         1.000     0.667                 0                0               0.000                1883.000         6040.000                0.000          27.223
+ 1954      1          True       2.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      5.000            0.400         1.000     0.571                 0                0               0.000                1645.000         4714.000                0.000          23.008
+ 1958      1          True       4.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     10.000            0.400         1.000     0.571                 0                0               0.000                2596.000         7204.000                0.000          35.674
+ 1962      1          True       8.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      9.000            0.556         0.625     0.588                 0                0               0.000                2352.000         6532.000                0.000          29.264
+ 1966      1          True       7.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      8.000            0.625         0.714     0.667                 0                0               0.000                3197.000         9312.000                0.000          39.944
+ 1970      1          True       5.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      9.000            0.444         0.800     0.571                 0                0               0.000                3979.000        11045.000                0.000          46.636
+ 1974      1          True       5.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     15.000            0.200         0.600     0.300                 0                0               0.000                2121.000         5465.000                0.000          27.236
+ 1978      1          True       3.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     13.000            0.231         1.000     0.375                 0                0               0.000                5779.000        15040.000                0.000          64.203
+ 1982      1          True       6.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      7.000            0.714         0.833     0.769                 0                0               0.000                4209.000        11368.000                0.000          50.348
+ 1986      1          True       8.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      9.000            0.667         0.750     0.706                 0                0               0.000                2655.000         6927.000                0.000          26.896
+ 1990      1          True       4.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     11.000            0.364         1.000     0.533                 0                0               0.000                2087.000         5529.000                0.000          23.350
+ 1994      1          True       7.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     13.000            0.308         0.571     0.400                 0                0               0.000                5239.000        14303.000                0.000          65.963
+ 1998      1          True      10.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     17.000            0.412         0.700     0.519                 0                0               0.000                4216.000        11146.000                0.000          48.486
+ 2002      1          True      10.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     15.000            0.467         0.700     0.560                 0                0               0.000                4076.000        10959.000                0.000          45.862
+ 2006      1          True      18.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     14.000            0.571         0.444     0.500                 0                0               0.000                4194.000        11113.000                0.000          42.375
+ 2010      1          True      10.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     17.000            0.294         0.500     0.370                 0                0               0.000                2585.000         6867.000                0.000          29.811
+ 2014      1          True       7.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000     11.000            0.364         0.571     0.444                 0                0               0.000                2500.000         6664.000                0.000          31.389
+ 2018      1          True       5.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      8.000            0.375         0.600     0.462                 0                0               0.000                2487.000         6316.000                0.000          27.931
+ 2022      1          True       7.000           1.000       1.000             0.000           0.000          0.000           0.000        0.000      6.000            0.667         0.571     0.615                 0                0               0.000                2039.000         5315.000                0.000          24.218
+ 2026      1         False         NaN           1.000       1.000             0.000           0.000          0.000           0.000        0.000      1.000              NaN           NaN       NaN                 0                0               8.000               10346.000        32595.000                0.000         141.890
+
+  RECALL by model x edition (mean over the model's cells; blank = not defined / no GT)
+      model_alias  1950  1954  1958  1962  1966  1970  1974  1978  1982  1986  1990  1994  1998  2002  2006  2010  2014  2018  2022
+claude-sonnet-4-6 1.000 1.000 1.000 0.625 0.714 0.800 0.600 1.000 0.833 0.750 1.000 0.571 0.700 0.700 0.444 0.500 0.571 0.600 0.571
+
+  PRECISION by model x edition (mean over the model's cells; blank = not defined / no GT)
+      model_alias  1934  1938  1950  1954  1958  1962  1966  1970  1974  1978  1982  1986  1990  1994  1998  2002  2006  2010  2014  2018  2022
+claude-sonnet-4-6 0.000 0.000 0.500 0.400 0.400 0.556 0.625 0.444 0.200 0.231 0.714 0.667 0.364 0.308 0.412 0.467 0.571 0.294 0.364 0.375 0.667
+
+  ROWS RETURNED by model x edition (mean over the model's cells; blank = not defined / no GT)
+      model_alias  1930  1934  1938  1950  1954   1958  1962  1966  1970   1974   1978  1982  1986   1990   1994   1998   2002   2006   2010   2014  2018  2022  2026
+claude-sonnet-4-6 0.000 2.000 1.000 2.000 5.000 10.000 9.000 8.000 9.000 15.000 13.000 7.000 9.000 11.000 13.000 17.000 15.000 14.000 17.000 11.000 8.000 6.000 1.000
+
+  VISIBLE ANSWER LENGTH (chars) by model x edition (mean over the model's cells; blank = not defined / no GT)
+      model_alias     1930     1934     1938     1950     1954     1958     1962     1966      1970     1974      1978      1982     1986     1990      1994      1998      2002      2006     2010     2014     2018     2022      2026
+claude-sonnet-4-6 2323.000 4645.000 4711.000 6040.000 4714.000 7204.000 6532.000 9312.000 11045.000 5465.000 15040.000 11368.000 6927.000 5529.000 14303.000 11146.000 10959.000 11113.000 6867.000 6664.000 6316.000 5315.000 32595.000
+
+  THINKING LENGTH (chars) by model x edition (mean over the model's cells; blank = not defined / no GT)
+      model_alias  1930  1934  1938  1950  1954  1958  1962  1966  1970  1974  1978  1982  1986  1990  1994  1998  2002  2006  2010  2014  2018  2022  2026
+claude-sonnet-4-6 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+  Most missed players across all per-year calls: Gianluigi Buffon: 5; Steven Gerrard: 3; Gianni Rivera: 2; Oleg Blokhin: 2; David Beckham: 2; Kaká: 2; Andrés Iniesta: 2; Deco: 2; Robert Lewandowski: 2; Alfredo Di Stéfano: 1; Bobby Charlton: 1; Omar Sívori: 1; Luis Suárez (footballer, born 1935): 1; Lev Yashin: 1; Denis Law: 1
+  Most frequent false-positive names:             Ruud Gullit: 3; Marco van Basten: 3; Zinedine Zidane: 3; Roberto Carlos: 3; Ronaldinho: 3; Clarence Seedorf: 3; Raúl: 3; Silvio Piola: 2; Just Fontaine: 2; Pelé: 2; Karl-Heinz Schnellinger: 2; Gerd Müller: 2; Dino Zoff: 2; Sepp Maier: 2; Zbigniew Boniek: 2
+  Reported cost across per-year calls (Claude Code 'total_cost_usd', summed): 1.35 USD
+
+17. KEY INSIGHTS (computed from the data above)
+  - Rows the model itself marked 'does NOT qualify' were ignored (not scored as predictions); mean per record 20.0: claude-sonnet-4-6 20.0. Padding the table with non-qualifying rows is itself a quality issue.
+  - Rows labelled with a different year than the one requested were dropped; mean per cell 8.0: claude-sonnet-4-6 8.0.
+  - 21.7% of responses contradict themselves (table rows vs the model's own 'no player qualified' note): claude-sonnet-4-6 22%.
+  - Editions returned by the fewest records: 1934 (100%), 1938 (100%), 1950 (100%); by the most: 2018 (100%), 2022 (100%), 2026 (100%).
+  - Per-year recall (pooled): hardest edition 2006 (0.44), easiest 1950 (1.00).
+  - Lowest answered share (rows or explicit 'none'): 1930 (100%), 1934 (100%), 1938 (100%).
+  - 2026 has NO ground truth in the GT file: its rows are collected (mean 1.0 rows per call, answered share 100%) but not scored.
+  - Mean reported completion tokens per cell: 73894.
+  - Citation chains are complete (heuristic) in 65.2% of records.
+
+18. LIMITATIONS
+  - Consensus = agreement among records, not truth; a systematic error shared by most records becomes the consensus.
+  - Citation audit is a keyword heuristic over the whole response; it cannot confirm a source exists or supports a claim.
+  - Stall, decline, contradiction and repetition-loop detection are phrase/line heuristics; they only flag, never alter text.
+  - Edition headers are detected from lines such as '**1954 FIFA World Cup**' / 'World Cup 1954' / 'Edition: 1954' / '### 6. 1958 - Sweden'; other layouts are missed.
+  - 'Reached' = up to the latest edition year that appears in a parsed row or an edition header; an edition skipped inside that range counts as missed.
+  - Rows are recovered from merged columns only when a known award name is present in the row text.
+  - Rows containing 'does NOT qualify' / 'not a winner' are treated as the model's own exclusions and are not scored as predictions.
+  - Name merging uses normalised names and token subsets; a bare surname shared by two players in one edition can be merged.
+  - Per-year mode changes the user turn (the placeholder becomes the year) and the system message; do not compare its numbers directly with single-shot runs.
+  - Editions absent from the ground-truth file (e.g. 2026) are never scored.
+  - Sampling parameters cannot be set through `claude -p`; a call that hits the output-token cap is stored truncated, not retried.
+  - Stronger directive levels / escalation change what the model is told; do not mix them with level-1 runs when comparing models.
+  - One call per cell and year: small differences between cells may be sampling noise (no replicates).
+
+FILES: edition_coverage.png, players_per_edition.png, editions_covered_by_model.png, editions_declared_by_model.png, editions_covered_by_strategy.png, stall_rate_by_model.png, declined_rate_by_model.png, contradiction_rate_by_model.png, heatmap_strategy_x_rag.png, heatmap_model_x_edition.png, citation_quality_by_model.png, citation_quality_by_strategy.png, generation_health_by_model.png, completion_tokens_by_strategy.png, completion_tokens_by_model.png, population_numeric_rate_by_model.png, population_distribution.png, award_composition_by_model.png, gt_f1_by_model.png, gt_f1_by_strategy.png, gt_f1_by_rag.png, gt_recall_by_model.png, none_claims_by_model.png, year_recall_heatmap.png, year_precision_heatmap.png, year_rows_heatmap.png, year_tokens_heatmap.png, year_text_chars_heatmap.png, year_thinking_chars_heatmap.png, year_pr_f1.png, year_outcome_shares.png, year_rows_vs_gt.png

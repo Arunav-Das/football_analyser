@@ -1,0 +1,105 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|-------------|-----------|------------|
+| 1 | 1958 | Raymond Kopa | Ballon d'Or 1958 | Noeux-les-Mines, France | ~11,000 |
+| 2 | 1958 | Just Fontaine | Ballon d'Or (runner-up only; never won) — EXCLUDED | — | — |
+| 3 | 1958 | Ronaldo (R9) | — not born yet — EXCLUDED | — | — |
+| 4 | 1958 | Lev Yashin | Ballon d'Or 1963 | Moscow, Russia | ~13,000,000 |
+| 5 | 1958 | Pelé | Ballon d'Or (never formally won — FIFA award) — checking UEFA | — | — |
+| 6 | 1958 | Didi | — no Ballon d'Or — EXCLUDED | — | — |
+| 7 | 1958 | Karl-Heinz Schnellinger | — no award — EXCLUDED | — | — |
+| 8 | 1958 | Helmut Rahn | — no award — EXCLUDED | — | — |
+| 9 | 1958 | Raymond Kopa | confirmed above | — | — |
+
+Let me restart cleanly and produce only the qualifying rows.
+
+---
+
+**Step-by-step reasoning:**
+
+**Step 1 – Confirm the 1958 FIFA World Cup was held.**
+The 1958 FIFA World Cup was held in Sweden, 8–29 June 1958. Brazil won, defeating host Sweden 5–2 in the final. Source: Wikipedia, "1958 FIFA World Cup."
+
+**Step 2 – Identify squad players from the 1958 World Cup who won Ballon d'Or or UEFA Men's Player of the Year at any point in their career.**
+
+The Ballon d'Or was first awarded in 1956 (by France Football). UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year began in 1998. I need to cross-reference 1958 squads with all-time winners of both awards.
+
+**Ballon d'Or winners who played in the 1958 World Cup:**
+
+- **Raymond Kopa (France)** – Won Ballon d'Or **1958**. Was in the French squad for 1958 World Cup. ✅
+- **Lev Yashin (USSR)** – Won Ballon d'Or **1963**. Was in the Soviet Union squad for 1958 World Cup. ✅
+- **Just Fontaine (France)** – Never won Ballon d'Or (finished 2nd in 1958 voting). ❌
+- **Pelé (Brazil)** – Never won the Ballon d'Or (he was excluded from early eligibility rules, and later won the FIFA award, not the classic Ballon d'Or). ❌
+- **Didi (Brazil)** – Did not win Ballon d'Or. ❌
+- **Helmut Rahn (West Germany)** – Did not win Ballon d'Or. ❌
+- **Fritz Walter (West Germany)** – Did not win Ballon d'Or. ❌
+- **Karl-Heinz Schnellinger** – No, too young at that time / not a winner. ❌
+- **Uwe Seeler (West Germany)** – Did not win Ballon d'Or. ❌
+- **Tom Finney (England)** – Did not win Ballon d'Or. ❌
+- **Bobby Charlton (England)** – Won Ballon d'Or **1966**. Was Bobby Charlton in the England squad at **1958** World Cup? Yes — Bobby Charlton was selected for the England 1958 World Cup squad. ✅
+- **Denis Law (Scotland)** – Won Ballon d'Or **1964**. Was Denis Law in the Scotland 1958 World Cup squad? Scotland did not qualify for the 1958 World Cup. ❌
+- **Florian Albert (Hungary)** – Won Ballon d'Or **1967**. Did Hungary qualify for 1958? Yes, Hungary was at 1958 World Cup. Was Florian Albert in that squad? Albert was born 1941 and would have been 17 in 1958. He made his international debut in 1959, so he was NOT in the 1958 squad. ❌
+- **Gianni Rivera (Italy)** – Won Ballon d'Or **1969**. Italy did not qualify for the 1958 World Cup. ❌
+- **Eusébio (Portugal)** – Won Ballon d'Or **1965**. Portugal did not qualify for the 1958 World Cup. ❌
+- **Luis Suárez Miramontes (Spain)** – Won Ballon d'Or **1960**. Spain did not qualify for the 1958 World Cup. ❌
+- **Omar Sivori (Argentina/Italy)** – Won Ballon d'Or **1961**. Argentina did not qualify for the 1958 World Cup (they withdrew). ❌
+- **Josef Masopust (Czechoslovakia)** – Won Ballon d'Or **1962**. Czech Republic (Czechoslovakia) qualified for 1958 World Cup. Was Masopust in that squad? Yes, Masopust was part of the Czechoslovakia squad at the 1958 World Cup. ✅
+
+Let me also check:
+- **Sandor Kocsis (Hungary)** — Did not win Ballon d'Or. Was in 1958 World Cup (playing for Spain in some accounts — actually he played for Hungary until he defected; he played for Spain at club level but represented Hungary internationally through 1958). Did not win Ballon d'Or. ❌
+- **Zoltán Czibor (Hungary)** — Did not win Ballon d'Or. ❌
+
+**UEFA Men's Player of the Year / UEFA Best Player in Europe / UEFA Club Footballer of the Year** (started 1998):
+This award only started in 1998. Any player who was in the 1958 World Cup would have been born no later than ~1942 (for the youngest 16-year-old) and no earlier than ~1920s. No player from the 1958 World Cup could have won a UEFA award starting in 1998. This can be confirmed: the first winners (Zinedine Zidane in 1998, etc.) were born in the 1970s. So no overlap. ❌ for all.
+
+**Summary of qualifiers:**
+1. **Raymond Kopa** (France) – Ballon d'Or 1958 – Born in Noeux-les-Mines, France
+2. **Lev Yashin** (USSR) – Ballon d'Or 1963 – Born in Moscow, Russia
+3. **Bobby Charlton** (England) – Ballon d'Or 1966 – Born in Ashington, England
+4. **Josef Masopust** (Czechoslovakia) – Ballon d'Or 1962 – Born in Most (then called Brüx), Czechoslovakia (now Czech Republic)
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|-------------|-----------|------------|
+| 1 | 1958 | Raymond Kopa | Ballon d'Or (1958) | Noeux-les-Mines, France | ~11,500 |
+| 2 | 1958 | Lev Yashin | Ballon d'Or (1963) | Moscow, Russia | ~13,000,000 |
+| 3 | 1958 | Bobby Charlton | Ballon d'Or (1966) | Ashington, England, UK | ~27,000 |
+| 4 | 1958 | Josef Masopust | Ballon d'Or (1962) | Most (Strimice), Czechoslovakia (now Czech Republic) | ~65,000 |
+
+---
+
+**Citations in order of use:**
+
+1. **Step 1 – Confirming the 1958 FIFA World Cup was held:**
+Wikipedia, "1958 FIFA World Cup" — https://en.wikipedia.org/wiki/1958_FIFA_World_Cup
+
+2. **Step 2 – Squad lists for the 1958 FIFA World Cup:**
+Wikipedia, "1958 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1958_FIFA_World_Cup_squads
+
+3. **Step 3 – Ballon d'Or all-time winners list (to identify award winners):**
+Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+4. **Step 3 (continued) – UEFA Men's Player of the Year award history (to confirm no 1958 squad player won it):**
+Wikipedia, "UEFA Men's Player of the Year Award" — https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+5. **Raymond Kopa – birthplace (Noeux-les-Mines):**
+Wikipedia, "Raymond Kopa" — https://en.wikipedia.org/wiki/Raymond_Kopa
+
+6. **Noeux-les-Mines – population:**
+Wikipedia, "Noeux-les-Mines" — https://en.wikipedia.org/wiki/Noeux-les-Mines
+
+7. **Lev Yashin – birthplace (Moscow):**
+Wikipedia, "Lev Yashin" — https://en.wikipedia.org/wiki/Lev_Yashin
+
+8. **Moscow – population:**
+Wikipedia, "Moscow" — https://en.wikipedia.org/wiki/Moscow
+
+9. **Bobby Charlton – 1958 World Cup squad participation and birthplace (Ashington):**
+Wikipedia, "Bobby Charlton" — https://en.wikipedia.org/wiki/Bobby_Charlton
+
+10. **Ashington – population:**
+Wikipedia, "Ashington" — https://en.wikipedia.org/wiki/Ashington
+
+11. **Josef Masopust – 1958 World Cup squad participation and birthplace (Strimice u Mostu / Most district):**
+Wikipedia, "Josef Masopust" — https://en.wikipedia.org/wiki/Josef_Masopust
+
+12. **Most (city) – population:**
+Wikipedia, "Most, Czech Republic" — https://en.wikipedia.org/wiki/Most,_Czech_Republic

@@ -1,0 +1,111 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|---------------|--------------|------------|------------|------------|
+| 1 | 2022 | Lionel Messi | Ballon d'Or (2009, 2010, 2011, 2012, 2013, 2015, 2019, 2021, 2023); UEFA Best Player in Europe (2009, 2010, 2011, 2015, 2019) | Rosario, Argentina | ~1,286,000 |
+| 2 | 2022 | Cristiano Ronaldo | Ballon d'Or (2008, 2013, 2014, 2016, 2017); UEFA Best Player in Europe (2008); UEFA Club Footballer of the Year (2007/08) | Funchal, Madeira, Portugal | ~112,000 |
+| 3 | 2022 | Luka Modrić | Ballon d'Or (2018); UEFA Men's Player of the Year (2017/18) | Zadar, Croatia | ~71,000 |
+| 4 | 2022 | Karim Benzema | Ballon d'Or (2022); UEFA Men's Player of the Year (2021/22) | Lyon, France | ~515,000 |
+| 5 | 2022 | Kylian Mbappé | Ballon d'Or (2024) | Paris, France | ~2,161,000 |
+| 6 | 2022 | Neymar | Ballon d'Or — did not win; UEFA Best Player in Europe — did not win | — | — |
+
+*Note: Neymar row is excluded as he did not win either award. Correcting table to only qualifying players.*
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|---------------|--------------|------------|------------|------------|
+| 1 | 2022 | Lionel Messi | Ballon d'Or (2009, 2010, 2011, 2012, 2013, 2015, 2019, 2021, 2023); UEFA Best Player in Europe (2009, 2010, 2011, 2015, 2019) | Rosario, Argentina | ~1,286,000 |
+| 2 | 2022 | Cristiano Ronaldo | Ballon d'Or (2008, 2013, 2014, 2016, 2017); UEFA Club Footballer of the Year (2007/08); UEFA Best Player in Europe (2008) | Funchal, Madeira, Portugal | ~112,000 |
+| 3 | 2022 | Luka Modrić | Ballon d'Or (2018); UEFA Men's Player of the Year (2017/18) | Zadar, Croatia | ~71,000 |
+| 4 | 2022 | Karim Benzema | Ballon d'Or (2022); UEFA Men's Player of the Year (2021/22) | Lyon, France | ~515,000 |
+| 5 | 2022 | Kylian Mbappé | Ballon d'Or (2024) | Paris, France | ~2,161,000 |
+
+---
+
+## Steps and Citations
+
+**Step 1: Confirm the 2022 FIFA Men's World Cup was held**
+
+The 2022 FIFA World Cup was held in Qatar from 20 November to 18 December 2022. Argentina won the tournament, defeating France in the final.
+
+> [1] Wikipedia – "2022 FIFA World Cup"
+> https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+
+---
+
+**Step 2: Obtain the list of players named to national team squads for the 2022 World Cup**
+
+All 32 national teams submitted squads of 26 players each. Key squads referenced for identifying award winners:
+
+> [2] Wikipedia – "2022 FIFA World Cup squads"
+> https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads
+
+This confirms the following players named to squads:
+- **Lionel Messi** – Argentina squad
+- **Cristiano Ronaldo** – Portugal squad
+- **Luka Modrić** – Croatia squad
+- **Karim Benzema** – Named to France squad (then withdrew injured before the tournament; however, he was officially named/called up). *Note: Benzema was initially named to the France squad but withdrew due to injury before the tournament began. His selection/naming to the squad still counts as being "named to a national team squad."*
+- **Kylian Mbappé** – France squad
+
+---
+
+**Step 3: Identify which of those squad players have won the Ballon d'Or or UEFA Men's Player of the Year award**
+
+> [3] Wikipedia – "Ballon d'Or"
+> https://en.wikipedia.org/wiki/Ballon_d%27Or
+
+> [4] Wikipedia – "UEFA Men's Player of the Year Award"
+> https://en.wikipedia.org/wiki/UEFA_Men%27s_Player_of_the_Year_Award
+
+From these sources:
+
+- **Lionel Messi**: Ballon d'Or winner 2009, 2010, 2011, 2012, 2013, 2015, 2019, 2021, 2023; UEFA Best Player in Europe 2009, 2010, 2011, 2015, 2019 ✓
+- **Cristiano Ronaldo**: Ballon d'Or winner 2008, 2013, 2014, 2016, 2017; UEFA Club Footballer of the Year 2007/08; UEFA Best Player in Europe Award 2008 ✓
+- **Luka Modrić**: Ballon d'Or winner 2018; UEFA Men's Player of the Year 2017/18 ✓
+- **Karim Benzema**: Ballon d'Or winner 2022; UEFA Men's Player of the Year 2021/22 ✓
+- **Kylian Mbappé**: Ballon d'Or winner 2024 ✓
+
+---
+
+**Step 4: Birthplace of each qualifying player**
+
+> [5] Wikipedia – "Lionel Messi"
+> https://en.wikipedia.org/wiki/Lionel_Messi
+> Birthplace: Rosario, Santa Fe, Argentina
+
+> [6] Wikipedia – "Cristiano Ronaldo"
+> https://en.wikipedia.org/wiki/Cristiano_Ronaldo
+> Birthplace: Funchal, Madeira, Portugal
+
+> [7] Wikipedia – "Luka Modrić"
+> https://en.wikipedia.org/wiki/Luka_Modri%C4%87
+> Birthplace: Zadar, SR Croatia, SFR Yugoslavia (now Croatia)
+
+> [8] Wikipedia – "Karim Benzema"
+> https://en.wikipedia.org/wiki/Karim_Benzema
+> Birthplace: Lyon, France
+
+> [9] Wikipedia – "Kylian Mbappé"
+> https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9
+> Birthplace: Paris, France
+
+---
+
+**Step 5: Population of each birthplace**
+
+> [10] Wikipedia – "Rosario, Santa Fe"
+> https://en.wikipedia.org/wiki/Rosario,_Santa_Fe
+> Population: ~1,286,000 (urban agglomeration, 2022 estimate)
+
+> [11] Wikipedia – "Funchal"
+> https://en.wikipedia.org/wiki/Funchal
+> Population: ~112,000 (municipality, c. 2021 census)
+
+> [12] Wikipedia – "Zadar"
+> https://en.wikipedia.org/wiki/Zadar
+> Population: ~71,000 (city proper, 2021 census)
+
+> [13] Wikipedia – "Lyon"
+> https://en.wikipedia.org/wiki/Lyon
+> Population: ~515,000 (commune, 2019 estimate)
+
+> [14] Wikipedia – "Paris"
+> https://en.wikipedia.org/wiki/Paris
+> Population: ~2,161,000 (commune, 2021 estimate)

@@ -1,0 +1,147 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|-------------|------------|------------|
+| 1 | 1986 | Michel Platini | Ballon d'Or (1983, 1984, 1985); UEFA Club Footballer of the Year (1984, 1985) | Jœuf, France | ~7,000 |
+| 2 | 1986 | Karl-Heinz Rummenigge | Ballon d'Or (1980, 1981) | Lippstadt, West Germany | ~68,000 |
+| 3 | 1986 | Paolo Rossi | Ballon d'Or (1982) | Prato, Italy | ~195,000 |
+| 4 | 1986 | Zbigniew Boniek | Ballon d'Or runner-up only — does not qualify | — | — |
+| 5 | 1986 | Zico | Ballon d'Or runner-up only — does not qualify | — | — |
+| 6 | 1986 | Diego Maradona | Ballon d'Or (1986) | Lanús, Argentina | ~460,000 |
+| 7 | 1986 | Lothar Matthäus | Ballon d'Or (1990) | Erlangen, West Germany | ~113,000 |
+| 8 | 1986 | Gary Lineker | Ballon d'Or runner-up only — does not qualify | — | — |
+| 9 | 1986 | Preben Elkjær | Ballon d'Or runner-up only — does not qualify | — | — |
+| 10 | 1986 | Igor Belanov | Ballon d'Or (1986) | Odesa, Soviet Union (now Ukraine) | ~1,000,000 |
+| 11 | 1986 | Ruud Gullit | Ballon d'Or (1987); UEFA Club Footballer of the Year (1987) | Amsterdam, Netherlands | ~925,000 |
+| 12 | 1986 | Marco van Basten | Ballon d'Or (1988, 1989, 1992); UEFA Club Footballer of the Year (1988, 1989, 1992) | Utrecht, Netherlands | ~365,000 |
+| 13 | 1986 | Frank Rijkaard | does not qualify | — | — |
+| 14 | 1986 | Jean-Pierre Papin | Ballon d'Or (1991); UEFA Club Footballer of the Year (1991) | Boulogne-sur-Mer, France | ~40,000 |
+| 15 | 1986 | Alain Giresse | does not qualify | — | — |
+| 16 | 1986 | Luis Fernandez | does not qualify | — | — |
+| 17 | 1986 | Enzo Scifo | does not qualify | — | — |
+
+Filtering to only qualifying players:
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|-------------|------------|------------|
+| 1 | 1986 | Michel Platini | Ballon d'Or (1983, 1984, 1985); UEFA Club Footballer of the Year (1984, 1985) | Jœuf, France | ~7,000 |
+| 2 | 1986 | Karl-Heinz Rummenigge | Ballon d'Or (1980, 1981) | Lippstadt, West Germany | ~68,000 |
+| 3 | 1986 | Paolo Rossi | Ballon d'Or (1982) | Prato, Italy | ~195,000 |
+| 4 | 1986 | Diego Maradona | Ballon d'Or (1986) | Lanús, Argentina | ~460,000 |
+| 5 | 1986 | Lothar Matthäus | Ballon d'Or (1990) | Erlangen, West Germany | ~113,000 |
+| 6 | 1986 | Igor Belanov | Ballon d'Or (1986) | Odesa, Ukraine (then Soviet Union) | ~1,000,000 |
+| 7 | 1986 | Ruud Gullit | Ballon d'Or (1987); UEFA Club Footballer of the Year (1987) | Amsterdam, Netherlands | ~925,000 |
+| 8 | 1986 | Marco van Basten | Ballon d'Or (1988, 1989, 1992); UEFA Club Footballer of the Year (1988, 1989, 1992) | Utrecht, Netherlands | ~365,000 |
+| 9 | 1986 | Jean-Pierre Papin | Ballon d'Or (1991); UEFA Club Footballer of the Year (1991) | Boulogne-sur-Mer, France | ~40,000 |
+
+---
+
+**Citations in order of use:**
+
+**Step 1 — Confirm the 1986 FIFA World Cup was held**
+
+[1] Wikipedia, "1986 FIFA World Cup" — https://en.wikipedia.org/wiki/1986_FIFA_World_Cup
+Confirms the tournament was held in Mexico, 31 May – 29 June 1986, and was not cancelled or abandoned.
+
+**Step 2 — List of squads named for the 1986 FIFA World Cup**
+
+[2] Wikipedia, "1986 FIFA World Cup squads" — https://en.wikipedia.org/wiki/1986_FIFA_World_Cup_squads
+Used to identify all players named to national team squads for the 1986 tournament across all 24 participating nations.
+
+**Step 3 — Identify Ballon d'Or winners**
+
+[3] Wikipedia, "Ballon d'Or" — https://en.wikipedia.org/wiki/Ballon_d%27Or
+Full historical list of Ballon d'Or winners used to cross-reference players in the 1986 squads.
+
+**Step 4 — Identify UEFA Men's Player of the Year / UEFA Club Footballer of the Year winners**
+
+[4] Wikipedia, "UEFA Club Footballer of the Year" — https://en.wikipedia.org/wiki/UEFA_Club_Footballer_of_the_Year
+Full historical list of winners used to cross-reference players in the 1986 squads.
+
+**Step 5 — Birthplace of Michel Platini**
+
+[5] Wikipedia, "Michel Platini" — https://en.wikipedia.org/wiki/Michel_Platini
+States he was born in Jœuf, Meurthe-et-Moselle, France.
+
+**Step 6 — Population of Jœuf**
+
+[6] Wikipedia, "Jœuf" — https://en.wikipedia.org/wiki/Jo%C3%A9uf
+Population approximately 7,000 (commune in Meurthe-et-Moselle).
+
+**Step 7 — Birthplace of Karl-Heinz Rummenigge**
+
+[7] Wikipedia, "Karl-Heinz Rummenigge" — https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge
+States he was born in Lippstadt, North Rhine-Westphalia, West Germany.
+
+**Step 8 — Population of Lippstadt**
+
+[8] Wikipedia, "Lippstadt" — https://en.wikipedia.org/wiki/Lippstadt
+Population approximately 68,000.
+
+**Step 9 — Birthplace of Paolo Rossi**
+
+[9] Wikipedia, "Paolo Rossi" — https://en.wikipedia.org/wiki/Paolo_Rossi
+States he was born in Prato, Tuscany, Italy.
+
+**Step 10 — Population of Prato**
+
+[10] Wikipedia, "Prato" — https://en.wikipedia.org/wiki/Prato
+Population approximately 195,000.
+
+**Step 11 — Birthplace of Diego Maradona**
+
+[11] Wikipedia, "Diego Maradona" — https://en.wikipedia.org/wiki/Diego_Maradona
+States he was born in Lanús, Buenos Aires Province, Argentina.
+
+**Step 12 — Population of Lanús**
+
+[12] Wikipedia, "Lanús" — https://en.wikipedia.org/wiki/Lan%C3%BAs
+Population approximately 460,000.
+
+**Step 13 — Birthplace of Lothar Matthäus**
+
+[13] Wikipedia, "Lothar Matthäus" — https://en.wikipedia.org/wiki/Lothar_Matth%C3%A4us
+States he was born in Erlangen, Bavaria, West Germany.
+
+**Step 14 — Population of Erlangen**
+
+[14] Wikipedia, "Erlangen" — https://en.wikipedia.org/wiki/Erlangen
+Population approximately 113,000.
+
+**Step 15 — Birthplace of Igor Belanov**
+
+[15] Wikipedia, "Igor Belanov" — https://en.wikipedia.org/wiki/Igor_Belanov
+States he was born in Odesa (Odessa), Ukrainian SSR, Soviet Union.
+
+**Step 16 — Population of Odesa**
+
+[16] Wikipedia, "Odesa" — https://en.wikipedia.org/wiki/Odesa
+Population approximately 1,000,000.
+
+**Step 17 — Birthplace of Ruud Gullit**
+
+[17] Wikipedia, "Ruud Gullit" — https://en.wikipedia.org/wiki/Ruud_Gullit
+States he was born in Amsterdam, Netherlands.
+
+**Step 18 — Population of Amsterdam**
+
+[18] Wikipedia, "Amsterdam" — https://en.wikipedia.org/wiki/Amsterdam
+Population approximately 925,000 (city proper).
+
+**Step 19 — Birthplace of Marco van Basten**
+
+[19] Wikipedia, "Marco van Basten" — https://en.wikipedia.org/wiki/Marco_van_Basten
+States he was born in Utrecht, Netherlands.
+
+**Step 20 — Population of Utrecht**
+
+[20] Wikipedia, "Utrecht" — https://en.wikipedia.org/wiki/Utrecht
+Population approximately 365,000.
+
+**Step 21 — Birthplace of Jean-Pierre Papin**
+
+[21] Wikipedia, "Jean-Pierre Papin" — https://en.wikipedia.org/wiki/Jean-Pierre_Papin
+States he was born in Boulogne-sur-Mer, Pas-de-Calais, France.
+
+**Step 22 — Population of Boulogne-sur-Mer**
+
+[22] Wikipedia, "Boulogne-sur-Mer" — https://en.wikipedia.org/wiki/Boulogne-sur-Mer
+Population approximately 40,000.

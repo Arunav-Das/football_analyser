@@ -1,0 +1,34 @@
+{
+  "run_id": "01",
+  "label": "dom_open_RAG0_L1_3k_nothink_notools_2022",
+  "output_root": "claude_code_football_player_dl_open_by_year",
+  "command": [
+    "python3",
+    "claude_football_inf_dom.py",
+    "--dl_definition",
+    "open",
+    "--model",
+    "claude-sonnet-4-6",
+    "--per_year",
+    "--strategy",
+    "S1",
+    "--rag_tier",
+    "RAG0",
+    "--years",
+    "2022",
+    "--max_new_tokens",
+    "3000",
+    "--timeout",
+    "600",
+    "--no-resume",
+    "--max_thinking_tokens",
+    "0",
+    "--no_tool_directive"
+  ],
+  "env_overrides": {
+    "CLAUDE_CODE_DISABLE_THINKING": "1",
+    "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1"
+  },
+  "git_commit_outputs": "f2ed64d",
+  "note": "Domestic-league task. Truncated at the 3k cap."
+}

@@ -1117,9 +1117,17 @@ class ClaudeCodeClient:
     def __init__(self, model_alias: str = DEFAULT_MODEL_ALIAS, max_new_tokens: int = GENERATION_MAX_NEW_TOKENS,
                  one_shot: bool = True, directive_level: int = 1, per_year: bool = False,
                  claude_bin: str = "claude", timeout: int = REQUEST_TIMEOUT,
-                 max_thinking_tokens: Optional[int] = None, no_tool_directive: bool = False):
+                 max_thinking_tokens: Optional[int] = None, no_tool_directive: bool = False,
+                 enable_tools: Optional[str] = None, max_turns: int = 1, max_budget_usd: Optional[float] = None):
         if model_alias not in MODEL_REGISTRY:
             raise ValueError(f"Unknown model alias '{model_alias}'")
+        # Opt-in (--enable_tools): give the CLI these built-in tools (comma-separated, e.g. "WebSearch,WebFetch"),
+        # pre-approve them, and allow --max_turns turns. Default: no tools and one turn, exactly as before.
+        self.enable_tools = (enable_tools or "").strip() or None
+        if self.enable_tools and no_tool_directive:
+            raise ValueError("--enable_tools and --no_tool_directive contradict each other; use one of them")
+        self.max_turns = int(max_turns) if self.enable_tools else 1
+        self.max_budget_usd = max_budget_usd
         base_levels = DIRECTIVE_LEVELS_PY if per_year else DIRECTIVE_LEVELS
         self.no_tool_directive = bool(no_tool_directive)
         self.levels: Dict[int, str] = ({k: v + NO_TOOL_ADDENDUM for k, v in base_levels.items()}
@@ -1145,6 +1153,7 @@ class ClaudeCodeClient:
                     f"max_output_tokens={self.max_tokens}  max_thinking_tokens={max_thinking_tokens}  directive="
                     f"{'ON (level ' + str(self.directive_level) + ')' if one_shot else 'OFF (Claude Code default system prompt)'}  "
                     f"no_tool_directive={self.no_tool_directive and one_shot}  "
+                    f"tools={self.enable_tools or 'none'}  max_turns={self.max_turns}  max_budget_usd={self.max_budget_usd}  "
                     f"mode={'per_year' if per_year else 'single_shot'}")
 
     @property
@@ -1169,6 +1178,7 @@ class ClaudeCodeClient:
         p_in.write_text(user_text, encoding="utf-8")
         text_parts: List[str] = []
         assistant_text, think_chars = "", 0
+        tool_calls: Counter = Counter()
         result_evt: Optional[Dict[str, Any]] = None
         timed_out = {"v": False}
         t0 = time.perf_counter()
@@ -1205,6 +1215,8 @@ class ClaudeCodeClient:
                         for b in (evt.get("message") or {}).get("content") or []:
                             if isinstance(b, dict) and b.get("type") == "text":
                                 assistant_text += b.get("text", "")
+                            elif isinstance(b, dict) and b.get("type") in ("tool_use", "server_tool_use"):
+                                tool_calls[str(b.get("name"))] += 1
                     elif et == "result":
                         result_evt = evt
                     now = time.perf_counter()
@@ -1220,6 +1232,10 @@ class ClaudeCodeClient:
             text = str(result_evt.get("result") or "")
         if text and not text_parts:
             p_text.write_text(text, encoding="utf-8")
+        if self.enable_tools and result_evt and not result_evt.get("is_error") and str(result_evt.get("result") or "").strip():
+            # multi-turn: _text.txt keeps every turn's text; the answer that is parsed is the final turn only
+            text = str(result_evt.get("result"))
+            Path(f"{stem}_final.txt").write_text(text, encoding="utf-8")
         stderr_text = p_err.read_text(encoding="utf-8", errors="replace")
         blob = stderr_text + " " + (str(result_evt.get("result", "")) if result_evt else "")
         try:
@@ -1229,6 +1245,7 @@ class ClaudeCodeClient:
         return {"text": text, "thinking_chars": think_chars, "result_evt": result_evt, "returncode": proc.returncode,
                 "stderr": stderr_text, "timed_out": timed_out["v"], "latency": time.perf_counter() - t0,
                 "hit_cap": bool(re.search(r"output token maximum", blob, re.I)),
+                "tool_calls": dict(tool_calls),
                 "files": [str(x) for x in (p_prompt, p_jsonl, p_text, p_err)]}
 
     def generate(self, prompt: str, max_tokens: Optional[int] = None, use_system: bool = True) -> Dict[str, Any]:
@@ -1239,7 +1256,11 @@ class ClaudeCodeClient:
             native = bool(sysmsg and self.system_native)
             user_text = (sysmsg + "\n\n" + prompt) if (sysmsg and not self.system_native) else prompt
             cmd = [self.bin, "-p", "--model", self.model_id, "--output-format", "stream-json", "--verbose",
-                   "--include-partial-messages", "--tools", "", "--max-turns", "1"]
+                   "--include-partial-messages", "--tools", self.enable_tools or "", "--max-turns", str(self.max_turns)]
+            if self.enable_tools:
+                cmd += ["--allowedTools", self.enable_tools]
+            if self.max_budget_usd is not None:
+                cmd += ["--max-budget-usd", str(self.max_budget_usd)]
             if native:
                 cmd += ["--system-prompt", sysmsg]
             env = dict(os.environ, CLAUDE_CODE_MAX_OUTPUT_TOKENS=str(mt))
@@ -1252,7 +1273,13 @@ class ClaudeCodeClient:
             base = {"raw_response": text, "response": text, "latency_sec": round(r["latency"], 3), "usage": usage,
                     "cost_usd": evt.get("total_cost_usd"), "max_tokens_sent": mt,
                     "system_mode": self.system_mode if use_system else "none",
-                    "thinking_chars": r["thinking_chars"], "text_chars": len(text), "raw_files": r["files"]}
+                    "thinking_chars": r["thinking_chars"], "text_chars": len(text), "raw_files": r["files"],
+                    "tool_calls": r["tool_calls"], "num_turns": evt.get("num_turns"),
+                    "result_subtype": evt.get("subtype")}
+            if str(evt.get("subtype") or "").startswith("error_max"):   # turn / budget limit: deterministic, do NOT retry
+                logger.warning(f"  [{self.call_label}] stopped by CLI limit '{evt.get('subtype')}' after {r['latency']:.0f}s "
+                               f"(turns={evt.get('num_turns')}, tool calls={r['tool_calls']}). Not retried. Raw: {r['files'][1]}")
+                return dict(base, status=ST_TRUNC_LENGTH if text else ST_EMPTY, finish_reason=str(evt.get("subtype")))
             if r["hit_cap"]:       # deterministic: do NOT retry; keep the partial text and flag it
                 logger.warning(f"  [{self.call_label}] hit the {mt}-token output cap after {r['latency']:.0f}s "
                                f"(text={len(text)} chars, thinking={r['thinking_chars']} chars). Not retried. Raw: {r['files'][1]}")
@@ -1360,6 +1387,7 @@ def _common_metadata(a: Any, run_mode: str) -> Dict[str, Any]:
         "one_shot_directive": not a.raw_prompt, "system_mode": c.system_mode,
         "one_shot_system_text": c.system_text, "directive_level": c.directive_level,
         "no_tool_directive": bool(c.no_tool_directive and c.system_text),
+        "tools_enabled": c.enable_tools, "max_turns": c.max_turns, "max_budget_usd": c.max_budget_usd,
         "escalate_on_decline": a.escalate,
         "raw_prompt_note": "RAW = no --system-prompt flag, so Claude Code's default system prompt applies" if a.raw_prompt else "",
         "response_text_policy": "Generated_Response is the model text as returned; never altered",
@@ -1391,6 +1419,7 @@ def _record_common(a: Any, res: Dict[str, Any], raw: str, history: list, start_l
         "max_tokens_sent": res["max_tokens_sent"], "usage": res["usage"], "cost_usd_reported": res.get("cost_usd"),
         "thinking_chars": res.get("thinking_chars"), "text_chars": res.get("text_chars"),
         "raw_files": res.get("raw_files"),
+        "tool_calls": res.get("tool_calls"), "num_turns": res.get("num_turns"), "result_subtype": res.get("result_subtype"),
         "generation_time_seconds": res["latency_sec"], "processing_timestamp": datetime.now().isoformat(),
     }
 
@@ -2811,6 +2840,11 @@ def main() -> int:
     p.add_argument("--no_tool_directive", action="store_true", default=False,
                    help="append an explicit 'you have no tools - answer from your own knowledge' instruction to the "
                         "system directive (ignored with --raw_prompt); default: directive unchanged")
+    p.add_argument("--enable_tools", default=None, metavar="TOOLS",
+                   help="comma-separated built-in Claude Code tools to give the model, e.g. WebSearch,WebFetch "
+                        "(pre-approved via --allowedTools); default: no tools")
+    p.add_argument("--max_turns", type=int, default=20, help="turn limit per call when --enable_tools is set (default 20)")
+    p.add_argument("--max_budget_usd", type=float, default=None, help="per-call spend cap passed to claude -p")
     p.add_argument("--no-resume", dest="no_resume", action="store_true", default=False)
     p.add_argument("--reference_file", default=REFERENCE_FILE, help="only for RAG1..RAG3 (and RAG6 distractors)")
     p.add_argument("--ground_truth_file", default=GROUND_TRUTH_FILE, help="only for RAG4..RAG6 and optional scoring")
@@ -2878,6 +2912,8 @@ def main() -> int:
     print(f"  System directive : {'OFF (--raw_prompt: Claude Code default system prompt)' if args.raw_prompt else 'ON via --system-prompt (fallback: prepended to the user turn)'}")
     print(f"  Directive level  : {'-' if args.raw_prompt else args.directive_level}   escalate_on_decline: {args.escalate_on_decline and not args.raw_prompt}"
           f"   no_tool_directive: {args.no_tool_directive and not args.raw_prompt}")
+    print(f"  Tools            : {args.enable_tools or 'none'}"
+          f"{'   max turns: ' + str(args.max_turns) if args.enable_tools else ''}   max budget/call: {args.max_budget_usd}")
     print(f"  Calls            : {n_cells * (len(years) if args.per_year else 1)} "
           f"({n_cells} cell(s){' x ' + str(len(years)) + ' years' if args.per_year else ''}; escalation can add more per declined call)")
     print(f"  Resume           : {'OFF (--no-resume)' if args.no_resume else 'ON (default)'}{'  + retry stalled' if args.retry_stalled else ''}")
@@ -2913,7 +2949,9 @@ def main() -> int:
                                       directive_level=args.directive_level, per_year=args.per_year,
                                       claude_bin=args.claude_bin, timeout=args.timeout,
                                       max_thinking_tokens=args.max_thinking_tokens,
-                                      no_tool_directive=args.no_tool_directive)
+                                      no_tool_directive=args.no_tool_directive,
+                                      enable_tools=args.enable_tools, max_turns=args.max_turns,
+                                      max_budget_usd=args.max_budget_usd)
             client.raw_dir = root / "raw_calls"
             client.validate_access()
         except Exception as e:

@@ -1,0 +1,36 @@
+{
+  "run_id": "02",
+  "label": "dom_open_RAG0_L3_64k_nothink_notools_2022",
+  "output_root": "claude_code_football_player_dl_open_by_year",
+  "command": [
+    "python3",
+    "claude_football_inf_dom.py",
+    "--dl_definition",
+    "open",
+    "--model",
+    "claude-sonnet-4-6",
+    "--per_year",
+    "--strategy",
+    "S1",
+    "--rag_tier",
+    "RAG0",
+    "--years",
+    "2022",
+    "--directive_level",
+    "3",
+    "--max_new_tokens",
+    "64000",
+    "--timeout",
+    "1800",
+    "--no-resume",
+    "--max_thinking_tokens",
+    "0",
+    "--no_tool_directive"
+  ],
+  "env_overrides": {
+    "CLAUDE_CODE_DISABLE_THINKING": "1",
+    "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1"
+  },
+  "git_commit_outputs": "7f98bea",
+  "note": "Domestic-league task. analysis/ rebuilt from this run only; the run's own pooled analysis kept as analysis_as_written_pooled_with_run01/."
+}
