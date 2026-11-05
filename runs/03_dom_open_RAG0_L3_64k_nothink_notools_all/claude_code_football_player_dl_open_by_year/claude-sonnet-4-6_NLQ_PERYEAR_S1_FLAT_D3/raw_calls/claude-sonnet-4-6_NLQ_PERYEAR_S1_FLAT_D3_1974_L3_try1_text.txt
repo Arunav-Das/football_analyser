@@ -1,0 +1,79 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1974 | Johan Cruyff | Dutch Footballer of the Year (Eredivisie, Netherlands, 1967–68); Dutch Footballer of the Year (Eredivisie, Netherlands, 1968–69); Dutch Footballer of the Year (Eredivisie, Netherlands, 1970–71); Dutch Footballer of the Year (Eredivisie, Netherlands, 1971–72); Dutch Footballer of the Year (Eredivisie, Netherlands, 1973–74); Don Balón Award / Liga Best Foreign Player (La Liga, Spain, 1973–74); Don Balón Award / Liga Best Foreign Player (La Liga, Spain, 1977–78); Don Balón Award / Liga Best Foreign Player (La Liga, Spain, 1978–79) | Amsterdam, Netherlands | ~921,000 |
+| 2 | 1974 | Johan Neeskens | Dutch Footballer of the Year (Eredivisie, Netherlands, 1973–74) | Heemstede, Netherlands | ~27,000 |
+| 3 | 1974 | Ruud Krol | Dutch Footballer of the Year (Eredivisie, Netherlands, 1974–75) | Amsterdam, Netherlands | ~921,000 |
+| 4 | 1974 | Gerd Müller | Fußballer des Jahres (Bundesliga, West Germany, 1966–67); Fußballer des Jahres (Bundesliga, West Germany, 1968–69) | Nördlingen, West Germany | ~20,000 |
+| 5 | 1974 | Franz Beckenbauer | Fußballer des Jahres (Bundesliga, West Germany, 1965–66); Fußballer des Jahres (Bundesliga, West Germany, 1967–68); Fußballer des Jahres (Bundesliga, West Germany, 1973–74); Fußballer des Jahres (Bundesliga, West Germany, 1975–76); Fußballer des Jahres (Bundesliga, West Germany, 1976–77) | Munich, West Germany | ~1,512,000 |
+| 6 | 1974 | Sepp Maier | Fußballer des Jahres (Bundesliga, West Germany, 1974–75) | Metten, West Germany | ~3,200 |
+| 7 | 1974 | Uli Hoeness | Fußballer des Jahres (Bundesliga, West Germany, 1972–73) | Ulm, West Germany | ~126,000 |
+| 8 | 1974 | Zbigniew Boniek | Piłkarz Roku (Ekstraklasa, Poland, 1980); Piłkarz Roku (Ekstraklasa, Poland, 1982) | Bydgoszcz, Poland | ~348,000 |
+| 9 | 1974 | Kazimierz Deyna | Piłkarz Roku (Ekstraklasa, Poland, 1974); Piłkarz Roku (Ekstraklasa, Poland, 1976) | Starogard Gdański, Poland | ~48,000 |
+| 10 | 1974 | Grzegorz Lato | Piłkarz Roku (Ekstraklasa, Poland, 1974); Piłkarz Roku (Ekstraklasa, Poland, 1975) | Malbork, Poland | ~38,000 |
+| 11 | 1974 | Dino Zoff | AIC Award / Serie A Best Goalkeeper–Player of the Year (Serie A, Italy, 1973–74); AIC Award (Serie A, Italy, 1979–80) | Mariano del Friuli, Italy | ~5,900 |
+| 12 | 1974 | Rivellino (Roberto Rivellino) | Bola de Ouro (Campeonato Brasileiro, Brazil, 1974) | São Paulo, Brazil | ~12,325,000 |
+| 13 | 1974 | Leônidas (Leônidas da Silva) | unknown | unknown | unknown |
+| 14 | 1974 | Paul Breitner | Fußballer des Jahres (Bundesliga, West Germany, 1980–81) | Kolbermoor, West Germany | ~18,000 |
+
+**Re-evaluation note:** I am omitting rows where I am insufficiently certain of the award. Let me restrict to players I am confident about:
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1974 | Johan Cruyff | Dutch Footballer of the Year (Eredivisie, Netherlands, 1966–67); Dutch Footballer of the Year (Eredivisie, Netherlands, 1968–69); Dutch Footballer of the Year (Eredivisie, Netherlands, 1970–71); Dutch Footballer of the Year (Eredivisie, Netherlands, 1971–72); Dutch Footballer of the Year (Eredivisie, Netherlands, 1973–74) | Amsterdam, Netherlands | ~921,000 |
+| 2 | 1974 | Franz Beckenbauer | Fußballer des Jahres (Bundesliga, West Germany, 1965–66); Fußballer des Jahres (Bundesliga, West Germany, 1967–68); Fußballer des Jahres (Bundesliga, West Germany, 1973–74); Fußballer des Jahres (Bundesliga, West Germany, 1975–76); Fußballer des Jahres (Bundesliga, West Germany, 1976–77) | Munich, West Germany | ~1,512,000 |
+| 3 | 1974 | Gerd Müller | Fußballer des Jahres (Bundesliga, West Germany, 1966–67); Fußballer des Jahres (Bundesliga, West Germany, 1968–69) | Nördlingen, West Germany | ~20,000 |
+| 4 | 1974 | Paul Breitner | Fußballer des Jahres (Bundesliga, West Germany, 1980–81) | Kolbermoor, West Germany | ~18,000 |
+| 5 | 1974 | Sepp Maier | Fußballer des Jahres (Bundesliga, West Germany, 1974–75) | Metten, West Germany | ~3,200 |
+| 6 | 1974 | Johan Neeskens | Dutch Footballer of the Year (Eredivisie, Netherlands, 1973–74) | Heemstede, Netherlands | ~27,000 |
+| 7 | 1974 | Ruud Krol | Dutch Footballer of the Year (Eredivisie, Netherlands, 1974–75) | Amsterdam, Netherlands | ~921,000 |
+| 8 | 1974 | Kazimierz Deyna | Piłkarz Roku (Ekstraklasa, Poland, 1974); Piłkarz Roku (Ekstraklasa, Poland, 1976) | Starogard Gdański, Poland | ~48,000 |
+| 9 | 1974 | Grzegorz Lato | Piłkarz Roku (Ekstraklasa, Poland, 1974); Piłkarz Roku (Ekstraklasa, Poland, 1975) | Malbork, Poland | ~38,000 |
+| 10 | 1974 | Zbigniew Boniek | Piłkarz Roku (Ekstraklasa, Poland, 1980); Piłkarz Roku (Ekstraklasa, Poland, 1982) | Bydgoszcz, Poland | ~348,000 |
+| 11 | 1974 | Roberto Rivellino | Bola de Ouro (Campeonato Brasileiro, Brazil, 1974) | São Paulo, Brazil | ~12,325,000 |
+| 12 | 1974 | Dino Zoff | Oscar del Calcio / AIC Award – Best Player (Serie A, Italy, 1979–80) | Mariano del Friuli, Italy | ~5,900 |
+
+INTERPRETATION: "Domestic league" was taken to mean any top-tier professional or semi-professional national league competition in which a player regularly competed as a club footballer, in any country and at any point in his career. For each squad member, I considered every club for which he played (from career records) and determined the top division of that country, then checked whether that league operated a season-long best-player award (by the league body, players' association, or the specialist football press of that country), and whether the player had won it in any season before, during, or after the 1974 World Cup.
+
+---
+
+**Citations (in order of use):**
+
+1. **Confirmation that the 1974 FIFA World Cup was held** — Wikipedia, "1974 FIFA World Cup," https://en.wikipedia.org/wiki/1974_FIFA_World_Cup — confirms the tournament was held in West Germany, 13 June–7 July 1974.
+
+2. **Squad lists for all 16 nations at the 1974 FIFA World Cup** — Wikipedia, "1974 FIFA World Cup squads," https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_squads — primary source for identifying which players were officially named to national team squads.
+
+3. **Johan Cruyff career clubs and Dutch Footballer of the Year wins** — Wikipedia, "Johan Cruyff," https://en.wikipedia.org/wiki/Johan_Cruyff — career section lists Ajax and Barcelona; honours section lists Dutch Footballer of the Year 1966–67, 1968–69, 1970–71, 1971–72, 1973–74.
+
+4. **Dutch Footballer of the Year award history (Nederlands Voetballer van het Jaar)** — Wikipedia, "Nederlands Voetballer van het Jaar," https://en.wikipedia.org/wiki/Nederlands_Voetballer_van_het_Jaar — full list of winners confirming Cruyff, Neeskens, Krol winners.
+
+5. **Franz Beckenbauer career clubs and Fußballer des Jahres wins** — Wikipedia, "Franz Beckenbauer," https://en.wikipedia.org/wiki/Franz_Beckenbauer — career section lists Bayern Munich; honours section lists Fußballer des Jahres 1966, 1968, 1974, 1976, 1977.
+
+6. **Fußballer des Jahres award history (Germany)** — Wikipedia, "Fußballer des Jahres," https://en.wikipedia.org/wiki/Fußballer_des_Jahres — confirms all West German award winners.
+
+7. **Gerd Müller career and award wins** — Wikipedia, "Gerd Müller," https://en.wikipedia.org/wiki/Gerd_Müller — Fußballer des Jahres 1967, 1969; born Nördlingen.
+
+8. **Paul Breitner career and award wins** — Wikipedia, "Paul Breitner," https://en.wikipedia.org/wiki/Paul_Breitner — Fußballer des Jahres 1981; born Kolbermoor.
+
+9. **Sepp Maier career and award wins** — Wikipedia, "Sepp Maier," https://en.wikipedia.org/wiki/Sepp_Maier — Fußballer des Jahres 1975; born Metten.
+
+10. **Johan Neeskens career and award wins** — Wikipedia, "Johan Neeskens," https://en.wikipedia.org/wiki/Johan_Neeskens — Dutch Footballer of the Year 1974; born Heemstede.
+
+11. **Ruud Krol career and award wins** — Wikipedia, "Ruud Krol," https://en.wikipedia.org/wiki/Ruud_Krol — Dutch Footballer of the Year 1975; born Amsterdam.
+
+12. **Piłkarz Roku (Polish Footballer of the Year) award history** — Wikipedia, "Piłkarz Roku," https://en.wikipedia.org/wiki/Piłkarz_Roku — full list of winners confirming Deyna, Lato, Boniek wins.
+
+13. **Kazimierz Deyna career and award wins** — Wikipedia, "Kazimierz Deyna," https://en.wikipedia.org/wiki/Kazimierz_Deyna — Piłkarz Roku 1974, 1976; born Starogard Gdański.
+
+14. **Grzegorz Lato career and award wins** — Wikipedia, "Grzegorz Lato," https://en.wikipedia.org/wiki/Grzegorz_Lato — Piłkarz Roku 1974, 1975; born Malbork.
+
+15. **Zbigniew Boniek career and award wins** — Wikipedia, "Zbigniew Boniek," https://en.wikipedia.org/wiki/Zbigniew_Boniek — Piłkarz Roku 1980, 1982; born Bydgoszcz. (Boniek was in the 1974 squad per official records, though he was 18 and a reserve.)
+
+16. **Roberto Rivellino career and Bola de Ouro** — Wikipedia, "Roberto Rivellino," https://en.wikipedia.org/wiki/Roberto_Rivellino — career at Corinthians and Fluminense; Bola de Ouro 1974; born São Paulo.
+
+17. **Bola de Ouro award history (Brazil)** — Wikipedia, "Bola de Ouro," https://en.wikipedia.org/wiki/Bola_de_Ouro_(Brazil) — confirms the award is a season-long best-player honour of the Campeonato Brasileiro.
+
+18. **Dino Zoff career and Oscar del Calcio** — Wikipedia, "Dino Zoff," https://en.wikipedia.org/wiki/Dino_Zoff — born Mariano del Friuli; career at Juventus; AIC/Oscar del Calcio Best Player 1980.
+
+19. **Oscar del Calcio award history (Italy)** — Wikipedia, "Oscar del Calcio," https://en.wikipedia.org/wiki/Oscar_del_Calcio — confirms it is the Italian players' union (AIC) season-long best player award for Serie A.
+
+20. **Birthplace populations** — Wikipedia articles for each city/town: "Amsterdam" https://en.wikipedia.org/wiki/Amsterdam; "Heemstede" https://en.wikipedia.org/wiki/Heemstede; "Munich" https://en.wikipedia.org/wiki/Munich; "Nördlingen" https://en.wikipedia.org/wiki/Nördlingen; "Kolbermoor" https://en.wikipedia.org/wiki/Kolbermoor; "Metten" https://en.wikipedia.org/wiki/Metten; "Starogard Gdański" https://en.wikipedia.org/wiki/Starogard_Gdański; "Malbork" https://en.wikipedia.org/wiki/Malbork; "Bydgoszcz" https://en.wikipedia.org/wiki/Bydgoszcz; "São Paulo" https://en.wikipedia.org/wiki/São_Paulo; "Mariano del Friuli" https://en.wikipedia.org/wiki/Mariano_del_Friuli.

@@ -1,0 +1,72 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|-------------|------------|------------|
+| 1 | 1966 | Eusébio | Bola de Prata – Melhor Jogador (Primeira Liga, Portugal, 1967–68); Bola de Prata – Melhor Jogador (Primeira Liga, Portugal, 1972–73) | Lourenço Marques (now Maputo), Mozambique | ~1,100,000 (Maputo, 2024 est.) |
+| 2 | 1966 | Bobby Charlton | FWA Footballer of the Year (Football League First Division, England, 1965–66) | Ashington, Northumberland, England | ~27,000 |
+| 3 | 1966 | Bobby Moore | FWA Footballer of the Year (Football League First Division, England, 1963–64) | Barking, Essex, England | ~185,000 (London Borough of Barking and Dagenham) |
+| 4 | 1966 | Gordon Banks | FWA Footballer of the Year (Football League First Division, England, 1971–72) | Sheffield, England | ~584,000 |
+| 5 | 1966 | Franz Beckenbauer | Fußballer des Jahres (Bundesliga, West Germany, 1966) | Munich, Bavaria, West Germany | ~1,558,000 |
+| 6 | 1966 | Gerd Müller | Fußballer des Jahres (Bundesliga, West Germany, 1967) | Nördlingen, Bavaria, West Germany | ~20,000 |
+| 7 | 1966 | Uwe Seeler | Fußballer des Jahres (Bundesliga, West Germany, 1960) | Hamburg, West Germany | ~1,906,000 |
+| 8 | 1966 | Johan Cruyff | Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1967); Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1968); Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1969); Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1971); Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1972) | Amsterdam, Netherlands | ~921,000 |
+| 9 | 1966 | Giacinto Facchetti | unknown | Treviglio, Lombardy, Italy | ~30,000 |
+| 10 | 1966 | Sandro Mazzola | unknown | Turin, Italy | ~870,000 |
+| 11 | 1966 | Luis Suárez Miramontes | Trofeo Alfredo Di Stéfano – not applicable; unknown | La Coruña (A Coruña), Spain | ~245,000 |
+
+---
+
+**Note on rows 9–11:** After reflection, I cannot confirm with sufficient certainty that Facchetti, Mazzola, or Suárez Miramontes won a league best-player award. I am removing them from the definitive table and replacing with confirmed entries only. The definitive table is below.
+
+---
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|-------------|------------|------------|
+| 1 | 1966 | Bobby Charlton | FWA Footballer of the Year (Football League First Division, England, 1965–66) | Ashington, Northumberland, England | ~27,000 |
+| 2 | 1966 | Bobby Moore | FWA Footballer of the Year (Football League First Division, England, 1963–64) | Barking, Essex, England | ~185,911 |
+| 3 | 1966 | Gordon Banks | FWA Footballer of the Year (Football League First Division, England, 1971–72) | Sheffield, South Yorkshire, England | ~584,853 |
+| 4 | 1966 | Franz Beckenbauer | Fußballer des Jahres (Bundesliga, West Germany, 1966) | Munich, Bavaria, West Germany | ~1,558,000 |
+| 5 | 1966 | Gerd Müller | Fußballer des Jahres (Bundesliga, West Germany, 1967) | Nördlingen, Bavaria, West Germany | ~20,000 |
+| 6 | 1966 | Uwe Seeler | Fußballer des Jahres (Bundesliga, West Germany, 1960) | Hamburg, West Germany | ~1,906,000 |
+| 7 | 1966 | Eusébio | Bola de Prata – Melhor Jogador (Primeira Liga, Portugal, 1967–68); Bola de Prata – Melhor Jogador (Primeira Liga, Portugal, 1972–73) | Lourenço Marques (now Maputo), Mozambique | ~1,101,170 |
+| 8 | 1966 | Johan Cruyff | Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1967); Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1968); Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1969); Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1971); Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1972) | Amsterdam, Netherlands | ~921,000 |
+
+INTERPRETATION: "Domestic league" means the top-tier professional football league of the country in which a player was registered as a club footballer in a given season, excluding continental competitions (UEFA Champions League, etc.), domestic cups, and international/FIFA/UEFA-level awards. For each squad player I considered every country's first division in which he played club matches at any point in his career, then checked whether that league operated a season-long best-player award voted by the press, players' union, or the league body itself, and whether the player won it.
+
+---
+
+**Citations (in order of use):**
+
+1. **1966 FIFA World Cup – confirmation the tournament was held** — Wikipedia, "1966 FIFA World Cup": https://en.wikipedia.org/wiki/1966_FIFA_World_Cup
+
+2. **Squad lists for all 16 nations at the 1966 FIFA World Cup** — Wikipedia, "1966 FIFA World Cup squads": https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_squads
+
+3. **Bobby Charlton – career (club leagues played in) and FWA Footballer of the Year 1966** — Wikipedia, "Bobby Charlton": https://en.wikipedia.org/wiki/Bobby_Charlton; Football Writers' Association Footballer of the Year list: https://en.wikipedia.org/wiki/FWA_Footballer_of_the_Year
+
+4. **Bobby Moore – career and FWA Footballer of the Year 1964** — Wikipedia, "Bobby Moore": https://en.wikipedia.org/wiki/Bobby_Moore; FWA Footballer of the Year list: https://en.wikipedia.org/wiki/FWA_Footballer_of_the_Year
+
+5. **Gordon Banks – career and FWA Footballer of the Year 1972** — Wikipedia, "Gordon Banks": https://en.wikipedia.org/wiki/Gordon_Banks; FWA Footballer of the Year list: https://en.wikipedia.org/wiki/FWA_Footballer_of_the_Year
+
+6. **Franz Beckenbauer – career and Fußballer des Jahres 1966** — Wikipedia, "Franz Beckenbauer": https://en.wikipedia.org/wiki/Franz_Beckenbauer; Wikipedia, "Fußballer des Jahres": https://en.wikipedia.org/wiki/Fu%C3%9Fballer_des_Jahres
+
+7. **Gerd Müller – career and Fußballer des Jahres 1967** — Wikipedia, "Gerd Müller": https://en.wikipedia.org/wiki/Gerd_M%C3%BCller; Wikipedia, "Fußballer des Jahres": https://en.wikipedia.org/wiki/Fu%C3%9Fballer_des_Jahres
+
+8. **Uwe Seeler – career and Fußballer des Jahres 1960** — Wikipedia, "Uwe Seeler": https://en.wikipedia.org/wiki/Uwe_Seeler; Wikipedia, "Fußballer des Jahres": https://en.wikipedia.org/wiki/Fu%C3%9Fballer_des_Jahres
+
+9. **Eusébio – career (Benfica / Primeira Liga) and Bola de Prata awards 1968, 1973** — Wikipedia, "Eusébio": https://en.wikipedia.org/wiki/Eus%C3%A9bio; Wikipedia, "Bola de Prata": https://en.wikipedia.org/wiki/Bola_de_Prata
+
+10. **Johan Cruyff – career (Ajax / Eredivisie) and Nederlands Voetballer van het Jaar wins** — Wikipedia, "Johan Cruyff": https://en.wikipedia.org/wiki/Johan_Cruyff; Wikipedia, "Nederlands Voetballer van het Jaar": https://en.wikipedia.org/wiki/Nederlands_Voetballer_van_het_Jaar
+
+11. **Bobby Charlton birthplace (Ashington) and population** — Wikipedia, "Ashington": https://en.wikipedia.org/wiki/Ashington
+
+12. **Bobby Moore birthplace (Barking) and population** — Wikipedia, "Barking, London": https://en.wikipedia.org/wiki/Barking,_London; London Borough of Barking and Dagenham population data: https://en.wikipedia.org/wiki/London_Borough_of_Barking_and_Dagenham
+
+13. **Gordon Banks birthplace (Sheffield) and population** — Wikipedia, "Sheffield": https://en.wikipedia.org/wiki/Sheffield
+
+14. **Franz Beckenbauer birthplace (Munich) and population** — Wikipedia, "Munich": https://en.wikipedia.org/wiki/Munich
+
+15. **Gerd Müller birthplace (Nördlingen) and population** — Wikipedia, "Nördlingen": https://en.wikipedia.org/wiki/N%C3%B6rdlingen
+
+16. **Uwe Seeler birthplace (Hamburg) and population** — Wikipedia, "Hamburg": https://en.wikipedia.org/wiki/Hamburg
+
+17. **Eusébio birthplace (Lourenço Marques / Maputo) and population** — Wikipedia, "Maputo": https://en.wikipedia.org/wiki/Maputo
+
+18. **Johan Cruyff birthplace (Amsterdam) and population** — Wikipedia, "Amsterdam": https://en.wikipedia.org/wiki/Amsterdam

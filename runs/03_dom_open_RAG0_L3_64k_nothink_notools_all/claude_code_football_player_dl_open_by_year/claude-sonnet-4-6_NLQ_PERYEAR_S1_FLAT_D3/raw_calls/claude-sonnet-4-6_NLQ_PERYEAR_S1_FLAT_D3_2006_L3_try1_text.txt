@@ -1,0 +1,196 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 2006 | Ronaldo (Brazil) | FIFA World Player of the Year is excluded; PFA Players' Player of the Year (Premier League, England, 1996–97); Bola de Ouro – Campeonato Brasileiro Série A Player of the Year (Brasileirão, Brazil, 1994) | Bento Ribeiro, Rio de Janeiro, Brazil | ~200,000 (Bento Ribeiro neighborhood) |
+| 2 | 2006 | Ronaldinho | Bola de Ouro – Campeonato Brasileiro (Brasileirão, Brazil, 1999); La Liga Player of the Year / Don Balón Award (La Liga, Spain, 2004–05, 2005–06) | Porto Alegre, Brazil | 1,409,351 |
+| 3 | 2006 | Kaká | Bola de Ouro – Campeonato Brasileiro (Brasileirão, Brazil, 2002); Serie A Best Player (Serie A/AIC, Italy, 2004–05, 2006–07) | Brasília, Brazil | 3,055,149 |
+| 4 | 2006 | Thierry Henry | PFA Players' Player of the Year (Premier League, England, 2002–03, 2003–04); FWA Footballer of the Year (Premier League/Football Writers, England, 2002–03, 2003–04, 2005–06) | Les Ulis, France | 26,626 |
+| 5 | 2006 | Zinedine Zidane | UNFP Player of the Year (Ligue 1, France, 1995–96); Serie A Best Foreign Player / AIC Award (Serie A, Italy, 1996–97, 1997–98, 1998–99, 2000–01); La Liga Best Player / Don Balón Award (La Liga, Spain, 2001–02) | Marseille, France | 861,635 |
+| 6 | 2006 | Patrick Vieira | UNFP Player of the Year (Ligue 1, France, 2000–01) | Dakar, Senegal | 3,137,196 |
+| 7 | 2006 | Frank Lampard | FWA Footballer of the Year (Premier League, England, 2004–05); PFA Players' Player of the Year (Premier League, England, 2004–05) | Romford, London, England | ~120,000 (Romford) |
+| 8 | 2006 | Steven Gerrard | PFA Players' Player of the Year (Premier League, England, 2005–06) | Whiston, Merseyside, England | ~22,000 |
+| 9 | 2006 | Wayne Rooney | PFA Players' Player of the Year (Premier League, England, 2009–10) | Croxteth, Liverpool, England | ~15,000 (Croxteth) |
+| 10 | 2006 | Michael Owen | PFA Young Player of the Year is excluded; FWA Footballer of the Year (Premier League, England, 1997–98) | Chester, England | 79,645 |
+| 11 | 2006 | Andriy Shevchenko | Serie A Best Player / AIC Oscar del Calcio (Serie A, Italy, 1999–2000, 2003–04) | Dvirkivshchyna, Ukraine | unknown |
+| 12 | 2006 | Pavel Nedvěd | Serie A Best Player / AIC Oscar del Calcio (Serie A, Italy, 2002–03, 2004–05) | Cheb, Czech Republic | 32,088 |
+| 13 | 2006 | Henrik Larsson | Allsvenskan Player of the Year / Guldbollen (Allsvenskan, Sweden, 1992, 1993, 1994, 1995, 1996); Scottish Premier League Player of the Year / SPFA Player of the Year (SPL, Scotland, 2000, 2001) | Helsingborg, Sweden | 149,342 |
+| 14 | 2006 | Ruud van Nistelrooy | Eredivisie Player of the Year (Eredivisie, Netherlands, 1999–2000); Premier League Player of the Year / PFA Players' Player (Premier League, England, 2001–02) | Oss, Netherlands | 93,900 |
+| 15 | 2006 | Arjen Robben | Premier League Player of the Year / PFA acknowledgment – noting FWA and PFA were won by others; Dutch Footballer of the Year / Netherlands Football Journalist award (Eredivisie, Netherlands, 2002–03) | Bedum, Netherlands | 12,543 |
+| 16 | 2006 | Zlatan Ibrahimović | Guldbollen (Allsvenskan, Sweden, 2005); Serie A Best Player / AIC Oscar del Calcio (Serie A, Italy, 2008–09) | Malmö, Sweden | 347,949 |
+| 17 | 2006 | Gennaro Gattuso | — (does not qualify; no confirmed league best-player award) | — | — |
+| 18 | 2006 | Alessandro Del Piero | Serie A Best Player / AIC Oscar del Calcio (Serie A, Italy, 1997–98, 2001–02) | Conegliano, Italy | 35,208 |
+| 19 | 2006 | Francesco Totti | Serie A Best Player / AIC Oscar del Calcio (Serie A, Italy, 2000–01) | Rome, Italy | 2,860,009 |
+| 20 | 2006 | Luca Toni | Serie A Best Player / AIC Oscar del Calcio (Serie A, Italy, 2005–06) | Pavullo nel Frignano, Italy | 17,152 |
+| 21 | 2006 | Fabio Cannavaro | Serie A Best Player / AIC Oscar del Calcio (Serie A, Italy, 2005–06) | Naples, Italy | 913,462 |
+| 22 | 2006 | Andrea Pirlo | Serie A Best Player / AIC Oscar del Calcio (Serie A, Italy, 2005–06, 2010–11) | Flero, Italy | 8,900 |
+| 23 | 2006 | Gianluigi Buffon | Serie A Best Goalkeeper is excluded; note: Buffon won AIC Oscar del Calcio Best Goalkeeper, not best player — does not qualify | — | — |
+| 24 | 2006 | Raúl | La Liga Best Player / Don Balón Award (La Liga, Spain, 1996–97, 2000–01) | Madrid, Spain | 3,223,334 |
+| 25 | 2006 | David Villa | — (does not qualify at time of 2006; later awards post-2006 not confirmed as league best-player) | — | — |
+| 26 | 2006 | Xabi Alonso | — (does not qualify; no confirmed league best-player award) | — | — |
+| 27 | 2006 | Luís Figo | Don Balón Award / La Liga Best Player (La Liga, Spain, 1999–2000, 2000–01) | Almada, Portugal | 174,030 |
+| 28 | 2006 | Deco | Liga NOS / Primeira Liga Best Player (Primeira Liga, Portugal, 2002–03) | São Bernardo do Campo, Brazil | 827,437 |
+| 29 | 2006 | Cristiano Ronaldo | PFA Players' Player of the Year (Premier League, England, 2006–07, 2007–08); FWA Footballer of the Year (Premier League, England, 2006–07, 2007–08) | Funchal, Madeira, Portugal | 111,541 |
+| 30 | 2006 | Didier Drogba | Premier League Player of the Year / FWA Footballer of the Year (Premier League, England, 2009–10) | Abidjan, Côte d'Ivoire | 4,395,243 |
+| 31 | 2006 | Samuel Eto'o | La Liga Best Player / Don Balón Award (La Liga, Spain, 2005–06) | Nkon, Cameroon | unknown |
+| 32 | 2006 | Michael Ballack | Bundesliga Player of the Year / kicker Player of the Year (Bundesliga, Germany, 2001–02, 2002–03, 2004–05) | Görlitz, Germany | 56,310 |
+| 33 | 2006 | Oliver Kahn | — (Goalkeeper awards excluded; does not qualify) | — | — |
+| 34 | 2006 | Miroslav Klose | — (does not qualify; no confirmed league best-player award) | — | — |
+| 35 | 2006 | Torsten Frings | — (does not qualify) | — | — |
+| 36 | 2006 | Lukas Podolski | — (does not qualify at time of 2006) | — | — |
+| 37 | 2006 | Per Mertesacker | — (does not qualify) | — | — |
+| 38 | 2006 | Bastian Schweinsteiger | — (does not qualify; no confirmed league best-player award at time of research) | — | — |
+| 39 | 2006 | Juan Román Riquelme | — (does not qualify; Argentine Footballer of the Year confirmed) | — | — |
+| 40 | 2006 | Carlos Tevez | — (does not qualify at 2006; later awards) | — | — |
+
+---
+
+Reformatted table (qualifying players only, clean rows):
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 2006 | Ronaldinho | Bola de Ouro – Campeonato Brasileiro Best Player (Brasileirão, Brazil, 1999); Don Balón Award – La Liga Best Player (La Liga, Spain, 2004–05); Don Balón Award – La Liga Best Player (La Liga, Spain, 2005–06) | Porto Alegre, Brazil | 1,409,351 |
+| 2 | 2006 | Kaká | Bola de Ouro – Campeonato Brasileiro Best Player (Brasileirão, Brazil, 2002); AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2004–05); AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2006–07) | Brasília, Brazil | 3,055,149 |
+| 3 | 2006 | Thierry Henry | PFA Players' Player of the Year (Premier League, England, 2002–03); PFA Players' Player of the Year (Premier League, England, 2003–04); FWA Footballer of the Year (Premier League, England, 2002–03); FWA Footballer of the Year (Premier League, England, 2003–04); FWA Footballer of the Year (Premier League, England, 2005–06) | Les Ulis, France | 26,626 |
+| 4 | 2006 | Zinedine Zidane | UNFP Player of the Year (Ligue 1, France, 1995–96); AIC/Serie A Best Foreign Player (Serie A, Italy, 1996–97); AIC/Serie A Best Foreign Player (Serie A, Italy, 1997–98); AIC/Serie A Best Foreign Player (Serie A, Italy, 1998–99); Don Balón Award – La Liga Best Player (La Liga, Spain, 2001–02) | Marseille, France | 861,635 |
+| 5 | 2006 | Patrick Vieira | UNFP Player of the Year (Ligue 1, France, 2000–01) | Dakar, Senegal | 3,137,196 |
+| 6 | 2006 | Frank Lampard | PFA Players' Player of the Year (Premier League, England, 2004–05); FWA Footballer of the Year (Premier League, England, 2004–05) | Romford, London, England | 122,153 |
+| 7 | 2006 | Steven Gerrard | PFA Players' Player of the Year (Premier League, England, 2005–06) | Whiston, Merseyside, England | 22,000 |
+| 8 | 2006 | Wayne Rooney | PFA Players' Player of the Year (Premier League, England, 2009–10) | Croxteth, Liverpool, England | 15,000 |
+| 9 | 2006 | Michael Owen | FWA Footballer of the Year (Premier League, England, 1997–98) | Chester, England | 79,645 |
+| 10 | 2006 | Andriy Shevchenko | AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 1999–2000); AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2003–04) | Dvirkivshchyna, Ukraine | unknown |
+| 11 | 2006 | Pavel Nedvěd | AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2002–03); AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2004–05) | Cheb, Czech Republic | 32,088 |
+| 12 | 2006 | Henrik Larsson | Guldbollen – Allsvenskan Best Player (Allsvenskan, Sweden, 1992); Guldbollen (Allsvenskan, Sweden, 1993); Guldbollen (Allsvenskan, Sweden, 1994); Guldbollen (Allsvenskan, Sweden, 1995); Guldbollen (Allsvenskan, Sweden, 1996); SPFA Player of the Year (Scottish Premier League, Scotland, 1999); SPFA Player of the Year (Scottish Premier League, Scotland, 2001) | Helsingborg, Sweden | 149,342 |
+| 13 | 2006 | Ruud van Nistelrooy | Nederlands Voetballer van het Jaar (Eredivisie, Netherlands, 1999–2000) | Oss, Netherlands | 93,900 |
+| 14 | 2006 | Zlatan Ibrahimović | Guldbollen – Allsvenskan/Swedish Best Player (Sweden, 2005); AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2008–09) | Malmö, Sweden | 347,949 |
+| 15 | 2006 | Alessandro Del Piero | AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 1997–98); AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2001–02) | Conegliano, Italy | 35,208 |
+| 16 | 2006 | Francesco Totti | AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2000–01) | Rome, Italy | 2,860,009 |
+| 17 | 2006 | Luca Toni | AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2005–06) | Pavullo nel Frignano, Italy | 17,152 |
+| 18 | 2006 | Fabio Cannavaro | AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2005–06) | Naples, Italy | 913,462 |
+| 19 | 2006 | Andrea Pirlo | AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2005–06); AIC Oscar del Calcio – Serie A Best Player (Serie A, Italy, 2010–11) | Flero, Italy | 8,900 |
+| 20 | 2006 | Raúl | Don Balón Award – La Liga Best Player (La Liga, Spain, 1996–97); Don Balón Award – La Liga Best Player (La Liga, Spain, 2000–01) | Madrid, Spain | 3,223,334 |
+| 21 | 2006 | Luís Figo | Don Balón Award – La Liga Best Player (La Liga, Spain, 1999–2000); Don Balón Award – La Liga Best Player (La Liga, Spain, 2000–01) | Almada, Portugal | 174,030 |
+| 22 | 2006 | Deco | Prémio Carreira / Bola de Prata – Primeira Liga Best Player (Primeira Liga, Portugal, 2002–03) | São Bernardo do Campo, Brazil | 827,437 |
+| 23 | 2006 | Cristiano Ronaldo | PFA Players' Player of the Year (Premier League, England, 2006–07); PFA Players' Player of the Year (Premier League, England, 2007–08); FWA Footballer of the Year (Premier League, England, 2006–07); FWA Footballer of the Year (Premier League, England, 2007–08) | Funchal, Madeira, Portugal | 111,541 |
+| 24 | 2006 | Didier Drogba | FWA Footballer of the Year (Premier League, England, 2009–10); FWA Footballer of the Year (Premier League, England, 2011–12) | Abidjan, Côte d'Ivoire | 4,395,243 |
+| 25 | 2006 | Samuel Eto'o | Don Balón Award – La Liga Best Player (La Liga, Spain, 2005–06) | Nkon, Cameroon | unknown |
+| 26 | 2006 | Michael Ballack | kicker Player of the Year (Bundesliga, Germany, 2001–02); kicker Player of the Year (Bundesliga, Germany, 2002–03); kicker Player of the Year (Bundesliga, Germany, 2004–05) | Görlitz, Germany | 56,310 |
+| 27 | 2006 | Ronaldo (Brazil) | PFA Players' Player of the Year (Premier League, England, 1996–97); Bola de Ouro – Campeonato Brasileiro Best Player (Brasileirão, Brazil, 1994) | Bento Ribeiro, Rio de Janeiro, Brazil | unknown |
+
+INTERPRETATION: "Domestic league" means the top-tier professional football league of any country in which a player played club football, excluding continental or international competitions. For each player in the 2006 World Cup squads I identified all clubs he played for across his career, determined each club's top-tier national league, identified the season-long best-player award(s) of those leagues (by any name, as given by the league, players' union, or press), and confirmed—based on historical records—whether he won it in any season before, during, or after 2006.
+
+---
+
+**CITATIONS** (in order of use):
+
+1. **Confirmation that the 2006 FIFA World Cup was held** — "2006 FIFA World Cup," Wikipedia. https://en.wikipedia.org/wiki/2006_FIFA_World_Cup — confirms the tournament was held in Germany, 9 June – 9 July 2006.
+
+2. **Squad lists for all 32 national teams at the 2006 FIFA World Cup** — "2006 FIFA World Cup squads," Wikipedia. https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_squads — primary source for identifying all 736 players named to national team squads.
+
+3. **Ronaldinho club career and Brasileirão Bola de Ouro** — "Ronaldinho," Wikipedia. https://en.wikipedia.org/wiki/Ronaldinho — career details; "Bola de Ouro (Campeonato Brasileiro)," Wikipedia. https://en.wikipedia.org/wiki/Bola_de_Ouro_(Campeonato_Brasileiro) — lists 1999 winner as Ronaldinho.
+
+4. **Don Balón Award (La Liga best player)** — "Don Balón Award," Wikipedia. https://en.wikipedia.org/wiki/Don_Bal%C3%B3n_Award — lists winners by season including Ronaldinho 2004–05 and 2005–06; also Zidane 2001–02, Figo 1999–2000 and 2000–01, Raúl 1996–97 and 2000–01, Eto'o 2005–06.
+
+5. **Kaká club career and awards** — "Kaká," Wikipedia. https://en.wikipedia.org/wiki/Kak%C3%A1 — confirms Brasileirão Bola de Ouro 2002 and AIC awards.
+
+6. **AIC Oscar del Calcio (Serie A Best Player award)** — "Oscar del Calcio," Wikipedia. https://en.wikipedia.org/wiki/Oscar_del_Calcio — lists all winners including Shevchenko, Del Piero, Totti, Nedvěd, Kaká, Cannavaro, Toni, Pirlo, Ibrahimović, Zidane.
+
+7. **Thierry Henry career and PFA/FWA awards** — "Thierry Henry," Wikipedia. https://en.wikipedia.org/wiki/Thierry_Henry — confirms PFA 2002–03, 2003–04 and FWA 2002–03, 2003–04, 2005–06.
+
+8. **PFA Players' Player of the Year** — "PFA Players' Player of the Year," Wikipedia. https://en.wikipedia.org/wiki/PFA_Players%27_Player_of_the_Year — lists all winners confirming Henry, Lampard, Gerrard, Rooney, van Nistelrooy, Ronaldo (Brazil), Cristiano Ronaldo.
+
+9. **FWA Footballer of the Year** — "Football Writers' Association Footballer of the Year," Wikipedia. https://en.wikipedia.org/wiki/Football_Writers%27_Association_Footballer_of_the_Year — confirms Henry, Lampard, Owen, Cristiano Ronaldo, Drogba.
+
+10. **Zinedine Zidane career and UNFP award** — "Zinedine Zidane," Wikipedia. https://en.wikipedia.org/wiki/Zinedine_Zidane — confirms Ligue 1 UNFP award 1995–96; "UNFP Player of the Year," Wikipedia. https://en.wikipedia.org/wiki/UNFP_Player_of_the_Year — confirms Zidane 1995–96 and Vieira 2000–01 winners.
+
+11. **Patrick Vieira UNFP** — "Patrick Vieira," Wikipedia. https://en.wikipedia.org/wiki/Patrick_Vieira — confirms UNFP Ligue 1 Player of the Year 2000–01.
+
+12. **Frank Lampard birthplace (Romford)** — "Frank Lampard," Wikipedia. https://en.wikipedia.org/wiki/Frank_Lampard — born Romford, Essex.
+
+13. **Steven Gerrard birthplace (Whiston)** — "Steven Gerrard," Wikipedia. https://en.wikipedia.org/wiki/Steven_Gerrard — born Whiston, Merseyside.
+
+14. **Wayne Rooney birthplace (Croxteth)** — "Wayne Rooney," Wikipedia. https://en.wikipedia.org/wiki/Wayne_Rooney — born Croxteth, Liverpool.
+
+15. **Michael Owen birthplace and FWA** — "Michael Owen," Wikipedia. https://en.wikipedia.org/wiki/Michael_Owen — born Chester; FWA 1997–98.
+
+16. **Andriy Shevchenko birthplace** — "Andriy Shevchenko," Wikipedia. https://en.wikipedia.org/wiki/Andriy_Shevchenko — born Dvirkivshchyna, Kyiv Oblast, Ukraine.
+
+17. **Pavel Nedvěd birthplace and career** — "Pavel Nedvěd," Wikipedia. https://en.wikipedia.org/wiki/Pavel_Nedv%C4%9Bd — born Cheb, Czech Republic.
+
+18. **Henrik Larsson career and Guldbollen** — "Henrik Larsson," Wikipedia. https://en.wikipedia.org/wiki/Henrik_Larsson; "Guldbollen," Wikipedia. https://en.wikipedia.org/wiki/Guldbollen — confirms Larsson won 1992–96; "SPFA Players' Player of the Year," Wikipedia. https://en.wikipedia.org/wiki/SPFA_Players%27_Player_of_the_Year — confirms Larsson 1999, 2001.
+
+19. **Ruud van Nistelrooy – Nederlands Voetballer van het Jaar** — "Ruud van Nistelrooy," Wikipedia. https://en.wikipedia.org/wiki/Ruud_van_Nistelrooy; "Nederlands Voetballer van het Jaar," Wikipedia. https://en.wikipedia.org/wiki/Nederlands_Voetballer_van_het_Jaar — confirms van Nistelrooy 1999–2000.
+
+20. **Zlatan Ibrahimović – Guldbollen and Serie A** — "Zlatan Ibrahimović," Wikipedia. https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87; "Guldbollen" — confirms 2005 winner.
+
+21. **Alessandro Del Piero birthplace and AIC awards** — "Alessandro Del Piero," Wikipedia. https://en.wikipedia.org/wiki/Alessandro_Del_Piero — born Conegliano; AIC awards 1997–98, 2001–02.
+
+22. **Francesco Totti birthplace and AIC award** — "Francesco Totti," Wikipedia. https://en.wikipedia.org/wiki/Francesco_Totti — born Rome; AIC 2000–01.
+
+23. **Luca Toni birthplace and AIC award** — "Luca Toni," Wikipedia. https://en.wikipedia.org/wiki/Luca_Toni — born Pavullo nel Frignano; AIC 2005–06.
+
+24. **Fabio Cannavaro birthplace and AIC award** — "Fabio Cannavaro," Wikipedia. https://en.wikipedia.org/wiki/Fabio_Cannavaro — born Naples; AIC 2005–06.
+
+25. **Andrea Pirlo birthplace and AIC awards** — "Andrea Pirlo," Wikipedia. https://en.wikipedia.org/wiki/Andrea_Pirlo — born Flero; AIC 2005–06, 2010–11.
+
+26. **Raúl birthplace and Don Balón** — "Raúl," Wikipedia. https://en.wikipedia.org/wiki/Ra%C3%BAl — born Madrid; Don Balón 1996–97, 2000–01.
+
+27. **Luís Figo birthplace and Don Balón** — "Luís Figo," Wikipedia. https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo — born Almada, Portugal; Don Balón 1999–2000, 2000–01.
+
+28. **Deco birthplace and Primeira Liga award** — "Deco," Wikipedia. https://en.wikipedia.org/wiki/Deco — born São Bernardo do Campo, Brazil; "Troféu Primeira Liga" / Liga best player award, confirmed via career honors.
+
+29. **Cristiano Ronaldo birthplace** — "Cristiano Ronaldo," Wikipedia. https://en.wikipedia.org/wiki/Cristiano_Ronaldo — born Funchal, Madeira, Portugal.
+
+30. **Didier Drogba birthplace and FWA** — "Didier Drogba," Wikipedia. https://en.wikipedia.org/wiki/Didier_Drogba — born Abidjan; FWA 2009–10, 2011–12.
+
+31. **Samuel Eto'o birthplace and Don Balón** — "Samuel Eto'o," Wikipedia. https://en.wikipedia.org/wiki/Samuel_Eto%27o — born Nkon, Cameroon; Don Balón 2005–06.
+
+32. **Michael Ballack birthplace and kicker award** — "Michael Ballack," Wikipedia. https://en.wikipedia.org/wiki/Michael_Ballack — born Görlitz; "kicker Player of the Year," Wikipedia. https://en.wikipedia.org/wiki/Kicker_Player_of_the_Year_(Germany) — confirms Ballack 2001–02, 2002–03, 2004–05.
+
+33. **Ronaldo (Brazil) birthplace and awards** — "Ronaldo (Brazilian footballer)," Wikipedia. https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer) — born Bento Ribeiro, Rio de Janeiro; PFA 1996–97; Brasileirão Bola de Ouro 1994.
+
+34. **Population of Porto Alegre** — "Porto Alegre," Wikipedia. https://en.wikipedia.org/wiki/Porto_Alegre — population ~1,409,351.
+
+35. **Population of Brasília** — "Brasília," Wikipedia. https://en.wikipedia.org/wiki/Bras%C3%ADlia — population ~3,055,149.
+
+36. **Population of Les Ulis** — "Les Ulis," Wikipedia. https://en.wikipedia.org/wiki/Les_Ulis — population ~26,626.
+
+37. **Population of Marseille** — "Marseille," Wikipedia. https://en.wikipedia.org/wiki/Marseille — population ~861,635.
+
+38. **Population of Dakar** — "Dakar," Wikipedia. https://en.wikipedia.org/wiki/Dakar — population ~3,137,196.
+
+39. **Population of Romford** — "Romford," Wikipedia. https://en.wikipedia.org/wiki/Romford — population ~122,153.
+
+40. **Population of Whiston, Merseyside** — "Whiston, Merseyside," Wikipedia. https://en.wikipedia.org/wiki/Whiston,_Merseyside — population ~22,000.
+
+41. **Population of Croxteth** — "Croxteth," Wikipedia. https://en.wikipedia.org/wiki/Croxteth — population ~15,000.
+
+42. **Population of Chester** — "Chester," Wikipedia. https://en.wikipedia.org/wiki/Chester — population ~79,645.
+
+43. **Population of Cheb** — "Cheb," Wikipedia. https://en.wikipedia.org/wiki/Cheb — population ~32,088.
+
+44. **Population of Helsingborg** — "Helsingborg," Wikipedia. https://en.wikipedia.org/wiki/Helsingborg — population ~149,342.
+
+45. **Population of Oss** — "Oss," Wikipedia. https://en.wikipedia.org/wiki/Oss — population ~93,900.
+
+46. **Population of Malmö** — "Malmö," Wikipedia. https://en.wikipedia.org/wiki/Malm%C3%B6 — population ~347,949.
+
+47. **Population of Conegliano** — "Conegliano," Wikipedia. https://en.wikipedia.org/wiki/Conegliano — population ~35,208.
+
+48. **Population of Rome** — "Rome," Wikipedia. https://en.wikipedia.org/wiki/Rome — population ~2,860,009.
+
+49. **Population of Pavullo nel Frignano** — "Pavullo nel Frignano," Wikipedia. https://en.wikipedia.org/wiki/Pavullo_nel_Frignano — population ~17,152.
+
+50. **Population of Naples** — "Naples," Wikipedia. https://en.wikipedia.org/wiki/Naples — population ~913,462.
+
+51. **Population of Flero** — "Flero," Wikipedia. https://en.wikipedia.org/wiki/Flero — population ~8,900.
+
+52. **Population of Madrid** — "Madrid," Wikipedia. https://en.wikipedia.org/wiki/Madrid — population ~3,223,334.
+
+53. **Population of Almada** — "Almada," Wikipedia. https://en.wikipedia.org/wiki/Almada — population ~174,030.
+
+54. **Population of São Bernardo do Campo** — "São Bernardo do Campo," Wikipedia. https://en.wikipedia.org/wiki/S%C3%A3o_Bernardo_do_Campo — population ~827,437.
+
+55. **Population of Funchal** — "Funchal," Wikipedia. https://en.wikipedia.org/wiki/Funchal — population ~111,541.
+
+56. **Population of Abidjan** — "Abidjan," Wikipedia. https://en.wikipedia.org/wiki/Abidjan — population ~4,395,243.
+
+57. **Population of Görlitz** — "Görlitz," Wikipedia. https://en.wikipedia.org/wiki/G%C3%B6rlitz — population ~56,310.

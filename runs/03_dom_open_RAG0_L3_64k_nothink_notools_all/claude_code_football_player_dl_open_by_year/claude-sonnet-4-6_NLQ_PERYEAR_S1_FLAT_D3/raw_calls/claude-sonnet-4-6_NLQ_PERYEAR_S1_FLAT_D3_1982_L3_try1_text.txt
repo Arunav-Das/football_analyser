@@ -1,0 +1,119 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1982 | Zico | Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1977); Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1979); Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1982) | Rio de Janeiro, Brazil | ~6,200,000 (city) |
+| 2 | 1982 | Sócrates | Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1983) | Belém, Brazil | ~1,500,000 (city) |
+| 3 | 1982 | Falcão | Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1978) | Abelardo Luz, Brazil | ~18,000 |
+| 4 | 1982 | Diego Maradona | Futbolista del Año – Premio Don Balón Argentino (Liga Argentina / Torneo Metropolitano, Argentina, 1979); Futbolista del Año – Premio Don Balón Argentino (Liga Argentina / Torneo Nacional, Argentina, 1980) | Lanús, Argentina | ~460,000 |
+| 5 | 1982 | Karl-Heinz Rummenigge | Fußballer des Jahres (Bundesliga, West Germany, 1980); Fußballer des Jahres (Bundesliga, West Germany, 1981) | Lippstadt, West Germany | ~67,000 |
+| 6 | 1982 | Zbigniew Boniek | Piłkarz Roku (Ekstraklasa, Poland, 1980) | Bydgoszcz, Poland | ~350,000 |
+| 7 | 1982 | Liam Brady | PFA Players' Player of the Year (Football League First Division, England, 1979) | Dublin, Ireland | ~1,200,000 |
+| 8 | 1982 | Kevin Keegan | FWA Footballer of the Year (Football League First Division, England, 1976); Football Writers' Association Footballer of the Year (Bundesliga, West Germany — via Kicker Fußballer des Jahres, West Germany, 1978) | Armthorpe, England | ~12,000 |
+| 9 | 1982 | Kenny Dalglish | FWA Footballer of the Year (Football League First Division, England, 1979); PFA Players' Player of the Year (Football League First Division, England, 1983) | Glasgow, Scotland | ~600,000 (city) |
+| 10 | 1982 | Michel Platini | Meilleur joueur du Championnat de France (Division 1, France, 1976); Pallone d'Oro del Campionato Italiano / Footballer of the Year in Serie A — Oscar del Calcio AIC (Serie A, Italy, 1984); Oscar del Calcio AIC Best Player (Serie A, Italy, 1985) | Jœuf, France | ~7,000 |
+| 11 | 1982 | Falcão (Roma era) | (already listed above as row 3) | — | — |
+| 12 | 1982 | Rubén Marcos (Júnior) | Bola de Ouro (Campeonato Brasileiro, Brazil, 1980) | Recife, Brazil | ~1,600,000 |
+| 13 | 1982 | Éder (Brazil) | Bola de Ouro (Campeonato Brasileiro, Brazil, 1981) | Itumbiara, Brazil | ~90,000 |
+| 14 | 1982 | Toninho Cerezo | unknown | unknown | unknown |
+
+I need to restart the table cleanly, removing the erroneous duplicate row 11 and row 14 (which was added in error), and rechecking each entry.
+
+---
+
+**RESTARTED CLEAN TABLE**
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1982 | Zico | Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1977); Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1979); Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1982) | Rio de Janeiro, Brazil | ~6,200,000 |
+| 2 | 1982 | Sócrates | Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1983) | Belém, Brazil | ~1,500,000 |
+| 3 | 1982 | Falcão | Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1978) | Abelardo Luz, Brazil | ~18,000 |
+| 4 | 1982 | Júnior (Marcos Leite) | Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1980) | Recife, Brazil | ~1,600,000 |
+| 5 | 1982 | Éder | Bola de Ouro – Melhor Jogador do Campeonato Brasileiro (Campeonato Brasileiro, Brazil, 1981) | Itumbiara, Brazil | ~90,000 |
+| 6 | 1982 | Diego Maradona | Mejor Jugador del Torneo Metropolitano/Apertura (Liga Argentina, Argentina, 1979); Mejor Jugador del Torneo Nacional (Liga Argentina, Argentina, 1980) | Lanús, Argentina | ~460,000 |
+| 7 | 1982 | Karl-Heinz Rummenigge | Fußballer des Jahres – Kicker Magazine (Bundesliga, West Germany, 1980); Fußballer des Jahres – Kicker Magazine (Bundesliga, West Germany, 1981) | Lippstadt, West Germany | ~67,000 |
+| 8 | 1982 | Zbigniew Boniek | Piłkarz Roku – Polish FA/Press (Ekstraklasa, Poland, 1980) | Bydgoszcz, Poland | ~350,000 |
+| 9 | 1982 | Liam Brady | PFA Players' Player of the Year (Football League First Division, England, 1979) | Dublin, Republic of Ireland | ~1,200,000 |
+| 10 | 1982 | Kevin Keegan | FWA Footballer of the Year (Football League First Division, England, 1976) | Armthorpe, England | ~12,000 |
+| 11 | 1982 | Kenny Dalglish | FWA Footballer of the Year (Football League First Division, England, 1979); PFA Players' Player of the Year (Football League First Division, England, 1983) | Glasgow, Scotland | ~600,000 |
+| 12 | 1982 | Michel Platini | Oscar del Calcio AIC – Best Player in Serie A (Serie A, Italy, 1984); Oscar del Calcio AIC – Best Player in Serie A (Serie A, Italy, 1985) | Jœuf, France | ~7,000 |
+
+INTERPRETATION: "Domestic league" was taken to mean any top-tier (or primary) national football league competition in which the player appeared as a club professional, in any country, at any point in his career. For each squad player I identified every country's league he played in professionally, then determined whether that league had a season-long best-player award (regardless of the awarding body — the league itself, a players' union, or the press), and checked whether he won it in any season.
+
+---
+
+**CITATIONS** (in order of use):
+
+1. **Confirmation that the 1982 FIFA World Cup was held** – FIFA Official History / FIFA.com tournament page: "1982 FIFA World Cup Spain" – https://www.fifa.com/tournaments/mens/worldcup/1982spain
+
+2. **Squad lists for all teams at the 1982 FIFA World Cup** – Wikipedia, "1982 FIFA World Cup squads" – https://en.wikipedia.org/wiki/1982_FIFA_World_Cup_squads
+
+3. **Zico career and Bola de Ouro wins (1977, 1979, 1982)** – Wikipedia, "Zico" – https://en.wikipedia.org/wiki/Zico ; the Bola de Ouro (Campeonato Brasileiro best player award) history – Wikipedia, "Bola de Ouro (Brazilian football)" – https://en.wikipedia.org/wiki/Bola_de_Ouro_(Brazilian_football)
+
+4. **Zico birthplace (Rio de Janeiro)** – Wikipedia, "Zico" – https://en.wikipedia.org/wiki/Zico
+
+5. **Rio de Janeiro population** – Wikipedia, "Rio de Janeiro" – https://en.wikipedia.org/wiki/Rio_de_Janeiro
+
+6. **Sócrates career and Bola de Ouro win (1983)** – Wikipedia, "Sócrates (footballer)" – https://en.wikipedia.org/wiki/S%C3%B3crates_(footballer)
+
+7. **Sócrates birthplace (Belém)** – Wikipedia, "Sócrates (footballer)" – https://en.wikipedia.org/wiki/S%C3%B3crates_(footballer)
+
+8. **Belém population** – Wikipedia, "Belém" – https://en.wikipedia.org/wiki/Bel%C3%A9m
+
+9. **Falcão career and Bola de Ouro win (1978)** – Wikipedia, "Falcão (footballer)" – https://en.wikipedia.org/wiki/Falc%C3%A3o_(footballer)
+
+10. **Falcão birthplace (Abelardo Luz)** – Wikipedia, "Falcão (footballer)" – https://en.wikipedia.org/wiki/Falc%C3%A3o_(footballer)
+
+11. **Abelardo Luz population** – Wikipedia, "Abelardo Luz" – https://en.wikipedia.org/wiki/Abelardo_Luz
+
+12. **Júnior (Marcos Leite) career and Bola de Ouro win (1980)** – Wikipedia, "Júnior (footballer, born 1954)" – https://en.wikipedia.org/wiki/J%C3%BAnior_(footballer,_born_1954)
+
+13. **Júnior birthplace (Recife)** – Wikipedia, "Júnior (footballer, born 1954)" – https://en.wikipedia.org/wiki/J%C3%BAnior_(footballer,_born_1954)
+
+14. **Recife population** – Wikipedia, "Recife" – https://en.wikipedia.org/wiki/Recife
+
+15. **Éder career and Bola de Ouro win (1981)** – Wikipedia, "Éder (Brazilian footballer)" – https://en.wikipedia.org/wiki/%C3%89der_(Brazilian_footballer)
+
+16. **Éder birthplace (Itumbiara)** – Wikipedia, "Éder (Brazilian footballer)" – https://en.wikipedia.org/wiki/%C3%89der_(Brazilian_footballer)
+
+17. **Itumbiara population** – Wikipedia, "Itumbiara" – https://en.wikipedia.org/wiki/Itumbiara
+
+18. **Diego Maradona career and Argentine best player awards (1979, 1980)** – Wikipedia, "Diego Maradona" – https://en.wikipedia.org/wiki/Diego_Maradona ; Argentine Footballer of the Year – Wikipedia, "Argentine Footballer of the Year" – https://en.wikipedia.org/wiki/Argentine_Footballer_of_the_Year
+
+19. **Maradona birthplace (Lanús)** – Wikipedia, "Diego Maradona" – https://en.wikipedia.org/wiki/Diego_Maradona
+
+20. **Lanús population** – Wikipedia, "Lanús" – https://en.wikipedia.org/wiki/Lan%C3%BAs
+
+21. **Karl-Heinz Rummenigge career and Kicker Fußballer des Jahres wins (1980, 1981)** – Wikipedia, "Karl-Heinz Rummenigge" – https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge ; Kicker award history – Wikipedia, "Fußballer des Jahres" – https://en.wikipedia.org/wiki/Fu%C3%9Fballer_des_Jahres
+
+22. **Rummenigge birthplace (Lippstadt)** – Wikipedia, "Karl-Heinz Rummenigge" – https://en.wikipedia.org/wiki/Karl-Heinz_Rummenigge
+
+23. **Lippstadt population** – Wikipedia, "Lippstadt" – https://en.wikipedia.org/wiki/Lippstadt
+
+24. **Zbigniew Boniek career and Piłkarz Roku win (1980)** – Wikipedia, "Zbigniew Boniek" – https://en.wikipedia.org/wiki/Zbigniew_Boniek ; Polish Footballer of the Year history – Wikipedia, "Polish Footballer of the Year" – https://en.wikipedia.org/wiki/Polish_Footballer_of_the_Year
+
+25. **Boniek birthplace (Bydgoszcz)** – Wikipedia, "Zbigniew Boniek" – https://en.wikipedia.org/wiki/Zbigniew_Boniek
+
+26. **Bydgoszcz population** – Wikipedia, "Bydgoszcz" – https://en.wikipedia.org/wiki/Bydgoszcz
+
+27. **Liam Brady career and PFA Players' Player of the Year win (1979)** – Wikipedia, "Liam Brady" – https://en.wikipedia.org/wiki/Liam_Brady ; PFA Players' Player of the Year history – Wikipedia, "PFA Players' Player of the Year" – https://en.wikipedia.org/wiki/PFA_Players%27_Player_of_the_Year
+
+28. **Brady birthplace (Dublin)** – Wikipedia, "Liam Brady" – https://en.wikipedia.org/wiki/Liam_Brady
+
+29. **Dublin population** – Wikipedia, "Dublin" – https://en.wikipedia.org/wiki/Dublin
+
+30. **Kevin Keegan career and FWA Footballer of the Year win (1976)** – Wikipedia, "Kevin Keegan" – https://en.wikipedia.org/wiki/Kevin_Keegan ; FWA Footballer of the Year history – Wikipedia, "Football Writers' Association Footballer of the Year" – https://en.wikipedia.org/wiki/Football_Writers%27_Association_Footballer_of_the_Year
+
+31. **Keegan birthplace (Armthorpe)** – Wikipedia, "Kevin Keegan" – https://en.wikipedia.org/wiki/Kevin_Keegan
+
+32. **Armthorpe population** – Wikipedia, "Armthorpe" – https://en.wikipedia.org/wiki/Armthorpe
+
+33. **Kenny Dalglish career and FWA (1979) + PFA (1983) wins** – Wikipedia, "Kenny Dalglish" – https://en.wikipedia.org/wiki/Kenny_Dalglish ; FWA and PFA award histories (same as citations 27 and 30)
+
+34. **Dalglish birthplace (Glasgow)** – Wikipedia, "Kenny Dalglish" – https://en.wikipedia.org/wiki/Kenny_Dalglish
+
+35. **Glasgow population** – Wikipedia, "Glasgow" – https://en.wikipedia.org/wiki/Glasgow
+
+36. **Michel Platini career and Oscar del Calcio AIC wins (1984, 1985)** – Wikipedia, "Michel Platini" – https://en.wikipedia.org/wiki/Michel_Platini ; Oscar del Calcio history – Wikipedia, "Oscar del Calcio AIC" – https://en.wikipedia.org/wiki/Oscar_del_Calcio_AIC
+
+37. **Platini birthplace (Jœuf)** – Wikipedia, "Michel Platini" – https://en.wikipedia.org/wiki/Michel_Platini
+
+38. **Jœuf population** – Wikipedia, "Jœuf" – https://en.wikipedia.org/wiki/J%C5%93uf

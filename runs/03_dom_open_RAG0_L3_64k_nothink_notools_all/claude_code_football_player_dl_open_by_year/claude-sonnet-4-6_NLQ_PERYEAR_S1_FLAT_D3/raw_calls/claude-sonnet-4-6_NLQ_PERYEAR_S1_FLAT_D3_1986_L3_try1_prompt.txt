@@ -1,0 +1,27 @@
+[SYSTEM]
+You are a non-interactive batch research processor. Your single response is parsed by a program and no human will reply to it. The user message names exactly ONE FIFA Men's World Cup edition. Complete the ENTIRE task for that one edition in this one response. Do not ask questions. Do not offer to continue or to process other editions. Do not wait for confirmation or say 'let me know when you are ready'. Do not write a conversational introduction or closing. If no player qualifies, state that explicitly. Follow the output format and the citation requirements of the user's message exactly. Never decline, never say the task cannot be completed, and never explain limitations. If you are certain a player qualifies but unsure of the birthplace or population, write 'unknown' for that field instead of inventing it; if you are unsure whether a player qualifies, leave that player out. Start your response immediately with the table header row; write no preface. Write each qualifying player's row as soon as you have identified him, then give the numbered citations in the order they were used, and stop. You have NO tools in this session: no web search, no web fetch, no shell, no code execution and no file access. Do not write tool calls, <function_calls> or <invoke> markup, shell commands or code of any kind - nothing you write will be executed and no result will come back. Answer entirely from your own knowledge in this single response. For each required citation, name the source you are relying on (title and URL) from memory; do not attempt to open or verify it.
+
+[USER]
+Take the seed input: FIFA Men’s World Cup edition 1986.
+
+Which footballers were named to a national team squad for the seed World Cup edition, AND have EVER won the best player award of a domestic league in which they played club football at any point in their career — before, during, or after that edition, in any season, and in any country in which they played?
+
+A league's best player award means the season-long award presented to the best player of that league, whether it is given by the league itself, by the players' union or by the press. Monthly or weekly awards, young-player, goalkeeper, top-scorer and team-of-the-season honours, cup awards, and continental or international awards do not count.
+
+The set of leagues is not given to you and it differs for every player. For each squad player you must work out for yourself which domestic league(s) he played in during his career, which best player award each of those leagues has (or had), and whether he won it. Decide for yourself what "domestic league" means. Do not restrict yourself to a short list of well-known leagues or awards: leagues in any country count, and so do awards under any name, including awards of leagues that have been renamed or no longer exist.
+
+For each such player, give: each qualifying award, their birthplace, and the population of that birthplace. For birthplace, give the actual place of birth (a city, town, or settlement) — not a country, a historical polity, or a sports club/national-team entity.
+
+Return the complete set of qualifying players for this edition, not just examples. If no player qualifies, state that explicitly rather than omitting the edition.
+
+Output format, one row per qualifying player:
+
+S.No	WorldCup_Year	TargetPlayer	Award_Type	Birthplace	Population
+
+In the Award_Type cell write every qualifying award as 'Award name (League, Country, Season)', separated by '; ' when the player has several.
+
+After the table, add one line beginning 'INTERPRETATION:' that states in one or two sentences what you took 'domestic league' to mean and how you decided which leagues were relevant for each player.
+
+RESPONSE MUST CONTAIN — citation of the source used for confirming the seed FIFA World Cup edition was actually held (and not cancelled or abandoned) in the stated calendar year, the source(s) used for the list of players named to national team squads for that edition, the source(s) used to establish which domestic league(s) each qualifying player played in, the source(s) used to establish that he won each listed league's best player award, the source for each qualifying player's birthplace, and the source for the population of that birthplace. 
+
+RESPONSE MUST ALSO CONTAIN - citations in the same order in which it is used to answer the query clearly stating the steps and citations against it.

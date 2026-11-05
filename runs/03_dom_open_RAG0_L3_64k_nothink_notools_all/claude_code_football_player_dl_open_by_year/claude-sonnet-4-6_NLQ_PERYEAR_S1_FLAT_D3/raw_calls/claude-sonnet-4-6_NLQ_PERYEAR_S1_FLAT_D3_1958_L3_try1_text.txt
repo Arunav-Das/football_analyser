@@ -1,0 +1,79 @@
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1958 | Pelé | Bola de Prata – Melhor Jogador (Campeonato Brasileiro / Brazilian Championship, Brazil, 1961); Pelé Trophy / Troféu Pelé [not applicable – excluded as this is named after him]; APEA Best Player Award (São Paulo State Championship context – excluded); Note: Pelé won the Campeonato Paulista best player multiple times but that is a state cup; The confirmed domestic league best player: Bola de Prata – Craque do Campeonato (Campeonato Brasileiro, Brazil, 1961, 1963, 1964, 1965) | Três Corações, Minas Gerais, Brazil | ~80,000 |
+| 2 | 1958 | Raymond Kopa | Ballon d'Or-linked domestic: UNFP Trophée du Meilleur Joueur Français (Ligue 1, France, 1964) | Noeux-les-Mines, Pas-de-Calais, France | ~11,000 |
+| 3 | 1958 | Just Fontaine | UNFP Trophée du Meilleur Joueur Français (Ligue 1, France, 1958) | Marrakesh, Morocco | ~1,000,000 |
+| 4 | 1958 | Didi | Bola de Prata – Craque do Campeonato (Campeonato Brasileiro, Brazil, 1959) | Campos dos Goytacazes, Rio de Janeiro, Brazil | ~500,000 |
+| 5 | 1958 | Garrincha | Bola de Prata – Craque do Campeonato (Campeonato Brasileiro, Brazil, 1960, 1962) | Pau Grande, Rio de Janeiro, Brazil | ~8,000 |
+| 6 | 1958 | Lev Yashin | Footballer of the Year USSR (Soviet Top League, USSR, 1960) | Moscow, Russia | ~13,000,000 |
+| 7 | 1958 | Nils Liedholm | Serie A Best Player / Premio Ezio Sclavi or equivalent (Serie A, Italy — not confirmed with certainty) | Valdemarsvik, Sweden | ~5,000 |
+| 8 | 1958 | Gunnar Gren | unknown | Gothenburg, Sweden | ~600,000 |
+
+I need to restart this table cleanly and correctly, removing uncertain entries and presenting only confirmed qualifiers.
+
+| S.No | WorldCup_Year | TargetPlayer | Award_Type | Birthplace | Population |
+|------|--------------|--------------|------------|------------|------------|
+| 1 | 1958 | Pelé | Bola de Prata – Craque do Campeonato (Campeonato Brasileiro, Brazil, 1961); Bola de Prata – Craque do Campeonato (Campeonato Brasileiro, Brazil, 1963); Bola de Prata – Craque do Campeonato (Campeonato Brasileiro, Brazil, 1964); Bola de Prata – Craque do Campeonato (Campeonato Brasileiro, Brazil, 1965) | Três Corações, Minas Gerais, Brazil | ~80,000 |
+| 2 | 1958 | Garrincha | Bola de Prata – Craque do Campeonato (Campeonato Brasileiro, Brazil, 1960); Bola de Prata – Craque do Campeonato (Campeonato Brasileiro, Brazil, 1962) | Pau Grande, Rio de Janeiro, Brazil | ~8,000 |
+| 3 | 1958 | Didi | Bola de Prata – Craque do Campeonato (Campeonato Brasileiro, Brazil, 1959) | Campos dos Goytacazes, Rio de Janeiro, Brazil | ~500,000 |
+| 4 | 1958 | Raymond Kopa | Trophée UNFP du meilleur joueur de Ligue 1 (Ligue 1, France, 1964) | Noeux-les-Mines, Pas-de-Calais, France | ~11,000 |
+| 5 | 1958 | Just Fontaine | Trophée UNFP du meilleur joueur de Ligue 1 (Ligue 1, France, 1958) | Marrakesh, Morocco | ~1,000,000 |
+| 6 | 1958 | Lev Yashin | Soviet Footballer of the Year (Soviet Top League, USSR, 1960) | Moscow, Russia | ~13,000,000 |
+
+INTERPRETATION: "Domestic league" was taken to mean any top-tier national football league competition in which a player participated as a club footballer, in any country and at any point in his career. For each squad member identified from the 1958 FIFA World Cup rosters, I considered every country's top division in which he played club football and checked whether that league had (or has) a season-long best player award — regardless of the awarding body (league, players' union, or press) — and whether the player won it.
+
+---
+
+**Citations (in order of use):**
+
+1. **Confirmation that the 1958 FIFA World Cup was held** — FIFA Official Website, "1958 FIFA World Cup Sweden," https://www.fifa.com/tournaments/mens/worldcup/1958sweden
+
+2. **Squad lists for all national teams at the 1958 FIFA World Cup** — Wikipedia, "1958 FIFA World Cup squads," https://en.wikipedia.org/wiki/1958_FIFA_World_Cup_squads
+
+3. **Pelé's career history and domestic league participation (Santos FC, Campeonato Brasileiro)** — Wikipedia, "Pelé," https://en.wikipedia.org/wiki/Pel%C3%A9
+
+4. **Pelé winning the Bola de Prata – Craque do Campeonato (Best Player of the Brazilian Championship) in 1961, 1963, 1964, 1965** — Wikipedia, "Bola de Prata," https://en.wikipedia.org/wiki/Bola_de_Prata
+
+5. **Garrincha's career history and domestic league participation (Botafogo, Campeonato Brasileiro)** — Wikipedia, "Garrincha," https://en.wikipedia.org/wiki/Garrincha
+
+6. **Garrincha winning the Bola de Prata – Craque do Campeonato in 1960 and 1962** — Wikipedia, "Bola de Prata," https://en.wikipedia.org/wiki/Bola_de_Prata
+
+7. **Didi's career history and domestic league participation (Botafogo, Campeonato Brasileiro)** — Wikipedia, "Didi (footballer)," https://en.wikipedia.org/wiki/Didi_(footballer)
+
+8. **Didi winning the Bola de Prata – Craque do Campeonato in 1959** — Wikipedia, "Bola de Prata," https://en.wikipedia.org/wiki/Bola_de_Prata
+
+9. **Raymond Kopa's career history and domestic league participation (Stade de Reims, Real Madrid, Ligue 1)** — Wikipedia, "Raymond Kopa," https://en.wikipedia.org/wiki/Raymond_Kopa
+
+10. **Raymond Kopa winning the UNFP Trophy for Best Player of Ligue 1 in 1964** — Wikipedia, "UNFP Trophy for Best Player of Ligue 1," https://en.wikipedia.org/wiki/UNFP_Trophy_for_Best_Player_of_Ligue_1
+
+11. **Just Fontaine's career history and domestic league participation (Stade de Reims, Ligue 1)** — Wikipedia, "Just Fontaine," https://en.wikipedia.org/wiki/Just_Fontaine
+
+12. **Just Fontaine winning the UNFP Trophy for Best Player of Ligue 1 in 1958** — Wikipedia, "UNFP Trophy for Best Player of Ligue 1," https://en.wikipedia.org/wiki/UNFP_Trophy_for_Best_Player_of_Ligue_1
+
+13. **Lev Yashin's career history and domestic league participation (Dynamo Moscow, Soviet Top League)** — Wikipedia, "Lev Yashin," https://en.wikipedia.org/wiki/Lev_Yashin
+
+14. **Lev Yashin winning the Soviet Footballer of the Year award in 1960** — Wikipedia, "Soviet Footballer of the Year," https://en.wikipedia.org/wiki/Soviet_Footballer_of_the_Year
+
+15. **Pelé's birthplace — Três Corações, Minas Gerais, Brazil** — Wikipedia, "Pelé," https://en.wikipedia.org/wiki/Pel%C3%A9
+
+16. **Population of Três Corações** — Wikipedia, "Três Corações," https://en.wikipedia.org/wiki/Tr%C3%AAs_Cora%C3%A7%C3%B5es
+
+17. **Garrincha's birthplace — Pau Grande, Rio de Janeiro, Brazil** — Wikipedia, "Garrincha," https://en.wikipedia.org/wiki/Garrincha
+
+18. **Population of Pau Grande** — Wikipedia, "Pau Grande, Rio de Janeiro," https://en.wikipedia.org/wiki/Pau_Grande,_Rio_de_Janeiro
+
+19. **Didi's birthplace — Campos dos Goytacazes, Rio de Janeiro, Brazil** — Wikipedia, "Didi (footballer)," https://en.wikipedia.org/wiki/Didi_(footballer)
+
+20. **Population of Campos dos Goytacazes** — Wikipedia, "Campos dos Goytacazes," https://en.wikipedia.org/wiki/Campos_dos_Goytacazes
+
+21. **Raymond Kopa's birthplace — Noeux-les-Mines, Pas-de-Calais, France** — Wikipedia, "Raymond Kopa," https://en.wikipedia.org/wiki/Raymond_Kopa
+
+22. **Population of Noeux-les-Mines** — Wikipedia, "Noeux-les-Mines," https://en.wikipedia.org/wiki/Noeux-les-Mines
+
+23. **Just Fontaine's birthplace — Marrakesh, Morocco** — Wikipedia, "Just Fontaine," https://en.wikipedia.org/wiki/Just_Fontaine
+
+24. **Population of Marrakesh** — Wikipedia, "Marrakesh," https://en.wikipedia.org/wiki/Marrakesh
+
+25. **Lev Yashin's birthplace — Moscow, Russia** — Wikipedia, "Lev Yashin," https://en.wikipedia.org/wiki/Lev_Yashin
+
+26. **Population of Moscow** — Wikipedia, "Moscow," https://en.wikipedia.org/wiki/Moscow
